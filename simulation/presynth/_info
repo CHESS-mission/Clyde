@@ -1,0 +1,593 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/simulation
+vBasic_Input_Testbench
+!s110 1657393041
+!i10b 1
+!s100 SH93CoE[[P:;F6fCi0_Un3
+IURmc^X`zeGM_^:NjbVdKJ3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1657393014
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Basic_Input_Testbench/Basic_Input_Testbench.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Basic_Input_Testbench/Basic_Input_Testbench.v
+L0 9
+Z2 OW;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1657393041.000000
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Basic_Input_Testbench/Basic_Input_Testbench.v|
+!s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/CLK_GEN/1.0.1|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/RESET_GEN/1.0.1|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Basic_Input_Testbench|-vlog01compat|-work|presynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Basic_Input_Testbench/Basic_Input_Testbench.v|
+!s101 -O0
+!i113 1
+Z3 o-vlog01compat -work presynth -O0
+Z4 !s92 {+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core} {+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/CLK_GEN/1.0.1} {+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/RESET_GEN/1.0.1} {+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Basic_Input_Testbench} -vlog01compat -work presynth -O0
+Z5 tCvgOpt 0
+n@basic_@input_@testbench
+vCLK_GEN
+Z6 !s110 1657393040
+!i10b 1
+!s100 ;e9P<R27Sf>nL2YA1386M1
+IbkkGC0I5fzgHULmBLBUAK3
+R1
+R0
+Z7 w1656696398
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.v
+L0 2
+R2
+r1
+!s85 0
+31
+Z8 !s108 1657393040.000000
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.v|
+!s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/CLK_GEN/1.0.1|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/RESET_GEN/1.0.1|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Basic_Input_Testbench|-vlog01compat|-work|presynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.v|
+!s101 -O0
+!i113 1
+R3
+R4
+R5
+n@c@l@k_@g@e@n
+vMinimal_SoC
+R6
+!i10b 1
+!s100 IXUa8Scj`;lJ^HWcg:VAa1
+II4O4O]BmhD@4EQZcHBG8;1
+R1
+R0
+Z9 w1657393005
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/Minimal_SoC.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/Minimal_SoC.v
+L0 9
+R2
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/Minimal_SoC.v|
+!s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|presynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/Minimal_SoC.v|
+!s101 -O0
+!i113 1
+R3
+Z10 !s92 {+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core} -vlog01compat -work presynth -O0
+R5
+n@minimal_@so@c
+vMinimal_SoC_COREABC_0_ACMTABLE
+!s110 1657393036
+!i10b 1
+!s100 ShE^@ec5LNAh0le2D[jUf0
+I[J_5QfNH>lGTJ57?`]g?k0
+R1
+R0
+R9
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/acmtable.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/acmtable.v
+Z11 L0 24
+R2
+r1
+!s85 0
+31
+Z12 !s108 1657393036.000000
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/acmtable.v|
+!s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|presynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/acmtable.v|
+!s101 -O0
+!i113 1
+R3
+R10
+R5
+n@minimal_@so@c_@c@o@r@e@a@b@c_0_@a@c@m@t@a@b@l@e
+vMinimal_SoC_COREABC_0_APBModel
+Z13 !s110 1657273535
+!i10b 1
+!s100 Mb9b[nD8Km5C>Z381]Kz<2
+INIOa6278W2QPDd:9U?94K1
+R1
+R0
+Z14 w1657272630
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test/apbmodel.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test/apbmodel.v
+Z15 L0 25
+R2
+r1
+!s85 0
+31
+Z16 !s108 1657273535.000000
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test/apbmodel.v|
+!s90 +incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test|-vlog01compat|-work|presynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test/apbmodel.v|
+!s101 -O0
+!i113 1
+R3
+!s92 {+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core} {+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test} -vlog01compat -work presynth -O0
+R5
+n@minimal_@so@c_@c@o@r@e@a@b@c_0_@a@p@b@model
+vMinimal_SoC_COREABC_0_COREABC
+Z17 !s110 1657393038
+!i10b 1
+!s100 dbfIi]zD__KE>YFz6H4@b3
+IFz0oSEHRCiZA7J2z1:XB51
+R1
+R0
+R9
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/coreabc.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/coreabc.v
+Z18 FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/support.v
+L0 46
+R2
+r1
+!s85 0
+31
+Z19 !s108 1657393038.000000
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/support.v|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/coreabc.v|
+!s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|presynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/coreabc.v|
+!s101 -O0
+!i113 1
+R3
+R10
+R5
+n@minimal_@so@c_@c@o@r@e@a@b@c_0_@c@o@r@e@a@b@c
+vMinimal_SoC_COREABC_0_DEBUGBLK
+Z20 !s110 1657393037
+!i10b 1
+!s100 _CLSocD6D4:a?9`2Z4^g[0
+I]ZMCQI^HQH]AW[UlFUz6Q0
+R1
+R0
+R9
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/debugblk.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/debugblk.v
+R18
+R15
+R2
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/support.v|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/debugblk.v|
+!s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|presynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/debugblk.v|
+!s101 -O0
+!i113 1
+R3
+R10
+R5
+n@minimal_@so@c_@c@o@r@e@a@b@c_0_@d@e@b@u@g@b@l@k
+vMinimal_SoC_COREABC_0_INSTRUCTIONS
+R20
+!i10b 1
+!s100 znYA9>Q3_Yn>YF5]RbiF33
+IlR;5?7ZM`CK3=d5EV7g=o3
+R1
+R0
+R9
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructions.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructions.v
+R18
+Z21 L0 26
+R2
+r1
+!s85 0
+31
+Z22 !s108 1657393037.000000
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/support.v|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructions.v|
+!s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|presynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructions.v|
+!s101 -O0
+!i113 1
+R3
+R10
+R5
+n@minimal_@so@c_@c@o@r@e@a@b@c_0_@i@n@s@t@r@u@c@t@i@o@n@s
+vMinimal_SoC_COREABC_0_INSTRUCTNVM
+R20
+!i10b 1
+!s100 T9@Tdm1G2zI0I1GiH[O>z3
+I9_4:Le^W14?H6zjffZ1gz3
+R1
+R0
+R9
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructnvm_bb.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructnvm_bb.v
+R18
+L0 31
+R2
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/support.v|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructnvm_bb.v|
+!s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|presynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructnvm_bb.v|
+!s101 -O0
+!i113 1
+R3
+R10
+R5
+n@minimal_@so@c_@c@o@r@e@a@b@c_0_@i@n@s@t@r@u@c@t@n@v@m
+vMinimal_SoC_COREABC_0_INSTRUCTRAM
+R20
+!i10b 1
+!s100 Om^XlKLZ31@LK9d3]eQ[@3
+I[06QC3ACbn?^:8G@;Db>d2
+R1
+R0
+R9
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructram.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructram.v
+L0 27
+R2
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructram.v|
+!s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|presynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructram.v|
+!s101 -O0
+!i113 1
+R3
+R10
+R5
+n@minimal_@so@c_@c@o@r@e@a@b@c_0_@i@n@s@t@r@u@c@t@r@a@m
+vMinimal_SoC_COREABC_0_IRAM512X9
+R20
+!i10b 1
+!s100 a;`W3YFJ:LHASgo1jXZoj1
+IPzl@dE3WH[LTh2UnB5?kT3
+R1
+R0
+R9
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/iram512x9_pa3.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/iram512x9_pa3.v
+R21
+R2
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/iram512x9_pa3.v|
+!s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|presynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/iram512x9_pa3.v|
+!s101 -O0
+!i113 1
+R3
+R10
+R5
+n@minimal_@so@c_@c@o@r@e@a@b@c_0_@i@r@a@m512@x9
+vMinimal_SoC_COREABC_0_RAM128X8
+R17
+!i10b 1
+!s100 8985H16L8E^n=o[MkcjTE2
+IR[SIIc^VHWS1BKGEDIUUT3
+R1
+R0
+R9
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram128x8_rtl.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram128x8_rtl.v
+L0 23
+R2
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram128x8_rtl.v|
+!s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|presynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram128x8_rtl.v|
+!s101 -O0
+!i113 1
+R3
+R10
+R5
+n@minimal_@so@c_@c@o@r@e@a@b@c_0_@r@a@m128@x8
+vMinimal_SoC_COREABC_0_RAM256X16
+R17
+!i10b 1
+!s100 zMJ<`hjAVoR5UQ18TfNV:1
+IodCj^cR:8k31<Lc?cZHmR0
+R1
+R0
+R9
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram256x16_pa3.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram256x16_pa3.v
+R11
+R2
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram256x16_pa3.v|
+!s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|presynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram256x16_pa3.v|
+!s101 -O0
+!i113 1
+R3
+R10
+R5
+n@minimal_@so@c_@c@o@r@e@a@b@c_0_@r@a@m256@x16
+vMinimal_SoC_COREABC_0_RAM256X8
+R17
+!i10b 1
+!s100 clN9_z>4H2>fBZ@4H0:mn3
+IO5ZY<NS7KO]o<dXW=49bH0
+R1
+R0
+R9
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram256x8_rtl.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram256x8_rtl.v
+L0 20
+R2
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram256x8_rtl.v|
+!s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|presynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram256x8_rtl.v|
+!s101 -O0
+!i113 1
+R3
+R10
+R5
+n@minimal_@so@c_@c@o@r@e@a@b@c_0_@r@a@m256@x8
+vMinimal_SoC_COREABC_0_RAMBLOCKS
+R17
+!i10b 1
+!s100 ;0Ba:hhcbB0B>;icgo_4l3
+IPC4RaW5?CY=55Fa1<;TBN1
+R1
+R0
+R9
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ramblocks.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ramblocks.v
+R15
+R2
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ramblocks.v|
+!s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|presynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ramblocks.v|
+!s101 -O0
+!i113 1
+R3
+R10
+R5
+n@minimal_@so@c_@c@o@r@e@a@b@c_0_@r@a@m@b@l@o@c@k@s
+vMinimal_SoC_CoreUARTapb_0_Clock_gen
+R17
+!i10b 1
+!s100 Yz8aePnNDN1b4Fzn]i8h31
+IVhKA5@O>n6B>BVWL6c3ci3
+R1
+R0
+R9
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Clock_gen.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Clock_gen.v
+L0 30
+R2
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Clock_gen.v|
+!s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|presynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Clock_gen.v|
+!s101 -O0
+!i113 1
+R3
+R10
+R5
+n@minimal_@so@c_@core@u@a@r@tapb_0_@clock_gen
+vMinimal_SoC_CoreUARTapb_0_COREUART
+Z23 !s110 1657393039
+!i10b 1
+!s100 V?X[`?oBHHlB4>hYb6^9i3
+IISMInXjDL5o0Ca[dc1FZ81
+R1
+R0
+R9
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUART.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUART.v
+Z24 L0 14
+R2
+r1
+!s85 0
+31
+Z25 !s108 1657393039.000000
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUART.v|
+!s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|presynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUART.v|
+!s101 -O0
+!i113 1
+R3
+R10
+R5
+n@minimal_@so@c_@core@u@a@r@tapb_0_@c@o@r@e@u@a@r@t
+vMinimal_SoC_CoreUARTapb_0_CoreUARTapb
+R23
+!i10b 1
+!s100 FCk@`:R^TJJUnGRn6Ql4Z1
+Id2FQD[BO7^@KT0V<Kfa`a0
+R1
+R0
+R9
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUARTapb.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUARTapb.v
+R24
+R2
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUARTapb.v|
+!s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|presynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUARTapb.v|
+!s101 -O0
+!i113 1
+R3
+R10
+R5
+n@minimal_@so@c_@core@u@a@r@tapb_0_@core@u@a@r@tapb
+vMinimal_SoC_CoreUARTapb_0_fifo_256x8
+R23
+!i10b 1
+!s100 oSQX?R4L:Y@4L74iaS7`@0
+IoNeh5XL?`CSXm`HLg_C090
+R1
+R0
+R9
+Z26 8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/fifo_256x8_pa3.v
+Z27 FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/fifo_256x8_pa3.v
+R24
+R2
+r1
+!s85 0
+31
+R25
+Z28 !s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/fifo_256x8_pa3.v|
+Z29 !s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|presynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/fifo_256x8_pa3.v|
+!s101 -O0
+!i113 1
+R3
+R10
+R5
+n@minimal_@so@c_@core@u@a@r@tapb_0_fifo_256x8
+vMinimal_SoC_CoreUARTapb_0_fifo_256x8_pa3
+R23
+!i10b 1
+!s100 aYFDcFiZH:<6>YMZnX:Lj1
+IH`^cZ;@7MW=5;`Zh]>iiI3
+R1
+R0
+R9
+R26
+R27
+L0 190
+R2
+r1
+!s85 0
+31
+R25
+R28
+R29
+!s101 -O0
+!i113 1
+R3
+R10
+R5
+n@minimal_@so@c_@core@u@a@r@tapb_0_fifo_256x8_pa3
+vMinimal_SoC_CoreUARTapb_0_Rx_async
+R23
+!i10b 1
+!s100 AD4U@Uha3Be99`@IHD65B0
+IJS9Z>:f<b5o>WTTL=cAm^2
+R1
+R0
+R9
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Rx_async.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Rx_async.v
+R24
+R2
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Rx_async.v|
+!s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|presynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Rx_async.v|
+!s101 -O0
+!i113 1
+R3
+R10
+R5
+n@minimal_@so@c_@core@u@a@r@tapb_0_@rx_async
+vMinimal_SoC_CoreUARTapb_0_Tx_async
+R23
+!i10b 1
+!s100 ?F`[]o;adFci>72S<_0Q13
+Im<k`Wm[AL1Tj35QCND>:@0
+R1
+R0
+R9
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Tx_async.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Tx_async.v
+R24
+R2
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Tx_async.v|
+!s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|presynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Tx_async.v|
+!s101 -O0
+!i113 1
+R3
+R10
+R5
+n@minimal_@so@c_@core@u@a@r@tapb_0_@tx_async
+vRESET_GEN
+R6
+!i10b 1
+!s100 ^eT^?3Tbjk^[^3?FTW9WM1
+IFGSQ;;SUFK4n7Mcd7Ob1V1
+R1
+R0
+R7
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v
+L0 3
+R2
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v|
+!s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/CLK_GEN/1.0.1|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/RESET_GEN/1.0.1|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Basic_Input_Testbench|-vlog01compat|-work|presynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v|
+!s101 -O0
+!i113 1
+R3
+R4
+R5
+n@r@e@s@e@t_@g@e@n
+vTESTBENCH
+R13
+!i10b 1
+!s100 I:h?7H@YFPSVS<J?=aB3A2
+ITcH2o7UdkoNHJ7IJL1n<13
+R1
+R0
+R14
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test/testbench.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test/testbench.v
+R18
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test/testsupport.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/../../../coreparameters_tgi.v
+R11
+R2
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/../../../coreparameters_tgi.v|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test/testsupport.v|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/support.v|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test/testbench.v|
+!s90 +incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test|-vlog01compat|-work|presynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test/testbench.v|
+!s101 -O0
+!i113 1
+R3
+!s92 {+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core} {+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0} {+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test} -vlog01compat -work presynth -O0
+R5
+n@t@e@s@t@b@e@n@c@h

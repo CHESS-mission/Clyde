@@ -1,0 +1,308 @@
+***************************************************************************
+                               Status Report
+                          Sat Jul 09 21:13:41 2022 ***************************************************************************
+
+Product: Designer
+Release: v11.9
+Version: 11.9.0.4
+File Name: C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\designer\impl1\Minimal_SoC.adb
+Design Name: Minimal_SoC  Design State: compile
+Last Saved: Sat Jul 09 21:07:00 2022
+
+***** Device Data **************************************************
+
+Family: ProASIC3  Die: A3P125  Package: 144 TQFP
+Speed: STD  Voltage: 1.5
+
+Restrict JTAG Pins: YES
+Restrict Probe Pins: YES
+
+Junction Temperature Range:   COM
+Voltage Range:   COM
+
+***** Import Variables *********************************************
+
+Source File(s) Imported on Sat Jul 09 21:13:38 2022:
+        C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\synthesis\Minimal_SoC.edn
+
+
+***** CAE Variables ************************************************
+
+Back Annotation File: N/A
+
+
+***** Bitstream Variables ******************************************
+
+Bitstream File: N/A
+     Lock Mode: OFF
+
+
+***** Compile Variables ********************************************
+
+Netlist PIN properties overwrite existing properties: 0
+
+Compile Output:
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : ProASIC3
+Device      : A3P125
+Package     : 144 TQFP
+Source      : C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS
+OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\synthesis\Minimal_SoC.edn
+Format      : EDIF
+Topcell     : Minimal_SoC
+Speed grade : STD
+Temp        : 0:25:70
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : No
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+Warning: CMP201: Net COREABC_0/URAM_UR/UG3_UR_xhdl12/RD_1[12] drives no load.
+Warning: CMP201: Net COREABC_0/URAM_UR/UG3_UR_xhdl12/RD_1[13] drives no load.
+Warning: CMP201: Net COREABC_0/URAM_UR/UG3_UR_xhdl12/RD_1[14] drives no load.
+Warning: CMP201: Net COREABC_0/URAM_UR/UG3_UR_xhdl12/RD_1[15] drives no load.
+Warning: CMP201: Net COREABC_0/URAM_UR/UG3_UR_xhdl12/Ram256x16_R0C0_RD16 drives no load.
+Warning: CMP201: Net COREABC_0/URAM_UR/UG3_UR_xhdl12/Ram256x16_R0C0_RD17 drives no load.
+Warning: CMP201: Net
+         CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/AEMP\
+         TY drives no load.
+Warning: CMP201: Net
+         CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUAR\
+         TIlOl_FULL drives no load.
+Warning: CMP201: Net
+         CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUAR\
+         TIlOl_RD8 drives no load.
+Warning: CMP201: Net
+         CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUAR\
+         TIlOl_RD9 drives no load.
+Warning: CMP201: Net
+         CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUAR\
+         TIlOl_RD10 drives no load.
+Warning: CMP201: Net
+         CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUAR\
+         TIlOl_RD11 drives no load.
+Warning: CMP201: Net
+         CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUAR\
+         TIlOl_RD12 drives no load.
+Warning: CMP201: Net
+         CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUAR\
+         TIlOl_RD13 drives no load.
+Warning: CMP201: Net
+         CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUAR\
+         TIlOl_RD14 drives no load.
+Warning: CMP201: Net
+         CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUAR\
+         TIlOl_RD15 drives no load.
+Warning: CMP201: Net
+         CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUAR\
+         TIlOl_RD16 drives no load.
+Warning: CMP201: Net
+         CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUAR\
+         TIlOl_RD17 drives no load.
+Warning: CMP201: Net
+         CoreUARTapb_0/CUARTlOlI/genblk3_CUARTIIOI/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/AEM\
+         PTY drives no load.
+Warning: CMP201: Net
+         CoreUARTapb_0/CUARTlOlI/genblk3_CUARTIIOI/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUA\
+         RTIlOl_FULL_0 drives no load.
+Warning: CMP201: Net
+         CoreUARTapb_0/CUARTlOlI/genblk3_CUARTIIOI/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUA\
+         RTIlOl_RD8_0 drives no load.
+Warning: CMP201: Net
+         CoreUARTapb_0/CUARTlOlI/genblk3_CUARTIIOI/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUA\
+         RTIlOl_RD9_0 drives no load.
+Warning: CMP201: Net
+         CoreUARTapb_0/CUARTlOlI/genblk3_CUARTIIOI/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUA\
+         RTIlOl_RD10_0 drives no load.
+Warning: CMP201: Net
+         CoreUARTapb_0/CUARTlOlI/genblk3_CUARTIIOI/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUA\
+         RTIlOl_RD11_0 drives no load.
+Warning: CMP201: Net
+         CoreUARTapb_0/CUARTlOlI/genblk3_CUARTIIOI/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUA\
+         RTIlOl_RD12_0 drives no load.
+Warning: CMP201: Net
+         CoreUARTapb_0/CUARTlOlI/genblk3_CUARTIIOI/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUA\
+         RTIlOl_RD13_0 drives no load.
+Warning: CMP201: Net
+         CoreUARTapb_0/CUARTlOlI/genblk3_CUARTIIOI/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUA\
+         RTIlOl_RD14_0 drives no load.
+Warning: CMP201: Net
+         CoreUARTapb_0/CUARTlOlI/genblk3_CUARTIIOI/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUA\
+         RTIlOl_RD15_0 drives no load.
+Warning: CMP201: Net
+         CoreUARTapb_0/CUARTlOlI/genblk3_CUARTIIOI/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUA\
+         RTIlOl_RD16_0 drives no load.
+Warning: CMP201: Net
+         CoreUARTapb_0/CUARTlOlI/genblk3_CUARTIIOI/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUA\
+         RTIlOl_RD17_0 drives no load.
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   0
+  - Buffers:                0
+  - Inverters:              0
+  - Tieoff:                 1
+  - Logic combining:        27
+
+    Total macros optimized  28
+
+Warning: CMP503: Remapped 44 enable flip-flop(s) to a 2-tile implementation because the CLR/PRE
+         pin on the enable flip-flop is not being driven by a global net.
+
+There were 0 error(s) and 31 warning(s) in this design.
+=====================================================================
+
+Reading previous post-compile physical placement constraints.
+
+
+There were 0 error(s) and 0 warning(s).
+
+=====================================================================
+Compile report:
+===============
+
+    CORE                       Used:   1079  Total:   3072   (35.12%)
+    IO (W/ clocks)             Used:     17  Total:    100   (17.00%)
+    GLOBAL (Chip+Quadrant)     Used:      2  Total:     18   (11.11%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      3  Total:      8   (37.50%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 2      | 6  (33.33%)*
+    Quadrant global | 0      | 12 (0.00%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 794          | 794
+    SEQ     | 285          | 285
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 3             | 0            | 0
+    Output I/O                            | 14            | 0            | 0
+    Bidirectional I/O                     | 0             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVCMOS33                        | 3.30v | N/A   | 3     | 14     | 0
+
+I/O Placement:
+
+    Locked  :   0
+    Placed  :   0
+    UnPlaced:  17 ( 100.00% )
+
+Net information report:
+=======================
+
+The following nets drive enable flip-flops that have been remapped to a 2-tile implementation:
+    EffCnt  Type          Name
+    --------------------------
+    20      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_1
+                          Driver: COREABC_0/genblk2.RSTSYNC2_1
+    19      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_0
+                          Driver: COREABC_0/genblk2.RSTSYNC2_0
+    5       SET/RESET_NET Net   : PRESETN
+                          Driver: COREABC_0/genblk2.RSTSYNC2
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    291     CLK_NET       Net   : SYSCLK_c
+                          Driver: SYSCLK_pad
+                          Source: NETLIST
+    194     SET/RESET_NET Net   : COREABC_0_PRESETN
+                          Driver: COREABC_0_PRESETN_RNIUAJ1
+                          Source: NETLIST
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    24      INT_NET       Net   : COREABC_0_APB3master_PADDR[3]
+                          Driver: COREABC_0/UROM.INSTR_ADDR[3]
+    21      SET/RESET_NET Net   : PRESETN
+                          Driver: COREABC_0/genblk2.RSTSYNC2
+    20      INT_NET       Net   : COREABC_0/RAMADDR_1_sqmuxa
+                          Driver: COREABC_0/UROM.INSTR_MUXC_RNILK981
+    20      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_0
+                          Driver: COREABC_0/genblk2.RSTSYNC2_0
+    20      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_1
+                          Driver: COREABC_0/genblk2.RSTSYNC2_1
+    20      INT_NET       Net   : CoreUARTapb_0/CUARTlOlI/CUARTIl
+                          Driver: CoreUARTapb_0/CUARTlOlI/CUARTOO1/genblk1.CUARTI0
+    19      INT_NET       Net   : COREABC_0_APB3master_PADDR[0]
+                          Driver: COREABC_0/UROM.INSTR_ADDR[0]
+    19      INT_NET       Net   : COREABC_0_APB3master_PADDR[4]
+                          Driver: COREABC_0/UROM.INSTR_ADDR[4]
+    17      INT_NET       Net   : CoreAPB3_0_APBmslave0_PSELx
+                          Driver: CoreAPB3_0/iPSELS_0_a2[0]
+    17      INT_NET       Net   : COREABC_0/UROM.INSTR_CMD[0]
+                          Driver: COREABC_0/UROM.INSTR_CMD[0]
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    32      INT_NET       Net   : COREABC_0_APB3master_PADDR[0]
+                          Driver: COREABC_0/UROM.INSTR_ADDR[0]
+    24      INT_NET       Net   : COREABC_0_APB3master_PADDR[3]
+                          Driver: COREABC_0/UROM.INSTR_ADDR[3]
+    21      SET/RESET_NET Net   : PRESETN
+                          Driver: COREABC_0/genblk2.RSTSYNC2
+    21      INT_NET       Net   : COREABC_0/UROM.INSTR_SCMD[1]
+                          Driver: COREABC_0/UROM.INSTR_SCMD[1]
+    20      INT_NET       Net   : COREABC_0/RAMADDR_1_sqmuxa
+                          Driver: COREABC_0/UROM.INSTR_MUXC_RNILK981
+    20      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_0
+                          Driver: COREABC_0/genblk2.RSTSYNC2_0
+    20      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_1
+                          Driver: COREABC_0/genblk2.RSTSYNC2_1
+    20      INT_NET       Net   : CoreUARTapb_0/CUARTlOlI/CUARTIl
+                          Driver: CoreUARTapb_0/CUARTlOlI/CUARTOO1/genblk1.CUARTI0
+    19      INT_NET       Net   : COREABC_0_APB3master_PADDR[4]
+                          Driver: COREABC_0/UROM.INSTR_ADDR[4]
+    17      INT_NET       Net   : CoreAPB3_0_APBmslave0_PSELx
+                          Driver: CoreAPB3_0/iPSELS_0_a2[0]
+
+

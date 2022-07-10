@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="datasheet.xsl"?>
+<datasheet>
+  <header>Minimal_SoC</header>
+  <project-settings>
+    <fam>ProASIC3</fam>
+    <die>A3P125</die>
+    <package>144 TQFP</package>
+    <speed-grade>STD</speed-grade>
+    <voltage>1.5</voltage>
+    <hdl-type>Verilog</hdl-type>
+    <project-description>A minimal SoC to show basic operation.</project-description>
+    <location>C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC</location>
+    <state>GENERATED ( Sat Jul 09 21:10:24 2022 )</state>
+    <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
+  </project-settings>
+  <site-map>
+  </site-map>
+  <fileset>
+    <name>HDL File(s)</name>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\coreparameters_tgi.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructions.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructnvm_bb.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructram.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\iram512x9_pa3.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram128x8_rtl.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x16_pa3.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x8_rtl.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\support.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\Minimal_SoC.v</file>
+  </fileset>
+  <io>
+    <port-name>GPIO[6]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>RXRDY</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>OVERFLOW</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>GPIO[4]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>PARITY_ERR</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>GPIO[1]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>NSYSRESET</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>GPIO[3]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>TX</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>GPIO[0]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>GPIO[7]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>TXRDY</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>SYSCLK</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>GPIO[5]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>FRAMING_ERR</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>RX</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>GPIO[2]</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <core type="SpiritModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>SpiritModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>DirectCore</core-lib>
+    <core-intname>COREABC</core-intname>
+    <core-ver>3.8.102</core-ver>
+    <core-desc>CoreABC (APB Bus Controller) is a simple, configurable, low gate count, programmable state machine/controller primarily targeted towards the implementation of AMBA (Advanced Microcontroller Bus Architecture) APB (Advanced Peripheral Bus) based designs. It is particularly suitable where:
+
+- a programmable controller is required but a "full blown" CPU such as a Core8051s or Cortex-M1 is not needed or cannot be justified due to cost or resource/size constraints;
+- a "full blown" CPU based system requires a CoreABC based programmable "offload engine/coprocessor" subsystem for performance reasons;
+- an Microsemi Fusion system using, for example, CoreAI, CorePWM etc. requires programmable control either as a standalone design or as a Fusion analog "offload engine/coprocessor" for a larger CPU based system.
+
+CoreABC is available through the Libero IDE IP Catalog through which it can be downloaded from a remote web based repository and installed into the user's local vault ready for use. It operates natively within the SmartDesign design entry environment allowing it to be easily instantiated, configured, connected to other IP core instances and generated ready for simulation, synthesis etc.
+CoreABC is an AMBA3 APB master which can connect to and manage any APB slave peripherals via an AMBA3 APB bus fabric component such as CoreAPB3.
+
+CoreABC supports a comprehensive assembler based configurable instruction set architecture and extensive and flexible configuration of size and feature options allowing it to be tuned to meet the resource constraints and processing power requirements of a wide variety of applications.
+CoreABC supports three program storage modes:
+
+- "Hard" mode: program image stored in an internal ROM implemented in FPGA fabric tiles;
+- "Soft" mode: program image stored in Microsemi FPGA RAM blocks which are initialized at runtime from the binary image stored in Fusion NVM or an external flash memory;
+- "NVM" mode (Fusion only): program image stored in and executed directly from Fusion NVM.
+</core-desc>
+    <core-param>
+      <param-name>NVM with calibration data:</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>ACT_CALIBRATIONDATA</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>APB Slot Size:</param-name>
+      <param-value>4k locations</param-value>
+      <param-hdlname>APB_AWIDTH</param-hdlname>
+      <param-hdlvalue>12</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>APB Data Bus Width:</param-name>
+      <param-value>8</param-value>
+      <param-hdlname>APB_DWIDTH</param-hdlname>
+      <param-hdlvalue>8</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Number of APB Slots:</param-name>
+      <param-value>2</param-value>
+      <param-hdlname>APB_SDEPTH</param-hdlname>
+      <param-hdlvalue>2</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Verbose Simulation Log:</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>DEBUG</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>APBWRT ACM</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>EN_ACM</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>ADD, SUB, DEC, CMPLEQ</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>EN_ADD</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>ALU Operations from Memory:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>EN_ALURAM</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>AND, BITCLR, BITTST</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>EN_AND</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>CALL, RETURN, RETISR</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>EN_CALL</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Supported Data Sources:</param-name>
+      <param-value>Accumulator and Immediate</param-value>
+      <param-hdlname>EN_DATAM</param-hdlname>
+      <param-hdlvalue>2</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>INC</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>EN_INC</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>APB Indirect Addressing:</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>EN_INDIRECT</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Interrupt Support:</param-name>
+      <param-value>Active Low</param-value>
+      <param-hdlname>EN_INT</param-hdlname>
+      <param-hdlvalue>2</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>IOREAD</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>EN_IOREAD</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>IOWRT</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>EN_IOWRT</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>MULT</param-name>
+      <param-value>Not Implemented</param-value>
+      <param-hdlname>EN_MULT</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>OR, BITSET</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>EN_OR</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>PUSH, POP</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>EN_PUSH</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Internal Data/Stack Memory:</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>EN_RAM</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>ECC support in Data/Stack Memory:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>EN_RAM_ECC</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>SHL, ROL</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>EN_SHL</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>SHR, ROR</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>EN_SHR</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>XOR, CMP</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>EN_XOR</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>FPGA Family:</param-name>
+      <param-value>ProASIC3</param-value>
+      <param-hdlname>FAMILY</param-hdlname>
+      <param-hdlvalue>15</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Maximum Number of Instructions:</param-name>
+      <param-value>4096</param-value>
+      <param-hdlname>ICWIDTH</param-hdlname>
+      <param-hdlvalue>12</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Number of I/O Flags:</param-name>
+      <param-value>4</param-value>
+      <param-hdlname>IFWIDTH</param-hdlname>
+      <param-hdlvalue>4</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Number of I/O Inputs:</param-name>
+      <param-value>8</param-value>
+      <param-hdlname>IIWIDTH</param-hdlname>
+      <param-hdlvalue>8</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Instruction Memory Access</param-name>
+      <param-value>None</param-value>
+      <param-hdlname>IMEM_APB_ACCESS</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Initialization Width:</param-name>
+      <param-value>16</param-value>
+      <param-hdlname>INITWIDTH</param-hdlname>
+      <param-hdlvalue>16</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Instruction Store:</param-name>
+      <param-value>Hard (FPGA Tiles)</param-value>
+      <param-hdlname>INSMODE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Number of I/O Outputs:</param-name>
+      <param-value>8</param-value>
+      <param-hdlname>IOWIDTH</param-hdlname>
+      <param-hdlvalue>8</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>ISR Address:</param-name>
+      <param-value>1</param-value>
+      <param-hdlname>ISRADDR</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>
+      </param-name>
+      <param-value>32</param-value>
+      <param-hdlname>MAX_NVMDWIDTH</param-hdlname>
+      <param-hdlvalue>32</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Stack Size:</param-name>
+      <param-value>256</param-value>
+      <param-hdlname>STWIDTH</param-hdlname>
+      <param-hdlvalue>8</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Test Mode:</param-name>
+      <param-value>User  configured code</param-value>
+      <param-hdlname>TESTMODE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>
+      </param-name>
+      <param-value>21</param-value>
+      <param-hdlname>UNIQ_STRING_LENGTH</param-hdlname>
+      <param-hdlvalue>21</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Z Register Size (Bits):</param-name>
+      <param-value>8</param-value>
+      <param-hdlname>ZRWIDTH</param-hdlname>
+      <param-hdlvalue>8</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-name>COREABC_0</core-name>
+  </core>
+  <core type="SpiritModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>SpiritModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>DirectCore</core-lib>
+    <core-intname>CoreAPB3</core-intname>
+    <core-ver>4.2.100</core-ver>
+    <core-desc>
+The CoreAPB3 component implements an APB3 (AMBA3 APB) fabric, which is backwards compatible with APB2 slave peripherals.There is one APB3 Master interface.</core-desc>
+    <core-param>
+      <param-name>APB Master Data Bus Width</param-name>
+      <param-value>8-bit</param-value>
+      <param-hdlname>APB_DWIDTH</param-hdlname>
+      <param-hdlvalue>8</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 0:</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>APBSLOT0ENABLE</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 1:</param-name>
+      <param-value>true</param-value>
+      <param-hdlname>APBSLOT1ENABLE</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 2:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT2ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 3:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT3ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 4:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT4ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 5:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT5ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 6:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT6ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 7:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT7ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 8:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT8ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 9:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT9ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 10:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT10ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 11:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT11ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 12:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT12ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 13:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT13ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 14:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT14ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 15:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>APBSLOT15ENABLE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>FPGA Family:</param-name>
+      <param-value>ProASIC3</param-value>
+      <param-hdlname>FAMILY</param-hdlname>
+      <param-hdlvalue>15</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Indirect Addressing:</param-name>
+      <param-value>Not in use</param-value>
+      <param-hdlname>IADDR_OPTION</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Number of address bits driven by master:</param-name>
+      <param-value>16</param-value>
+      <param-hdlname>MADDR_BITS</param-hdlname>
+      <param-hdlvalue>16</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 0:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_0</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 1:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_1</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 2:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_2</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 3:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_3</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 4:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_4</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 5:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_5</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 6:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_6</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 7:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_7</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 8:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_8</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 9:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_9</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 10:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_10</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 11:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_11</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 12:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_12</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 13:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_13</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 14:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_14</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Slot 15:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>SC_15</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Position in slave address of upper 4 bits of master address:</param-name>
+      <param-value>[15:12] (Ignored if master address width >= 20 bits)</param-value>
+      <param-hdlname>UPR_NIBBLE_POSN</param-hdlname>
+      <param-hdlvalue>3</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-name>CoreAPB3_0</core-name>
+  </core>
+  <core type="SpiritModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>SpiritModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>DirectCore</core-lib>
+    <core-intname>CoreTimer</core-intname>
+    <core-ver>2.0.103</core-ver>
+    <core-desc>
+The CoreTimer module is an APB slave that provides access to an interrupt-generating, 
+programmable decrementing counter.
+
+The width of the decrementing counter in the CoreTimer module can be statically configured 
+as either 16 or 32 bits. Programmable registers provide a means to dynamically control 
+the operation of the timer. 
+
+Two modes of operation are available for CoreTimer:
+Continuous mode and One-shot timer mode.
+
+        </core-desc>
+    <core-param>
+      <param-name>FPGA Family:</param-name>
+      <param-value>ProASIC3</param-value>
+      <param-hdlname>FAMILY</param-hdlname>
+      <param-hdlvalue>15</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Interrupt active level:</param-name>
+      <param-value>Low</param-value>
+      <param-hdlname>INTACTIVEH</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Width:</param-name>
+      <param-value>32 bit</param-value>
+      <param-hdlname>WIDTH</param-hdlname>
+      <param-hdlvalue>32</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-name>CoreTimer_0</core-name>
+  </core>
+  <core type="SpiritModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>SpiritModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>DirectCore</core-lib>
+    <core-intname>CoreUARTapb</core-intname>
+    <core-ver>5.7.100</core-ver>
+    <core-desc>CoreUARTapb is a serial communication controller with a flexible serial data interface that is intended primarily for embedded systems. The controller operates as an asynchronous (UART) with a control register interface and APB wrapper.</core-desc>
+    <core-param>
+      <param-name>Fractional Part of Baud Value:</param-name>
+      <param-value>+0.0</param-value>
+      <param-hdlname>BAUD_VAL_FRCTN</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Enable Extra Precision:</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>BAUD_VAL_FRCTN_EN</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Baud Value:</param-name>
+      <param-value>1</param-value>
+      <param-hdlname>BAUD_VALUE</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>FPGA Family:</param-name>
+      <param-value>ProASIC3</param-value>
+      <param-hdlname>FAMILY</param-hdlname>
+      <param-hdlvalue>15</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Configuration:</param-name>
+      <param-value>Fixed</param-value>
+      <param-hdlname>FIXEDMODE</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Character Size:</param-name>
+      <param-value>7 bits</param-value>
+      <param-hdlname>PRG_BIT8</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Parity:</param-name>
+      <param-value>Parity Disabled</param-value>
+      <param-hdlname>PRG_PARITY</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>RX FIFO:</param-name>
+      <param-value>Enable RX FIFO</param-value>
+      <param-hdlname>RX_FIFO</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>RX Legacy Mode:</param-name>
+      <param-value>Disabled</param-value>
+      <param-hdlname>RX_LEGACY_MODE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>TX FIFO:</param-name>
+      <param-value>Enable TX FIFO</param-value>
+      <param-hdlname>TX_FIFO</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-name>CoreUARTapb_0</core-name>
+  </core>
+  <firmware_core type="FirmWareModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>FirmWareModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>Firmware</core-lib>
+    <core-intname>CoreTimer_Driver</core-intname>
+    <core-ver>2.4.100</core-ver>
+    <core-desc>Bare metal software driver for CoreTimer.</core-desc>
+    <core-name>CoreTimer_Driver_0</core-name>
+  </firmware_core>
+  <firmware_core type="FirmWareModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>FirmWareModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>Firmware</core-lib>
+    <core-intname>CoreUARTapb_Driver</core-intname>
+    <core-ver>3.3.101</core-ver>
+    <core-desc>Bare metal software driver for CoreUARTapb IP.
+</core-desc>
+    <core-name>CoreUARTapb_Driver_0</core-name>
+  </firmware_core>
+  <memorysystem>
+    <title>Memory Map for Minimal_SoC</title>
+    <description>The project contains the following subsystems:</description>
+    <subsystems>
+      <subsystem>
+        <name>COREABC_0</name>
+        <master>COREABC_0</master>
+        <addressNames>
+          <count>1</count>
+          <name>
+          </name>
+        </addressNames>
+        <slave>
+          <name>CoreTimer_0</name>
+          <fullPinName>CoreTimer_0:APBslave</fullPinName>
+          <remapAddress>0x00000000</remapAddress>
+          <fullAddressSpace>0x00000000 - 0x00000FFF</fullAddressSpace>
+          <range>0x00001000</range>
+          <memoryMap>
+            <name>RegisterMap</name>
+            <addressBlock>
+              <baseAddress>0x0</baseAddress>
+              <range format="long">0x1000</range>
+              <width format="long" id="width">32</width>
+              <register>
+                <name>TimerLoad</name>
+                <addressOffset>0x00</addressOffset>
+                <absoluteAddress>0x00000000</absoluteAddress>
+                <size>32</size>
+                <access>R/W</access>
+                <resetValue>0x00000000</resetValue>
+                <field>
+                  <name>LoadValue</name>
+                  <bitNumber>31:0</bitNumber>
+                  <access>R/W</access>
+                  <description>Load value for counter</description>
+                </field>
+              </register>
+              <register>
+                <name>TimerValue</name>
+                <addressOffset>0x04</addressOffset>
+                <absoluteAddress>0x00000004</absoluteAddress>
+                <size>32</size>
+                <access>R</access>
+                <resetValue>0xFFFFFFFF</resetValue>
+                <field>
+                  <name>CurrentValue</name>
+                  <bitNumber>31:0</bitNumber>
+                  <access>R</access>
+                  <description>Current value of counter</description>
+                </field>
+              </register>
+              <register>
+                <name>TimerControl</name>
+                <addressOffset>0x08</addressOffset>
+                <absoluteAddress>0x00000008</absoluteAddress>
+                <size>32</size>
+                <access>R/W</access>
+                <resetValue>0x00</resetValue>
+                <field>
+                  <name>TimerEnable</name>
+                  <bitNumber>0</bitNumber>
+                  <access>R/W</access>
+                  <description>Enable bit for timer</description>
+                </field>
+                <field>
+                  <name>InterruptEnable</name>
+                  <bitNumber>1</bitNumber>
+                  <access>R/W</access>
+                  <description>Interrupt enable bit for timer</description>
+                </field>
+                <field>
+                  <name>TimerMode</name>
+                  <bitNumber>2</bitNumber>
+                  <access>R/W</access>
+                  <description>Selects continuous or one-shot operation</description>
+                </field>
+              </register>
+              <register>
+                <name>TimerPrescale</name>
+                <addressOffset>0x0C</addressOffset>
+                <absoluteAddress>0x0000000C</absoluteAddress>
+                <size>32</size>
+                <access>W</access>
+                <resetValue>0x0</resetValue>
+                <field>
+                  <name>Prescale</name>
+                  <bitNumber>3:0</bitNumber>
+                  <access>W</access>
+                  <description>Determines effective clock rate for counter relative to PCLK</description>
+                </field>
+              </register>
+              <register>
+                <name>TimerIntClr</name>
+                <addressOffset>0x10</addressOffset>
+                <absoluteAddress>0x00000010</absoluteAddress>
+                <size>32</size>
+                <access>W</access>
+                <resetValue>0x0</resetValue>
+                <field>
+                  <name>TimerIntClr</name>
+                  <bitNumber>31:0</bitNumber>
+                  <access>W</access>
+                  <description>Any write to this location will clear the interrupt</description>
+                </field>
+              </register>
+              <register>
+                <name>TimerRIS</name>
+                <addressOffset>0x14</addressOffset>
+                <absoluteAddress>0x00000014</absoluteAddress>
+                <size>32</size>
+                <access>R</access>
+                <resetValue>0x0</resetValue>
+                <field>
+                  <name>RawTimerInterrupt</name>
+                  <bitNumber>0</bitNumber>
+                  <access>R</access>
+                  <description>Raw timer interrupt status, active high</description>
+                </field>
+              </register>
+              <register>
+                <name>TimerMIS</name>
+                <addressOffset>0x18</addressOffset>
+                <absoluteAddress>0x00000018</absoluteAddress>
+                <size>32</size>
+                <access>R</access>
+                <resetValue>0x0</resetValue>
+                <field>
+                  <name>TimerInterrupt</name>
+                  <bitNumber>0</bitNumber>
+                  <access>R</access>
+                  <description>Timer interrupt status, active high</description>
+                </field>
+              </register>
+            </addressBlock>
+          </memoryMap>
+        </slave>
+        <slave>
+          <name>CoreUARTapb_0</name>
+          <fullPinName>CoreUARTapb_0:APB_bif</fullPinName>
+          <remapAddress>0x00001000</remapAddress>
+          <fullAddressSpace>0x00001000 - 0x00001FFF</fullAddressSpace>
+          <range>0x00001000</range>
+        </slave>
+      </subsystem>
+    </subsystems>
+  </memorysystem>
+</datasheet>

@@ -1,0 +1,31 @@
+// This is the example given in the CoreABC_HB manual. Detailed explenation can be found there. 
+
+JUMP $MAIN
+
+// --------------------------------------
+// Interrupt Routing (Address 1)
+// --------------------------------------
+    IOREAD
+    ROL 
+    // rotate left
+    IOWRT ACC
+    APBWRT DAT 0 0x00 0x000F
+    // Refresh timer
+    APBWRT DAT 0 0x10 0x0000
+    // clear timer interrupt
+    RETISR
+
+
+// --------------------------------------
+// Main Program
+// --------------------------------------
+$MAIN 
+    IOWRT DAT 0x0001
+    APBWRT DAT 0 0x00 0x000F
+    // load timer
+    APBWRT DAT 0 0x08 0x0003
+    // enable timer and timer interrupt
+
+    $LOOP
+        NOP
+    JUMP $LOOP

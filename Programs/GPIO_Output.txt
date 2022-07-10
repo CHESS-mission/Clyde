@@ -1,0 +1,27 @@
+JUMP $MAIN
+// --------------------------------------
+// Interrupt Routing (Address 1)
+// --------------------------------------
+
+IOWRT DAT 0xFF
+RETISR
+
+// --------------------------------------
+// Main Program
+// --------------------------------------
+$MAIN 
+IOWRT DAT 0x00
+IOWRT DAT 0x01
+IOWRT DAT 0x02
+IOWRT DAT 0x04
+IOWRT DAT 0x08
+IOWRT DAT 0x0F
+IOWRT DAT 0x10
+IOWRT DAT 0x20
+IOWRT DAT 0x40
+IOWRT DAT 0x80
+IOWRT DAT 0xF0
+JUMP $MAIN
+
+
+HALT 

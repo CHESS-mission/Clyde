@@ -1,0 +1,381 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/simulation
+vBasic_Input_Testbench
+!s110 1657311056
+!i10b 1
+!s100 NY=SUc=aXzoLnb152T8D=0
+I8FZ0C<Jm1KZMNC;Wc?F9^1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1657310642
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Basic_Input_Testbench/Basic_Input_Testbench.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Basic_Input_Testbench/Basic_Input_Testbench.v
+L0 9
+Z2 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z3 !s108 1657311055.000000
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Basic_Input_Testbench/Basic_Input_Testbench.v|
+!s90 +incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/CLK_GEN/1.0.1|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/RESET_GEN/1.0.1|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Basic_Input_Testbench|-vlog01compat|-work|postsynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Basic_Input_Testbench/Basic_Input_Testbench.v|
+!s101 -O0
+!i113 1
+Z4 o-vlog01compat -work postsynth -O0
+Z5 !s92 {+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/CLK_GEN/1.0.1} {+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/RESET_GEN/1.0.1} {+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Basic_Input_Testbench} -vlog01compat -work postsynth -O0
+Z6 tCvgOpt 0
+n@basic_@input_@testbench
+vCLK_GEN
+Z7 !s110 1657311055
+!i10b 1
+!s100 ;e9P<R27Sf>nL2YA1386M1
+IF@@L88Ke76ZB:jhd?1ham2
+R1
+R0
+Z8 w1656696398
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.v
+L0 2
+R2
+r1
+!s85 0
+31
+R3
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.v|
+!s90 +incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/CLK_GEN/1.0.1|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/RESET_GEN/1.0.1|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Basic_Input_Testbench|-vlog01compat|-work|postsynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.v|
+!s101 -O0
+!i113 1
+R4
+R5
+R6
+n@c@l@k_@g@e@n
+vCOREAPB3_MUXPTOB3
+R7
+!i10b 1
+!s100 J=4B4`g[cPT=`DB[_6A@52
+IBCm^gHDfIl[<Kd1D^WP6L1
+R1
+R0
+Z9 w1657311052
+Z10 8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/synthesis/Minimal_SoC.v
+Z11 FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/synthesis/Minimal_SoC.v
+L0 5
+R2
+r1
+!s85 0
+31
+R3
+Z12 !s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/synthesis/Minimal_SoC.v|
+Z13 !s90 -vlog01compat|-work|postsynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/synthesis/Minimal_SoC.v|
+!s101 -O0
+!i113 1
+R4
+R6
+n@c@o@r@e@a@p@b3_@m@u@x@p@t@o@b3
+vCoreAPB3_Z3
+R7
+!i10b 1
+!s100 =M[:_6J``;N><X@UEUQ1m1
+IH6JI[e=QgTDLOchFnGgO@1
+R1
+R0
+R9
+R10
+R11
+L0 66
+R2
+r1
+!s85 0
+31
+R3
+R12
+R13
+!s101 -O0
+!i113 1
+R4
+R6
+n@core@a@p@b3_@z3
+vCoreTimer_32s_0s_15s_0s
+R7
+!i10b 1
+!s100 ]0jcfH5_ITJF[DYHeJ6VQ0
+IK^T`[HYb?NFKbBH@J]Q[P2
+R1
+R0
+R9
+R10
+R11
+L0 125
+R2
+r1
+!s85 0
+31
+R3
+R12
+R13
+!s101 -O0
+!i113 1
+R4
+R6
+n@core@timer_32s_0s_15s_0s
+vMinimal_SoC
+R7
+!i10b 1
+!s100 eZ:jR^IBocGX`DA2_8F532
+I:k7jAj4XzVW]RBQagh2me0
+R1
+R0
+R9
+R10
+R11
+L0 3915
+R2
+r1
+!s85 0
+31
+R3
+R12
+R13
+!s101 -O0
+!i113 1
+R4
+R6
+n@minimal_@so@c
+vMinimal_SoC_COREABC_0_COREABC_Z1
+R7
+!i10b 1
+!s100 7FdjL_2O34C^DcN4QkP_C3
+IJWjDhATo^e:kR8Po4?[Zm1
+R1
+R0
+R9
+R10
+R11
+L0 1102
+R2
+r1
+!s85 0
+31
+R3
+R12
+R13
+!s101 -O0
+!i113 1
+R4
+R6
+n@minimal_@so@c_@c@o@r@e@a@b@c_0_@c@o@r@e@a@b@c_@z1
+vMinimal_SoC_COREABC_0_INSTRUCTIONS_Z2
+R7
+!i10b 1
+!s100 TGS>8?`Zb86jkmVJFRDhe0
+I9jJz]AlI1EngkK:[O3QoR3
+R1
+R0
+R9
+R10
+R11
+L0 839
+R2
+r1
+!s85 0
+31
+R3
+R12
+R13
+!s101 -O0
+!i113 1
+R4
+R6
+n@minimal_@so@c_@c@o@r@e@a@b@c_0_@i@n@s@t@r@u@c@t@i@o@n@s_@z2
+vMinimal_SoC_COREABC_0_RAM256X16
+R7
+!i10b 1
+!s100 ?NjL2Hj[d@?O8?QQ7L:1]2
+I>=dT0EDcb8XHS9PmWzA<32
+R1
+R0
+R9
+R10
+R11
+L0 955
+R2
+r1
+!s85 0
+31
+R3
+R12
+R13
+!s101 -O0
+!i113 1
+R4
+R6
+n@minimal_@so@c_@c@o@r@e@a@b@c_0_@r@a@m256@x16
+vMinimal_SoC_COREABC_0_RAMBLOCKS_0s_16s_15s
+R7
+!i10b 1
+!s100 ]Ig3?9_hCH3oWRnBK1>E53
+IFP9KOjBMUFz`O[51K68TV1
+R1
+R0
+R9
+R10
+R11
+L0 1040
+R2
+r1
+!s85 0
+31
+R3
+R12
+R13
+!s101 -O0
+!i113 1
+R4
+R6
+n@minimal_@so@c_@c@o@r@e@a@b@c_0_@r@a@m@b@l@o@c@k@s_0s_16s_15s
+vMinimal_SoC_CoreUARTapb_0_Clock_gen_0s_0s
+R7
+!i10b 1
+!s100 fHon`^gW2n9mdolnH`RjB1
+IBKRc4?b1m19]2WT<c9Sez1
+R1
+R0
+R9
+R10
+R11
+L0 2821
+R2
+r1
+!s85 0
+31
+R3
+R12
+R13
+!s101 -O0
+!i113 1
+R4
+R6
+n@minimal_@so@c_@core@u@a@r@tapb_0_@clock_gen_0s_0s
+vMinimal_SoC_CoreUARTapb_0_COREUART_0s_0s_0s_15s_0s_0s
+R7
+!i10b 1
+!s100 U<b_P:Re3On7g=WK9JDSh1
+I:8O8ZQeN7X:DVP=Wkz:7X2
+R1
+R0
+R9
+R10
+R11
+L0 3556
+R2
+r1
+!s85 0
+31
+R3
+R12
+R13
+!s101 -O0
+!i113 1
+R4
+R6
+n@minimal_@so@c_@core@u@a@r@tapb_0_@c@o@r@e@u@a@r@t_0s_0s_0s_15s_0s_0s
+vMinimal_SoC_CoreUARTapb_0_CoreUARTapb_Z4
+R7
+!i10b 1
+!s100 LNzoaGQ@:KbTY]>:=McGe1
+I6B9P5^1SVYTJ0M?9fK`ng3
+R1
+R0
+R9
+R10
+R11
+L0 3681
+R2
+r1
+!s85 0
+31
+R3
+R12
+R13
+!s101 -O0
+!i113 1
+R4
+R6
+n@minimal_@so@c_@core@u@a@r@tapb_0_@core@u@a@r@tapb_@z4
+vMinimal_SoC_CoreUARTapb_0_Rx_async_0s_0s_0s_1s_2s_3s
+R7
+!i10b 1
+!s100 <7VZ;X@X4]GWDeEPTW9111
+Ie5^G^SRPJCAjK:FlcQk^30
+R1
+R0
+R9
+R10
+R11
+L0 2998
+R2
+r1
+!s85 0
+31
+R3
+R12
+R13
+!s101 -O0
+!i113 1
+R4
+R6
+n@minimal_@so@c_@core@u@a@r@tapb_0_@rx_async_0s_0s_0s_1s_2s_3s
+vMinimal_SoC_CoreUARTapb_0_Tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s
+R7
+!i10b 1
+!s100 F15U7<fG:HOI<^RB`iE=e0
+IkiTMOCM:QJa6i;6;_36mN0
+R1
+R0
+R9
+R10
+R11
+L0 3386
+R2
+r1
+!s85 0
+31
+R3
+R12
+R13
+!s101 -O0
+!i113 1
+R4
+R6
+n@minimal_@so@c_@core@u@a@r@tapb_0_@tx_async_0s_0s_0s_1s_2s_3s_4s_5s_6s
+vRESET_GEN
+R7
+!i10b 1
+!s100 ^eT^?3Tbjk^[^3?FTW9WM1
+IT[I_8J3YZDGD`hke9Gd;e3
+R1
+R0
+R8
+8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v
+FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v
+L0 3
+R2
+r1
+!s85 0
+31
+R3
+!s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v|
+!s90 +incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/CLK_GEN/1.0.1|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/RESET_GEN/1.0.1|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Basic_Input_Testbench|-vlog01compat|-work|postsynth|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v|
+!s101 -O0
+!i113 1
+R4
+R5
+R6
+n@r@e@s@e@t_@g@e@n

@@ -1,0 +1,16 @@
+Project Name: Bunny_Minimal_SoC
+Location: C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC
+Description: A minimal SoC to show basic operation.
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : A3P125-TQ144
+Family         : ProASIC3
+Die            : A3P125
+Package        : 144 TQFP
+Speed          : STD
+Core Voltage   : 1.5
+Range          : COM

@@ -1,0 +1,29 @@
+JUMP $MAIN
+
+// --------------------------------------
+// Interrupt Routing (Address 1)
+// --------------------------------------
+
+// send 0x55
+    APBWRT DAT8 1 0 0x55
+    // Refresh timer and clear interrupt
+    APBWRT DAT 0 0x00 0x00FF
+    APBWRT DAT 0 0x10 0x0000
+    RETISR
+
+// --------------------------------------
+// Main Program
+// --------------------------------------
+$MAIN 
+    //Init UART
+    //APBWRT DAT8 1 8 27
+    //APBWRT DAT8 1 12 1
+
+    // Load timer with 0xFF and enable timer & interrupt
+    APBWRT DAT 0 0x00 0x00FF
+    APBWRT DAT 0 0x08 0x0003
+    
+    // Infinite Loop (only interrupts)
+    $LOOP
+        NOP
+        jump $LOOP

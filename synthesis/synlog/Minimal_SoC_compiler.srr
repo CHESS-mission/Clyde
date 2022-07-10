@@ -1,0 +1,788 @@
+Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q4p1, Build 517R, built Oct 30 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v" (library work)
+@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v" (library work)
+@I:"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v":"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\support.v" (library work)
+@N: CG334 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v":68:17:68:29|Read directive translate_off.
+@N: CG333 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v":745:17:745:28|Read directive translate_on.
+@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructions.v" (library work)
+@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructnvm_bb.v" (library work)
+@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\iram512x9_pa3.v" (library work)
+@N: CG334 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\iram512x9_pa3.v":55:17:55:29|Read directive translate_off.
+@N: CG333 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\iram512x9_pa3.v":56:17:56:28|Read directive translate_on.
+@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructram.v" (library work)
+@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram128x8_rtl.v" (library work)
+@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x16_pa3.v" (library work)
+@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x8_rtl.v" (library work)
+@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v" (library work)
+@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v" (library work)
+@N: CG334 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":992:21:992:33|Read directive translate_off.
+@N: CG333 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":994:21:994:32|Read directive translate_on.
+@N: CG334 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":1389:17:1389:29|Read directive translate_off.
+@N: CG333 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":1433:17:1433:28|Read directive translate_on.
+@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v" (library work)
+@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v" (library work)
+@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v" (library work)
+@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v" (library work)
+@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v" (library work)
+@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v" (library work)
+@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v" (library COREAPB3_LIB)
+@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v" (library COREAPB3_LIB)
+@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v" (library COREAPB3_LIB)
+@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v" (library CORETIMER_LIB)
+@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\Minimal_SoC.v" (library work)
+Verilog syntax check successful!
+File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v changed - recompiling
+File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v changed - recompiling
+File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\support.v changed - recompiling
+File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructions.v changed - recompiling
+File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\support.v changed - recompiling
+File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructnvm_bb.v changed - recompiling
+File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\support.v changed - recompiling
+File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\iram512x9_pa3.v changed - recompiling
+File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructram.v changed - recompiling
+File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram128x8_rtl.v changed - recompiling
+File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x16_pa3.v changed - recompiling
+File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x8_rtl.v changed - recompiling
+File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v changed - recompiling
+File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v changed - recompiling
+File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\support.v changed - recompiling
+File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v changed - recompiling
+File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v changed - recompiling
+File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v changed - recompiling
+File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v changed - recompiling
+File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v changed - recompiling
+File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v changed - recompiling
+File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\Minimal_SoC.v changed - recompiling
+Selecting top level module Minimal_SoC
+@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":46:7:46:35|Synthesizing module Minimal_SoC_COREABC_0_COREABC in library work.
+
+	FAMILY=32'b00000000000000000000000000001111
+	APB_AWIDTH=32'b00000000000000000000000000001100
+	APB_DWIDTH=32'b00000000000000000000000000001000
+	APB_SDEPTH=32'b00000000000000000000000000000010
+	ICWIDTH=32'b00000000000000000000000000001100
+	ZRWIDTH=32'b00000000000000000000000000001000
+	IFWIDTH=32'b00000000000000000000000000000100
+	IIWIDTH=32'b00000000000000000000000000001000
+	IOWIDTH=32'b00000000000000000000000000001000
+	STWIDTH=32'b00000000000000000000000000001000
+	EN_RAM=32'b00000000000000000000000000000001
+	EN_RAM_ECC=32'b00000000000000000000000000000000
+	EN_AND=32'b00000000000000000000000000000001
+	EN_XOR=32'b00000000000000000000000000000001
+	EN_OR=32'b00000000000000000000000000000001
+	EN_ADD=32'b00000000000000000000000000000001
+	EN_INC=32'b00000000000000000000000000000001
+	EN_SHL=32'b00000000000000000000000000000001
+	EN_SHR=32'b00000000000000000000000000000001
+	EN_CALL=32'b00000000000000000000000000000001
+	EN_PUSH=32'b00000000000000000000000000000001
+	EN_MULT=32'b00000000000000000000000000000000
+	EN_ACM=32'b00000000000000000000000000000001
+	EN_DATAM=32'b00000000000000000000000000000010
+	EN_INT=32'b00000000000000000000000000000010
+	EN_IOREAD=32'b00000000000000000000000000000001
+	EN_IOWRT=32'b00000000000000000000000000000001
+	EN_ALURAM=32'b00000000000000000000000000000000
+	EN_INDIRECT=32'b00000000000000000000000000000001
+	ISRADDR=32'b00000000000000000000000000000001
+	DEBUG=32'b00000000000000000000000000000001
+	INSMODE=32'b00000000000000000000000000000000
+	INITWIDTH=32'b00000000000000000000000000010000
+	TESTMODE=32'b00000000000000000000000000000000
+	ACT_CALIBRATIONDATA=32'b00000000000000000000000000000001
+	IMEM_APB_ACCESS=32'b00000000000000000000000000000000
+	UNIQ_STRING_LENGTH=32'b00000000000000000000000000010101
+	MAX_NVMDWIDTH=32'b00000000000000000000000000100000
+	BLANK=32'b11111111111111111111111111111111
+	iNOP=32'b00000000000000000000000100000000
+	iLOAD=32'b00000000000000000000001000000000
+	iINCB=32'b00000000000000000000001100000000
+	iAND=32'b00000000000000000000010000000000
+	iOR=32'b00000000000000000000010100000000
+	iXOR=32'b00000000000000000000011000000000
+	iADD=32'b00000000000000000000011100000000
+	iSUB=32'b00000000000000000000100000000000
+	iSHL0=32'b00000000000000000000100100000000
+	iSHL1=32'b00000000000000000000101000000000
+	iSHLE=32'b00000000000000000000101100000000
+	iROL=32'b00000000000000000000110000000000
+	iSHR0=32'b00000000000000000000110100000000
+	iSHR1=32'b00000000000000000000111000000000
+	iSHRE=32'b00000000000000000000111100000000
+	iROR=32'b00000000000000000001000000000000
+	iCMP=32'b00000000000000000001000100000000
+	iCMPLEQ=32'b00000000000000000001001000000000
+	iBITCLR=32'b00000000000000000001001100000000
+	iBITSET=32'b00000000000000000001010000000000
+	iBITTST=32'b00000000000000000001010100000000
+	iAPBREAD=32'b00000000000000000001011000000000
+	iAPBWRT=32'b00000000000000000001011100000000
+	iLOADZ=32'b00000000000000000001100000000000
+	iDECZ=32'b00000000000000000001100100000000
+	iINCZ=32'b00000000000000000001101000000000
+	iIOWRT=32'b00000000000000000001101100000000
+	iRAMREAD=32'b00000000000000000001110000000000
+	iRAMWRT=32'b00000000000000000001110100000000
+	iPUSH=32'b00000000000000000001111000000000
+	iPOP=32'b00000000000000000001111100000000
+	iIOREAD=32'b00000000000000000010000000000000
+	iUSER=32'b00000000000000000010000100000000
+	iJUMPB=32'b00000000000000000010001000000000
+	iCALLB=32'b00000000000000000010001100000000
+	iRETURNB=32'b00000000000000000010010000000000
+	iRETISRB=32'b00000000000000000010010100000000
+	iWAITB=32'b00000000000000000010011000000000
+	iHALTB=32'b00000000000000000010011000000000
+	iMULT=32'b00000000000000000010011100000000
+	iDEC=32'b00000000000000000010100000000000
+	iAPBREADZ=32'b00000000000000000010100100000000
+	iAPBWRTZ=32'b00000000000000000010101000000000
+	iADDZ=32'b00000000000000000010101100000000
+	iSUBZ=32'b00000000000000000010110000000000
+	iDAT=32'b00000000000000000000000000001010
+	iDAT8=32'b00000000000000000000000000001011
+	iDAT16=32'b00000000000000000000000000001100
+	iDAT32=32'b00000000000000000000000000001101
+	iACM=32'b00000000000000000000000000001110
+	iACC=32'b00000000000000000000000000001111
+	iRAM=32'b00000000000000000000000000010000
+	DAT=32'b00000000000000000000000000001010
+	DAT8=32'b00000000000000000000000000001011
+	DAT16=32'b00000000000000000000000000001100
+	DAT32=32'b00000000000000000000000000001101
+	ACM=32'b00000000000000000000000000001110
+	ACC=32'b00000000000000000000000000001111
+	RAM=32'b00000000000000000000000000010000
+	iIFNOT=32'b00000000000000000000000000000000
+	iNOTIF=32'b00000000000000000000000000000000
+	iIF=32'b00000000000000000000000000000001
+	iUNTIL=32'b00000000000000000000000000000000
+	iNOTUNTIL=32'b00000000000000000000000000000001
+	iUNTILNOT=32'b00000000000000000000000000000001
+	iWHILE=32'b00000000000000000000000000000001
+	iZZERO=8'b00001000
+	iNEGATIVE=8'b00000100
+	iZERO=8'b00000010
+	iLTE_ZERO=8'b00000110
+	iALWAYS=8'b00000001
+	iINPUT0=12'b000000010000
+	iINPUT1=12'b000000100000
+	iINPUT2=12'b000001000000
+	iINPUT3=12'b000010000000
+	iINPUT4=12'b000100000000
+	iINPUT5=12'b001000000000
+	iINPUT6=12'b010000000000
+	iINPUT7=12'b100000000000
+	iINPUT8=16'b0001000000000000
+	iINPUT9=16'b0010000000000000
+	iINPUT10=16'b0100000000000000
+	iINPUT11=16'b1000000000000000
+	iINPUT12=20'b00010000000000000000
+	iINPUT13=20'b00100000000000000000
+	iINPUT14=20'b01000000000000000000
+	iINPUT15=20'b10000000000000000000
+	iINPUT16=24'b000100000000000000000000
+	iINPUT17=24'b001000000000000000000000
+	iINPUT18=24'b010000000000000000000000
+	iINPUT19=24'b100000000000000000000000
+	iINPUT20=28'b0001000000000000000000000000
+	iINPUT21=28'b0010000000000000000000000000
+	iINPUT22=28'b0100000000000000000000000000
+	iINPUT23=28'b1000000000000000000000000000
+	iINPUT24=32'b00010000000000000000000000000000
+	iINPUT25=32'b00100000000000000000000000000000
+	iINPUT26=32'b01000000000000000000000000000000
+	iINPUT27=32'b10000000000000000000000000000000
+	iANYINPUT=32'b01111111111111111111111111110000
+	ALWAYS=8'b00000001
+	ZZERO=8'b00001000
+	NEGATIVE=8'b00000100
+	ZERO=8'b00000010
+	LTE_ZERO=8'b00000110
+	INPUT0=12'b000000010000
+	INPUT1=12'b000000100000
+	INPUT2=12'b000001000000
+	INPUT3=12'b000010000000
+	INPUT4=12'b000100000000
+	INPUT5=12'b001000000000
+	INPUT6=12'b010000000000
+	INPUT7=12'b100000000000
+	INPUT8=16'b0001000000000000
+	INPUT9=16'b0010000000000000
+	INPUT10=16'b0011000000000000
+	INPUT11=16'b1000000000000000
+	INPUT12=20'b00010000000000000000
+	INPUT13=20'b00100000000000000000
+	INPUT14=20'b01000000000000000000
+	INPUT15=20'b10000000000000000000
+	INPUT16=24'b000100000000000000000000
+	INPUT17=24'b001000000000000000000000
+	INPUT18=24'b001100000000000000000000
+	INPUT19=24'b100000000000000000000000
+	INPUT20=28'b0001000000000000000000000000
+	INPUT21=28'b0010000000000000000000000000
+	INPUT22=28'b0100000000000000000000000000
+	INPUT23=28'b1000000000000000000000000000
+	INPUT24=32'b00010000000000000000000000000000
+	INPUT25=32'b00100000000000000000000000000000
+	INPUT26=32'b01000000000000000000000000000000
+	INPUT27=32'b01000000000000000000000000000000
+	ANYINPUT=32'b01111111111111111111111111110000
+	iLOADLOOP=32'b00000000000000000001100000000000
+	iDECLOOP=32'b00000000000000000001100100000000
+	iINCLOOP=32'b00000000000000000001101000000000
+	iLOOPZ=32'b00000000000000000000000000001000
+	LOOPZ=32'b00000000000000000000000000001000
+	EN_USER=32'b00000000000000000000000000000000
+	IWWIDTH=32'b00000000000000000000000000111010
+	IRWIDTH=32'b00000000000000000000000000010000
+	ICDEPTH=32'b00000000000000000001000000000000
+	APB_SWIDTH=32'b00000000000000000000000000000001
+	RAMWIDTH=32'b00000000000000000000000000011011
+	SYNC_RESET=32'b00000000000000000000000000000000
+	ZRWIDTH_ZR=32'b00000000000000000000000000001000
+	CYCLE0=2'b00
+	CYCLE1=2'b01
+	CYCLE2=2'b10
+	CYCLE3=2'b11
+   Generated name = Minimal_SoC_COREABC_0_COREABC_Z1
+
+@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v":25:7:25:37|Synthesizing module Minimal_SoC_COREABC_0_RAMBLOCKS in library work.
+
+	EN_RAM_ECC=32'b00000000000000000000000000000000
+	DWIDTH=32'b00000000000000000000000000010000
+	FAMILY=32'b00000000000000000000000000001111
+   Generated name = Minimal_SoC_COREABC_0_RAMBLOCKS_0s_16s_15s
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1864:7:1864:9|Synthesizing module VCC in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1163:7:1163:9|Synthesizing module GND in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":2086:8:2086:16|Synthesizing module RAM512X18 in library work.
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1283:7:1283:9|Synthesizing module INV in library work.
+
+@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x16_pa3.v":24:7:24:37|Synthesizing module Minimal_SoC_COREABC_0_RAM256X16 in library work.
+
+@W: CG360 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v":43:23:43:25|Removing wire RDW, as there is no assignment to it.
+@W: CG360 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v":47:15:47:17|Removing wire WDY, as there is no assignment to it.
+@W: CG360 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v":48:15:48:17|Removing wire RDY, as there is no assignment to it.
+@W: CG360 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v":49:15:49:18|Removing wire RDYY, as there is no assignment to it.
+@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v":24:7:24:36|Synthesizing module Minimal_SoC_COREABC_0_ACMTABLE in library work.
+
+	TESTMODE=32'b00000000000000000000000000000000
+   Generated name = Minimal_SoC_COREABC_0_ACMTABLE_0s
+
+@W: CG133 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v":27:13:27:19|Object ACMDATA is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructions.v":26:7:26:40|Synthesizing module Minimal_SoC_COREABC_0_INSTRUCTIONS in library work.
+
+	AWIDTH=32'b00000000000000000000000000001100
+	DWIDTH=32'b00000000000000000000000000001000
+	SWIDTH=32'b00000000000000000000000000000001
+	ICWIDTH=32'b00000000000000000000000000001100
+	IIWIDTH=32'b00000000000000000000000000001000
+	IFWIDTH=32'b00000000000000000000000000000100
+	IWWIDTH=32'b00000000000000000000000000111010
+	EN_MULT=32'b00000000000000000000000000000000
+	EN_INC=32'b00000000000000000000000000000001
+	TESTMODE=32'b00000000000000000000000000000000
+	BLANK=32'b11111111111111111111111111111111
+	iNOP=32'b00000000000000000000000100000000
+	iLOAD=32'b00000000000000000000001000000000
+	iINCB=32'b00000000000000000000001100000000
+	iAND=32'b00000000000000000000010000000000
+	iOR=32'b00000000000000000000010100000000
+	iXOR=32'b00000000000000000000011000000000
+	iADD=32'b00000000000000000000011100000000
+	iSUB=32'b00000000000000000000100000000000
+	iSHL0=32'b00000000000000000000100100000000
+	iSHL1=32'b00000000000000000000101000000000
+	iSHLE=32'b00000000000000000000101100000000
+	iROL=32'b00000000000000000000110000000000
+	iSHR0=32'b00000000000000000000110100000000
+	iSHR1=32'b00000000000000000000111000000000
+	iSHRE=32'b00000000000000000000111100000000
+	iROR=32'b00000000000000000001000000000000
+	iCMP=32'b00000000000000000001000100000000
+	iCMPLEQ=32'b00000000000000000001001000000000
+	iBITCLR=32'b00000000000000000001001100000000
+	iBITSET=32'b00000000000000000001010000000000
+	iBITTST=32'b00000000000000000001010100000000
+	iAPBREAD=32'b00000000000000000001011000000000
+	iAPBWRT=32'b00000000000000000001011100000000
+	iLOADZ=32'b00000000000000000001100000000000
+	iDECZ=32'b00000000000000000001100100000000
+	iINCZ=32'b00000000000000000001101000000000
+	iIOWRT=32'b00000000000000000001101100000000
+	iRAMREAD=32'b00000000000000000001110000000000
+	iRAMWRT=32'b00000000000000000001110100000000
+	iPUSH=32'b00000000000000000001111000000000
+	iPOP=32'b00000000000000000001111100000000
+	iIOREAD=32'b00000000000000000010000000000000
+	iUSER=32'b00000000000000000010000100000000
+	iJUMPB=32'b00000000000000000010001000000000
+	iCALLB=32'b00000000000000000010001100000000
+	iRETURNB=32'b00000000000000000010010000000000
+	iRETISRB=32'b00000000000000000010010100000000
+	iWAITB=32'b00000000000000000010011000000000
+	iHALTB=32'b00000000000000000010011000000000
+	iMULT=32'b00000000000000000010011100000000
+	iDEC=32'b00000000000000000010100000000000
+	iAPBREADZ=32'b00000000000000000010100100000000
+	iAPBWRTZ=32'b00000000000000000010101000000000
+	iADDZ=32'b00000000000000000010101100000000
+	iSUBZ=32'b00000000000000000010110000000000
+	iDAT=32'b00000000000000000000000000001010
+	iDAT8=32'b00000000000000000000000000001011
+	iDAT16=32'b00000000000000000000000000001100
+	iDAT32=32'b00000000000000000000000000001101
+	iACM=32'b00000000000000000000000000001110
+	iACC=32'b00000000000000000000000000001111
+	iRAM=32'b00000000000000000000000000010000
+	DAT=32'b00000000000000000000000000001010
+	DAT8=32'b00000000000000000000000000001011
+	DAT16=32'b00000000000000000000000000001100
+	DAT32=32'b00000000000000000000000000001101
+	ACM=32'b00000000000000000000000000001110
+	ACC=32'b00000000000000000000000000001111
+	RAM=32'b00000000000000000000000000010000
+	iIFNOT=32'b00000000000000000000000000000000
+	iNOTIF=32'b00000000000000000000000000000000
+	iIF=32'b00000000000000000000000000000001
+	iUNTIL=32'b00000000000000000000000000000000
+	iNOTUNTIL=32'b00000000000000000000000000000001
+	iUNTILNOT=32'b00000000000000000000000000000001
+	iWHILE=32'b00000000000000000000000000000001
+	iZZERO=8'b00001000
+	iNEGATIVE=8'b00000100
+	iZERO=8'b00000010
+	iLTE_ZERO=8'b00000110
+	iALWAYS=8'b00000001
+	iINPUT0=12'b000000010000
+	iINPUT1=12'b000000100000
+	iINPUT2=12'b000001000000
+	iINPUT3=12'b000010000000
+	iINPUT4=12'b000100000000
+	iINPUT5=12'b001000000000
+	iINPUT6=12'b010000000000
+	iINPUT7=12'b100000000000
+	iINPUT8=16'b0001000000000000
+	iINPUT9=16'b0010000000000000
+	iINPUT10=16'b0100000000000000
+	iINPUT11=16'b1000000000000000
+	iINPUT12=20'b00010000000000000000
+	iINPUT13=20'b00100000000000000000
+	iINPUT14=20'b01000000000000000000
+	iINPUT15=20'b10000000000000000000
+	iINPUT16=24'b000100000000000000000000
+	iINPUT17=24'b001000000000000000000000
+	iINPUT18=24'b010000000000000000000000
+	iINPUT19=24'b100000000000000000000000
+	iINPUT20=28'b0001000000000000000000000000
+	iINPUT21=28'b0010000000000000000000000000
+	iINPUT22=28'b0100000000000000000000000000
+	iINPUT23=28'b1000000000000000000000000000
+	iINPUT24=32'b00010000000000000000000000000000
+	iINPUT25=32'b00100000000000000000000000000000
+	iINPUT26=32'b01000000000000000000000000000000
+	iINPUT27=32'b10000000000000000000000000000000
+	iANYINPUT=32'b01111111111111111111111111110000
+	ALWAYS=8'b00000001
+	ZZERO=8'b00001000
+	NEGATIVE=8'b00000100
+	ZERO=8'b00000010
+	LTE_ZERO=8'b00000110
+	INPUT0=12'b000000010000
+	INPUT1=12'b000000100000
+	INPUT2=12'b000001000000
+	INPUT3=12'b000010000000
+	INPUT4=12'b000100000000
+	INPUT5=12'b001000000000
+	INPUT6=12'b010000000000
+	INPUT7=12'b100000000000
+	INPUT8=16'b0001000000000000
+	INPUT9=16'b0010000000000000
+	INPUT10=16'b0011000000000000
+	INPUT11=16'b1000000000000000
+	INPUT12=20'b00010000000000000000
+	INPUT13=20'b00100000000000000000
+	INPUT14=20'b01000000000000000000
+	INPUT15=20'b10000000000000000000
+	INPUT16=24'b000100000000000000000000
+	INPUT17=24'b001000000000000000000000
+	INPUT18=24'b001100000000000000000000
+	INPUT19=24'b100000000000000000000000
+	INPUT20=28'b0001000000000000000000000000
+	INPUT21=28'b0010000000000000000000000000
+	INPUT22=28'b0100000000000000000000000000
+	INPUT23=28'b1000000000000000000000000000
+	INPUT24=32'b00010000000000000000000000000000
+	INPUT25=32'b00100000000000000000000000000000
+	INPUT26=32'b01000000000000000000000000000000
+	INPUT27=32'b01000000000000000000000000000000
+	ANYINPUT=32'b01111111111111111111111111110000
+	iLOADLOOP=32'b00000000000000000001100000000000
+	iDECLOOP=32'b00000000000000000001100100000000
+	iINCLOOP=32'b00000000000000000001101000000000
+	iLOOPZ=32'b00000000000000000000000000001000
+	LOOPZ=32'b00000000000000000000000000001000
+	EN_USER=32'b00000000000000000000000000000000
+	AW=32'b00000000000000000000000000001100
+	DW=32'b00000000000000000000000000001000
+	SW=32'b00000000000000000000000000000001
+	IW=32'b00000000000000000000000000001100
+	FW=32'b00000000000000000000000000001100
+	iJUMP=32'b00000000000000000010001000000100
+	iCALL=32'b00000000000000000010001100000100
+	iRETURN=32'b00000000000000000010010000000100
+	iRETISR=32'b00000000000000000010010100000100
+	iWAIT=32'b00000000000000000010011000000100
+	iHALT=32'b00000000000000000010011000000100
+	iINC=32'b00000000000000000000001100000000
+	iACM_CTRLSTAT=8'b00000000
+	iACM_ADDR_ADDR=8'b00000100
+	iACM_DATA_ADDR=8'b00001000
+	iADC_CTRL2_HI_ADDR=8'b00010000
+	iADC_STAT_HI_ADDR=8'b00100000
+	Label_MAIN=32'b00000000000000000000000000000101
+	Label_LOOP=32'b00000000000000000000000000000111
+   Generated name = Minimal_SoC_COREABC_0_INSTRUCTIONS_Z2
+
+@W: CG133 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":696:34:696:37|Object MULT is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":697:34:697:34|Object A is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":698:34:698:34|Object B is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":234:9:234:14|Removing wire DEBUG1, as there is no assignment to it.
+@W: CG360 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":235:9:235:14|Removing wire DEBUG2, as there is no assignment to it.
+@W: CG360 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":236:9:236:23|Removing wire DEBUGBLK_RESETN, as there is no assignment to it.
+@W: CG133 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":262:12:262:14|Object iii is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":263:25:263:33|Object RAMDOUTXX is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG134 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":267:14:267:21|No assignment to bit 12 of ins_addr
+@W: CG134 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":267:14:267:21|No assignment to bit 13 of ins_addr
+@W: CG134 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":267:14:267:21|No assignment to bit 14 of ins_addr
+@W: CG134 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":267:14:267:21|No assignment to bit 15 of ins_addr
+@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":1041:4:1041:9|Pruning unused register GETINST. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":511:12:511:17|Pruning unused register UROM.upper_addr[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL208 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":1041:4:1041:9|All reachable assignments to bit 8 of ZREGISTER[8:0] assign 0, register removed by optimization.
+@W: CL260 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":494:12:494:17|Pruning register bit 1 of UROM.INSTR_SLOT[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CG775 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Found Component CoreAPB3 in library COREAPB3_LIB
+@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v":30:7:30:23|Synthesizing module COREAPB3_MUXPTOB3 in library COREAPB3_LIB.
+
+@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+
+	APB_DWIDTH=6'b001000
+	IADDR_OPTION=32'b00000000000000000000000000000000
+	APBSLOT0ENABLE=1'b1
+	APBSLOT1ENABLE=1'b1
+	APBSLOT2ENABLE=1'b0
+	APBSLOT3ENABLE=1'b0
+	APBSLOT4ENABLE=1'b0
+	APBSLOT5ENABLE=1'b0
+	APBSLOT6ENABLE=1'b0
+	APBSLOT7ENABLE=1'b0
+	APBSLOT8ENABLE=1'b0
+	APBSLOT9ENABLE=1'b0
+	APBSLOT10ENABLE=1'b0
+	APBSLOT11ENABLE=1'b0
+	APBSLOT12ENABLE=1'b0
+	APBSLOT13ENABLE=1'b0
+	APBSLOT14ENABLE=1'b0
+	APBSLOT15ENABLE=1'b0
+	SC_0=1'b0
+	SC_1=1'b0
+	SC_2=1'b0
+	SC_3=1'b0
+	SC_4=1'b0
+	SC_5=1'b0
+	SC_6=1'b0
+	SC_7=1'b0
+	SC_8=1'b0
+	SC_9=1'b0
+	SC_10=1'b0
+	SC_11=1'b0
+	SC_12=1'b0
+	SC_13=1'b0
+	SC_14=1'b0
+	SC_15=1'b0
+	MADDR_BITS=6'b010000
+	UPR_NIBBLE_POSN=4'b0011
+	FAMILY=32'b00000000000000000000000000001111
+	SYNC_RESET=32'b00000000000000000000000000000000
+	IADDR_NOTINUSE=32'b00000000000000000000000000000000
+	IADDR_EXTERNAL=32'b00000000000000000000000000000001
+	IADDR_SLOT0=32'b00000000000000000000000000000010
+	IADDR_SLOT1=32'b00000000000000000000000000000011
+	IADDR_SLOT2=32'b00000000000000000000000000000100
+	IADDR_SLOT3=32'b00000000000000000000000000000101
+	IADDR_SLOT4=32'b00000000000000000000000000000110
+	IADDR_SLOT5=32'b00000000000000000000000000000111
+	IADDR_SLOT6=32'b00000000000000000000000000001000
+	IADDR_SLOT7=32'b00000000000000000000000000001001
+	IADDR_SLOT8=32'b00000000000000000000000000001010
+	IADDR_SLOT9=32'b00000000000000000000000000001011
+	IADDR_SLOT10=32'b00000000000000000000000000001100
+	IADDR_SLOT11=32'b00000000000000000000000000001101
+	IADDR_SLOT12=32'b00000000000000000000000000001110
+	IADDR_SLOT13=32'b00000000000000000000000000001111
+	IADDR_SLOT14=32'b00000000000000000000000000010000
+	IADDR_SLOT15=32'b00000000000000000000000000010001
+	SL0=16'b0000000000000001
+	SL1=16'b0000000000000010
+	SL2=16'b0000000000000000
+	SL3=16'b0000000000000000
+	SL4=16'b0000000000000000
+	SL5=16'b0000000000000000
+	SL6=16'b0000000000000000
+	SL7=16'b0000000000000000
+	SL8=16'b0000000000000000
+	SL9=16'b0000000000000000
+	SL10=16'b0000000000000000
+	SL11=16'b0000000000000000
+	SL12=16'b0000000000000000
+	SL13=16'b0000000000000000
+	SL14=16'b0000000000000000
+	SL15=16'b0000000000000000
+	SC=16'b0000000000000000
+	SC_qual=16'b0000000000000000
+   Generated name = CoreAPB3_Z3
+
+@W: CG360 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":244:12:244:20|Removing wire IA_PRDATA, as there is no assignment to it.
+@W: CG775 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":24:7:24:15|Found Component CoreTimer in library CORETIMER_LIB
+@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":24:7:24:15|Synthesizing module CoreTimer in library CORETIMER_LIB.
+
+	WIDTH=32'b00000000000000000000000000100000
+	INTACTIVEH=32'b00000000000000000000000000000000
+	FAMILY=32'b00000000000000000000000000001111
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = CoreTimer_32s_0s_15s_0s
+
+@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":273:37:273:41|Removing redundant assignment.
+@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":146:4:146:9|Optimizing register bit CtrlReg[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":146:4:146:9|Optimizing register bit CtrlReg[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":146:4:146:9|Optimizing register bit CtrlReg[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":146:4:146:9|Optimizing register bit CtrlReg[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":146:4:146:9|Pruning register bits 6 to 3 of CtrlReg[6:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v":30:0:30:34|Synthesizing module Minimal_SoC_CoreUARTapb_0_Clock_gen in library work.
+
+	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = Minimal_SoC_CoreUARTapb_0_Clock_gen_0s_0s
+
+@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":14:0:14:33|Synthesizing module Minimal_SoC_CoreUARTapb_0_Tx_async in library work.
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	TX_FIFO=32'b00000000000000000000000000000001
+	CUARTI1ll=32'b00000000000000000000000000000000
+	CUARTl1ll=32'b00000000000000000000000000000001
+	CUARTOO0l=32'b00000000000000000000000000000010
+	CUARTIO0l=32'b00000000000000000000000000000011
+	CUARTlO0l=32'b00000000000000000000000000000100
+	CUARTOI0l=32'b00000000000000000000000000000101
+	CUARTII0l=32'b00000000000000000000000000000110
+   Generated name = Minimal_SoC_CoreUARTapb_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s
+
+@W:"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":168:0:168:8|Index into variable CUARTIl0l could be out of range - a simulation mismatch is possible
+@W:"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":168:0:168:8|Index into variable CUARTIl0l could be out of range - a simulation mismatch is possible
+@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":870:0:870:8|Removing redundant assignment.
+@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":14:0:14:33|Synthesizing module Minimal_SoC_CoreUARTapb_0_Rx_async in library work.
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	RX_FIFO=32'b00000000000000000000000000000001
+	CUARTOIIl=32'b00000000000000000000000000000000
+	CUARTIIIl=32'b00000000000000000000000000000001
+	CUARTlIIl=32'b00000000000000000000000000000010
+	CUARTOlIl=32'b00000000000000000000000000000011
+   Generated name = Minimal_SoC_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s
+
+@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":750:0:750:7|Removing redundant assignment.
+@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":857:0:857:8|Removing redundant assignment.
+@W: CL177 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":1613:0:1613:5|Sharing sequential element CUARTI1l. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":1613:0:1613:5|Optimizing register bit CUARTO1Il to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":1613:0:1613:5|Pruning unused register CUARTO1Il. Make sure that there are no unused intermediate registers.
+@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":14:0:14:33|Synthesizing module Minimal_SoC_CoreUARTapb_0_COREUART in library work.
+
+	TX_FIFO=32'b00000000000000000000000000000001
+	RX_FIFO=32'b00000000000000000000000000000001
+	RX_LEGACY_MODE=32'b00000000000000000000000000000000
+	FAMILY=32'b00000000000000000000000000001111
+	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = Minimal_SoC_CoreUARTapb_0_COREUART_1s_1s_0s_15s_0s_0s
+
+@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":1338:0:1338:7|Removing redundant assignment.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1976:7:1976:14|Synthesizing module FIFO4K18 in library work.
+
+@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v":190:0:190:39|Synthesizing module Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3 in library work.
+
+@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v":14:0:14:35|Synthesizing module Minimal_SoC_CoreUARTapb_0_fifo_256x8 in library work.
+
+	SYNC_RESET=32'b00000000000000000000000000000000
+	CUARTOIlI=8'b11111111
+   Generated name = Minimal_SoC_CoreUARTapb_0_fifo_256x8_0s_4294967295s
+
+@W: CG360 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v":90:0:90:4|Removing wire AFULL, as there is no assignment to it.
+@W: CG133 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":333:0:333:7|Object CUARTlI0 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":1159:0:1159:5|Pruning unused register CUARTIl0. Make sure that there are no unused intermediate registers.
+@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":14:0:14:36|Synthesizing module Minimal_SoC_CoreUARTapb_0_CoreUARTapb in library work.
+
+	FAMILY=32'b00000000000000000000000000001111
+	TX_FIFO=32'b00000000000000000000000000000001
+	RX_FIFO=32'b00000000000000000000000000000001
+	BAUD_VALUE=32'b00000000000000000000000000000001
+	FIXEDMODE=32'b00000000000000000000000000000001
+	PRG_BIT8=32'b00000000000000000000000000000000
+	PRG_PARITY=32'b00000000000000000000000000000000
+	RX_LEGACY_MODE=32'b00000000000000000000000000000000
+	BAUD_VAL_FRCTN=32'b00000000000000000000000000000000
+	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000000
+	SYNC_RESET=32'b00000000000000000000000000000000
+   Generated name = Minimal_SoC_CoreUARTapb_0_CoreUARTapb_Z4
+
+@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":785:0:785:8|Removing redundant assignment.
+@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":868:0:868:8|Removing redundant assignment.
+@W: CG133 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":283:0:283:8|Object CUARTI1OI is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\Minimal_SoC.v":9:7:9:17|Synthesizing module Minimal_SoC in library work.
+
+@W: CL246 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":126:0:126:4|Input port bits 1 to 0 of PADDR[4:0] are unused. Assign logic for all port bits or change the input port size.
+@A: CL153 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":283:0:283:8|*Unassigned bits of CUARTI1OI[2:0] are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL157 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v":253:0:253:4|*Output AFULL has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL201 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":984:0:984:5|Trying to extract state machine for register CUARTll0.
+Extracted state machine for register CUARTll0
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":871:0:871:5|Optimizing register bit CUARTl1Il to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":871:0:871:5|Pruning unused register CUARTl1Il. Make sure that there are no unused intermediate registers.
+@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":575:0:575:5|Optimizing register bit CUARTO11 to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":575:0:575:5|Pruning unused register CUARTO11. Make sure that there are no unused intermediate registers.
+@N: CL201 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":871:0:871:5|Trying to extract state machine for register CUARTll0.
+Extracted state machine for register CUARTll0
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":106:0:106:7|Input CUARTOOl is unused.
+@N: CL201 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":301:0:301:5|Trying to extract state machine for register CUARTlI0l.
+Extracted state machine for register CUARTlI0l
+State machine has 7 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+   00000000000000000000000000000101
+   00000000000000000000000000000110
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":65:0:65:7|Input CUARTl0I is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":73:0:73:7|Input CUARTO1I is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v":75:0:75:16|Input BAUD_VAL_FRACTION is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":72:36:72:40|Input IADDR is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":73:13:73:19|Input PRESETN is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":74:13:74:16|Input PCLK is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":106:18:106:25|Input PRDATAS2 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":107:18:107:25|Input PRDATAS3 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":108:18:108:25|Input PRDATAS4 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":109:18:109:25|Input PRDATAS5 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":110:18:110:25|Input PRDATAS6 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":111:18:111:25|Input PRDATAS7 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":112:18:112:25|Input PRDATAS8 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":113:18:113:25|Input PRDATAS9 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":114:18:114:26|Input PRDATAS10 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":115:18:115:26|Input PRDATAS11 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":116:18:116:26|Input PRDATAS12 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":117:18:117:26|Input PRDATAS13 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":118:18:118:26|Input PRDATAS14 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":119:18:119:26|Input PRDATAS15 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":123:13:123:20|Input PREADYS2 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":124:13:124:20|Input PREADYS3 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":125:13:125:20|Input PREADYS4 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":126:13:126:20|Input PREADYS5 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":127:13:127:20|Input PREADYS6 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":128:13:128:20|Input PREADYS7 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":129:13:129:20|Input PREADYS8 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":130:13:130:20|Input PREADYS9 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":131:13:131:21|Input PREADYS10 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":132:13:132:21|Input PREADYS11 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":133:13:133:21|Input PREADYS12 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":134:13:134:21|Input PREADYS13 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":135:13:135:21|Input PREADYS14 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":136:13:136:21|Input PREADYS15 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":140:13:140:21|Input PSLVERRS2 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":141:13:141:21|Input PSLVERRS3 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":142:13:142:21|Input PSLVERRS4 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":143:13:143:21|Input PSLVERRS5 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":144:13:144:21|Input PSLVERRS6 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":145:13:145:21|Input PSLVERRS7 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":146:13:146:21|Input PSLVERRS8 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":147:13:147:21|Input PSLVERRS9 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":148:13:148:22|Input PSLVERRS10 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":149:13:149:22|Input PSLVERRS11 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":150:13:150:22|Input PSLVERRS12 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":151:13:151:22|Input PSLVERRS13 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":152:13:152:22|Input PSLVERRS14 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":153:13:153:22|Input PSLVERRS15 is unused.
+@A: CL153 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v":27:13:27:19|*Unassigned bits of ACMDATA[7:0] are referenced and tied to 0 -- simulation mismatch possible.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v":25:15:25:21|Input ACMADDR is unused.
+@W: CL157 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v":40:11:40:20|*Output SB_CORRECT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v":41:11:41:19|*Output DB_DETECT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL201 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":1041:4:1041:9|Trying to extract state machine for register ICYCLE.
+Extracted state machine for register ICYCLE
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":135:10:135:18|Input PSLVERR_M is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":142:10:142:19|Input INITDATVAL is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":143:10:143:17|Input INITDONE is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":144:27:144:34|Input INITADDR is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":145:15:145:22|Input INITDATA is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":153:11:153:16|Input PSEL_S is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":154:11:154:19|Input PENABLE_S is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":155:11:155:18|Input PWRITE_S is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":156:28:156:34|Input PADDR_S is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":157:28:157:35|Input PWDATA_S is unused.
+
+At c_ver Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 88MB peak: 96MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Sat Jul 09 21:11:40 2022
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sat Jul 09 21:11:40 2022
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Sat Jul 09 21:11:40 2022
+
+###########################################################]

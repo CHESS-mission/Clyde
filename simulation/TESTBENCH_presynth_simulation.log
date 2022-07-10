@@ -1,0 +1,841 @@
+# do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/proasic3 
+# Modifying modelsim.ini
+# INFO: Simulation library COREAPB3_LIB already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap COREAPB3_LIB COREAPB3_LIB 
+# Modifying modelsim.ini
+# INFO: Simulation library CORETIMER_LIB already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap CORETIMER_LIB CORETIMER_LIB 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 11:45:34 on Jul 08,2022
+# vlog "+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core" -vlog01compat -work presynth C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/acmtable.v 
+# -- Compiling module Minimal_SoC_COREABC_0_ACMTABLE
+# 
+# Top level modules:
+# 	Minimal_SoC_COREABC_0_ACMTABLE
+# End time: 11:45:34 on Jul 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 11:45:34 on Jul 08,2022
+# vlog "+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core" -vlog01compat -work presynth C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/debugblk.v 
+# -- Compiling module Minimal_SoC_COREABC_0_DEBUGBLK
+# 
+# Top level modules:
+# 	Minimal_SoC_COREABC_0_DEBUGBLK
+# End time: 11:45:34 on Jul 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 11:45:34 on Jul 08,2022
+# vlog "+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core" -vlog01compat -work presynth C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructions.v 
+# -- Compiling module Minimal_SoC_COREABC_0_INSTRUCTIONS
+# 
+# Top level modules:
+# 	Minimal_SoC_COREABC_0_INSTRUCTIONS
+# End time: 11:45:34 on Jul 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 11:45:34 on Jul 08,2022
+# vlog "+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core" -vlog01compat -work presynth C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructnvm_bb.v 
+# -- Compiling module Minimal_SoC_COREABC_0_INSTRUCTNVM
+# 
+# Top level modules:
+# 	Minimal_SoC_COREABC_0_INSTRUCTNVM
+# End time: 11:45:34 on Jul 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 11:45:34 on Jul 08,2022
+# vlog "+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core" -vlog01compat -work presynth C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/iram512x9_pa3.v 
+# -- Compiling module Minimal_SoC_COREABC_0_IRAM512X9
+# 
+# Top level modules:
+# 	Minimal_SoC_COREABC_0_IRAM512X9
+# End time: 11:45:34 on Jul 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 11:45:34 on Jul 08,2022
+# vlog "+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core" -vlog01compat -work presynth C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructram.v 
+# -- Compiling module Minimal_SoC_COREABC_0_INSTRUCTRAM
+# 
+# Top level modules:
+# 	Minimal_SoC_COREABC_0_INSTRUCTRAM
+# End time: 11:45:34 on Jul 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 11:45:34 on Jul 08,2022
+# vlog "+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core" -vlog01compat -work presynth C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram128x8_rtl.v 
+# -- Compiling module Minimal_SoC_COREABC_0_RAM128X8
+# 
+# Top level modules:
+# 	Minimal_SoC_COREABC_0_RAM128X8
+# End time: 11:45:35 on Jul 08,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 11:45:35 on Jul 08,2022
+# vlog "+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core" -vlog01compat -work presynth C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram256x16_pa3.v 
+# -- Compiling module Minimal_SoC_COREABC_0_RAM256X16
+# 
+# Top level modules:
+# 	Minimal_SoC_COREABC_0_RAM256X16
+# End time: 11:45:35 on Jul 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 11:45:35 on Jul 08,2022
+# vlog "+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core" -vlog01compat -work presynth C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram256x8_rtl.v 
+# -- Compiling module Minimal_SoC_COREABC_0_RAM256X8
+# 
+# Top level modules:
+# 	Minimal_SoC_COREABC_0_RAM256X8
+# End time: 11:45:35 on Jul 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 11:45:35 on Jul 08,2022
+# vlog "+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core" -vlog01compat -work presynth C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ramblocks.v 
+# -- Compiling module Minimal_SoC_COREABC_0_RAMBLOCKS
+# 
+# Top level modules:
+# 	Minimal_SoC_COREABC_0_RAMBLOCKS
+# End time: 11:45:35 on Jul 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 11:45:35 on Jul 08,2022
+# vlog "+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core" -vlog01compat -work presynth C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/coreabc.v 
+# -- Compiling module Minimal_SoC_COREABC_0_COREABC
+# 
+# Top level modules:
+# 	Minimal_SoC_COREABC_0_COREABC
+# End time: 11:45:35 on Jul 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 11:45:35 on Jul 08,2022
+# vlog "+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core" "+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test" -vlog01compat -work presynth C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test/apbmodel.v 
+# -- Compiling module Minimal_SoC_COREABC_0_APBModel
+# 
+# Top level modules:
+# 	Minimal_SoC_COREABC_0_APBModel
+# End time: 11:45:35 on Jul 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 11:45:35 on Jul 08,2022
+# vlog "+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core" "+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0" "+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test" -vlog01compat -work presynth C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test/testbench.v 
+# -- Compiling module TESTBENCH
+# 
+# Top level modules:
+# 	TESTBENCH
+# End time: 11:45:35 on Jul 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L presynth -L COREAPB3_LIB -L CORETIMER_LIB -t 1ps presynth.TESTBENCH 
+# Start time: 11:45:35 on Jul 08,2022
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading presynth.TESTBENCH
+# Loading presynth.Minimal_SoC_COREABC_0_COREABC
+# Loading presynth.Minimal_SoC_COREABC_0_DEBUGBLK
+# Loading presynth.Minimal_SoC_COREABC_0_APBModel
+# Loading presynth.Minimal_SoC_COREABC_0_RAMBLOCKS
+# Loading presynth.Minimal_SoC_COREABC_0_ACMTABLE
+# Loading presynth.Minimal_SoC_COREABC_0_INSTRUCTIONS
+# Loading presynth.Minimal_SoC_COREABC_0_RAM256X16
+# Loading proasic3.VCC
+# Loading proasic3.GND
+# Loading proasic3.RAM512X18
+# Loading proasic3.INV
+# INFO CoreABC Verilog Disassembler
+################################################################
+# CoreABC Verilog Testbench  v3.0  December 2009
+# (c) Actel IP Engineering
+#  
+# Configuration (TM:11) 
+#    Fully Configured 8 Bit Configuration
+#    Family : 15
+#    APB Address Width: 10
+#    APB Data Width: 8 
+#    APB Slots: 4 
+#    IO In Width: 8 
+#    IO Flag Width: 4 
+#    IO Out Width: 8 
+#    Instructions: 1024 
+#    Instruction held in Tiles 
+#    Stack Depth: 256 
+#    Loop Counter Size 256
+#    OR instruction Enabled
+#    AND instruction Enabled
+#    XOR instruction Enabled
+#    ADD instruction Enabled
+#    INC instruction Enabled
+#    SHL instruction Enabled
+#    SHR instruction Enabled
+#    CALL instruction Enabled
+#    MULT instruction Enabled
+#    PUSH instruction Enabled
+#    IOREAD instruction Enabled
+#    IOWRT  instruction Enabled
+#    Accumulator RAM operations Enabled
+#    Indirect APB operations Enabled
+#    ACM lookup Enabled
+#    Multiplexer Mode 2
+#    Storage Registers Enabled 
+#    Interrupt Enabled ISR at 0190
+#  
+#  
+# Releasing Reset and letting core operate
+#  
+# INS:0: JUMP ALWAYS 1    
+# INS:1: LOAD 55
+# INS:2: ACCUM 05 <= 55 AND 0f
+# INS:3: CMP (05) 05
+# INS:4: JUMP NOTIF ZERO 254  (not taken)
+# INS:5: ACCUM a7 <= 05 OR  a2
+# INS:6: CMP (a7) a7
+# INS:7: JUMP NOTIF ZERO 254  (not taken)
+# INS:8: ACCUM a8 <= a7 ADD 01
+# INS:9: CMP (a8) a8
+# INS:10: JUMP NOTIF ZERO 254  (not taken)
+# INS:11: ACCUM a7 <= a8 XOR 0f
+# INS:12: CMP (a7) a7
+# INS:13: JUMP NOTIF ZERO 254  (not taken)
+# INS:14: ACCUM b9 <= a7 ADD 12
+# INS:15: CMP (b9) b9
+# INS:16: JUMP NOTIF ZERO 254  (not taken)
+# INS:17: ACCUM 72 <= b9 SHL0
+# INS:18: CMP (72) 72
+# INS:19: JUMP NOTIF ZERO 254  (not taken)
+# INS:20: ACCUM e5 <= 72 SHL1
+# INS:21: CMP (e5) e5
+# INS:22: JUMP NOTIF ZERO 254  (not taken)
+# INS:23: ACCUM 72 <= e5 SHR0
+# INS:24: CMP (72) 72
+# INS:25: JUMP NOTIF ZERO 254  (not taken)
+# INS:26: ACCUM b9 <= 72 SHR1
+# INS:27: CMP (b9) b9
+# INS:28: JUMP NOTIF ZERO 254  (not taken)
+# INS:29: NOP
+# INS:30: LOAD 12
+# INS:31: APBWRT DAT 0:10 = 12
+# APBM: Slot 0 Write 0010=0012 
+# INS:32: APBWRT DAT 0:11 = 13
+# APBM: Slot 0 Write 0011=0013 
+# INS:33: APBWRT DAT 1:10 = 14
+# APBM: Slot 1 Write 0010=0014 
+# INS:34: APBWRT DAT 1:11 = 15
+# APBM: Slot 1 Write 0011=0015 
+# INS:35: APBWRT DAT 2:10 = 16
+# APBM: Slot 2 Write 0010=0016 
+# INS:36: APBWRT DAT 2:11 = 17
+# APBM: Slot 2 Write 0011=0017 
+# INS:37: APBWRT DAT 3:10 = 18
+# APBM: Slot 3 Write 0010=0018 
+# INS:38: APBWRT DAT 3:11 = 5a
+# APBM: Slot 3 Write 0011=005a 
+# INS:39: APBREAD 0:10 = 12
+# APBM: Slot 0 Read 0010=0012 
+# INS:40: CMP (12) 12
+# INS:41: JUMP NOTIF ZERO 254  (not taken)
+# INS:42: APBREAD 0:11 = 13
+# APBM: Slot 0 Read 0011=0013 
+# INS:43: CMP (13) 13
+# INS:44: JUMP NOTIF ZERO 254  (not taken)
+# INS:45: APBREAD 1:10 = 14
+# APBM: Slot 1 Read 0010=0014 
+# INS:46: CMP (14) 14
+# INS:47: JUMP NOTIF ZERO 254  (not taken)
+# INS:48: APBREAD 1:11 = 15
+# APBM: Slot 1 Read 0011=0015 
+# INS:49: CMP (15) 15
+# INS:50: JUMP NOTIF ZERO 254  (not taken)
+# INS:51: APBREAD 2:10 = 16
+# APBM: Slot 2 Read 0010=0016 
+# INS:52: CMP (16) 16
+# INS:53: JUMP NOTIF ZERO 254  (not taken)
+# INS:54: APBREAD 2:11 = 17
+# APBM: Slot 2 Read 0011=0017 
+# INS:55: CMP (17) 17
+# INS:56: JUMP NOTIF ZERO 254  (not taken)
+# INS:57: APBREAD 3:10 = 18
+# APBM: Slot 3 Read 0010=0018 
+# INS:58: CMP (18) 18
+# INS:59: JUMP NOTIF ZERO 254  (not taken)
+# INS:60: APBREAD 3:11 = 5a
+# APBM: Slot 3 Read 0011=005a 
+# INS:61: CMP (5a) 5a
+# INS:62: JUMP NOTIF ZERO 254  (not taken)
+# INS:63: CMP (5a) 59
+# INS:64: JUMP IF ZERO 254  (not taken)
+# INS:65: LOAD 23
+# INS:66: APBWRT ACC 0:20 = 23
+# APBM: Slot 0 Write 0020=0023 
+# INS:67: ACCUM 24 <= 23 ADD 01
+# INS:68: APBWRT ACC 0:21 = 24
+# APBM: Slot 0 Write 0021=0024 
+# INS:69: ACCUM 25 <= 24 ADD 01
+# INS:70: APBWRT ACC 1:22 = 25
+# APBM: Slot 1 Write 0022=0025 
+# INS:71: APBREAD 0:20 = 23
+# APBM: Slot 0 Read 0020=0023 
+# INS:72: CMP (23) 23
+# INS:73: JUMP NOTIF ZERO 254  (not taken)
+# INS:74: APBREAD 0:21 = 24
+# APBM: Slot 0 Read 0021=0024 
+# INS:75: CMP (24) 24
+# INS:76: JUMP NOTIF ZERO 254  (not taken)
+# INS:77: APBREAD 1:22 = 25
+# APBM: Slot 1 Read 0022=0025 
+# INS:78: CMP (25) 25
+# INS:79: JUMP NOTIF ZERO 254  (not taken)
+# INS:80: NOP
+# INS:81: APBWRT DAT 0:00 = 54
+# APBM: Slot 0 Write 0000=0054 
+# INS:82: APBWRT DAT 0:01 = 55
+# APBM: Slot 0 Write 0001=0055 
+# INS:83: APBWRT DAT 0:02 = 56
+# APBM: Slot 0 Write 0002=0056 
+# INS:84: LOAD 63
+# INS:85: APBWRT ACM 0:00 = 9c
+# APBM: Slot 0 Write 0000=009c 
+# INS:86: ACCUM 64 <= 63 ADD 01
+# INS:87: APBWRT ACM 0:01 (No Write)
+# INS:88: ACCUM 65 <= 64 ADD 01
+# INS:89: APBWRT ACM 0:02 = 9a
+# APBM: Slot 0 Write 0002=009a 
+# INS:90: APBREAD 0:00 = 9c
+# APBM: Slot 0 Read 0000=009c 
+# INS:91: CMP (9c) 9c
+# INS:92: JUMP NOTIF ZERO 254  (not taken)
+# INS:93: APBREAD 0:01 = 55
+# APBM: Slot 0 Read 0001=0055 
+# INS:94: CMP (55) 55
+# INS:95: JUMP NOTIF ZERO 254  (not taken)
+# INS:96: APBREAD 0:02 = 9a
+# APBM: Slot 0 Read 0002=009a 
+# INS:97: CMP (9a) 9a
+# INS:98: JUMP NOTIF ZERO 254  (not taken)
+# INS:99: LOAD ff
+# INS:100: ACCUM 00 <= ff ADD 01
+# INS:101: JUMP NOTIF ZERO 254  (not taken)
+# INS:102: ACCUM 01 <= 00 ADD 01
+# INS:103: JUMP IF ZERO 254  (not taken)
+# INS:104: JUMP IF NEG 254  (not taken)
+# INS:105: ACCUM f7 <= 01 ADD f6
+# INS:106: JUMP NOTIF NEG 254  (not taken)
+# INS:107: LOAD ff
+# INS:108: ACCUM 00 <= ff ADD 01
+# INS:109: CALL IF ZERO 243  (taken) (SP=ff)
+# INS:243: RETURN ALWAYS      (SP=fe)
+# INS:110: CALL NOTIF ZERO 242  (not taken) (SP=ff)
+# INS:111: CALL ALWAYS 244     (SP=ff)
+# INS:244: RETURN IF ZERO   (taken) (SP=fe)
+# INS:112: ACCUM 01 <= 00 ADD 01
+# INS:113: CALL NOTIF ZERO 243  (taken) (SP=ff)
+# INS:243: RETURN ALWAYS      (SP=fe)
+# INS:114: CALL IF ZERO 242  (not taken) (SP=ff)
+# INS:115: CALL ALWAYS 246     (SP=ff)
+# INS:246: RETURN NOTIF ZERO   (taken) (SP=fe)
+# INS:116: LOAD fe
+# INS:117: ACCUM ff <= fe ADD 01
+# INS:118: JUMP NOTIF NEG 254  (not taken)
+# INS:119: CALL IF NEG 243  (taken) (SP=ff)
+# INS:243: RETURN ALWAYS      (SP=fe)
+# INS:120: CALL NOTIF NEG 242  (not taken) (SP=ff)
+# INS:121: CALL ALWAYS 248     (SP=ff)
+# INS:248: RETURN IF NEG   (taken) (SP=fe)
+# INS:122: ACCUM 00 <= ff ADD 01
+# INS:123: JUMP IF NEG 254  (not taken)
+# INS:124: CALL NOTIF NEG 243  (taken) (SP=ff)
+# INS:243: RETURN ALWAYS      (SP=fe)
+# INS:125: CALL IF NEG 242  (not taken) (SP=ff)
+# INS:126: CALL NEVER 251     (SP=ff)
+# INS:127: NOP
+# INS:128: NOP
+# INS:129: NOP
+# INS:130: LOAD 00
+# INS:131: CALL ALWAYS 232     (SP=ff)
+# INS:232: ACCUM 01 <= 00 ADD 01
+# INS:233: APBWRT ACC 1:00 = 01
+# APBM: Slot 1 Write 0000=0001 
+# INS:234: RETURN ALWAYS      (SP=fe)
+# INS:132: CMP (01) 01
+# INS:133: JUMP NOTIF ZERO 254  (not taken)
+# INS:134: CALL ALWAYS 229     (SP=ff)
+# INS:229: ACCUM 02 <= 01 ADD 01
+# INS:230: CALL ALWAYS 232     (SP=fe)
+# INS:232: ACCUM 03 <= 02 ADD 01
+# INS:233: APBWRT ACC 1:00 = 03
+# APBM: Slot 1 Write 0000=0003 
+# INS:234: RETURN ALWAYS      (SP=fd)
+# INS:231: RETURN ALWAYS      (SP=fe)
+# INS:135: CMP (03) 03
+# INS:136: JUMP NOTIF ZERO 254  (not taken)
+# INS:137: CALL ALWAYS 226     (SP=ff)
+# INS:226: ACCUM 04 <= 03 ADD 01
+# INS:227: CALL ALWAYS 229     (SP=fe)
+# INS:229: ACCUM 05 <= 04 ADD 01
+# INS:230: CALL ALWAYS 232     (SP=fd)
+# INS:232: ACCUM 06 <= 05 ADD 01
+# INS:233: APBWRT ACC 1:00 = 06
+# APBM: Slot 1 Write 0000=0006 
+# INS:234: RETURN ALWAYS      (SP=fc)
+# INS:231: RETURN ALWAYS      (SP=fd)
+# INS:228: RETURN ALWAYS      (SP=fe)
+# INS:138: CMP (06) 06
+# INS:139: JUMP NOTIF ZERO 254  (not taken)
+# INS:140: CALL ALWAYS 223     (SP=ff)
+# INS:223: ACCUM 07 <= 06 ADD 01
+# INS:224: CALL ALWAYS 226     (SP=fe)
+# INS:226: ACCUM 08 <= 07 ADD 01
+# INS:227: CALL ALWAYS 229     (SP=fd)
+# INS:229: ACCUM 09 <= 08 ADD 01
+# INS:230: CALL ALWAYS 232     (SP=fc)
+# INS:232: ACCUM 0a <= 09 ADD 01
+# INS:233: APBWRT ACC 1:00 = 0a
+# APBM: Slot 1 Write 0000=000a 
+# INS:234: RETURN ALWAYS      (SP=fb)
+# INS:231: RETURN ALWAYS      (SP=fc)
+# INS:228: RETURN ALWAYS      (SP=fd)
+# INS:225: RETURN ALWAYS      (SP=fe)
+# INS:141: CMP (0a) 0a
+# INS:142: JUMP NOTIF ZERO 254  (not taken)
+# INS:143: NOP
+# INS:144: NOP
+# INS:145: LOAD 00
+# INS:146: LOADZ DAT 05
+# INS:147: ACCUM 01 <= 00 ADD 01
+# INS:148: SUBZ <= 05 - 01
+# INS:149: JUMP NOTIF LCZERO 147  (taken)
+# INS:147: ACCUM 02 <= 01 ADD 01
+# INS:148: SUBZ <= 04 - 01
+# INS:149: JUMP NOTIF LCZERO 147  (taken)
+# INS:147: ACCUM 03 <= 02 ADD 01
+# INS:148: SUBZ <= 03 - 01
+# INS:149: JUMP NOTIF LCZERO 147  (taken)
+# INS:147: ACCUM 04 <= 03 ADD 01
+# INS:148: SUBZ <= 02 - 01
+# INS:149: JUMP NOTIF LCZERO 147  (taken)
+# INS:147: ACCUM 05 <= 04 ADD 01
+# INS:148: SUBZ <= 01 - 01
+# INS:149: JUMP NOTIF LCZERO 147  (not taken)
+# INS:150: CMP (05) 05
+# INS:151: JUMP NOTIF ZERO 254  (not taken)
+# INS:152: NOP
+# INS:153: NOP
+# INS:154: NOP
+# INS:155: LOAD 45
+# INS:156: RAMWRITE ACC 00 = 00
+# INS:157: ACCUM 46 <= 45 ADD 01
+# INS:158: RAMWRITE ACC 0a = 00
+# INS:159: ACCUM 47 <= 46 ADD 01
+# INS:160: RAMWRITE ACC 64 = 00
+# INS:161: ACCUM 48 <= 47 ADD 01
+# INS:162: RAMWRITE ACC fa = 00
+# INS:163: RAMREAD 00 = 45
+# INS:164: CMP (45) 45
+# INS:165: JUMP NOTIF ZERO 254  (not taken)
+# INS:166: RAMREAD 0a = 46
+# INS:167: CMP (46) 46
+# INS:168: JUMP NOTIF ZERO 254  (not taken)
+# INS:169: RAMREAD 64 = 47
+# INS:170: CMP (47) 47
+# INS:171: JUMP NOTIF ZERO 254  (not taken)
+# INS:172: RAMREAD fa = 48
+# INS:173: CMP (48) 48
+# INS:174: JUMP NOTIF ZERO 254  (not taken)
+# INS:175: NOP
+# INS:176: NOP
+# INS:177: NOP
+# INS:178: NOP
+# INS:179: NOP
+# INS:180: LOAD 15
+# INS:181: ACCUM 2a <= 15 SHL0
+# INS:182: CMP (2a) 2a
+# INS:183: JUMP NOTIF ZERO 254  (not taken)
+# INS:184: ACCUM 55 <= 2a SHL1
+# INS:185: CMP (55) 55
+# INS:186: JUMP NOTIF ZERO 254  (not taken)
+# INS:187: ACCUM ab <= 55 SHLe
+# INS:188: CMP (ab) ab
+# INS:189: JUMP NOTIF ZERO 254  (not taken)
+# INS:190: NOP
+# INS:191: ACCUM 57 <= ab ROL
+# INS:192: CMP (57) 57
+# INS:193: JUMP NOTIF ZERO 254  (not taken)
+# INS:194: LOAD 15
+# INS:195: ACCUM 0a <= 15 SHR0
+# INS:196: CMP (0a) 0a
+# INS:197: JUMP NOTIF ZERO 254  (not taken)
+# INS:198: ACCUM 85 <= 0a SHR1
+# INS:199: CMP (85) 85
+# INS:200: JUMP NOTIF ZERO 254  (not taken)
+# INS:201: ACCUM c2 <= 85 SHRe
+# INS:202: CMP (c2) c2
+# INS:203: JUMP NOTIF ZERO 254  (not taken)
+# INS:204: ACCUM 61 <= c2 ROR
+# INS:205: CMP (61) 61
+# INS:206: JUMP NOTIF ZERO 254  (not taken)
+# INS:207: IOWRT DAT 00 
+# INS:208: WAIT IF INPUT0  (not taken)
+# INS:209: IOWRT DAT 01 
+# INS:210: WAIT NOTIF INPUT0  (not taken)
+# INS:211: LOAD 64
+# INS:212: ACCUM 63 <= 64 ADD ff
+# INS:213: CMP (63) 63
+# INS:214: JUMP NOTIF ZERO 254  (not taken)
+# INS:215: ACCUM 04 <= 63 ADD a1
+# INS:216: CMP (04) 04
+# INS:217: JUMP NOTIF ZERO 254  (not taken)
+# INS:218: JUMP ALWAYS 300    
+# INS:300: LOAD 12
+# INS:301: RAMWRITE ACC 01 = 00
+# INS:302: CMP (12) 12
+# INS:303: JUMP NOTIF ZERO 254  (not taken)
+# INS:304: IOWRT DAT fb 
+# Info: ABC Asserting Interrupt Request
+# Entering ISR: (SP=fe)
+# INS:305: NOP
+# INS:400: PUSH ACC 12 (SP=fe)
+# INS:401: IOWRT DAT fc 
+# INS:402: RAMREAD 01 = 12
+# INS:403: ACCUM 13 <= 12 ADD 01
+# INS:404: RAMWRITE ACC 01 = 00
+# INS:405: POP 12 (SP=fe)
+# INS:406: RETISR ALWAYS      (SP=fe)
+# Exiting ISR: (SP=ff)
+# INS:305: NOP
+# INS:306: NOP
+# INS:307: JUMP NOTIF ZERO 254  (not taken)
+# INS:308: RAMREAD 01 = 13
+# INS:309: CMP (13) 13
+# INS:310: JUMP NOTIF ZERO 254  (not taken)
+# INS:311: NOP
+# INS:312: NOP
+# INS:313: NOP
+# INS:314: NOP
+# INS:315: CALL ALWAYS 410     (SP=ff)
+# INS:410: LOAD 55
+# INS:411: ACCUM 05 <= 55 AND 0f
+# INS:412: CMP (05) 05
+# INS:413: JUMP NOTIF ZERO 254  (not taken)
+# INS:414: ACCUM a7 <= 05 OR  a2
+# INS:415: CMP (a7) a7
+# INS:416: JUMP NOTIF ZERO 254  (not taken)
+# INS:417: ACCUM a8 <= a7 ADD 01
+# INS:418: CMP (a8) a8
+# INS:419: JUMP NOTIF ZERO 254  (not taken)
+# INS:420: ACCUM a7 <= a8 XOR 0f
+# INS:421: CMP (a7) a7
+# INS:422: JUMP NOTIF ZERO 254  (not taken)
+# INS:423: ACCUM b9 <= a7 ADD 12
+# INS:424: CMP (b9) b9
+# INS:425: JUMP NOTIF ZERO 254  (not taken)
+# INS:426: CMP (b9) b9
+# INS:427: JUMP NOTIF ZERO 254  (not taken)
+# INS:428: NOP
+# INS:429: NOP
+# INS:430: RAMWRITE DAT 00 = 55
+# INS:431: NOP
+# INS:432: RAMWRITE DAT 01 = 0f
+# INS:433: NOP
+# INS:434: RAMWRITE DAT 02 = 05
+# INS:435: NOP
+# INS:436: RAMWRITE DAT 03 = a2
+# INS:437: NOP
+# INS:438: RAMWRITE DAT 04 = a7
+# INS:439: NOP
+# INS:440: RAMWRITE DAT 05 = a8
+# INS:441: NOP
+# INS:442: RAMWRITE DAT 06 = 0f
+# INS:443: NOP
+# INS:444: RAMWRITE DAT 07 = 12
+# INS:445: NOP
+# INS:446: RAMWRITE DAT 08 = b9
+# INS:447: NOP
+# INS:448: NOP
+# INS:449: NOP
+# INS:450: LOAD RAM(0) 55
+# INS:451: ACCUM 05 <= 55 AND RAM(1) 0f
+# INS:452: CMP (05)RAM(2) 05
+# INS:453: JUMP NOTIF ZERO 254  (not taken)
+# INS:454: ACCUM a7 <= 05 OR  RAM(3) a2
+# INS:455: CMP (a7)RAM(4) a7
+# INS:456: JUMP NOTIF ZERO 254  (not taken)
+# INS:457: ACCUM a8 <= a7 ADD 01
+# INS:458: CMP (a8)RAM(5) a8
+# INS:459: JUMP NOTIF ZERO 254  (not taken)
+# INS:460: ACCUM a7 <= a8 XOR RAM(6) 0f
+# INS:461: CMP (a7)RAM(4) a7
+# INS:462: JUMP NOTIF ZERO 254  (not taken)
+# INS:463: ACCUM b9 <= a7 ADD RAM(7) 12
+# INS:464: CMP (b9)RAM(8) b9
+# INS:465: JUMP NOTIF ZERO 254  (not taken)
+# INS:466: CMP (b9) b9
+# INS:467: JUMP NOTIF ZERO 254  (not taken)
+# INS:468: NOP
+# INS:469: NOP
+# INS:470: IOWRT DAT 32 
+# INS:471: IOREAD 32
+# INS:472: CMP (32) 32
+# INS:473: JUMP NOTIF ZERO 254  (not taken)
+# INS:474: LOAD 47
+# INS:475: IOWRT ACC 47 
+# INS:476: LOAD 00
+# INS:477: IOREAD 47
+# INS:478: CMP (47) 47
+# INS:479: JUMP NOTIF ZERO 254  (not taken)
+# INS:480: LOAD 77
+# INS:481: PUSH ACC 77 (SP=fe)
+# INS:482: PUSH 89 (SP=fd)
+# INS:483: POP 89 (SP=fd)
+# INS:484: CMP (89) 89
+# INS:485: JUMP NOTIF ZERO 254  (not taken)
+# INS:486: POP 77 (SP=fe)
+# INS:487: CMP (77) 77
+# INS:488: JUMP NOTIF ZERO 254  (not taken)
+# INS:489: NOP
+# INS:490: LOAD 05
+# INS:491: LOADZ ACC 05
+# INS:492: ACCUM 06 <= 05 ADD 01
+# INS:493: SUBZ <= 05 - 01
+# INS:494: JUMP NOTIF LCZERO 492  (taken)
+# INS:492: ACCUM 07 <= 06 ADD 01
+# INS:493: SUBZ <= 04 - 01
+# INS:494: JUMP NOTIF LCZERO 492  (taken)
+# INS:492: ACCUM 08 <= 07 ADD 01
+# INS:493: SUBZ <= 03 - 01
+# INS:494: JUMP NOTIF LCZERO 492  (taken)
+# INS:492: ACCUM 09 <= 08 ADD 01
+# INS:493: SUBZ <= 02 - 01
+# INS:494: JUMP NOTIF LCZERO 492  (taken)
+# INS:492: ACCUM 0a <= 09 ADD 01
+# INS:493: SUBZ <= 01 - 01
+# INS:494: JUMP NOTIF LCZERO 492  (not taken)
+# INS:495: CMP (0a) 0a
+# INS:496: JUMP NOTIF ZERO 254  (not taken)
+# INS:497: NOP
+# INS:498: IOWRT DAT f9 
+# Info: IO_IN now monitoring test signals
+# INS:499: JUMP NOTIF INPUT1 254  (not taken)
+# INS:500: WAIT IF INPUT1  (taken)
+# INS:500: WAIT IF INPUT1  (taken)
+# INS:500: WAIT IF INPUT1  (taken)
+# INS:500: WAIT IF INPUT1  (taken)
+# INS:500: WAIT IF INPUT1  (taken)
+# INS:500: WAIT IF INPUT1  (taken)
+# INS:500: WAIT IF INPUT1  (taken)
+# INS:500: WAIT IF INPUT1  (taken)
+# INS:500: WAIT IF INPUT1  (taken)
+# INS:500: WAIT IF INPUT1  (taken)
+# INS:500: WAIT IF INPUT1  (taken)
+# INS:500: WAIT IF INPUT1  (taken)
+# INS:500: WAIT IF INPUT1  (taken)
+# INS:500: WAIT IF INPUT1  (not taken)
+# INS:501: JUMP IF INPUT1 254  (not taken)
+# INS:502: IOWRT DAT fa 
+# Info: IO_IN now monitoring IO_OUT
+# INS:503: LOAD 03
+# INS:504: ACCUM 09 <= 03 MULT 03
+# INS:505: RAMWRITE DAT 0f = 04
+# INS:506: ACCUM 24 <= 09 MULT RAM(15) 04
+# INS:507: ACCUM 23 <= 24 ADD ff
+# INS:508: CMP (23) 23
+# INS:509: JUMP NOTIF ZERO 254  (not taken)
+# INS:510: RAMWRITE DAT 00 = 0c
+# INS:511: RAMWRITE DAT 01 = 0d
+# INS:512: RAMWRITE DAT 02 = 00
+# INS:513: LOADZ DAT 08
+# INS:514: RAMREAD 00 = 0c
+# INS:515: BITTST(0c) 0
+# INS:516: JUMP IF ZERO 520  (taken)
+# INS:520: RAMREAD 01 = 0d
+# INS:521: ACCUM 1a <= 0d SHL0
+# INS:522: RAMWRITE ACC 01 = 00
+# INS:523: RAMREAD 00 = 0c
+# INS:524: ACCUM 06 <= 0c SHR0
+# INS:525: RAMWRITE ACC 00 = 00
+# INS:526: SUBZ <= 08 - 01
+# INS:527: JUMP NOTIF LCZERO 514  (taken)
+# INS:514: RAMREAD 00 = 06
+# INS:515: BITTST(06) 0
+# INS:516: JUMP IF ZERO 520  (taken)
+# INS:520: RAMREAD 01 = 1a
+# INS:521: ACCUM 34 <= 1a SHL0
+# INS:522: RAMWRITE ACC 01 = 00
+# INS:523: RAMREAD 00 = 06
+# INS:524: ACCUM 03 <= 06 SHR0
+# INS:525: RAMWRITE ACC 00 = 00
+# INS:526: SUBZ <= 07 - 01
+# INS:527: JUMP NOTIF LCZERO 514  (taken)
+# INS:514: RAMREAD 00 = 03
+# INS:515: BITTST(03) 0
+# INS:516: JUMP IF ZERO 520  (not taken)
+# INS:517: RAMREAD 02 = 00
+# INS:518: ACCUM 34 <= 00 ADD RAM(1) 34
+# INS:519: RAMWRITE ACC 02 = 00
+# INS:520: RAMREAD 01 = 34
+# INS:521: ACCUM 68 <= 34 SHL0
+# INS:522: RAMWRITE ACC 01 = 00
+# INS:523: RAMREAD 00 = 03
+# INS:524: ACCUM 01 <= 03 SHR0
+# INS:525: RAMWRITE ACC 00 = 00
+# INS:526: SUBZ <= 06 - 01
+# INS:527: JUMP NOTIF LCZERO 514  (taken)
+# INS:514: RAMREAD 00 = 01
+# INS:515: BITTST(01) 0
+# INS:516: JUMP IF ZERO 520  (not taken)
+# INS:517: RAMREAD 02 = 34
+# INS:518: ACCUM 9c <= 34 ADD RAM(1) 68
+# INS:519: RAMWRITE ACC 02 = 00
+# INS:520: RAMREAD 01 = 68
+# INS:521: ACCUM d0 <= 68 SHL0
+# INS:522: RAMWRITE ACC 01 = 00
+# INS:523: RAMREAD 00 = 01
+# INS:524: ACCUM 00 <= 01 SHR0
+# INS:525: RAMWRITE ACC 00 = 00
+# INS:526: SUBZ <= 05 - 01
+# INS:527: JUMP NOTIF LCZERO 514  (taken)
+# INS:514: RAMREAD 00 = 00
+# INS:515: BITTST(00) 0
+# INS:516: JUMP IF ZERO 520  (taken)
+# INS:520: RAMREAD 01 = d0
+# INS:521: ACCUM a0 <= d0 SHL0
+# INS:522: RAMWRITE ACC 01 = 00
+# INS:523: RAMREAD 00 = 00
+# INS:524: ACCUM 00 <= 00 SHR0
+# INS:525: RAMWRITE ACC 00 = 00
+# INS:526: SUBZ <= 04 - 01
+# INS:527: JUMP NOTIF LCZERO 514  (taken)
+# INS:514: RAMREAD 00 = 00
+# INS:515: BITTST(00) 0
+# INS:516: JUMP IF ZERO 520  (taken)
+# INS:520: RAMREAD 01 = a0
+# INS:521: ACCUM 40 <= a0 SHL0
+# INS:522: RAMWRITE ACC 01 = 00
+# INS:523: RAMREAD 00 = 00
+# INS:524: ACCUM 00 <= 00 SHR0
+# INS:525: RAMWRITE ACC 00 = 00
+# INS:526: SUBZ <= 03 - 01
+# INS:527: JUMP NOTIF LCZERO 514  (taken)
+# INS:514: RAMREAD 00 = 00
+# INS:515: BITTST(00) 0
+# INS:516: JUMP IF ZERO 520  (taken)
+# INS:520: RAMREAD 01 = 40
+# INS:521: ACCUM 80 <= 40 SHL0
+# INS:522: RAMWRITE ACC 01 = 00
+# INS:523: RAMREAD 00 = 00
+# INS:524: ACCUM 00 <= 00 SHR0
+# INS:525: RAMWRITE ACC 00 = 00
+# INS:526: SUBZ <= 02 - 01
+# INS:527: JUMP NOTIF LCZERO 514  (taken)
+# INS:514: RAMREAD 00 = 00
+# INS:515: BITTST(00) 0
+# INS:516: JUMP IF ZERO 520  (taken)
+# INS:520: RAMREAD 01 = 80
+# INS:521: ACCUM 00 <= 80 SHL0
+# INS:522: RAMWRITE ACC 01 = 00
+# INS:523: RAMREAD 00 = 00
+# INS:524: ACCUM 00 <= 00 SHR0
+# INS:525: RAMWRITE ACC 00 = 00
+# INS:526: SUBZ <= 01 - 01
+# INS:527: JUMP NOTIF LCZERO 514  (not taken)
+# INS:528: RAMREAD 02 = 9c
+# INS:529: CMP (9c) 9c
+# INS:530: JUMP NOTIF ZERO 254  (not taken)
+# INS:531: LOAD 00
+# INS:532: LOADZ DAT fb
+# INS:533: ACCUM 01 <= 00 ADD 01
+# INS:534: INCZ <= fb +1 
+# INS:535: JUMP NOTIF LCZERO 533  (taken)
+# INS:533: ACCUM 02 <= 01 ADD 01
+# INS:534: INCZ <= fc +1 
+# INS:535: JUMP NOTIF LCZERO 533  (taken)
+# INS:533: ACCUM 03 <= 02 ADD 01
+# INS:534: INCZ <= fd +1 
+# INS:535: JUMP NOTIF LCZERO 533  (taken)
+# INS:533: ACCUM 04 <= 03 ADD 01
+# INS:534: INCZ <= fe +1 
+# INS:535: JUMP NOTIF LCZERO 533  (taken)
+# INS:533: ACCUM 05 <= 04 ADD 01
+# INS:534: INCZ <= ff +1 
+# INS:535: JUMP NOTIF LCZERO 533  (not taken)
+# INS:536: CMP (05) 05
+# INS:537: JUMP NOTIF ZERO 254  (not taken)
+# INS:538: NOP
+# INS:539: NOP
+# INS:540: LOADZ DAT 0a
+# INS:541: APBWRTZ DAT 0:Z(0a) = 12
+# APBM: Slot 0 Write 000a=0012 
+# INS:542: INCZ <= 0a +1 
+# INS:543: APBWRTZ DAT 0:Z(0b) = 15
+# APBM: Slot 0 Write 000b=0015 
+# INS:544: APBREAD 0:0a = 12
+# APBM: Slot 0 Read 000a=0012 
+# INS:545: CMP (12) 12
+# INS:546: JUMP NOTIF ZERO 254  (not taken)
+# INS:547: APBREAD 0:0b = 15
+# APBM: Slot 0 Read 000b=0015 
+# INS:548: CMP (15) 15
+# INS:549: JUMP NOTIF ZERO 254  (not taken)
+# INS:550: INCZ <= 0b +1 
+# INS:551: LOAD 21
+# INS:552: APBWRTZ ACC 0:Z(0c) = 21
+# APBM: Slot 0 Write 000c=0021 
+# INS:553: APBREAD 0:0c = 21
+# APBM: Slot 0 Read 000c=0021 
+# INS:554: CMP (21) 21
+# INS:555: JUMP NOTIF ZERO 254  (not taken)
+# INS:556: INCZ <= 0c +1 
+# INS:557: LOAD 01
+# INS:558: APBWRTZ ACM 0:Z(0d) = fe
+# APBM: Slot 0 Write 000d=00fe 
+# INS:559: APBREAD 0:0d = fe
+# APBM: Slot 0 Read 000d=00fe 
+# INS:560: CMP (fe) fe
+# INS:561: JUMP NOTIF ZERO 254  (not taken)
+# INS:562: LOADZ DAT 0a
+# INS:563: APBREADZ 10:Z(00) = 12
+# APBM: Slot 0 Read 000a=0012 
+# INS:564: CMP (12) 12
+# INS:565: JUMP NOTIF ZERO 254  (not taken)
+# INS:566: INCZ <= 0a +1 
+# INS:567: APBREADZ 11:Z(00) = 15
+# APBM: Slot 0 Read 000b=0015 
+# INS:568: CMP (15) 15
+# INS:569: APBREAD 0:0b = 15
+# APBM: Slot 0 Read 000b=0015 
+# INS:570: JUMP NOTIF ZERO 254  (not taken)
+# INS:571: LOADZ DAT 0a
+# INS:572: SUBZ <= 0a - 0a
+# INS:573: JUMP NOTIF LCZERO 254  (not taken)
+# INS:574: LOADZ DAT fe
+# INS:575: ADDZ <= fe + 02
+# INS:576: JUMP NOTIF LCZERO 254  (not taken)
+# INS:577: LOAD 03
+# INS:578: LOADZ DAT fd
+# INS:579: ADDZ <= fd + ACC(03)
+# INS:580: JUMP NOTIF LCZERO 254  (not taken)
+# INS:581: NOP
+# INS:582: JUMP ALWAYS 240    
+# INS:240: IOWRT DAT fd 
+# Info: ABC Indicated that it has completed
+#  
+################################################################
+# Tests Complete TM=11  SP=0 CY=1842  OKAY 
+# 
+################################################################
+# End time: 11:45:37 on Jul 08,2022, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
