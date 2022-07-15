@@ -1,5 +1,5 @@
 *****************************************************************
-Pin Report - Date: Sat Jul 09 21:13:41 2022 UNCOMPLETED LAYOUT
+Pin Report - Date: Thu Jul 14 21:53:37 2022 UNCOMPLETED LAYOUT
 Product: Designer
 Release: v11.9
 Version: 11.9.0.4
@@ -8,22 +8,18 @@ Family: ProASIC3
 Die: A3P125
 Package: 144 TQFP
 *****************************************************************
-Port        |Pin        |Fixed      |Function |I/O Std  |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
-------------|-----------|-----------|---------|---------|------------------|-----|--------------|-----|-----------------|------------|--------------|
-FRAMING_ERR  Unassigned  Unassigned            LVCMOS33  12                 High  None           No    35                No           No
-GPIO[0]      Unassigned  Unassigned            LVCMOS33  12                 High  None           No    35                No           No
-GPIO[1]      Unassigned  Unassigned            LVCMOS33  12                 High  None           No    35                No           No
-GPIO[2]      Unassigned  Unassigned            LVCMOS33  12                 High  None           No    35                No           No
-GPIO[3]      Unassigned  Unassigned            LVCMOS33  12                 High  None           No    35                No           No
-GPIO[4]      Unassigned  Unassigned            LVCMOS33  12                 High  None           No    35                No           No
-GPIO[5]      Unassigned  Unassigned            LVCMOS33  12                 High  None           No    35                No           No
-GPIO[6]      Unassigned  Unassigned            LVCMOS33  12                 High  None           No    35                No           No
-GPIO[7]      Unassigned  Unassigned            LVCMOS33  12                 High  None           No    35                No           No
-NSYSRESET    Unassigned  Unassigned            LVCMOS33  ---                ---   None           ---   ---               No           No
-OVERFLOW     Unassigned  Unassigned            LVCMOS33  12                 High  None           No    35                No           No
-PARITY_ERR   Unassigned  Unassigned            LVCMOS33  12                 High  None           No    35                No           No
-RX           Unassigned  Unassigned            LVCMOS33  ---                ---   None           ---   ---               No           No
-RXRDY        Unassigned  Unassigned            LVCMOS33  12                 High  None           No    35                No           No
-SYSCLK       Unassigned  Unassigned            LVCMOS33  ---                ---   None           ---   ---               No           No
-TX           Unassigned  Unassigned            LVCMOS33  12                 High  None           No    35                No           No
-TXRDY        Unassigned  Unassigned            LVCMOS33  12                 High  None           No    35                No           No
+Port        |Pin        |Fixed      |Function       |I/O Std  |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+------------|-----------|-----------|---------------|---------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+NSYSRESET    102         Yes         GBC2/IO45RSB0   LVCMOS33  ---                ---   None           ---   ---               No           No
+Power_Down   Unassigned  Unassigned                  LVCMOS33  ---                ---   None           ---   ---               No           No
+RX           105         Yes         IO42RSB0        LVCMOS33  ---                ---   None           ---   ---               No           No
+SCL_MCU      104         Yes         GBB2/IO43RSB0   LVCMOS33  ---                ---   None           ---   ---               No           No
+SCL_Sensor   33          Yes         GEA1/IO108RSB1  LVCMOS33  12                 High  None           No    35                No           No
+SDA_MCU      103         Yes         IO44RSB0        LVCMOS33  ---                ---   None           ---   ---               No           No
+SDA_Sensors  34          Yes         GEA0/IO107RSB1  LVCMOS33  12                 High  None           No    35                No           No
+SPISCLKO     85          Yes         GCB2/IO58RSB0   LVCMOS33  12                 High  None           No    35                No           No
+SPISDI       88          Yes         GCA1/IO55RSB0   LVCMOS33  ---                ---   None           ---   ---               No           No
+SPISDO       86          Yes         GCA2/IO57RSB0   LVCMOS33  12                 High  None           No    35                No           No
+SPISS        87          Yes         GCA0/IO56RSB0   LVCMOS33  12                 High  None           No    35                No           No
+SYSCLK       14          Yes         GFC0/IO125RSB1  LVCMOS33  ---                ---   None           ---   ---               No           No
+TX           106         Yes         GBA2/IO41RSB0   LVCMOS33  12                 High  None           No    35                No           No

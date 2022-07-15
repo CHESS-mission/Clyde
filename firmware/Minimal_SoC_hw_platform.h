@@ -2,7 +2,7 @@
 #define Minimal_SoC_HW_PLATFORM_H_
 /*****************************************************************************
 *
-*Created by Microsemi SmartDesign  Sat Jul 09 21:10:24 2022
+*Created by Microsemi SmartDesign  Thu Jul 14 21:51:18 2022
 *
 *Memory map specification for peripherals in Minimal_SoC
 */
@@ -13,6 +13,8 @@
 *---------------------------------------------------------------------------*/
 #define CORETIMER_0                     0x00000000U
 #define COREUARTAPB_0                   0x00001000U
+#define CORESPI_0                       0x00002000U
+#define COREAPBSRAM_0                   0x00003000U
 
 
 #endif /* Minimal_SoC_HW_PLATFORM_H_*/

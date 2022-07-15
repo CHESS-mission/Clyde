@@ -30,7 +30,7 @@ KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
 KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
 KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
 KEY VendorTechnology_VOLTR "COM"
-KEY ProjectLocation "C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC"
+KEY ProjectLocation "C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde"
 KEY ProjectDescription "A minimal SoC to show basic operation."
 KEY Pa4PeripheralNewSeq "GOOD"
 KEY SimulationType "VERILOG"
@@ -43,6 +43,7 @@ ENDLIST
 LIST LIBRARIES
 COREAPB3_LIB
 CORETIMER_LIB
+CORESPI_LIB
 ENDLIST
 LIST LIBRARY_COREAPB3_LIB
 ALIAS=COREAPB3_LIB
@@ -54,22 +55,27 @@ ALIAS=CORETIMER_LIB
 COMPILE_OPTION=COMPILE
 CUSTOMPATH=false
 ENDLIST
+LIST LIBRARY_CORESPI_LIB
+ALIAS=CORESPI_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
 LIST FileManager
 VALUE "<project>\component\Actel\DirectCore\COREABC\3.8.102\COREABC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1657272630"
+TIME="1657792917"
 SIZE="480"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf,actgen_cxf"
 STATE="utd"
-TIME="1657272630"
+TIME="1657792918"
 SIZE="2736"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\coreparameters.v,tb_hdl"
 STATE="utd"
-TIME="1657272631"
+TIME="1657792918"
 SIZE="1283"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
 IS_READONLY="TRUE"
@@ -156,9 +162,114 @@ MODULE_UNDER_TEST="testbench"
 SIMULATION_TIME="-all"
 IS_READONLY="TRUE"
 ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf,actgen_cxf"
+STATE="utd"
+TIME="1657792918"
+SIZE="2961"
+PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\mti\bfmtovec_compile.do,do"
+STATE="utd"
+TIME="1657655278"
+SIZE="922"
+PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\mti\wave.do,do"
+STATE="utd"
+TIME="1657655278"
+SIZE="3399"
+PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
+STATE="utd"
+TIME="1657655277"
+SIZE="6496"
+LIBRARY="CORESPI_LIB"
+PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
+STATE="utd"
+TIME="1657655277"
+SIZE="9225"
+LIBRARY="CORESPI_LIB"
+PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
+STATE="utd"
+TIME="1657655277"
+SIZE="197644"
+LIBRARY="CORESPI_LIB"
+PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_package.v,tb_hdl"
+STATE="utd"
+TIME="1657655277"
+SIZE="40025"
+LIBRARY="CORESPI_LIB"
+PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+IS_INCLUDED="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v,hdl"
+STATE="utd"
+TIME="1657655278"
+SIZE="4698"
+LIBRARY="CORESPI_LIB"
+PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v,hdl"
+STATE="utd"
+TIME="1657655278"
+SIZE="13098"
+LIBRARY="CORESPI_LIB"
+PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v,hdl"
+STATE="utd"
+TIME="1657655278"
+SIZE="42389"
+LIBRARY="CORESPI_LIB"
+PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_clockmux.v,hdl"
+STATE="utd"
+TIME="1657655278"
+SIZE="1034"
+LIBRARY="CORESPI_LIB"
+PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v,hdl"
+STATE="utd"
+TIME="1657655278"
+SIZE="3070"
+LIBRARY="CORESPI_LIB"
+PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v,hdl"
+STATE="utd"
+TIME="1657655278"
+SIZE="6157"
+LIBRARY="CORESPI_LIB"
+PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v,hdl"
+STATE="utd"
+TIME="1657655278"
+SIZE="9209"
+LIBRARY="CORESPI_LIB"
+PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\test\user\testbench.v,tb_hdl"
+STATE="utd"
+TIME="1657655277"
+SIZE="6648"
+LIBRARY="CORESPI_LIB"
+PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+MODULE_UNDER_TEST="testbench"
+SIMULATION_TIME="-all"
+ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreTimer\2.0.103\CoreTimer.cxf,actgen_cxf"
 STATE="utd"
-TIME="1657272631"
+TIME="1657792919"
 SIZE="2315"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 ENDFILE
@@ -237,13 +348,13 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.7.100\CoreUARTapb.cxf,actgen_cxf"
 STATE="utd"
-TIME="1657272632"
+TIME="1657792919"
 SIZE="779"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.cxf,actgen_cxf"
 STATE="utd"
-TIME="1657273780"
+TIME="1657792484"
 SIZE="468"
 PARENT="<project>\component\work\Basic_Input_Testbench\Basic_Input_Testbench.cxf"
 ENDFILE
@@ -256,7 +367,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.cxf,actgen_cxf"
 STATE="utd"
-TIME="1657273780"
+TIME="1657792484"
 SIZE="472"
 PARENT="<project>\component\work\Basic_Input_Testbench\Basic_Input_Testbench.cxf"
 ENDFILE
@@ -269,126 +380,119 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Basic_Input_Testbench\Basic_Input_Testbench.cxf,actgen_cxf"
 STATE="utd"
-TIME="1657273780"
-SIZE="2173"
-ENDFILE
-VALUE "<project>\component\work\Basic_Input_Testbench\Basic_Input_Testbench.v,tb_hdl"
-STATE="utd"
-TIME="1657273780"
-SIZE="2304"
-PARENT="<project>\component\work\Basic_Input_Testbench\Basic_Input_Testbench.cxf"
-IS_READONLY="TRUE"
+TIME="1657792947"
+SIZE="2637"
 ENDFILE
 VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
 STATE="utd"
-TIME="1657272497"
+TIME="1657481871"
 SIZE="861"
 ENDFILE
 VALUE "<project>\component\work\DESIGN_IO\DESIGN_IO.cxf,actgen_cxf"
 STATE="utd"
-TIME="1657272259"
+TIME="1657481871"
 SIZE="413"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\CoreABC.log,log"
 STATE="utd"
-TIME="1657272630"
-SIZE="1288"
+TIME="1657792917"
+SIZE="1312"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\coreparameters_tgi.v,hdl"
 STATE="utd"
-TIME="1657272630"
+TIME="1657792917"
 SIZE="1752"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1657272630"
+TIME="1657792917"
 SIZE="3395"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v,hdl"
 STATE="utd"
-TIME="1657272630"
+TIME="1657792917"
 SIZE="3366"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v,hdl"
 STATE="utd"
-TIME="1657272630"
+TIME="1657792917"
 SIZE="57933"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v,hdl"
 STATE="utd"
-TIME="1657272630"
+TIME="1657792917"
 SIZE="28055"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructions.v,hdl"
 STATE="utd"
-TIME="1657272630"
-SIZE="122693"
+TIME="1657792917"
+SIZE="122780"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructnvm_bb.v,hdl"
 STATE="utd"
-TIME="1657272630"
+TIME="1657792917"
 SIZE="2139"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructram.v,hdl"
 STATE="utd"
-TIME="1657272630"
+TIME="1657792917"
 SIZE="12041"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\iram512x9_pa3.v,hdl"
 STATE="utd"
-TIME="1657272630"
+TIME="1657792917"
 SIZE="3735"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram128x8_rtl.v,hdl"
 STATE="utd"
-TIME="1657272630"
+TIME="1657792917"
 SIZE="1365"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x16_pa3.v,hdl"
 STATE="utd"
-TIME="1657272630"
+TIME="1657792917"
 SIZE="2944"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x8_rtl.v,hdl"
 STATE="utd"
-TIME="1657272630"
+TIME="1657792917"
 SIZE="1236"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v,hdl"
 STATE="utd"
-TIME="1657272630"
+TIME="1657792917"
 SIZE="21186"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\support.v,hdl"
 STATE="utd"
-TIME="1657272630"
+TIME="1657792917"
 SIZE="56274"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
@@ -396,14 +500,14 @@ IS_INCLUDED="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\apbmodel.v,tb_hdl"
 STATE="utd"
-TIME="1657272630"
+TIME="1657792917"
 SIZE="4836"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\testbench.v,tb_hdl"
 STATE="utd"
-TIME="1657272630"
+TIME="1657792917"
 SIZE="24064"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 MODULE_UNDER_TEST="TESTBENCH"
@@ -412,7 +516,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\testsupport.v,tb_hdl"
 STATE="utd"
-TIME="1657272630"
+TIME="1657792917"
 SIZE="30783"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
@@ -420,7 +524,7 @@ IS_INCLUDED="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\coreparameters.v,tb_hdl"
 STATE="utd"
-TIME="1657272632"
+TIME="1657792919"
 SIZE="605"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
@@ -428,139 +532,139 @@ IS_INCLUDED="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf,actgen_cxf"
 STATE="utd"
-TIME="1657272632"
+TIME="1657792919"
 SIZE="4205"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\mti\scripts\bfmtovec_compile.do,do"
 STATE="utd"
-TIME="1657272632"
+TIME="1657792919"
 SIZE="1011"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\mti\scripts\wave_vlog_amba.do,do"
 STATE="utd"
-TIME="1657272632"
+TIME="1657792919"
 SIZE="2034"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahbl.v,tb_hdl"
 STATE="utd"
-TIME="1657272631"
+TIME="1657792919"
 SIZE="8110"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahblapb.v,tb_hdl"
 STATE="utd"
-TIME="1657272631"
+TIME="1657792919"
 SIZE="11258"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahbslave.v,tb_hdl"
 STATE="utd"
-TIME="1657272631"
+TIME="1657792919"
 SIZE="2513"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahbslaveext.v,tb_hdl"
 STATE="utd"
-TIME="1657272631"
+TIME="1657792919"
 SIZE="48854"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
 STATE="utd"
-TIME="1657272631"
+TIME="1657792919"
 SIZE="4661"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
 STATE="utd"
-TIME="1657272631"
+TIME="1657792919"
 SIZE="9150"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
 STATE="utd"
-TIME="1657272631"
+TIME="1657792919"
 SIZE="25205"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_apbslaveext.v,tb_hdl"
 STATE="utd"
-TIME="1657272631"
+TIME="1657792919"
 SIZE="36325"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_apbtoapb.v,tb_hdl"
 STATE="utd"
-TIME="1657272631"
+TIME="1657792919"
 SIZE="4724"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
 STATE="utd"
-TIME="1657272631"
+TIME="1657792919"
 SIZE="122531"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v,hdl"
 STATE="utd"
-TIME="1657272632"
+TIME="1657792919"
 SIZE="6422"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v,hdl"
 STATE="utd"
-TIME="1657272632"
+TIME="1657792919"
 SIZE="10082"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v,hdl"
 STATE="utd"
-TIME="1657272632"
+TIME="1657792919"
 SIZE="7077"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v,hdl"
 STATE="utd"
-TIME="1657272632"
+TIME="1657792919"
 SIZE="4274"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v,hdl"
 STATE="utd"
-TIME="1657272632"
+TIME="1657792919"
 SIZE="10506"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v,hdl"
 STATE="utd"
-TIME="1657272632"
+TIME="1657792919"
 SIZE="5581"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\test\user\testbench.v,tb_hdl"
 STATE="utd"
-TIME="1657272631"
+TIME="1657792919"
 SIZE="8972"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 MODULE_UNDER_TEST="testbench"
@@ -569,29 +673,34 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\Minimal_SoC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1657272638"
-SIZE="3775"
+TIME="1657792926"
+SIZE="5389"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\Minimal_SoC.v,hdl"
 STATE="utd"
-TIME="1657272632"
-SIZE="18699"
+TIME="1657792919"
+SIZE="22876"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
+VALUE "<project>\designer\impl1\Minimal_SoC.adb,adb"
+STATE="ood"
+TIME="1657792833"
+SIZE="956928"
+ENDFILE
 VALUE "<project>\designer\impl1\Minimal_SoC.ide_des,ide_des"
 STATE="utd"
-TIME="1657268782"
-SIZE="271"
+TIME="1657813464"
+SIZE="1083"
 ENDFILE
-VALUE "<project>\simulation\Basic_Input_Testbench_presynth_simulation.log,log"
+VALUE "<project>\designer\impl1\Minimal_SoC_compile_log.rpt,log"
 STATE="utd"
-TIME="1657280948"
-SIZE="104375"
+TIME="1657813532"
+SIZE="1476"
 ENDFILE
 VALUE "<project>\simulation\bfmtovec_compile.log,log"
 STATE="utd"
-TIME="1657273799"
+TIME="1657792499"
 SIZE="407"
 ENDFILE
 VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
@@ -602,43 +711,64 @@ PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
 ENDFILE
 VALUE "<project>\simulation\coreapb3_usertb_master.bfm,sim"
 STATE="utd"
-TIME="1656687072"
+TIME="1657481871"
 SIZE="8016"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
 ENDFILE
 VALUE "<project>\simulation\coreuart_usertb_apb_master.bfm,sim"
 STATE="utd"
-TIME="1657272253"
+TIME="1657481871"
 SIZE="2906"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 ENDFILE
 VALUE "<project>\simulation\coreuart_usertb_include.bfm,sim"
 STATE="utd"
-TIME="1657272253"
+TIME="1657481871"
 SIZE="13597"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
-TIME="1657273792"
-SIZE="6601"
+TIME="1657792489"
+SIZE="8184"
 ENDFILE
 VALUE "<project>\simulation\subsystem.bfm,sim"
 STATE="utd"
-TIME="1657272632"
-SIZE="825"
+TIME="1657792919"
+SIZE="855"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 ENDFILE
 VALUE "<project>\simulation\TESTBENCH_presynth_simulation.log,log"
 STATE="utd"
-TIME="1657273537"
+TIME="1657481871"
 SIZE="33401"
 ENDFILE
 VALUE "<project>\simulation\user_tb.bfm,sim"
 STATE="utd"
-TIME="1656705177"
+TIME="1657481872"
 SIZE="4701"
+PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
 PARENT="<project>\component\Actel\DirectCore\CoreTimer\2.0.103\CoreTimer.cxf"
+ENDFILE
+VALUE "<project>\synthesis\Minimal_SoC.edn,syn_edn"
+STATE="ood"
+TIME="1657792965"
+SIZE="1096998"
+ENDFILE
+VALUE "<project>\synthesis\Minimal_SoC.so,so"
+STATE="utd"
+TIME="1657792965"
+SIZE="282"
+ENDFILE
+VALUE "<project>\synthesis\Minimal_SoC_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1657792965"
+SIZE="406"
+ENDFILE
+VALUE "<project>\synthesis\Minimal_SoC_syn.prj,prj"
+STATE="utd"
+TIME="1657792965"
+SIZE="7312"
 ENDFILE
 ENDLIST
 LIST UsedFile
@@ -649,10 +779,22 @@ FILE "<project>\component\work\Minimal_SoC\Minimal_SoC.v,hdl"
 LIST Other_Association
 VALUE "<project>\simulation\subsystem.bfm,sim"
 ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\Minimal_SoC_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\Minimal_SoC_report_pin_bynumber.txt,log"
+ENDLIST
+ENDLIST
+LIST "Minimal_SoC_COREABC_0_COREABC::work"
+FILE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v,hdl"
+LIST Other_Association
+VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\testsupport.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\apbmodel.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\testbench.v,tb_hdl"
+ENDLIST
 LIST AssociatedStimulus
-VALUE "<project>\component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.v,tb_hdl"
-VALUE "<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.v,tb_hdl"
-VALUE "<project>\component\work\Basic_Input_Testbench\Basic_Input_Testbench.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\testsupport.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\apbmodel.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\testbench.v,tb_hdl"
 ENDLIST
 LIST ProjectState5.1
 LIST Impl1
@@ -665,14 +807,6 @@ ENDLIST
 Used_File_List
 ENDUsed_File_List
 ENDLIST
-ENDLIST
-ENDLIST
-LIST "Minimal_SoC_COREABC_0_COREABC::work"
-FILE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v,hdl"
-LIST Other_Association
-VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\testsupport.v,tb_hdl"
-VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\apbmodel.v,tb_hdl"
-VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\testbench.v,tb_hdl"
 ENDLIST
 ENDLIST
 LIST "Minimal_SoC_CoreUARTapb_0_CoreUARTapb::work"
@@ -792,12 +926,25 @@ ENDUsed_File_List
 ENDLIST
 ENDLIST
 ENDLIST
+LIST "CORESPI::CORESPI_LIB"
+FILE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\user_tb.bfm,sim"
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_package.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\test\user\testbench.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\mti\bfmtovec_compile.do,do"
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\mti\wave.do,do"
+ENDLIST
+ENDLIST
 ENDLIST
 LIST AssociatedStimulus
-LIST Minimal_SoC
-VALUE "<project>\component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.v,tb_hdl"
-VALUE "<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.v,tb_hdl"
-VALUE "<project>\component\work\Basic_Input_Testbench\Basic_Input_Testbench.v,tb_hdl"
+LIST Minimal_SoC_COREABC_0_COREABC
+VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\testsupport.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\apbmodel.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\testbench.v,tb_hdl"
 ENDLIST
 LIST Minimal_SoC_CoreUARTapb_0_CoreUARTapb
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahbl.v,tb_hdl"
@@ -870,6 +1017,16 @@ VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\amba_bfm\b
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\test\user\testbench.v,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\mti\scripts\wave_user.do,do"
 ENDLIST
+LIST CORESPI
+VALUE "<project>\simulation\user_tb.bfm,sim"
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_package.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\test\user\testbench.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\mti\bfmtovec_compile.do,do"
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\mti\wave.do,do"
+ENDLIST
 LIST CoreTimer
 VALUE "<project>\simulation\user_tb.bfm,sim"
 VALUE "<project>\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
@@ -889,7 +1046,7 @@ Type=max
 RunTime=100us
 Resolution=1ps
 VsimOpt=
-EntityName=Basic_Input_Testbench
+EntityName=testbench
 TopInstanceName=<top>_0
 DoFileName=
 DoFileName2=wave.do
@@ -982,7 +1139,7 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
-LIST "Minimal_SoC::work"
+LIST "Minimal_SoC_COREABC_0_COREABC::work"
 LIST Impl1
 ideSTIMULUS=StateSuccess
 LIST FlowOptions
@@ -1061,6 +1218,7 @@ LIST "Minimal_SoC::work","component\work\Minimal_SoC\Minimal_SoC.v","TRUE","FALS
 SUBBLOCK "Minimal_SoC_COREABC_0_COREABC::work","component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v","FALSE","FALSE"
 SUBBLOCK "Minimal_SoC_CoreUARTapb_0_CoreUARTapb::work","component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v","FALSE","FALSE"
 SUBBLOCK "CoreAPB3::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v","FALSE","FALSE"
+SUBBLOCK "CORESPI::CORESPI_LIB","component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v","FALSE","FALSE"
 SUBBLOCK "CoreTimer::CORETIMER_LIB","component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v","FALSE","FALSE"
 ENDLIST
 LIST "Minimal_SoC_COREABC_0_ACMTABLE::work","component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v","FALSE","FALSE"
@@ -1118,12 +1276,12 @@ LIST "Minimal_SoC_CoreUARTapb_0_Rx_async::work","component\work\Minimal_SoC\Core
 ENDLIST
 LIST "Minimal_SoC_CoreUARTapb_0_Tx_async::work","component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v","FALSE","FALSE"
 ENDLIST
-LIST "Basic_Input_Testbench::work","component\work\Basic_Input_Testbench\Basic_Input_Testbench.v","TRUE","TRUE"
-SUBBLOCK "CLK_GEN::work","component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.v","FALSE","TRUE"
+LIST "Basic_Input_Testbench::work","component\work\Basic_Input_Testbench\Basic_Input_Testbench.cxf","TRUE","TRUE"
+SUBBLOCK "CLK_GEN::work","","FALSE","TRUE"
+SUBBLOCK "RESET_GEN::work","","FALSE","TRUE"
 SUBBLOCK "Minimal_SoC::work","component\work\Minimal_SoC\Minimal_SoC.v","TRUE","FALSE"
-SUBBLOCK "RESET_GEN::work","component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.v","FALSE","TRUE"
 ENDLIST
-LIST "CLK_GEN::work","component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.v","FALSE","TRUE"
+LIST "CLK_GEN::work","","FALSE","TRUE"
 ENDLIST
 LIST "Minimal_SoC_COREABC_0_APBModel::work","component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\apbmodel.v","FALSE","TRUE"
 ENDLIST
@@ -1154,7 +1312,7 @@ LIST "Minimal_SoC_CoreUARTapb_0_BFM_MAIN::work","component\work\Minimal_SoC\Core
 ENDLIST
 LIST "Minimal_SoC_CoreUARTapb_0_BFMA1l1OII::work","component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahbtoapb.v","FALSE","TRUE"
 ENDLIST
-LIST "RESET_GEN::work","component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.v","FALSE","TRUE"
+LIST "RESET_GEN::work","","FALSE","TRUE"
 ENDLIST
 LIST "TESTBENCH::work","component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\testbench.v","FALSE","TRUE"
 SUBBLOCK "Minimal_SoC_COREABC_0_APBModel::work","component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\apbmodel.v","FALSE","TRUE"
@@ -1205,6 +1363,38 @@ ENDLIST
 LIST "testbench::CORETIMER_LIB","component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\test\testbench.v","FALSE","TRUE"
 SUBBLOCK "BFM_APB::CORETIMER_LIB","component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\amba_bfm\bfm_apb.v","FALSE","TRUE"
 SUBBLOCK "CoreTimer::CORETIMER_LIB","component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v","FALSE","FALSE"
+ENDLIST
+LIST "CORESPI::CORESPI_LIB","component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v","FALSE","FALSE"
+SUBBLOCK "spi::CORESPI_LIB","component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v","FALSE","FALSE"
+ENDLIST
+LIST "spi::CORESPI_LIB","component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v","FALSE","FALSE"
+SUBBLOCK "spi_chanctrl::CORESPI_LIB","component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v","FALSE","FALSE"
+SUBBLOCK "spi_control::CORESPI_LIB","component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v","FALSE","FALSE"
+SUBBLOCK "spi_fifo::CORESPI_LIB","component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v","FALSE","FALSE"
+SUBBLOCK "spi_rf::CORESPI_LIB","component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v","FALSE","FALSE"
+ENDLIST
+LIST "spi_chanctrl::CORESPI_LIB","component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v","FALSE","FALSE"
+SUBBLOCK "spi_clockmux::CORESPI_LIB","component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_clockmux.v","FALSE","FALSE"
+ENDLIST
+LIST "spi_clockmux::CORESPI_LIB","component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_clockmux.v","FALSE","FALSE"
+ENDLIST
+LIST "spi_control::CORESPI_LIB","component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v","FALSE","FALSE"
+ENDLIST
+LIST "spi_fifo::CORESPI_LIB","component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v","FALSE","FALSE"
+ENDLIST
+LIST "spi_rf::CORESPI_LIB","component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v","FALSE","FALSE"
+ENDLIST
+LIST "CORESPI_BFM_AHB2APB::CORESPI_LIB","component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_ahbtoapb.v","FALSE","TRUE"
+ENDLIST
+LIST "CORESPI_BFM_APB::CORESPI_LIB","component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_apb.v","FALSE","TRUE"
+SUBBLOCK "CORESPI_BFM_AHB2APB::CORESPI_LIB","component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_ahbtoapb.v","FALSE","TRUE"
+SUBBLOCK "CORESPI_BFM_MAIN::CORESPI_LIB","component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "CORESPI_BFM_MAIN::CORESPI_LIB","component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "testbench::CORESPI_LIB","component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\test\user\testbench.v","FALSE","TRUE"
+SUBBLOCK "CORESPI::CORESPI_LIB","component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v","FALSE","FALSE"
+SUBBLOCK "CORESPI_BFM_APB::CORESPI_LIB","component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_apb.v","FALSE","TRUE"
 ENDLIST
 ENDLIST
 LIST ActiveTestBenchList

@@ -1,1 +1,1 @@
-CKID0001:@|S:SYSCLK@|E:CoreUARTapb_0.CUARTl0OI[7]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0001:@|S:Minimal_SoC_with_PLL_0.Core@|E:CoreUARTapb_0.CUARTl0OI[7]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 

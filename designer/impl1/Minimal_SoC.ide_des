@@ -8,7 +8,7 @@ KEY IDE_DES_TEMPRANGE "COM"
 KEY IDE_DES_VOLTRANGE "COM"
 KEY IDE_DES_IOSTD "LVCMOS33"
 KEY IDE_DES_TOP_CELL_NAME "Minimal_SoC"
-KEY IDE_DES_KEEP_PHY_CONSTR "FALSE"
+KEY IDE_DES_KEEP_PHY_CONSTR "TRUE"
 KEY IDE_DES_KEEP_TIME_CONSTR "TRUE"
 KEY IDE_DES_LAYOUT_DONE "FALSE"
 KEY IDE_DES_COMPILE_DONE "TRUE"
@@ -18,11 +18,11 @@ KEY IDE_DES_TIMING_VIOLATION "-1"
 KEY IDE_DES_BITSGEN_DONE "FALSE"
 KEY IDE_DES_BLOCK_PUBLISH "FALSE"
 KEY IDE_DES_BA_EXPORTED "FALSE"
-KEY IDE_DES_INTERACTIVE "FALSE"
+KEY IDE_DES_INTERACTIVE "TRUE"
 KEY IDE_DES_ERROR_FOUND "FALSE"
-KEY IDE_DES_ADB_PATH "C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\designer\impl1\Minimal_SoC.adb"
+KEY IDE_DES_ADB_PATH "C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Minimal_SoC.adb"
 LIST SOURCE_FILES
-VALUE "C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\synthesis\Minimal_SoC.edn;edn"
+VALUE "C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\synthesis\Minimal_SoC.edn;edn"
 ENDLIST
 LIST OPTIONAL_FILES
 ENDLIST

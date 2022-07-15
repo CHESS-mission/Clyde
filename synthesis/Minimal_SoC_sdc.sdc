@@ -2,7 +2,6 @@
 
 # Clocks
 
-create_clock -name {Minimal_SoC|SYSCLK} -period 10.000000 -waveform {0.000000 5.000000} SYSCLK
 
 # False Paths Between Clocks
 

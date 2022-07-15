@@ -5,16 +5,16 @@ The file contains the area information from mapper to be displayed as part of th
 *******************************************************************************************-->
 <report_table display_priority="1" name="Area Summary">
 <report_link name="Detailed report">
-<data>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\synthesis\synlog\report\Minimal_SoC_fpga_mapper_resourceusage.rpt</data>
+<data>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\synthesis\synlog\report\Minimal_SoC_fpga_mapper_resourceusage.rpt</data>
 <title>Report for cell</title>
 </report_link>
 <parameter tooltip="Total Core Cells used" name="Core Cells">
-<data>1063</data>
+<data>1951</data>
 </parameter>
 <parameter tooltip="Total IO Cells used" name="IO Cells">
-<data>17</data>
+<data>13</data>
 </parameter>
 <parameter tcl_name="v_ram" tooltip="Total Block RAMs used" name="Block RAMs">
-<data>3</data>
+<data>5</data>
 </parameter>
 </report_table>

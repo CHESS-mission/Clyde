@@ -1,33 +1,43 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09M-SP1-5
-#--  Project file C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\synthesis\Minimal_SoC_syn.prj
-#--  Written on Sat Jul 09 21:11:49 2022
+#--  Project file C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\synthesis\Minimal_SoC_syn.prj
+#--  Written on Thu Jul 14 21:51:51 2022
 
 
 #project files
-add_file -include "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/support.v"
-add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/acmtable.v"
-add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/debugblk.v"
-add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructions.v"
-add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructnvm_bb.v"
-add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/iram512x9_pa3.v"
-add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructram.v"
-add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram128x8_rtl.v"
-add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram256x16_pa3.v"
-add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram256x8_rtl.v"
-add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ramblocks.v"
-add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/coreabc.v"
-add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Clock_gen.v"
-add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Rx_async.v"
-add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Tx_async.v"
-add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/fifo_256x8_pa3.v"
-add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUART.v"
-add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUARTapb.v"
-add_file -verilog -lib COREAPB3_LIB "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v"
-add_file -verilog -lib COREAPB3_LIB "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_iaddr_reg.v"
-add_file -verilog -lib COREAPB3_LIB "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v"
-add_file -verilog -lib CORETIMER_LIB "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/core/coretimer.v"
-add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC/Minimal_SoC.v"
+add_file -include "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/support.v"
+add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/COREAPBSRAM/2.0.102/rtl/vlog/core_obfuscated/sram_512to8192x8.v"
+add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/COREAPBSRAM/2.0.102/rtl/vlog/core_obfuscated/coreapbsram.v"
+add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/acmtable.v"
+add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/debugblk.v"
+add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructions.v"
+add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructnvm_bb.v"
+add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/iram512x9_pa3.v"
+add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructram.v"
+add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram128x8_rtl.v"
+add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram256x16_pa3.v"
+add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram256x8_rtl.v"
+add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ramblocks.v"
+add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/coreabc.v"
+add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Clock_gen.v"
+add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Rx_async.v"
+add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Tx_async.v"
+add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/fifo_256x8_pa3.v"
+add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUART.v"
+add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUARTapb.v"
+add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/smartgen/Minimal_SoC_with_PLL/Minimal_SoC_with_PLL.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_iaddr_reg.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v"
+add_file -verilog -lib CORESPI_LIB "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_clockmux.v"
+add_file -verilog -lib CORESPI_LIB "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_chanctrl.v"
+add_file -verilog -lib CORESPI_LIB "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_control.v"
+add_file -verilog -lib CORESPI_LIB "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_fifo.v"
+add_file -verilog -lib CORESPI_LIB "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_rf.v"
+add_file -verilog -lib CORESPI_LIB "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi.v"
+add_file -verilog -lib CORESPI_LIB "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/corespi.v"
+add_file -verilog -lib CORETIMER_LIB "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/core/coretimer.v"
+add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/Minimal_SoC.v"
 
 
 

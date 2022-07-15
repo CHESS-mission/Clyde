@@ -5,7 +5,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 *******************************************************************************************-->
 <report_table display_priority="2" name="Timing Summary">
 <report_link name="Detailed report">
-<data>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\synthesis\synlog\Minimal_SoC_fpga_mapper.srr</data>
+<data>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\synthesis\synlog\Minimal_SoC_fpga_mapper.srr</data>
 <title>START OF TIMING REPORT</title>
 </report_link>
 <row>
@@ -15,9 +15,9 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <data tcl_name="slack">Slack</data>
 </row>
 <row>
-<data>Minimal_SoC|SYSCLK</data>
+<data>Minimal_SoC_with_PLL|GLA_inferred_clock</data>
 <data>100.0 MHz</data>
-<data>68.6 MHz</data>
-<data>-4.585</data>
+<data>55.7 MHz</data>
+<data>-7.946</data>
 </row>
 </report_table>

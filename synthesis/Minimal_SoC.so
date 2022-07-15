@@ -2,5 +2,5 @@
 <SynplifyOutput>
 	<result>Success</result>
 	<design>Minimal_SoC</design>
-	<target_edif>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\synthesis\Minimal_SoC.edn</target_edif>
+	<target_edif>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\synthesis\Minimal_SoC.edn</target_edif>
 </SynplifyOutput>

@@ -6,15 +6,15 @@
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 Clock optimization not enabled
-1 non-gated/non-generated clock tree(s) driving 291 clock pin(s) of sequential element(s)
-0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 515 clock pin(s) of sequential element(s)
+0 instances converted, 515 sequential instances remain driven by gated/generated clocks
 
-================================= Non-Gated/Non-Generated Clocks =================================
-Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance           
---------------------------------------------------------------------------------------------------
-@K:CKID0001       SYSCLK              port                   291        CoreUARTapb_0.CUARTl0OI[7]
-==================================================================================================
+============================================================================================================ Gated/Generated Clocks =============================================================================================================
+Clock Tree ID     Driving Element                 Drive Element Type     Fanout     Sample Instance                Explanation                                                                                                                   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       Minimal_SoC_with_PLL_0.Core     PLL                    515        CoreUARTapb_0.CUARTl0OI[7]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+=================================================================================================================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]

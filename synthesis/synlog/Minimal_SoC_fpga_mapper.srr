@@ -1,4 +1,4 @@
-# Sat Jul 09 21:11:44 2022
+# Thu Jul 14 21:51:40 2022
 
 Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -9,84 +9,102 @@ Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:0
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
 
 
 
 Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
 
-@N: MO111 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreabc_0\rtl\vlog\core\ramblocks.v":41:11:41:19|Tristate driver DB_DETECT (in view: work.Minimal_SoC_COREABC_0_RAMBLOCKS_0s_16s_15s(verilog)) on net DB_DETECT (in view: work.Minimal_SoC_COREABC_0_RAMBLOCKS_0s_16s_15s(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreabc_0\rtl\vlog\core\ramblocks.v":40:11:40:20|Tristate driver SB_CORRECT (in view: work.Minimal_SoC_COREABC_0_RAMBLOCKS_0s_16s_15s(verilog)) on net SB_CORRECT (in view: work.Minimal_SoC_COREABC_0_RAMBLOCKS_0s_16s_15s(verilog)) has its enable tied to GND.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1339:0:1339:5|Register bit CUARTI0Il (in view view:work.Minimal_SoC_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@N: MO111 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v":253:0:253:4|Tristate driver AFULL (in view: work.Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3(verilog)) on net AFULL (in view: work.Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\ramblocks.v":41:11:41:19|Tristate driver DB_DETECT (in view: work.Minimal_SoC_COREABC_0_RAMBLOCKS_0s_16s_15s(verilog)) on net DB_DETECT (in view: work.Minimal_SoC_COREABC_0_RAMBLOCKS_0s_16s_15s(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\ramblocks.v":40:11:40:20|Tristate driver SB_CORRECT (in view: work.Minimal_SoC_COREABC_0_RAMBLOCKS_0s_16s_15s(verilog)) on net SB_CORRECT (in view: work.Minimal_SoC_COREABC_0_RAMBLOCKS_0s_16s_15s(verilog)) has its enable tied to GND.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1339:0:1339:5|Register bit CUARTI0Il (in view view:work.Minimal_SoC_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: MO111 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v":253:0:253:4|Tristate driver AFULL (in view: work.Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3(verilog)) on net AFULL (in view: work.Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3(verilog)) has its enable tied to GND.
 
 Available hyper_sources - for debug and ip models
 	None Found
 
-@W: BN132 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Removing sequential instance COREABC_0.UROM.INSTR_SLOT[0] because it is equivalent to instance COREABC_0.UROM.INSTR_MUXC. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
 
-@N: MO231 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":1041:4:1041:9|Found counter in view:work.Minimal_SoC_COREABC_0_COREABC_Z1(verilog) instance STKPTR[7:0] 
+@N: MO231 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":1041:4:1041:9|Found counter in view:work.Minimal_SoC_COREABC_0_COREABC_Z1(verilog) instance STKPTR[7:0] 
 Encoding state machine ICYCLE[3:0] (in view: work.Minimal_SoC_COREABC_0_COREABC_Z1(verilog))
 original code -> new code
    00 -> 00
    01 -> 01
    10 -> 10
    11 -> 11
-@N: MO225 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":1041:4:1041:9|There are no possible illegal states for state machine ICYCLE[3:0] (in view: work.Minimal_SoC_COREABC_0_COREABC_Z1(verilog)); safe FSM implementation is not required.
+@N: MO225 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":1041:4:1041:9|There are no possible illegal states for state machine ICYCLE[3:0] (in view: work.Minimal_SoC_COREABC_0_COREABC_Z1(verilog)); safe FSM implementation is not required.
+@N: MF238 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":1311:54:1311:65|Found 12-bit incrementor, 'un37_SMADDR[11:0]'
 @N: MF176 |Default generator successful 
 @N: MF176 |Default generator successful 
-@N: MF238 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":1028:35:1028:61|Found 8-bit incrementor, 'un1_STKPTRP1[7:0]'
-@N: MF238 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":1311:54:1311:65|Found 12-bit incrementor, 'un37_SMADDR[11:0]'
-@W: MO129 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sequential instance COREABC_0.UROM.INSTR_SCMD[0] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sequential instance COREABC_0.UROM.INSTR_SCMD[2] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sequential instance COREABC_0.UROM.INSTR_ADDR[5] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sequential instance COREABC_0.UROM.INSTR_ADDR[6] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sequential instance COREABC_0.UROM.INSTR_ADDR[7] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sequential instance COREABC_0.UROM.INSTR_ADDR[8] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sequential instance COREABC_0.UROM.INSTR_ADDR[9] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sequential instance COREABC_0.UROM.INSTR_ADDR[10] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sequential instance COREABC_0.UROM.INSTR_ADDR[11] is reduced to a combinational gate by constant propagation.
-@N: BN115 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":802:8:802:9|Removing instance un1_ACCUMULATOR_0 (in view: work.Minimal_SoC_COREABC_0_COREABC_Z1(verilog)) of type view:VhdlGenLib.ADD__const_cin_w8(verilog) because it does not drive other instances.
-@N: MO231 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":262:4:262:9|Found counter in view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog) instance Count[31:0] 
-@N: MO231 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":211:4:211:9|Found counter in view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog) instance PreScale[9:0] 
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[31] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[30] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[29] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[28] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[27] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[26] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[25] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[24] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[23] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[22] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[21] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[20] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[19] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[18] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[17] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[16] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[15] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[14] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[13] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[12] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[11] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[10] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[9] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[8] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: MF238 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":1028:35:1028:61|Found 8-bit incrementor, 'un1_STKPTRP1[7:0]'
+@W: MO129 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sequential instance COREABC_0.UROM.INSTR_SCMD[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sequential instance COREABC_0.UROM.INSTR_SCMD[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sequential instance COREABC_0.UROM.INSTR_ADDR[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sequential instance COREABC_0.UROM.INSTR_ADDR[1] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sequential instance COREABC_0.UROM.INSTR_ADDR[6] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sequential instance COREABC_0.UROM.INSTR_ADDR[7] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sequential instance COREABC_0.UROM.INSTR_ADDR[8] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sequential instance COREABC_0.UROM.INSTR_ADDR[9] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sequential instance COREABC_0.UROM.INSTR_ADDR[10] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sequential instance COREABC_0.UROM.INSTR_ADDR[11] is reduced to a combinational gate by constant propagation.
+@N: MO106 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\instructions.v":78:4:78:7|Found ROM .delname. (in view: work.Minimal_SoC_COREABC_0_INSTRUCTIONS_Z2(verilog)) with 12 words by 7 bits.
+@N: MO106 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\instructions.v":78:4:78:7|Found ROM .delname. (in view: work.Minimal_SoC_COREABC_0_INSTRUCTIONS_Z2(verilog)) with 11 words by 2 bits.
+@N: MO106 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\instructions.v":78:4:78:7|Found ROM .delname. (in view: work.Minimal_SoC_COREABC_0_INSTRUCTIONS_Z2(verilog)) with 12 words by 2 bits.
+@N: MO106 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\instructions.v":78:4:78:7|Found ROM .delname. (in view: work.Minimal_SoC_COREABC_0_INSTRUCTIONS_Z2(verilog)) with 12 words by 2 bits.
+@N: MF135 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|RAM fifo_mem_q[4:0] (in view: CORESPI_LIB.spi_fifo_4s_4s_2_1(verilog)) is 4 words by 5 bits.
+@W: MF136 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Unknown RAM style no_rw_check
+@N: MF135 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|RAM fifo_mem_q[4:0] (in view: CORESPI_LIB.spi_fifo_4s_4s_2_0(verilog)) is 4 words by 5 bits.
+@W: MF136 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Unknown RAM style no_rw_check
+@N: MO231 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z5(verilog) instance mtx_bitsel[4:0] 
+@N: MO231 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":286:0:286:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z5(verilog) instance spi_clk_count[7:0] 
+Encoding state machine mtx_state[5:0] (in view: CORESPI_LIB.spi_chanctrl_Z5(verilog))
+original code -> new code
+   0000 -> 000001
+   0001 -> 000010
+   0010 -> 000100
+   0111 -> 001000
+   1000 -> 010000
+   1001 -> 100000
+@N: MO231 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\corespi\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Found counter in view:CORESPI_LIB.spi_chanctrl_Z5(verilog) instance stxs_bitcnt[4:0] 
+@N: MO231 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":262:4:262:9|Found counter in view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog) instance Count[31:0] 
+@N: MO231 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":211:4:211:9|Found counter in view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog) instance PreScale[9:0] 
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[31] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[30] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[29] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[28] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[27] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[26] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[25] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[24] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[23] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[22] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[21] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[20] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[19] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[18] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[17] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[16] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[15] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[14] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[13] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[12] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[11] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[10] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[9] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":199:4:199:9|Register bit Load[8] (in view view:CORETIMER_LIB.CoreTimer_32s_0s_15s_0s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
 Encoding state machine CUARTll0[3:0] (in view: work.Minimal_SoC_CoreUARTapb_0_COREUART_1s_1s_0s_15s_0s_0s(verilog))
 original code -> new code
    00 -> 00
    01 -> 01
    10 -> 10
    11 -> 11
-@N: MO225 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\coreuart.v":984:0:984:5|There are no possible illegal states for state machine CUARTll0[3:0] (in view: work.Minimal_SoC_CoreUARTapb_0_COREUART_1s_1s_0s_15s_0s_0s(verilog)); safe FSM implementation is not required.
-@N: MO231 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\clock_gen.v":1092:0:1092:5|Found counter in view:work.Minimal_SoC_CoreUARTapb_0_Clock_gen_0s_0s(verilog) instance CUARTO1[3:0] 
-@N: MF239 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\clock_gen.v":1075:0:1080:0|Found 13-bit decrementor, 'un3_CUARTO0[12:0]'
+@N: MO225 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\coreuart.v":984:0:984:5|There are no possible illegal states for state machine CUARTll0[3:0] (in view: work.Minimal_SoC_CoreUARTapb_0_COREUART_1s_1s_0s_15s_0s_0s(verilog)); safe FSM implementation is not required.
+@N: MO231 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\clock_gen.v":1092:0:1092:5|Found counter in view:work.Minimal_SoC_CoreUARTapb_0_Clock_gen_0s_0s(verilog) instance CUARTO1[3:0] 
+@N: MF239 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\clock_gen.v":1075:0:1080:0|Found 13-bit decrementor, 'un3_CUARTO0[12:0]'
 Encoding state machine CUARTlI0l[6:0] (in view: work.Minimal_SoC_CoreUARTapb_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog))
 original code -> new code
    00000000000000000000000000000000 -> 0000001
@@ -96,122 +114,125 @@ original code -> new code
    00000000000000000000000000000100 -> 0010000
    00000000000000000000000000000101 -> 0100000
    00000000000000000000000000000110 -> 1000000
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":301:0:301:5|Register bit CUARTlI0l[4] (in view view:work.Minimal_SoC_CoreUARTapb_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@N: MO231 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":605:0:605:5|Found counter in view:work.Minimal_SoC_CoreUARTapb_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog) instance CUARTll0l[3:0] 
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":808:0:808:5|Removing sequential instance CUARTO00l (in view: work.Minimal_SoC_CoreUARTapb_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: MO231 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1154:0:1154:5|Found counter in view:work.Minimal_SoC_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog) instance CUARTl0Il[3:0] 
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":301:0:301:5|Register bit CUARTlI0l[4] (in view view:work.Minimal_SoC_CoreUARTapb_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: MO231 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":605:0:605:5|Found counter in view:work.Minimal_SoC_CoreUARTapb_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog) instance CUARTll0l[3:0] 
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\tx_async.v":808:0:808:5|Removing sequential instance CUARTO00l (in view: work.Minimal_SoC_CoreUARTapb_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MO231 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1154:0:1154:5|Found counter in view:work.Minimal_SoC_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog) instance CUARTl0Il[3:0] 
 Encoding state machine CUARTll0[3:0] (in view: work.Minimal_SoC_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog))
 original code -> new code
    00 -> 00
    01 -> 01
    10 -> 10
    11 -> 11
-@N: MO225 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":871:0:871:5|There are no possible illegal states for state machine CUARTll0[3:0] (in view: work.Minimal_SoC_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
-@N: MO231 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":472:0:472:5|Found counter in view:work.Minimal_SoC_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog) instance CUARTIlIl[3:0] 
-@W: MO161 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":754:0:754:5|Register bit CUARTIOll[0] (in view view:work.Minimal_SoC_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":871:0:871:5|Register bit CUARTlOl[7] (in view view:work.Minimal_SoC_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1154:0:1154:5|Removing sequential instance CUARTO0Il[8] (in view: work.Minimal_SoC_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1154:0:1154:5|Removing sequential instance CUARTO0Il[7] (in view: work.Minimal_SoC_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MO225 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":871:0:871:5|There are no possible illegal states for state machine CUARTll0[3:0] (in view: work.Minimal_SoC_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)); safe FSM implementation is not required.
+@N: MO231 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":472:0:472:5|Found counter in view:work.Minimal_SoC_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog) instance CUARTIlIl[3:0] 
+@W: MO161 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":754:0:754:5|Register bit CUARTIOll[0] (in view view:work.Minimal_SoC_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":871:0:871:5|Register bit CUARTlOl[7] (in view view:work.Minimal_SoC_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1154:0:1154:5|Removing sequential instance CUARTO0Il[8] (in view: work.Minimal_SoC_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1154:0:1154:5|Removing sequential instance CUARTO0Il[7] (in view: work.Minimal_SoC_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MF794 |RAM fifo_mem_q[4:0] required 40 registers during mapping 
 
-Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 113MB)
-
-Auto Dissolve of UROM\.UROM (inst of view:work.Minimal_SoC_COREABC_0_INSTRUCTIONS_Z2(verilog))
-@W: BN132 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Removing sequential instance COREABC_0.UROM.INSTR_ADDR[2] because it is equivalent to instance COREABC_0.UROM.INSTR_ADDR[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Removing sequential instance COREABC_0.UROM.INSTR_DATA[6] because it is equivalent to instance COREABC_0.UROM.INSTR_DATA[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Removing sequential instance COREABC_0.UROM.INSTR_DATA[4] because it is equivalent to instance COREABC_0.UROM.INSTR_DATA[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Removing sequential instance COREABC_0.UROM.INSTR_DATA[7] because it is equivalent to instance COREABC_0.UROM.INSTR_DATA[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Removing sequential instance COREABC_0.UROM.INSTR_DATA[5] because it is equivalent to instance COREABC_0.UROM.INSTR_DATA[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
-
-Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 117MB peak: 118MB)
-
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[8] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[9] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[10] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[11] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[12] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[13] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[14] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[15] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[16] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[17] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[18] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[19] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[20] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[21] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[22] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[23] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[24] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[25] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[26] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[27] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[28] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[29] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[30] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[31] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@W: BN132 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\coreuart.v":936:0:936:5|Removing sequential instance CoreUARTapb_0.CUARTlOlI.CUARTlO0 because it is equivalent to instance CoreUARTapb_0.CUARTlOlI.CUARTl1l. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\coreuart.v":888:0:888:5|Removing sequential instance CoreUARTapb_0.CUARTlOlI.CUARTOO0 because it is equivalent to instance CoreUARTapb_0.CUARTlOlI.CUARTOI0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-
-Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 114MB peak: 118MB)
+Starting factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 113MB peak: 114MB)
 
 
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 114MB peak: 118MB)
+Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 120MB peak: 120MB)
 
-@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\bunny murax\bunny_minimal_soc\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1430:0:1430:5|Register bit CoreUARTapb_0.CUARTlOlI.CUARTO01.CUARTI11 (in view view:work.Minimal_SoC(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[8] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[9] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[10] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[11] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[12] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[13] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[14] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[15] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[16] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[17] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[18] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[19] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[20] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[21] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[22] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[23] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[24] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[25] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[26] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[27] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[28] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[29] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[30] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[31] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@W: BN132 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\coreuart.v":936:0:936:5|Removing sequential instance CoreUARTapb_0.CUARTlOlI.CUARTlO0 because it is equivalent to instance CoreUARTapb_0.CUARTlOlI.CUARTl1l. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\coreuart.v":888:0:888:5|Removing sequential instance CoreUARTapb_0.CUARTlOlI.CUARTOO0 because it is equivalent to instance CoreUARTapb_0.CUARTlOlI.CUARTOI0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 118MB peak: 119MB)
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 117MB peak: 120MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 118MB peak: 119MB)
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 117MB peak: 120MB)
+
+@W: MO160 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":1430:0:1430:5|Register bit CoreUARTapb_0.CUARTlOlI.CUARTO01.CUARTI11 (in view view:work.Minimal_SoC(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 121MB peak: 121MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 118MB peak: 119MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 121MB peak: 122MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 118MB peak: 119MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 131MB peak: 132MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 118MB peak: 119MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 131MB peak: 132MB)
+
+@N: MF794 |RAM fifo_mem_q[4:0] required 40 registers during mapping 
+
+Finished preparing to map (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 131MB peak: 132MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 123MB peak: 125MB)
+Finished technology mapping (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 143MB peak: 145MB)
 
 
 High Fanout Net Report
 **********************
 
-Driver Instance / Pin Name           Fanout, notes                   
----------------------------------------------------------------------
-COREABC_0.genblk2.RSTSYNC2 / Q       253 : 250 asynchronous set/reset
-COREABC_0.DOISR / Q                  30                              
-COREABC_0.UROM.INSTR_CMD[1] / Q      30                              
-COREABC_0.UROM.INSTR_ADDR[0] / Q     32                              
-CoreTimer_0.Countlde_N_8_i / Y       32                              
-CoreTimer_0.un1_PreScale8 / Y        28                              
-=====================================================================
+Driver Instance / Pin Name              Fanout, notes                   
+------------------------------------------------------------------------
+COREABC_0.genblk2.RSTSYNC2 / Q          410 : 406 asynchronous set/reset
+COREABC_0.UROM.INSTR_SLOT[0] / Q        31                              
+COREABC_0.DOISR / Q                     29                              
+COREABC_0.UROM.INSTR_CMD[1] / Q         36                              
+COREABC_0.UROM.INSTR_ADDR[2] / Q        48                              
+COREABC_0.UROM.INSTR_ADDR[3] / Q        50                              
+COREABC_0.UROM.INSTR_ADDR[4] / Q        30                              
+CoreTimer_0.Countlde_N_8_i / Y          32                              
+CoreTimer_0.un1_PreScale8 / Y           29                              
+CORESPI_0.USPI.UCON.tx_m2_e_0_0 / Y     26                              
+========================================================================
 
-@N: FP130 |Promoting Net SYSCLK_c on CLKBUF  SYSCLK_pad 
-@N: FP130 |Promoting Net COREABC_0_PRESETN on CLKINT  I_36 
+@N: FP130 |Promoting Net COREABC_0_PRESETN on CLKINT  I_49 
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 124MB peak: 127MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 143MB peak: 145MB)
 
-Replicating Sequential Instance COREABC_0.UROM.INSTR_CMD[1], fanout 30 segments 2
-Replicating Sequential Instance COREABC_0.DOISR, fanout 30 segments 2
-Replicating Sequential Instance COREABC_0.genblk2.RSTSYNC2, fanout 60 segments 3
+Replicating Sequential Instance COREABC_0.UROM.INSTR_CMD[1], fanout 36 segments 2
+Replicating Sequential Instance COREABC_0.DOISR, fanout 29 segments 2
+Replicating Sequential Instance COREABC_0.genblk2.RSTSYNC2, fanout 53 segments 3
 
 Added 0 Buffers
 Added 4 Cells via replication
 	Added 4 Sequential Cells via replication
 	Added 0 Combinational Cells via replication
-Replicating Combinational Instance CoreTimer_0.un1_PreScale8, fanout 28 segments 2
+Replicating Combinational Instance CORESPI_0.USPI.UCON.tx_m2_e_0_0, fanout 26 segments 2
+Replicating Combinational Instance CoreTimer_0.un1_PreScale8, fanout 29 segments 2
 Replicating Combinational Instance CoreTimer_0.Countlde_N_8_i, fanout 32 segments 2
-Buffering COREABC_0_APB3master_PADDR[2], fanout 28 segments 2
+Buffering COREABC_0_APB3master_PADDR[12], fanout 26 segments 2
+Buffering COREABC_0_APB3master_PADDR[4], fanout 28 segments 2
+Buffering COREABC_0_APB3master_PADDR[3], fanout 48 segments 2
+Buffering COREABC_0_APB3master_PADDR[2], fanout 46 segments 2
 
-Added 1 Buffers
-Added 2 Cells via replication
+Added 5 Buffers
+Added 3 Cells via replication
 	Added 0 Sequential Cells via replication
-	Added 2 Combinational Cells via replication
+	Added 3 Combinational Cells via replication
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 124MB peak: 127MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 144MB peak: 145MB)
 
 
 
@@ -221,39 +242,39 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 Clock optimization not enabled
-1 non-gated/non-generated clock tree(s) driving 291 clock pin(s) of sequential element(s)
-0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 515 clock pin(s) of sequential element(s)
+0 instances converted, 515 sequential instances remain driven by gated/generated clocks
 
-================================= Non-Gated/Non-Generated Clocks =================================
-Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance           
---------------------------------------------------------------------------------------------------
-@K:CKID0001       SYSCLK              port                   291        CoreUARTapb_0.CUARTl0OI[7]
-==================================================================================================
+============================================================================================================ Gated/Generated Clocks =============================================================================================================
+Clock Tree ID     Driving Element                 Drive Element Type     Fanout     Sample Instance                Explanation                                                                                                                   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       Minimal_SoC_with_PLL_0.Core     PLL                    515        CoreUARTapb_0.CUARTl0OI[7]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+=================================================================================================================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 123MB peak: 127MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 139MB peak: 145MB)
 
-Writing Analyst data base C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\synthesis\synwork\Minimal_SoC_m.srm
+Writing Analyst data base C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\synthesis\synwork\Minimal_SoC_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 124MB peak: 127MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 140MB peak: 145MB)
 
 Writing EDIF Netlist and constraint files
 L-2016.09M-SP1-5
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 125MB peak: 127MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 142MB peak: 145MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 124MB peak: 127MB)
+Start final timing analysis (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 140MB peak: 145MB)
 
-@W: MT420 |Found inferred clock Minimal_SoC|SYSCLK with period 10.00ns. Please declare a user-defined clock on object "p:SYSCLK"
+@W: MT420 |Found inferred clock Minimal_SoC_with_PLL|GLA_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:Minimal_SoC_with_PLL_0.GLA"
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Sat Jul 09 21:11:49 2022
+# Timing Report written on Thu Jul 14 21:51:51 2022
 #
 
 
@@ -275,13 +296,13 @@ Performance Summary
 *******************
 
 
-Worst slack in design: -4.585
+Worst slack in design: -7.946
 
-                       Requested     Estimated     Requested     Estimated                Clock        Clock              
-Starting Clock         Frequency     Frequency     Period        Period        Slack      Type         Group              
---------------------------------------------------------------------------------------------------------------------------
-Minimal_SoC|SYSCLK     100.0 MHz     68.6 MHz      10.000        14.585        -4.585     inferred     Inferred_clkgroup_0
-==========================================================================================================================
+                                            Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock                              Frequency     Frequency     Period        Period        Slack      Type         Group              
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Minimal_SoC_with_PLL|GLA_inferred_clock     100.0 MHz     55.7 MHz      10.000        17.946        -7.946     inferred     Inferred_clkgroup_0
+===============================================================================================================================================
 
 
 
@@ -290,12 +311,12 @@ Minimal_SoC|SYSCLK     100.0 MHz     68.6 MHz      10.000        14.585        -
 Clock Relationships
 *******************
 
-Clocks                                  |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
--------------------------------------------------------------------------------------------------------------------------------
-Starting            Ending              |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
--------------------------------------------------------------------------------------------------------------------------------
-Minimal_SoC|SYSCLK  Minimal_SoC|SYSCLK  |  10.000      -4.585  |  No paths    -      |  No paths    -      |  No paths    -    
-===============================================================================================================================
+Clocks                                                                            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                 Ending                                   |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Minimal_SoC_with_PLL|GLA_inferred_clock  Minimal_SoC_with_PLL|GLA_inferred_clock  |  10.000      -7.946  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -309,7 +330,7 @@ No IO constraint found
 
 
 ====================================
-Detailed Report for Clock: Minimal_SoC|SYSCLK
+Detailed Report for Clock: Minimal_SoC_with_PLL|GLA_inferred_clock
 ====================================
 
 
@@ -317,41 +338,41 @@ Detailed Report for Clock: Minimal_SoC|SYSCLK
 Starting Points with Worst Slack
 ********************************
 
-                                  Starting                                                            Arrival           
-Instance                          Reference              Type         Pin     Net                     Time        Slack 
-                                  Clock                                                                                 
-------------------------------------------------------------------------------------------------------------------------
-COREABC_0.UROM\.INSTR_SCMD[1]     Minimal_SoC|SYSCLK     DFN1         Q       UROM\.INSTR_SCMD[1]     0.737       -4.585
-COREABC_0.UROM\.INSTR_MUXC        Minimal_SoC|SYSCLK     DFN1         Q       UROM\.INSTR_MUXC        0.737       -4.178
-COREABC_0.UROM\.INSTR_CMD[0]      Minimal_SoC|SYSCLK     DFN1         Q       UROM\.INSTR_CMD[0]      0.737       -4.126
-CoreTimer_0.Count[12]             Minimal_SoC|SYSCLK     DFN1E1P0     Q       Count[12]               0.737       -3.724
-COREABC_0.PSELI                   Minimal_SoC|SYSCLK     DFN1C0       Q       PSELI                   0.737       -3.663
-CoreTimer_0.Count[11]             Minimal_SoC|SYSCLK     DFN1E1P0     Q       Count[11]               0.737       -3.585
-CoreTimer_0.Count[17]             Minimal_SoC|SYSCLK     DFN1E1P0     Q       Count[17]               0.737       -3.552
-CoreTimer_0.Count[4]              Minimal_SoC|SYSCLK     DFN1E1P0     Q       Count[4]                0.737       -3.462
-CoreTimer_0.Count[3]              Minimal_SoC|SYSCLK     DFN1E1P0     Q       Count[3]                0.737       -3.420
-CoreTimer_0.Count[16]             Minimal_SoC|SYSCLK     DFN1E1P0     Q       Count[16]               0.737       -3.413
-========================================================================================================================
+                                   Starting                                                                                 Arrival           
+Instance                           Reference                                   Type         Pin     Net                     Time        Slack 
+                                   Clock                                                                                                      
+----------------------------------------------------------------------------------------------------------------------------------------------
+COREABC_0.UROM\.INSTR_ADDR[2]      Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1         Q       UROM\.INSTR_ADDR[2]     0.737       -7.946
+COREABC_0.PSELI                    Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1C0       Q       PSELI                   0.737       -7.524
+COREABC_0.UROM\.INSTR_ADDR[3]      Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1         Q       UROM\.INSTR_ADDR[3]     0.737       -7.045
+COREABC_0.UROM\.INSTR_SLOT[0]      Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1         Q       UROM\.INSTR_SLOT[0]     0.580       -6.137
+COREABC_0.UROM\.INSTR_SLOT[1]      Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1         Q       UROM\.INSTR_SLOT[1]     0.737       -6.013
+COREABC_0.UROM\.INSTR_CMD[0]       Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1         Q       UROM\.INSTR_CMD[0]      0.580       -5.973
+COREABC_0.UROM\.INSTR_SCMD[1]      Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1         Q       UROM\.INSTR_SCMD[1]     0.737       -5.888
+CORESPI_0.USPI.URF.control1[1]     Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     Q       SPIMODE                 0.737       -5.690
+COREABC_0.UROM\.INSTR_ADDR[5]      Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1         Q       UROM\.INSTR_ADDR[5]     0.737       -5.679
+COREABC_0.PENABLEI                 Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1C0       Q       PENABLEI                0.737       -5.513
+==============================================================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                             Starting                                                              Required           
-Instance                     Reference              Type         Pin     Net                       Time         Slack 
-                             Clock                                                                                    
-----------------------------------------------------------------------------------------------------------------------
-CoreTimer_0.Count[19]        Minimal_SoC|SYSCLK     DFN1E1P0     D       N_466                     9.427        -4.585
-COREABC_0.ISR_ACCUM_ZERO     Minimal_SoC|SYSCLK     DFN1E0C0     D       to_logic_2\.tmp_6[0]      9.427        -4.178
-CoreTimer_0.Count[7]         Minimal_SoC|SYSCLK     DFN1E1P0     D       N_438                     9.531        -4.156
-COREABC_0.STD_ACCUM_ZERO     Minimal_SoC|SYSCLK     DFN1E1C0     D       to_logic_2\.tmp_6[0]      9.461        -4.127
-COREABC_0.ZREGISTER[5]       Minimal_SoC|SYSCLK     DFN1E0C0     D       un17_ZREGISTER.N_21_i     9.461        -4.126
-CoreTimer_0.Count[14]        Minimal_SoC|SYSCLK     DFN1E1P0     D       N_471                     9.427        -3.846
-CoreTimer_0.Count[16]        Minimal_SoC|SYSCLK     DFN1E1P0     D       N_469                     9.427        -3.846
-CoreTimer_0.Count[18]        Minimal_SoC|SYSCLK     DFN1E1P0     D       N_467                     9.427        -3.846
-CoreTimer_0.PreScale[0]      Minimal_SoC|SYSCLK     DFN1C0       D       PreScale_RNO[0]           9.427        -3.785
-CoreTimer_0.Count[2]         Minimal_SoC|SYSCLK     DFN1E1P0     D       Count_RNO[2]              9.427        -3.756
-======================================================================================================================
+                                        Starting                                                                                  Required           
+Instance                                Reference                                   Type         Pin     Net                      Time         Slack 
+                                        Clock                                                                                                        
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+COREABC_0.ISR_ACCUM_ZERO                Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     D       to_logic_2\.tmp_6[0]     9.496        -7.946
+COREABC_0.STD_ACCUM_ZERO                Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     D       to_logic_2\.tmp_6[0]     9.496        -7.946
+CORESPI_0.USPI.URXF.empty_out           Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1P0       D       empty_out_2              9.461        -7.524
+COREABC_0.ACCUMULATOR[7]                Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     D       ACCUM_NEXT[7]            9.496        -6.848
+COREABC_0.ISR_ACCUM_NEG                 Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     D       ACCUM_NEXT[7]            9.496        -6.848
+COREABC_0.STD_ACCUM_NEG                 Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     D       ACCUM_NEXT[7]            9.496        -6.848
+CORESPI_0.USPI.URXF.full_out            Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1P0       D       full_out_2               9.427        -6.717
+COREABC_0.ACCUMULATOR[6]                Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     D       ACCUM_NEXT[6]            9.461        -6.698
+CORESPI_0.USPI.UTXF.wr_pointer_q[1]     Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1C0       D       wr_pointer_q_3[1]        9.461        -6.177
+CoreTimer_0.Count[7]                    Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1P0     D       N_438                    9.427        -6.137
+=====================================================================================================================================================
 
 
 
@@ -361,199 +382,241 @@ Worst Path Information
 
 Path information for path number 1: 
       Requested Period:                      10.000
-    - Setup time:                            0.573
+    - Setup time:                            0.504
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         9.427
+    = Required time:                         9.496
 
-    - Propagation time:                      14.011
+    - Propagation time:                      17.442
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -4.585
+    = Slack (critical) :                     -7.946
 
-    Number of logic level(s):                7
-    Starting point:                          COREABC_0.UROM\.INSTR_SCMD[1] / Q
-    Ending point:                            CoreTimer_0.Count[19] / D
-    The start point is clocked by            Minimal_SoC|SYSCLK [rising] on pin CLK
-    The end   point is clocked by            Minimal_SoC|SYSCLK [rising] on pin CLK
+    Number of logic level(s):                11
+    Starting point:                          COREABC_0.UROM\.INSTR_ADDR[2] / Q
+    Ending point:                            COREABC_0.ISR_ACCUM_ZERO / D
+    The start point is clocked by            Minimal_SoC_with_PLL|GLA_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            Minimal_SoC_with_PLL|GLA_inferred_clock [rising] on pin CLK
 
-Instance / Net                                        Pin      Pin               Arrival     No. of    
-Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
--------------------------------------------------------------------------------------------------------
-COREABC_0.UROM\.INSTR_SCMD[1]            DFN1         Q        Out     0.737     0.737       -         
-UROM\.INSTR_SCMD[1]                      Net          -        -       2.218     -           17        
-COREABC_0.UROM\.INSTR_SCMD_RNIG2F[1]     INV          A        In      -         2.955       -         
-COREABC_0.UROM\.INSTR_SCMD_RNIG2F[1]     INV          Y        Out     0.507     3.462       -         
-UROM\.INSTR_SCMD_i[1]                    Net          -        -       1.279     -           5         
-CoreTimer_0.un4_CtrlEn_0_a2_0            NOR2A        A        In      -         4.741       -         
-CoreTimer_0.un4_CtrlEn_0_a2_0            NOR2A        Y        Out     0.516     5.257       -         
-un4_CtrlEn_0_a2_0                        Net          -        -       1.279     -           5         
-CoreTimer_0.CtrlEn                       NOR3C        B        In      -         6.537       -         
-CoreTimer_0.CtrlEn                       NOR3C        Y        Out     0.624     7.160       -         
-CtrlEn                                   Net          -        -       1.184     -           4         
-CoreTimer_0.CtrlReg_RNIGKK2D[2]          NOR3C        C        In      -         8.344       -         
-CoreTimer_0.CtrlReg_RNIGKK2D[2]          NOR3C        Y        Out     0.666     9.010       -         
-OneShotClr_2                             Net          -        -       0.806     -           3         
-CoreTimer_0.LoadEnReg_RNISNLHD           AO1A         B        In      -         9.816       -         
-CoreTimer_0.LoadEnReg_RNISNLHD           AO1A         Y        Out     0.567     10.383      -         
-PreScale8                                Net          -        -       1.994     -           12        
-CoreTimer_0.Count_RNO_0[19]              NOR3B        C        In      -         12.376      -         
-CoreTimer_0.Count_RNO_0[19]              NOR3B        Y        Out     0.360     12.736      -         
-N_103                                    Net          -        -       0.322     -           1         
-CoreTimer_0.Count_RNO[19]                AO1A         C        In      -         13.057      -         
-CoreTimer_0.Count_RNO[19]                AO1A         Y        Out     0.633     13.690      -         
-N_466                                    Net          -        -       0.322     -           1         
-CoreTimer_0.Count[19]                    DFN1E1P0     D        In      -         14.011      -         
-=======================================================================================================
-Total path delay (propagation time + setup) of 14.585 is 5.182(35.5%) logic and 9.403(64.5%) route.
+Instance / Net                                                  Pin      Pin               Arrival     No. of    
+Name                                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------
+COREABC_0.UROM\.INSTR_ADDR[2]                      DFN1         Q        Out     0.737     0.737       -         
+UROM\.INSTR_ADDR[2]                                Net          -        -       2.522     -           26        
+COREABC_0_PADDR_M_RNIUKR2[2]                       BUFF         A        In      -         3.259       -         
+COREABC_0_PADDR_M_RNIUKR2[2]                       BUFF         Y        Out     0.499     3.757       -         
+COREABC_0_APB3master_PADDR_0[2]                    Net          -        -       2.437     -           23        
+CORESPI_0.USPI.URF.control15_0_a2_1                NOR3         C        In      -         6.194       -         
+CORESPI_0.USPI.URF.control15_0_a2_1                NOR3         Y        Out     0.751     6.945       -         
+control15_0_a2_1                                   Net          -        -       0.322     -           1         
+CORESPI_0.USPI.URF.control15_0_a2                  NOR2B        A        In      -         7.266       -         
+CORESPI_0.USPI.URF.control15_0_a2                  NOR2B        Y        Out     0.488     7.755       -         
+control15                                          Net          -        -       1.639     -           8         
+CORESPI_0.USPI.URF.control1_RNISDRL[6]             NOR2B        B        In      -         9.394       -         
+CORESPI_0.USPI.URF.control1_RNISDRL[6]             NOR2B        Y        Out     0.516     9.910       -         
+control1_m[6]                                      Net          -        -       0.322     -           1         
+CORESPI_0.USPI.URF.control1_RNINA7D1[6]            AO1A         C        In      -         10.231      -         
+CORESPI_0.USPI.URF.control1_RNINA7D1[6]            AO1A         Y        Out     0.655     10.887      -         
+rdata_iv_0[6]                                      Net          -        -       0.322     -           1         
+CORESPI_0.USPI.URF.CLK_DIV_RNI13QO3[6]             OR3          B        In      -         11.208      -         
+CORESPI_0.USPI.URF.CLK_DIV_RNI13QO3[6]             OR3          Y        Out     0.641     11.849      -         
+rdata_iv_3[6]                                      Net          -        -       0.322     -           1         
+CORESPI_0.USPI.URF.control2_RNITLV07[6]            OA1B         B        In      -         12.171      -         
+CORESPI_0.USPI.URF.control2_RNITLV07[6]            OA1B         Y        Out     0.984     13.155      -         
+prdata_regs[6]                                     Net          -        -       0.322     -           1         
+CoreAPB3_0.u_mux_p_to_b3.m61                       MX2A         B        In      -         13.476      -         
+CoreAPB3_0.u_mux_p_to_b3.m61                       MX2A         Y        Out     0.553     14.029      -         
+m61                                                Net          -        -       0.386     -           2         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6_4_a1[0]     NOR3A        C        In      -         14.414      -         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6_4_a1[0]     NOR3A        Y        Out     0.641     15.056      -         
+tmp_6_4_a1[0]                                      Net          -        -       0.322     -           1         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6_5[0]        OR3          C        In      -         15.377      -         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6_5[0]        OR3          Y        Out     0.751     16.128      -         
+tmp_6_4[0]                                         Net          -        -       0.322     -           1         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6[0]          NOR3B        B        In      -         16.450      -         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6[0]          NOR3B        Y        Out     0.607     17.056      -         
+tmp_6[0]                                           Net          -        -       0.386     -           2         
+COREABC_0.ISR_ACCUM_ZERO                           DFN1E1C0     D        In      -         17.442      -         
+=================================================================================================================
+Total path delay (propagation time + setup) of 17.946 is 8.326(46.4%) logic and 9.620(53.6%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
 Path information for path number 2: 
       Requested Period:                      10.000
-    - Setup time:                            0.573
+    - Setup time:                            0.504
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         9.427
+    = Required time:                         9.496
 
-    - Propagation time:                      13.604
+    - Propagation time:                      17.442
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -4.178
+    = Slack (critical) :                     -7.946
 
-    Number of logic level(s):                10
-    Starting point:                          COREABC_0.UROM\.INSTR_MUXC / Q
-    Ending point:                            COREABC_0.ISR_ACCUM_ZERO / D
-    The start point is clocked by            Minimal_SoC|SYSCLK [rising] on pin CLK
-    The end   point is clocked by            Minimal_SoC|SYSCLK [rising] on pin CLK
+    Number of logic level(s):                11
+    Starting point:                          COREABC_0.UROM\.INSTR_ADDR[2] / Q
+    Ending point:                            COREABC_0.STD_ACCUM_ZERO / D
+    The start point is clocked by            Minimal_SoC_with_PLL|GLA_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            Minimal_SoC_with_PLL|GLA_inferred_clock [rising] on pin CLK
 
-Instance / Net                                                             Pin      Pin               Arrival     No. of    
-Name                                                          Type         Name     Dir     Delay     Time        Fan Out(s)
-----------------------------------------------------------------------------------------------------------------------------
-COREABC_0.UROM\.INSTR_MUXC                                    DFN1         Q        Out     0.737     0.737       -         
-UROM\.INSTR_MUXC                                              Net          -        -       1.708     -           10        
-CoreAPB3_0.iPSELS_0_a2[0]                                     NOR3B        C        In      -         2.445       -         
-CoreAPB3_0.iPSELS_0_a2[0]                                     NOR3B        Y        Out     0.488     2.934       -         
-CoreAPB3_0_APBmslave0_PSELx                                   Net          -        -       2.218     -           17        
-CoreAPB3_0.u_mux_p_to_b3.PRDATA_1_a3_0[1]                     NOR2B        B        In      -         5.151       -         
-CoreAPB3_0.u_mux_p_to_b3.PRDATA_1_a3_0[1]                     NOR2B        Y        Out     0.516     5.668       -         
-N_38                                                          Net          -        -       0.322     -           1         
-CoreAPB3_0.u_mux_p_to_b3.PRDATA_1[1]                          AO1          C        In      -         5.989       -         
-CoreAPB3_0.u_mux_p_to_b3.PRDATA_1[1]                          AO1          Y        Out     0.655     6.644       -         
-COREABC_0_APB3master_PRDATA[1]                                Net          -        -       0.322     -           1         
-COREABC_0.PRDATA_M_RNIPTHU[1]                                 NOR3B        B        In      -         6.966       -         
-COREABC_0.PRDATA_M_RNIPTHU[1]                                 NOR3B        Y        Out     0.624     7.590       -         
-N_137                                                         Net          -        -       0.322     -           1         
-COREABC_0.IO_IN_RNI74G72[1]                                   AO1A         C        In      -         7.911       -         
-COREABC_0.IO_IN_RNI74G72[1]                                   AO1A         Y        Out     0.655     8.566       -         
-ACCUM_NEXT_0_0[1]                                             Net          -        -       0.322     -           1         
-COREABC_0.URAM\.UR.UG3\.UR_xhdl12.Ram256x16_R0C0_RNIAER73     AO1A         C        In      -         8.888       -         
-COREABC_0.URAM\.UR.UG3\.UR_xhdl12.Ram256x16_R0C0_RNIAER73     AO1A         Y        Out     0.655     9.543       -         
-ACCUM_NEXT_0_1[1]                                             Net          -        -       0.322     -           1         
-COREABC_0.UROM\.INSTR_DATA_RNI881T5[1]                        OR3          C        In      -         9.864       -         
-COREABC_0.UROM\.INSTR_DATA_RNI881T5[1]                        OR3          Y        Out     0.683     10.547      -         
-ACCUM_NEXT[1]                                                 Net          -        -       0.386     -           2         
-COREABC_0.UROM\.INSTR_DATA_RNI39FLF[1]                        NOR3         A        In      -         10.933      -         
-COREABC_0.UROM\.INSTR_DATA_RNI39FLF[1]                        NOR3         Y        Out     0.360     11.293      -         
-to_logic_2\.tmp_6_1[0]                                        Net          -        -       0.322     -           1         
-COREABC_0.UROM\.INSTR_CMD_RNIN0ACP[1]                         NOR3A        A        In      -         11.615      -         
-COREABC_0.UROM\.INSTR_CMD_RNIN0ACP[1]                         NOR3A        Y        Out     0.641     12.256      -         
-to_logic_2\.tmp_6_4[0]                                        Net          -        -       0.322     -           1         
-COREABC_0.UROM\.INSTR_CMD_RNISQ2B71[1]                        NOR3B        A        In      -         12.577      -         
-COREABC_0.UROM\.INSTR_CMD_RNISQ2B71[1]                        NOR3B        Y        Out     0.641     13.219      -         
-to_logic_2\.tmp_6[0]                                          Net          -        -       0.386     -           2         
-COREABC_0.ISR_ACCUM_ZERO                                      DFN1E0C0     D        In      -         13.604      -         
-============================================================================================================================
-Total path delay (propagation time + setup) of 14.178 is 7.230(51.0%) logic and 6.948(49.0%) route.
+Instance / Net                                                  Pin      Pin               Arrival     No. of    
+Name                                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------
+COREABC_0.UROM\.INSTR_ADDR[2]                      DFN1         Q        Out     0.737     0.737       -         
+UROM\.INSTR_ADDR[2]                                Net          -        -       2.522     -           26        
+COREABC_0_PADDR_M_RNIUKR2[2]                       BUFF         A        In      -         3.259       -         
+COREABC_0_PADDR_M_RNIUKR2[2]                       BUFF         Y        Out     0.499     3.757       -         
+COREABC_0_APB3master_PADDR_0[2]                    Net          -        -       2.437     -           23        
+CORESPI_0.USPI.URF.control15_0_a2_1                NOR3         C        In      -         6.194       -         
+CORESPI_0.USPI.URF.control15_0_a2_1                NOR3         Y        Out     0.751     6.945       -         
+control15_0_a2_1                                   Net          -        -       0.322     -           1         
+CORESPI_0.USPI.URF.control15_0_a2                  NOR2B        A        In      -         7.266       -         
+CORESPI_0.USPI.URF.control15_0_a2                  NOR2B        Y        Out     0.488     7.755       -         
+control15                                          Net          -        -       1.639     -           8         
+CORESPI_0.USPI.URF.control1_RNISDRL[6]             NOR2B        B        In      -         9.394       -         
+CORESPI_0.USPI.URF.control1_RNISDRL[6]             NOR2B        Y        Out     0.516     9.910       -         
+control1_m[6]                                      Net          -        -       0.322     -           1         
+CORESPI_0.USPI.URF.control1_RNINA7D1[6]            AO1A         C        In      -         10.231      -         
+CORESPI_0.USPI.URF.control1_RNINA7D1[6]            AO1A         Y        Out     0.655     10.887      -         
+rdata_iv_0[6]                                      Net          -        -       0.322     -           1         
+CORESPI_0.USPI.URF.CLK_DIV_RNI13QO3[6]             OR3          B        In      -         11.208      -         
+CORESPI_0.USPI.URF.CLK_DIV_RNI13QO3[6]             OR3          Y        Out     0.641     11.849      -         
+rdata_iv_3[6]                                      Net          -        -       0.322     -           1         
+CORESPI_0.USPI.URF.control2_RNITLV07[6]            OA1B         B        In      -         12.171      -         
+CORESPI_0.USPI.URF.control2_RNITLV07[6]            OA1B         Y        Out     0.984     13.155      -         
+prdata_regs[6]                                     Net          -        -       0.322     -           1         
+CoreAPB3_0.u_mux_p_to_b3.m61                       MX2A         B        In      -         13.476      -         
+CoreAPB3_0.u_mux_p_to_b3.m61                       MX2A         Y        Out     0.553     14.029      -         
+m61                                                Net          -        -       0.386     -           2         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6_4_a1[0]     NOR3A        C        In      -         14.414      -         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6_4_a1[0]     NOR3A        Y        Out     0.641     15.056      -         
+tmp_6_4_a1[0]                                      Net          -        -       0.322     -           1         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6_5[0]        OR3          C        In      -         15.377      -         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6_5[0]        OR3          Y        Out     0.751     16.128      -         
+tmp_6_4[0]                                         Net          -        -       0.322     -           1         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6[0]          NOR3B        B        In      -         16.450      -         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6[0]          NOR3B        Y        Out     0.607     17.056      -         
+tmp_6[0]                                           Net          -        -       0.386     -           2         
+COREABC_0.STD_ACCUM_ZERO                           DFN1E1C0     D        In      -         17.442      -         
+=================================================================================================================
+Total path delay (propagation time + setup) of 17.946 is 8.326(46.4%) logic and 9.620(53.6%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
 Path information for path number 3: 
       Requested Period:                      10.000
-    - Setup time:                            0.469
+    - Setup time:                            0.504
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         9.531
+    = Required time:                         9.496
 
-    - Propagation time:                      13.686
+    - Propagation time:                      17.171
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -4.156
+    = Slack (non-critical) :                 -7.675
 
-    Number of logic level(s):                6
-    Starting point:                          COREABC_0.UROM\.INSTR_SCMD[1] / Q
-    Ending point:                            CoreTimer_0.Count[7] / D
-    The start point is clocked by            Minimal_SoC|SYSCLK [rising] on pin CLK
-    The end   point is clocked by            Minimal_SoC|SYSCLK [rising] on pin CLK
+    Number of logic level(s):                11
+    Starting point:                          COREABC_0.UROM\.INSTR_ADDR[2] / Q
+    Ending point:                            COREABC_0.ISR_ACCUM_ZERO / D
+    The start point is clocked by            Minimal_SoC_with_PLL|GLA_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            Minimal_SoC_with_PLL|GLA_inferred_clock [rising] on pin CLK
 
-Instance / Net                                        Pin      Pin               Arrival     No. of    
-Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
--------------------------------------------------------------------------------------------------------
-COREABC_0.UROM\.INSTR_SCMD[1]            DFN1         Q        Out     0.737     0.737       -         
-UROM\.INSTR_SCMD[1]                      Net          -        -       2.218     -           17        
-COREABC_0.UROM\.INSTR_SCMD_RNIG2F[1]     INV          A        In      -         2.955       -         
-COREABC_0.UROM\.INSTR_SCMD_RNIG2F[1]     INV          Y        Out     0.507     3.462       -         
-UROM\.INSTR_SCMD_i[1]                    Net          -        -       1.279     -           5         
-CoreTimer_0.un4_CtrlEn_0_a2_0            NOR2A        A        In      -         4.741       -         
-CoreTimer_0.un4_CtrlEn_0_a2_0            NOR2A        Y        Out     0.516     5.257       -         
-un4_CtrlEn_0_a2_0                        Net          -        -       1.279     -           5         
-CoreTimer_0.CtrlEn                       NOR3C        B        In      -         6.537       -         
-CoreTimer_0.CtrlEn                       NOR3C        Y        Out     0.624     7.160       -         
-CtrlEn                                   Net          -        -       1.184     -           4         
-CoreTimer_0.CtrlReg_RNIGKK2D[2]          NOR3C        C        In      -         8.344       -         
-CoreTimer_0.CtrlReg_RNIGKK2D[2]          NOR3C        Y        Out     0.666     9.010       -         
-OneShotClr_2                             Net          -        -       0.806     -           3         
-CoreTimer_0.LoadEnReg_RNI7TF1O           AO1A         B        In      -         9.816       -         
-CoreTimer_0.LoadEnReg_RNI7TF1O           AO1A         Y        Out     0.567     10.383      -         
-un1_PreScale8_0_0                        Net          -        -       2.082     -           14        
-CoreTimer_0.Count_RNO[7]                 OA1C         B        In      -         12.465      -         
-CoreTimer_0.Count_RNO[7]                 OA1C         Y        Out     0.900     13.365      -         
-N_438                                    Net          -        -       0.322     -           1         
-CoreTimer_0.Count[7]                     DFN1E1P0     D        In      -         13.686      -         
-=======================================================================================================
-Total path delay (propagation time + setup) of 14.156 is 4.986(35.2%) logic and 9.170(64.8%) route.
+Instance / Net                                                    Pin      Pin               Arrival     No. of    
+Name                                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------
+COREABC_0.UROM\.INSTR_ADDR[2]                        DFN1         Q        Out     0.737     0.737       -         
+UROM\.INSTR_ADDR[2]                                  Net          -        -       2.522     -           26        
+COREABC_0_PADDR_M_RNIUKR2[2]                         BUFF         A        In      -         3.259       -         
+COREABC_0_PADDR_M_RNIUKR2[2]                         BUFF         Y        Out     0.499     3.757       -         
+COREABC_0_APB3master_PADDR_0[2]                      Net          -        -       2.437     -           23        
+CORESPI_0.USPI.URF.control15_0_a2_1                  NOR3         C        In      -         6.194       -         
+CORESPI_0.USPI.URF.control15_0_a2_1                  NOR3         Y        Out     0.751     6.945       -         
+control15_0_a2_1                                     Net          -        -       0.322     -           1         
+CORESPI_0.USPI.URF.control15_0_a2                    NOR2B        A        In      -         7.266       -         
+CORESPI_0.USPI.URF.control15_0_a2                    NOR2B        Y        Out     0.488     7.755       -         
+control15                                            Net          -        -       1.639     -           8         
+CORESPI_0.USPI.URF.control1_RNIRCRL[5]               NOR2B        B        In      -         9.394       -         
+CORESPI_0.USPI.URF.control1_RNIRCRL[5]               NOR2B        Y        Out     0.516     9.910       -         
+control1_m[5]                                        Net          -        -       0.322     -           1         
+CORESPI_0.USPI.URF.int_raw_RNIM8J41[3]               AO1          C        In      -         10.231      -         
+CORESPI_0.USPI.URF.int_raw_RNIM8J41[3]               AO1          Y        Out     0.655     10.887      -         
+rdata_iv_4[5]                                        Net          -        -       0.322     -           1         
+CoreAPB3_0.u_mux_p_to_b3.m54_a2                      NOR3B        B        In      -         11.208      -         
+CoreAPB3_0.u_mux_p_to_b3.m54_a2                      NOR3B        Y        Out     0.624     11.832      -         
+m54_a2                                               Net          -        -       0.322     -           1         
+CoreAPB3_0.u_mux_p_to_b3.m54_0                       OR3A         B        In      -         12.153      -         
+CoreAPB3_0.u_mux_p_to_b3.m54_0                       OR3A         Y        Out     0.641     12.795      -         
+N_55                                                 Net          -        -       0.386     -           2         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6_4_a1_0[0]     NOR3A        C        In      -         13.181      -         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6_4_a1_0[0]     NOR3A        Y        Out     0.641     13.822      -         
+tmp_6_4_a1_0[0]                                      Net          -        -       0.322     -           1         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6_4_a1[0]       NOR3A        A        In      -         14.143      -         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6_4_a1[0]       NOR3A        Y        Out     0.641     14.785      -         
+tmp_6_4_a1[0]                                        Net          -        -       0.322     -           1         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6_5[0]          OR3          C        In      -         15.106      -         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6_5[0]          OR3          Y        Out     0.751     15.857      -         
+tmp_6_4[0]                                           Net          -        -       0.322     -           1         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6[0]            NOR3B        B        In      -         16.178      -         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6[0]            NOR3B        Y        Out     0.607     16.785      -         
+tmp_6[0]                                             Net          -        -       0.386     -           2         
+COREABC_0.ISR_ACCUM_ZERO                             DFN1E1C0     D        In      -         17.171      -         
+===================================================================================================================
+Total path delay (propagation time + setup) of 17.675 is 8.055(45.6%) logic and 9.620(54.4%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
 Path information for path number 4: 
       Requested Period:                      10.000
-    - Setup time:                            0.539
+    - Setup time:                            0.504
     + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         9.461
+    = Required time:                         9.496
 
-    - Propagation time:                      13.587
+    - Propagation time:                      17.171
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -4.126
+    = Slack (non-critical) :                 -7.675
 
-    Number of logic level(s):                7
-    Starting point:                          COREABC_0.UROM\.INSTR_CMD[0] / Q
-    Ending point:                            COREABC_0.ZREGISTER[5] / D
-    The start point is clocked by            Minimal_SoC|SYSCLK [rising] on pin CLK
-    The end   point is clocked by            Minimal_SoC|SYSCLK [rising] on pin CLK
+    Number of logic level(s):                11
+    Starting point:                          COREABC_0.UROM\.INSTR_ADDR[2] / Q
+    Ending point:                            COREABC_0.STD_ACCUM_ZERO / D
+    The start point is clocked by            Minimal_SoC_with_PLL|GLA_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            Minimal_SoC_with_PLL|GLA_inferred_clock [rising] on pin CLK
 
-Instance / Net                                      Pin      Pin               Arrival     No. of    
-Name                                   Type         Name     Dir     Delay     Time        Fan Out(s)
------------------------------------------------------------------------------------------------------
-COREABC_0.UROM\.INSTR_CMD[0]           DFN1         Q        Out     0.737     0.737       -         
-UROM\.INSTR_CMD[0]                     Net          -        -       2.218     -           17        
-COREABC_0.UROM\.INSTR_MUXC_RNIP9JE     OR2B         A        In      -         2.955       -         
-COREABC_0.UROM\.INSTR_MUXC_RNIP9JE     OR2B         Y        Out     0.514     3.469       -         
-N_81                                   Net          -        -       1.279     -           5         
-COREABC_0.ACCUMULATOR_RNI3I7J[0]       MX2          S        In      -         4.748       -         
-COREABC_0.ACCUMULATOR_RNI3I7J[0]       MX2          Y        Out     0.480     5.228       -         
-N_87                                   Net          -        -       1.669     -           9         
-COREABC_0.un17_ZREGISTER.m1            NOR2B        A        In      -         6.896       -         
-COREABC_0.un17_ZREGISTER.m1            NOR2B        Y        Out     0.488     7.385       -         
-un17_ZREGISTER.N_2_i                   Net          -        -       0.386     -           2         
-COREABC_0.un17_ZREGISTER.m4            AO18         C        In      -         7.770       -         
-COREABC_0.un17_ZREGISTER.m4            AO18         Y        Out     0.614     8.384       -         
-un17_ZREGISTER.i2_mux                  Net          -        -       0.806     -           3         
-COREABC_0.un17_ZREGISTER.m10           MX2          B        In      -         9.190       -         
-COREABC_0.un17_ZREGISTER.m10           MX2          Y        Out     0.572     9.762       -         
-un17_ZREGISTER.i6_mux                  Net          -        -       1.184     -           4         
-COREABC_0.un17_ZREGISTER.m13           AO13         A        In      -         10.946      -         
-COREABC_0.un17_ZREGISTER.m13           AO13         Y        Out     1.062     12.008      -         
-un17_ZREGISTER.i8_mux                  Net          -        -       0.322     -           1         
-COREABC_0.un17_ZREGISTER.m20           XNOR2        B        In      -         12.329      -         
-COREABC_0.un17_ZREGISTER.m20           XNOR2        Y        Out     0.937     13.266      -         
-un17_ZREGISTER.N_21_i                  Net          -        -       0.322     -           1         
-COREABC_0.ZREGISTER[5]                 DFN1E0C0     D        In      -         13.587      -         
-=====================================================================================================
-Total path delay (propagation time + setup) of 14.126 is 5.942(42.1%) logic and 8.184(57.9%) route.
+Instance / Net                                                    Pin      Pin               Arrival     No. of    
+Name                                                 Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------
+COREABC_0.UROM\.INSTR_ADDR[2]                        DFN1         Q        Out     0.737     0.737       -         
+UROM\.INSTR_ADDR[2]                                  Net          -        -       2.522     -           26        
+COREABC_0_PADDR_M_RNIUKR2[2]                         BUFF         A        In      -         3.259       -         
+COREABC_0_PADDR_M_RNIUKR2[2]                         BUFF         Y        Out     0.499     3.757       -         
+COREABC_0_APB3master_PADDR_0[2]                      Net          -        -       2.437     -           23        
+CORESPI_0.USPI.URF.control15_0_a2_1                  NOR3         C        In      -         6.194       -         
+CORESPI_0.USPI.URF.control15_0_a2_1                  NOR3         Y        Out     0.751     6.945       -         
+control15_0_a2_1                                     Net          -        -       0.322     -           1         
+CORESPI_0.USPI.URF.control15_0_a2                    NOR2B        A        In      -         7.266       -         
+CORESPI_0.USPI.URF.control15_0_a2                    NOR2B        Y        Out     0.488     7.755       -         
+control15                                            Net          -        -       1.639     -           8         
+CORESPI_0.USPI.URF.control1_RNIRCRL[5]               NOR2B        B        In      -         9.394       -         
+CORESPI_0.USPI.URF.control1_RNIRCRL[5]               NOR2B        Y        Out     0.516     9.910       -         
+control1_m[5]                                        Net          -        -       0.322     -           1         
+CORESPI_0.USPI.URF.int_raw_RNIM8J41[3]               AO1          C        In      -         10.231      -         
+CORESPI_0.USPI.URF.int_raw_RNIM8J41[3]               AO1          Y        Out     0.655     10.887      -         
+rdata_iv_4[5]                                        Net          -        -       0.322     -           1         
+CoreAPB3_0.u_mux_p_to_b3.m54_a2                      NOR3B        B        In      -         11.208      -         
+CoreAPB3_0.u_mux_p_to_b3.m54_a2                      NOR3B        Y        Out     0.624     11.832      -         
+m54_a2                                               Net          -        -       0.322     -           1         
+CoreAPB3_0.u_mux_p_to_b3.m54_0                       OR3A         B        In      -         12.153      -         
+CoreAPB3_0.u_mux_p_to_b3.m54_0                       OR3A         Y        Out     0.641     12.795      -         
+N_55                                                 Net          -        -       0.386     -           2         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6_4_a1_0[0]     NOR3A        C        In      -         13.181      -         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6_4_a1_0[0]     NOR3A        Y        Out     0.641     13.822      -         
+tmp_6_4_a1_0[0]                                      Net          -        -       0.322     -           1         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6_4_a1[0]       NOR3A        A        In      -         14.143      -         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6_4_a1[0]       NOR3A        Y        Out     0.641     14.785      -         
+tmp_6_4_a1[0]                                        Net          -        -       0.322     -           1         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6_5[0]          OR3          C        In      -         15.106      -         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6_5[0]          OR3          Y        Out     0.751     15.857      -         
+tmp_6_4[0]                                           Net          -        -       0.322     -           1         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6[0]            NOR3B        B        In      -         16.178      -         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6[0]            NOR3B        Y        Out     0.607     16.785      -         
+tmp_6[0]                                             Net          -        -       0.386     -           2         
+COREABC_0.STD_ACCUM_ZERO                             DFN1E1C0     D        In      -         17.171      -         
+===================================================================================================================
+Total path delay (propagation time + setup) of 17.675 is 8.055(45.6%) logic and 9.620(54.4%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -563,54 +626,57 @@ Path information for path number 5:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         9.496
 
-    - Propagation time:                      13.604
+    - Propagation time:                      17.040
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -4.108
+    = Slack (non-critical) :                 -7.544
 
-    Number of logic level(s):                10
-    Starting point:                          COREABC_0.UROM\.INSTR_MUXC / Q
-    Ending point:                            COREABC_0.STD_ACCUM_ZERO / D
-    The start point is clocked by            Minimal_SoC|SYSCLK [rising] on pin CLK
-    The end   point is clocked by            Minimal_SoC|SYSCLK [rising] on pin CLK
+    Number of logic level(s):                11
+    Starting point:                          COREABC_0.UROM\.INSTR_ADDR[2] / Q
+    Ending point:                            COREABC_0.ISR_ACCUM_ZERO / D
+    The start point is clocked by            Minimal_SoC_with_PLL|GLA_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            Minimal_SoC_with_PLL|GLA_inferred_clock [rising] on pin CLK
 
-Instance / Net                                                             Pin      Pin               Arrival     No. of    
-Name                                                          Type         Name     Dir     Delay     Time        Fan Out(s)
-----------------------------------------------------------------------------------------------------------------------------
-COREABC_0.UROM\.INSTR_MUXC                                    DFN1         Q        Out     0.737     0.737       -         
-UROM\.INSTR_MUXC                                              Net          -        -       1.708     -           10        
-CoreAPB3_0.iPSELS_0_a2[0]                                     NOR3B        C        In      -         2.445       -         
-CoreAPB3_0.iPSELS_0_a2[0]                                     NOR3B        Y        Out     0.488     2.934       -         
-CoreAPB3_0_APBmslave0_PSELx                                   Net          -        -       2.218     -           17        
-CoreAPB3_0.u_mux_p_to_b3.PRDATA_1_a3_0[1]                     NOR2B        B        In      -         5.151       -         
-CoreAPB3_0.u_mux_p_to_b3.PRDATA_1_a3_0[1]                     NOR2B        Y        Out     0.516     5.668       -         
-N_38                                                          Net          -        -       0.322     -           1         
-CoreAPB3_0.u_mux_p_to_b3.PRDATA_1[1]                          AO1          C        In      -         5.989       -         
-CoreAPB3_0.u_mux_p_to_b3.PRDATA_1[1]                          AO1          Y        Out     0.655     6.644       -         
-COREABC_0_APB3master_PRDATA[1]                                Net          -        -       0.322     -           1         
-COREABC_0.PRDATA_M_RNIPTHU[1]                                 NOR3B        B        In      -         6.966       -         
-COREABC_0.PRDATA_M_RNIPTHU[1]                                 NOR3B        Y        Out     0.624     7.590       -         
-N_137                                                         Net          -        -       0.322     -           1         
-COREABC_0.IO_IN_RNI74G72[1]                                   AO1A         C        In      -         7.911       -         
-COREABC_0.IO_IN_RNI74G72[1]                                   AO1A         Y        Out     0.655     8.566       -         
-ACCUM_NEXT_0_0[1]                                             Net          -        -       0.322     -           1         
-COREABC_0.URAM\.UR.UG3\.UR_xhdl12.Ram256x16_R0C0_RNIAER73     AO1A         C        In      -         8.888       -         
-COREABC_0.URAM\.UR.UG3\.UR_xhdl12.Ram256x16_R0C0_RNIAER73     AO1A         Y        Out     0.655     9.543       -         
-ACCUM_NEXT_0_1[1]                                             Net          -        -       0.322     -           1         
-COREABC_0.UROM\.INSTR_DATA_RNI881T5[1]                        OR3          C        In      -         9.864       -         
-COREABC_0.UROM\.INSTR_DATA_RNI881T5[1]                        OR3          Y        Out     0.683     10.547      -         
-ACCUM_NEXT[1]                                                 Net          -        -       0.386     -           2         
-COREABC_0.UROM\.INSTR_DATA_RNI39FLF[1]                        NOR3         A        In      -         10.933      -         
-COREABC_0.UROM\.INSTR_DATA_RNI39FLF[1]                        NOR3         Y        Out     0.360     11.293      -         
-to_logic_2\.tmp_6_1[0]                                        Net          -        -       0.322     -           1         
-COREABC_0.UROM\.INSTR_CMD_RNIN0ACP[1]                         NOR3A        A        In      -         11.615      -         
-COREABC_0.UROM\.INSTR_CMD_RNIN0ACP[1]                         NOR3A        Y        Out     0.641     12.256      -         
-to_logic_2\.tmp_6_4[0]                                        Net          -        -       0.322     -           1         
-COREABC_0.UROM\.INSTR_CMD_RNISQ2B71[1]                        NOR3B        A        In      -         12.577      -         
-COREABC_0.UROM\.INSTR_CMD_RNISQ2B71[1]                        NOR3B        Y        Out     0.641     13.219      -         
-to_logic_2\.tmp_6[0]                                          Net          -        -       0.386     -           2         
-COREABC_0.STD_ACCUM_ZERO                                      DFN1E1C0     D        In      -         13.604      -         
-============================================================================================================================
-Total path delay (propagation time + setup) of 14.108 is 7.160(50.8%) logic and 6.948(49.2%) route.
+Instance / Net                                               Pin      Pin               Arrival     No. of    
+Name                                            Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------
+COREABC_0.UROM\.INSTR_ADDR[2]                   DFN1         Q        Out     0.737     0.737       -         
+UROM\.INSTR_ADDR[2]                             Net          -        -       2.522     -           26        
+COREABC_0_PADDR_M_RNIUKR2[2]                    BUFF         A        In      -         3.259       -         
+COREABC_0_PADDR_M_RNIUKR2[2]                    BUFF         Y        Out     0.499     3.757       -         
+COREABC_0_APB3master_PADDR_0[2]                 Net          -        -       2.437     -           23        
+CORESPI_0.USPI.URF.control15_0_a2_1             NOR3         C        In      -         6.194       -         
+CORESPI_0.USPI.URF.control15_0_a2_1             NOR3         Y        Out     0.751     6.945       -         
+control15_0_a2_1                                Net          -        -       0.322     -           1         
+CORESPI_0.USPI.URF.control15_0_a2               NOR2B        A        In      -         7.266       -         
+CORESPI_0.USPI.URF.control15_0_a2               NOR2B        Y        Out     0.488     7.755       -         
+control15                                       Net          -        -       1.639     -           8         
+CORESPI_0.USPI.URF.control1_RNIQBRL[4]          NOR2B        B        In      -         9.394       -         
+CORESPI_0.USPI.URF.control1_RNIQBRL[4]          NOR2B        Y        Out     0.516     9.910       -         
+control1_m[4]                                   Net          -        -       0.322     -           1         
+CoreAPB3_0.u_mux_p_to_b3.m47_a0_1               OA1C         C        In      -         10.231      -         
+CoreAPB3_0.u_mux_p_to_b3.m47_a0_1               OA1C         Y        Out     0.487     10.718      -         
+m47_a0_1                                        Net          -        -       0.322     -           1         
+CoreAPB3_0.u_mux_p_to_b3.m47_a0_4               NOR2A        A        In      -         11.039      -         
+CoreAPB3_0.u_mux_p_to_b3.m47_a0_4               NOR2A        Y        Out     0.627     11.667      -         
+m47_a0_4                                        Net          -        -       0.322     -           1         
+CoreAPB3_0.u_mux_p_to_b3.m47_0                  AOI1         B        In      -         11.988      -         
+CoreAPB3_0.u_mux_p_to_b3.m47_0                  AOI1         Y        Out     0.931     12.920      -         
+N_48                                            Net          -        -       0.322     -           1         
+COREABC_0.un1_ACCUMULATOR.ACCUM_NEXT_6[4]       MX2          B        In      -         13.241      -         
+COREABC_0.un1_ACCUMULATOR.ACCUM_NEXT_6[4]       MX2          Y        Out     0.586     13.827      -         
+N_527                                           Net          -        -       0.322     -           1         
+COREABC_0.un1_ACCUMULATOR.ACCUM_NEXT[4]         NOR2A        A        In      -         14.149      -         
+COREABC_0.un1_ACCUMULATOR.ACCUM_NEXT[4]         NOR2A        Y        Out     0.516     14.665      -         
+ACCUM_NEXT[4]                                   Net          -        -       0.386     -           2         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6_2[0]     NOR3A        C        In      -         15.050      -         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6_2[0]     NOR3A        Y        Out     0.641     15.692      -         
+tmp_6_2[0]                                      Net          -        -       0.322     -           1         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6[0]       NOR3B        A        In      -         16.013      -         
+COREABC_0.UROM\.UROM.to_logic_2\.tmp_6[0]       NOR3B        Y        Out     0.641     16.654      -         
+tmp_6[0]                                        Net          -        -       0.386     -           2         
+COREABC_0.ISR_ACCUM_ZERO                        DFN1E1C0     D        In      -         17.040      -         
+==============================================================================================================
+Total path delay (propagation time + setup) of 17.544 is 7.925(45.2%) logic and 9.620(54.8%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -620,109 +686,120 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 Timing exceptions that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 125MB peak: 127MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 140MB peak: 145MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 125MB peak: 127MB)
+Finished timing report (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 140MB peak: 145MB)
 
 --------------------------------------------------------------------------------
 Target Part: A3P125_TQFP144_STD
 Report for cell Minimal_SoC.verilog
   Core Cell usage:
               cell count     area count*area
-              AND2     3      1.0        3.0
+              AND2    29      1.0       29.0
               AND3    18      1.0       18.0
-               AO1    35      1.0       35.0
-              AO13     2      1.0        2.0
-              AO17     5      1.0        5.0
-              AO18     1      1.0        1.0
-              AO1A    17      1.0       17.0
-              AO1B     1      1.0        1.0
-              AO1C     1      1.0        1.0
+               AO1    59      1.0       59.0
+              AO18     5      1.0        5.0
+              AO1A    16      1.0       16.0
+              AO1B     5      1.0        5.0
+              AO1C     7      1.0        7.0
               AO1D     3      1.0        3.0
-              AOI1     3      1.0        3.0
-             AOI1B     3      1.0        3.0
-               AX1     1      1.0        1.0
-              AX1A     1      1.0        1.0
-              AX1B    10      1.0       10.0
-              AX1C     4      1.0        4.0
+              AOI1    12      1.0       12.0
+             AOI1B     9      1.0        9.0
+               AX1     5      1.0        5.0
+              AX1B     4      1.0        4.0
+              AX1C     3      1.0        3.0
+              AX1D     6      1.0        6.0
+              AXO6     1      1.0        1.0
               AXO7     1      1.0        1.0
              AXOI4     2      1.0        2.0
              AXOI5     1      1.0        1.0
-              BUFF     1      1.0        1.0
+              BUFF     5      1.0        5.0
             CLKINT     1      0.0        0.0
-               GND    17      0.0        0.0
-               INV    14      1.0       14.0
-              MIN3     4      1.0        4.0
-               MX2    75      1.0       75.0
-              MX2A    10      1.0       10.0
-              MX2B    19      1.0       19.0
-              MX2C    15      1.0       15.0
-              NOR2    39      1.0       39.0
-             NOR2A    83      1.0       83.0
-             NOR2B    66      1.0       66.0
-              NOR3    11      1.0       11.0
-             NOR3A    41      1.0       41.0
-             NOR3B    42      1.0       42.0
-             NOR3C    39      1.0       39.0
-               OA1     5      1.0        5.0
-              OA1A     3      1.0        3.0
-              OA1B     3      1.0        3.0
-              OA1C    10      1.0       10.0
-              OAI1     2      1.0        2.0
-               OR2    29      1.0       29.0
-              OR2A     4      1.0        4.0
+               GND    28      0.0        0.0
+               INV    18      1.0       18.0
+             MAJ3X     4      1.0        4.0
+              MIN3     1      1.0        1.0
+            MIN3XI     1      1.0        1.0
+               MX2   137      1.0      137.0
+              MX2A    17      1.0       17.0
+              MX2B    16      1.0       16.0
+              MX2C    23      1.0       23.0
+              NOR2    67      1.0       67.0
+             NOR2A   173      1.0      173.0
+             NOR2B   165      1.0      165.0
+              NOR3    25      1.0       25.0
+             NOR3A    67      1.0       67.0
+             NOR3B    98      1.0       98.0
+             NOR3C    71      1.0       71.0
+               OA1    20      1.0       20.0
+              OA1A     6      1.0        6.0
+              OA1B    12      1.0       12.0
+              OA1C     8      1.0        8.0
+              OAI1     1      1.0        1.0
+               OR2    49      1.0       49.0
+              OR2A    21      1.0       21.0
               OR2B    10      1.0       10.0
-               OR3    38      1.0       38.0
-              OR3A     3      1.0        3.0
+               OR3    54      1.0       54.0
+              OR3A     9      1.0        9.0
               OR3B     4      1.0        4.0
-              OR3C     1      1.0        1.0
-               VCC    17      0.0        0.0
-               XA1     1      1.0        1.0
-              XA1B    15      1.0       15.0
-              XA1C    14      1.0       14.0
+              OR3C     4      1.0        4.0
+               PLL     1      0.0        0.0
+            PLLINT     1      0.0        0.0
+               VCC    28      0.0        0.0
+               XA1    20      1.0       20.0
+              XA1A     1      1.0        1.0
+              XA1B    11      1.0       11.0
+              XA1C     8      1.0        8.0
              XAI1A     1      1.0        1.0
-             XNOR2    21      1.0       21.0
-             XNOR3     2      1.0        2.0
-              XOR2    39      1.0       39.0
+             XNOR2    18      1.0       18.0
+             XNOR3     6      1.0        6.0
+               XO1     2      1.0        2.0
+              XO1A     2      1.0        2.0
+              XOR2   103      1.0      103.0
               XOR3     2      1.0        2.0
 
 
             DFI1C0     1      1.0        1.0
           DFI1E0P0     1      1.0        1.0
-              DFN1    30      1.0       30.0
-            DFN1C0    69      1.0       69.0
-          DFN1E0C0    41      1.0       41.0
+              DFN1    35      1.0       35.0
+            DFN1C0   147      1.0      147.0
+            DFN1C1     4      1.0        4.0
+          DFN1E0C0    44      1.0       44.0
+          DFN1E0C1     4      1.0        4.0
           DFN1E0P0    14      1.0       14.0
-          DFN1E1C0    76      1.0       76.0
-          DFN1E1P0    43      1.0       43.0
-            DFN1P0    10      1.0       10.0
+            DFN1E1    40      1.0       40.0
+          DFN1E1C0   124      1.0      124.0
+          DFN1E1C1    12      1.0       12.0
+          DFN1E1P0    52      1.0       52.0
+          DFN1E1P1     1      1.0        1.0
+            DFN1P0    26      1.0       26.0
           FIFO4K18     2      0.0        0.0
+            RAM4K9     2      0.0        0.0
          RAM512X18     1      0.0        0.0
                    -----          ----------
-             TOTAL  1101              1063.0
+             TOTAL  2015              1951.0
 
 
   IO Cell usage:
               cell count
-            CLKBUF     1
-             INBUF     2
-            OUTBUF    14
+             INBUF     7
+            OUTBUF     6
                    -----
-             TOTAL    17
+             TOTAL    13
 
 
-Core Cells         : 1063 of 3072 (35%)
-IO Cells           : 17
+Core Cells         : 1951 of 3072 (64%)
+IO Cells           : 13
 
   RAM/ROM Usage Summary
-Block Rams : 3 of 8 (37%)
+Block Rams : 5 of 8 (62%)
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 29MB peak: 127MB)
+At Mapper Exit (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 31MB peak: 145MB)
 
-Process took 0h:00m:05s realtime, 0h:00m:04s cputime
-# Sat Jul 09 21:11:49 2022
+Process took 0h:00m:11s realtime, 0h:00m:10s cputime
+# Thu Jul 14 21:51:51 2022
 
 ###########################################################]

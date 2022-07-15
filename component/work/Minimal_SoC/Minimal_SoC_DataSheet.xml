@@ -10,72 +10,64 @@
     <voltage>1.5</voltage>
     <hdl-type>Verilog</hdl-type>
     <project-description>A minimal SoC to show basic operation.</project-description>
-    <location>C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/component/work/Minimal_SoC</location>
-    <state>GENERATED ( Sat Jul 09 21:10:24 2022 )</state>
+    <location>C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC</location>
+    <state>GENERATED ( Thu Jul 14 21:51:19 2022 )</state>
     <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
   </project-settings>
   <site-map>
   </site-map>
   <fileset>
     <name>HDL File(s)</name>
-    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v</file>
-    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v</file>
-    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v</file>
-    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v</file>
-    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\coreparameters_tgi.v</file>
-    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v</file>
-    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v</file>
-    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v</file>
-    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructions.v</file>
-    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructnvm_bb.v</file>
-    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructram.v</file>
-    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\iram512x9_pa3.v</file>
-    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram128x8_rtl.v</file>
-    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x16_pa3.v</file>
-    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x8_rtl.v</file>
-    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v</file>
-    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\support.v</file>
-    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v</file>
-    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v</file>
-    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v</file>
-    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v</file>
-    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v</file>
-    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v</file>
-    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Bunny Murax\Bunny_Minimal_SoC\component\work\Minimal_SoC\Minimal_SoC.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_clockmux.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\coreparameters_tgi.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructions.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructnvm_bb.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructram.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\iram512x9_pa3.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram128x8_rtl.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x16_pa3.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x8_rtl.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\support.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\Minimal_SoC.v</file>
+    <file>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\smartgen\Minimal_SoC_with_PLL\Minimal_SoC_with_PLL.v</file>
   </fileset>
   <io>
-    <port-name>GPIO[6]</port-name>
+    <port-name>SPISDO</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS33</io-standard>
   </io>
   <io>
-    <port-name>RXRDY</port-name>
-    <direction>OUT</direction>
+    <port-name>SCL_MCU</port-name>
+    <direction>IN</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS33</io-standard>
   </io>
   <io>
-    <port-name>OVERFLOW</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVCMOS33</io-standard>
-  </io>
-  <io>
-    <port-name>GPIO[4]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVCMOS33</io-standard>
-  </io>
-  <io>
-    <port-name>PARITY_ERR</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVCMOS33</io-standard>
-  </io>
-  <io>
-    <port-name>GPIO[1]</port-name>
-    <direction>OUT</direction>
+    <port-name>SDA_MCU</port-name>
+    <direction>IN</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS33</io-standard>
   </io>
@@ -86,7 +78,7 @@
     <io-standard>LVCMOS33</io-standard>
   </io>
   <io>
-    <port-name>GPIO[3]</port-name>
+    <port-name>SCL_Sensor</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS33</io-standard>
@@ -98,20 +90,20 @@
     <io-standard>LVCMOS33</io-standard>
   </io>
   <io>
-    <port-name>GPIO[0]</port-name>
+    <port-name>SDA_Sensors</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS33</io-standard>
   </io>
   <io>
-    <port-name>GPIO[7]</port-name>
+    <port-name>SPISCLKO</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS33</io-standard>
   </io>
   <io>
-    <port-name>TXRDY</port-name>
-    <direction>OUT</direction>
+    <port-name>Power_Down</port-name>
+    <direction>IN</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS33</io-standard>
   </io>
@@ -122,14 +114,8 @@
     <io-standard>LVCMOS33</io-standard>
   </io>
   <io>
-    <port-name>GPIO[5]</port-name>
-    <direction>OUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVCMOS33</io-standard>
-  </io>
-  <io>
-    <port-name>FRAMING_ERR</port-name>
-    <direction>OUT</direction>
+    <port-name>SPISDI</port-name>
+    <direction>IN</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS33</io-standard>
   </io>
@@ -140,7 +126,7 @@
     <io-standard>LVCMOS33</io-standard>
   </io>
   <io>
-    <port-name>GPIO[2]</port-name>
+    <port-name>SPISS</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVCMOS33</io-standard>
@@ -191,9 +177,9 @@ CoreABC supports three program storage modes:
     </core-param>
     <core-param>
       <param-name>Number of APB Slots:</param-name>
-      <param-value>2</param-value>
+      <param-value>3</param-value>
       <param-hdlname>APB_SDEPTH</param-hdlname>
-      <param-hdlvalue>2</param-hdlvalue>
+      <param-hdlvalue>3</param-hdlvalue>
       <param-tag>spirit:hwParameter</param-tag>
     </core-param>
     <core-param>
@@ -352,16 +338,16 @@ CoreABC supports three program storage modes:
     </core-param>
     <core-param>
       <param-name>Number of I/O Flags:</param-name>
-      <param-value>4</param-value>
+      <param-value>1</param-value>
       <param-hdlname>IFWIDTH</param-hdlname>
-      <param-hdlvalue>4</param-hdlvalue>
+      <param-hdlvalue>1</param-hdlvalue>
       <param-tag>spirit:hwParameter</param-tag>
     </core-param>
     <core-param>
       <param-name>Number of I/O Inputs:</param-name>
-      <param-value>8</param-value>
+      <param-value>1</param-value>
       <param-hdlname>IIWIDTH</param-hdlname>
-      <param-hdlvalue>8</param-hdlvalue>
+      <param-hdlvalue>1</param-hdlvalue>
       <param-tag>spirit:hwParameter</param-tag>
     </core-param>
     <core-param>
@@ -387,9 +373,9 @@ CoreABC supports three program storage modes:
     </core-param>
     <core-param>
       <param-name>Number of I/O Outputs:</param-name>
-      <param-value>8</param-value>
+      <param-value>1</param-value>
       <param-hdlname>IOWIDTH</param-hdlname>
-      <param-hdlvalue>8</param-hdlvalue>
+      <param-hdlvalue>1</param-hdlvalue>
       <param-tag>spirit:hwParameter</param-tag>
     </core-param>
     <core-param>
@@ -470,16 +456,16 @@ The CoreAPB3 component implements an APB3 (AMBA3 APB) fabric, which is backwards
     </core-param>
     <core-param>
       <param-name>Slot 2:</param-name>
-      <param-value>false</param-value>
+      <param-value>true</param-value>
       <param-hdlname>APBSLOT2ENABLE</param-hdlname>
-      <param-hdlvalue>0</param-hdlvalue>
+      <param-hdlvalue>1</param-hdlvalue>
       <param-tag>spirit:hwParameter</param-tag>
     </core-param>
     <core-param>
       <param-name>Slot 3:</param-name>
-      <param-value>false</param-value>
+      <param-value>true</param-value>
       <param-hdlname>APBSLOT3ENABLE</param-hdlname>
-      <param-hdlvalue>0</param-hdlvalue>
+      <param-hdlvalue>1</param-hdlvalue>
       <param-tag>spirit:hwParameter</param-tag>
     </core-param>
     <core-param>
@@ -713,6 +699,153 @@ The CoreAPB3 component implements an APB3 (AMBA3 APB) fabric, which is backwards
     <core-type>SpiritModule</core-type>
     <core-vendor>Actel</core-vendor>
     <core-lib>DirectCore</core-lib>
+    <core-intname>COREAPBSRAM</core-intname>
+    <core-ver>2.0.102</core-ver>
+    <core-desc>CoreAPBSRAM provides an APB read/write interface to the embedded SRAM resources available on Actel's Fusion, ProASIC3, ProASIC3E, ProASIC3L, IGLOO, IGLOOe and IGLOO+ devices.</core-desc>
+    <core-param>
+      <param-name>Addressing scheme:</param-name>
+      <param-value>Word aligned (0x00, 0x04, ...)</param-value>
+      <param-hdlname>ADDR_SCHEME</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>APB data width (bits):</param-name>
+      <param-value>8</param-value>
+      <param-hdlname>APB_DWIDTH</param-hdlname>
+      <param-hdlvalue>8</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>FPGA Family:</param-name>
+      <param-value>ProASIC3</param-value>
+      <param-hdlname>FAMILY</param-hdlname>
+      <param-hdlvalue>15</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Number of locations, 8 bit data:</param-name>
+      <param-value>1024</param-value>
+      <param-hdlname>NUM_LOCATIONS_DWIDTH08</param-hdlname>
+      <param-hdlvalue>1024</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Number of locations, 16 bit data:</param-name>
+      <param-value> 512</param-value>
+      <param-hdlname>NUM_LOCATIONS_DWIDTH16</param-hdlname>
+      <param-hdlvalue>512</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Number of locations, 24 bit data:</param-name>
+      <param-value> 512</param-value>
+      <param-hdlname>NUM_LOCATIONS_DWIDTH24</param-hdlname>
+      <param-hdlvalue>512</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Number of locations, 32 bit data:</param-name>
+      <param-value> 512</param-value>
+      <param-hdlname>NUM_LOCATIONS_DWIDTH32</param-hdlname>
+      <param-hdlvalue>512</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-name>COREAPBSRAM_0</core-name>
+  </core>
+  <core type="SpiritModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>SpiritModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>DirectCore</core-lib>
+    <core-intname>CORESPI</core-intname>
+    <core-ver>5.2.104</core-ver>
+    <core-desc>CoreSPI is a controller core designed for synchronous serial communication using the Motorola, TI, or NSC Serial Peripheral Interface (SPI).  The core is parameterized to allow user specification of clock phase, clock polarity, slave select behavior, FIFO depth, frame width, and mode.  Operation is fully synchronous and operates on the system clock as well as the external SPI clock for slave mode.
+</core-desc>
+    <core-param>
+      <param-name>APB Data Width:</param-name>
+      <param-value>8</param-value>
+      <param-hdlname>APB_DWIDTH</param-hdlname>
+      <param-hdlvalue>8</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Clock Rate (0-255):</param-name>
+      <param-value>7</param-value>
+      <param-hdlname>CFG_CLK</param-hdlname>
+      <param-hdlvalue>7</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>FIFO Depth (1-32):</param-name>
+      <param-value>4</param-value>
+      <param-hdlname>CFG_FIFO_DEPTH</param-hdlname>
+      <param-hdlvalue>4</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Frame Size (4-32):</param-name>
+      <param-value>4</param-value>
+      <param-hdlname>CFG_FRAME_SIZE</param-hdlname>
+      <param-hdlvalue>4</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Mode:</param-name>
+      <param-value>Motorola Mode</param-value>
+      <param-hdlname>CFG_MODE</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Mode:</param-name>
+      <param-value>Mode 3</param-value>
+      <param-hdlname>CFG_MOT_MODE</param-hdlname>
+      <param-hdlvalue>3</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Keep SSEL active</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>CFG_MOT_SSEL</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>NSC Specific Configuration</param-name>
+      <param-value>Standard</param-value>
+      <param-hdlname>CFG_NSC_OPERATION</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Jumbo frames</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>CFG_TI_JMB_FRAMES</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Transfer Mode:</param-name>
+      <param-value>Custom</param-value>
+      <param-hdlname>CFG_TI_NSC_CUSTOM</param-hdlname>
+      <param-hdlvalue>1</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-param>
+      <param-name>Free running clock</param-name>
+      <param-value>false</param-value>
+      <param-hdlname>CFG_TI_NSC_FRC</param-hdlname>
+      <param-hdlvalue>0</param-hdlvalue>
+      <param-tag>spirit:hwParameter</param-tag>
+    </core-param>
+    <core-name>CORESPI_0</core-name>
+  </core>
+  <core type="SpiritModule">
+    <core-exttype>IP</core-exttype>
+    <core-type>SpiritModule</core-type>
+    <core-vendor>Actel</core-vendor>
+    <core-lib>DirectCore</core-lib>
     <core-intname>CoreTimer</core-intname>
     <core-ver>2.0.103</core-ver>
     <core-desc>
@@ -829,6 +962,12 @@ Continuous mode and One-shot timer mode.
       <param-tag>spirit:hwParameter</param-tag>
     </core-param>
     <core-name>CoreUARTapb_0</core-name>
+  </core>
+  <core type="ComponentModule">
+    <core-type>ComponentModule</core-type>
+    <core-exttype>SmartGen</core-exttype>
+    <core-location>C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/smartgen/Minimal_SoC_with_PLL</core-location>
+    <core-name>Minimal_SoC_with_PLL_0</core-name>
   </core>
   <firmware_core type="FirmWareModule">
     <core-exttype>IP</core-exttype>
@@ -994,6 +1133,28 @@ Continuous mode and One-shot timer mode.
           <remapAddress>0x00001000</remapAddress>
           <fullAddressSpace>0x00001000 - 0x00001FFF</fullAddressSpace>
           <range>0x00001000</range>
+        </slave>
+        <slave>
+          <name>CORESPI_0</name>
+          <fullPinName>CORESPI_0:APB_bif</fullPinName>
+          <remapAddress>0x00002000</remapAddress>
+          <fullAddressSpace>0x00002000 - 0x00002FFF</fullAddressSpace>
+          <range>0x00001000</range>
+        </slave>
+        <slave>
+          <name>COREAPBSRAM_0</name>
+          <fullPinName>COREAPBSRAM_0:APBslave</fullPinName>
+          <remapAddress>0x00003000</remapAddress>
+          <fullAddressSpace>0x00003000 - 0x00003FFF</fullAddressSpace>
+          <range>0x00001000</range>
+          <memoryMap>
+            <name>APB_SRAM</name>
+            <addressBlock>
+              <baseAddress>0x0</baseAddress>
+              <range format="long">0x20000</range>
+              <width format="long" id="width">32</width>
+            </addressBlock>
+          </memoryMap>
         </slave>
       </subsystem>
     </subsystems>

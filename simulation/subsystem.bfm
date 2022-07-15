@@ -1,5 +1,5 @@
 #===========================================================
-# Created by Microsemi SmartDesign Sat Jul 09 21:10:17 2022
+# Created by Microsemi SmartDesign Thu Jul 14 21:51:12 2022
 #
 # Syntax: 
 # ------- 
@@ -19,6 +19,8 @@
 
 memmap CoreTimer_0 0x00000000;
 memmap CoreUARTapb_0 0x00001000;
+memmap CORESPI_0 0x00002000;
+memmap COREAPBSRAM_0 0x00003000;
 #-----------------------------------------------------------
 # Include resource scriptlets
 #-----------------------------------------------------------
