@@ -1,5 +1,5 @@
 *****************************************************************
-Pin Report - Date: Thu Jul 14 21:53:37 2022 UNCOMPLETED LAYOUT
+Pin Report - Date: Sun Jul 17 22:29:56 2022 Pinchecksum: NOT-AVAILABLE
 Product: Designer
 Release: v11.9
 Version: 11.9.0.4
@@ -8,18 +8,59 @@ Family: ProASIC3
 Die: A3P125
 Package: 144 TQFP
 *****************************************************************
-Port        |Pin        |Fixed      |Function       |I/O Std  |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
-------------|-----------|-----------|---------------|---------|------------------|-----|--------------|-----|-----------------|------------|--------------|
-NSYSRESET    102         Yes         GBC2/IO45RSB0   LVCMOS33  ---                ---   None           ---   ---               No           No
-Power_Down   Unassigned  Unassigned                  LVCMOS33  ---                ---   None           ---   ---               No           No
-RX           105         Yes         IO42RSB0        LVCMOS33  ---                ---   None           ---   ---               No           No
-SCL_MCU      104         Yes         GBB2/IO43RSB0   LVCMOS33  ---                ---   None           ---   ---               No           No
-SCL_Sensor   33          Yes         GEA1/IO108RSB1  LVCMOS33  12                 High  None           No    35                No           No
-SDA_MCU      103         Yes         IO44RSB0        LVCMOS33  ---                ---   None           ---   ---               No           No
-SDA_Sensors  34          Yes         GEA0/IO107RSB1  LVCMOS33  12                 High  None           No    35                No           No
-SPISCLKO     85          Yes         GCB2/IO58RSB0   LVCMOS33  12                 High  None           No    35                No           No
-SPISDI       88          Yes         GCA1/IO55RSB0   LVCMOS33  ---                ---   None           ---   ---               No           No
-SPISDO       86          Yes         GCA2/IO57RSB0   LVCMOS33  12                 High  None           No    35                No           No
-SPISS        87          Yes         GCA0/IO56RSB0   LVCMOS33  12                 High  None           No    35                No           No
-SYSCLK       14          Yes         GFC0/IO125RSB1  LVCMOS33  ---                ---   None           ---   ---               No           No
-TX           106         Yes         GBA2/IO41RSB0   LVCMOS33  12                 High  None           No    35                No           No
+Port             |Pin |Fixed |Function       |I/O Std  |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-----------------|----|------|---------------|---------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+NSYSRESET         102  Yes    GBC2/IO45RSB0   LVCMOS33  ---                ---   None           ---   ---               No           No
+Power_Down        101  Yes    IO47RSB0        LVCMOS33  ---                ---   None           ---   ---               No           No
+RX                105  Yes    IO42RSB0        LVCMOS33  ---                ---   None           ---   ---               No           No
+SCL_MCU           104  Yes    GBB2/IO43RSB0   LVCMOS33  ---                ---   None           ---   ---               No           No
+SCL_Sensor        33   Yes    GEA1/IO108RSB1  LVCMOS33  12                 High  None           No    35                No           No
+SDA_MCU           103  Yes    IO44RSB0        LVCMOS33  12                 High  None           No    35                No           No
+SDA_Sensors       34   Yes    GEA0/IO107RSB1  LVCMOS33  12                 High  None           No    35                No           No
+SPISCLKO          85   Yes    GCB2/IO58RSB0   LVCMOS33  12                 High  None           No    35                No           No
+SPISDI            88   Yes    GCA1/IO55RSB0   LVCMOS33  ---                ---   None           ---   ---               No           No
+SPISDO            86   Yes    GCA2/IO57RSB0   LVCMOS33  12                 High  None           No    35                No           No
+SPISS             87   Yes    GCA0/IO56RSB0   LVCMOS33  12                 High  None           No    35                No           No
+SRAM_ADDRESS[0]   58   Yes    IO82RSB1        LVCMOS33  12                 High  ---            ---   35                No           No
+SRAM_ADDRESS[1]   59   Yes    IO81RSB1        LVCMOS33  12                 High  ---            ---   35                No           No
+SRAM_ADDRESS[2]   60   Yes    IO80RSB1        LVCMOS33  12                 High  ---            ---   35                No           No
+SRAM_ADDRESS[3]   61   Yes    IO79RSB1        LVCMOS33  12                 High  ---            ---   35                No           No
+SRAM_ADDRESS[4]   65   Yes    GDC2/IO72RSB1   LVCMOS33  12                 High  ---            ---   35                No           No
+SRAM_ADDRESS[5]   66   Yes    GDB2/IO71RSB1   LVCMOS33  12                 High  ---            ---   35                No           No
+SRAM_ADDRESS[6]   67   Yes    GDA2/IO70RSB1   LVCMOS33  12                 High  ---            ---   35                No           No
+SRAM_ADDRESS[7]   78   Yes    GDA0/IO66RSB0   LVCMOS33  12                 High  ---            ---   35                No           No
+SRAM_ADDRESS[8]   79   Yes    GDB0/IO64RSB0   LVCMOS33  12                 High  ---            ---   35                No           No
+SRAM_ADDRESS[9]   21   Yes    GFA2/IO120RSB1  LVCMOS33  12                 High  ---            ---   35                No           No
+SRAM_ADDRESS[10]  20   Yes    GFA1/IO121RSB1  LVCMOS33  12                 High  ---            ---   35                No           No
+SRAM_ADDRESS[11]  18   Yes    GFA0/IO122RSB1  LVCMOS33  12                 High  ---            ---   35                No           No
+SRAM_ADDRESS[12]  16   Yes    GFB0/IO123RSB1  LVCMOS33  12                 High  ---            ---   35                No           No
+SRAM_ADDRESS[13]  15   Yes    GFB1/IO124RSB1  LVCMOS33  12                 High  ---            ---   35                No           No
+SRAM_ADDRESS[14]  13   Yes    GFC1/IO126RSB1  LVCMOS33  12                 High  ---            ---   35                No           No
+SRAM_ADDRESS[15]  5    Yes    GAC2/IO131RSB1  LVCMOS33  12                 High  ---            ---   35                No           No
+SRAM_ADDRESS[16]  6    Yes    IO130RSB1       LVCMOS33  12                 High  ---            ---   35                No           No
+SRAM_ADDRESS[17]  7    Yes    IO129RSB1       LVCMOS33  12                 High  ---            ---   35                No           No
+SRAM_ADDRESS[18]  8    Yes    IO128RSB1       LVCMOS33  12                 High  ---            ---   35                No           No
+SRAM_ADDRESS[19]  38   Yes    GEA2/IO106RSB1  LVCMOS33  12                 High  ---            ---   35                No           No
+SRAM_CE           55   Yes    IO86RSB1        LVCMOS33  12                 High  None           No    35                No           No
+SRAM_DATA[0]      53   Yes    IO90RSB1        LVCMOS33  12                 High  None           No    35                No           No
+SRAM_DATA[1]      51   Yes    IO93RSB1        LVCMOS33  12                 High  None           No    35                No           No
+SRAM_DATA[2]      49   Yes    IO97RSB1        LVCMOS33  12                 High  None           No    35                No           No
+SRAM_DATA[3]      44   Yes    IO100RSB1       LVCMOS33  12                 High  None           No    35                No           No
+SRAM_DATA[4]      43   Yes    IO101RSB1       LVCMOS33  12                 High  None           No    35                No           No
+SRAM_DATA[5]      42   Yes    IO102RSB1       LVCMOS33  12                 High  None           No    35                No           No
+SRAM_DATA[6]      41   Yes    IO103RSB1       LVCMOS33  12                 High  None           No    35                No           No
+SRAM_DATA[7]      40   Yes    GEC2/IO104RSB1  LVCMOS33  12                 High  None           No    35                No           No
+SRAM_DATA[8]      22   Yes    GFB2/IO119RSB1  LVCMOS33  12                 High  None           No    35                No           No
+SRAM_DATA[9]      23   Yes    GFC2/IO118RSB1  LVCMOS33  12                 High  None           No    35                No           No
+SRAM_DATA[10]     24   Yes    IO117RSB1       LVCMOS33  12                 High  None           No    35                No           No
+SRAM_DATA[11]     25   Yes    IO116RSB1       LVCMOS33  12                 High  None           No    35                No           No
+SRAM_DATA[12]     26   Yes    IO115RSB1       LVCMOS33  12                 High  None           No    35                No           No
+SRAM_DATA[13]     29   Yes    GEC1/IO112RSB1  LVCMOS33  12                 High  None           No    35                No           No
+SRAM_DATA[14]     30   Yes    GEC0/IO111RSB1  LVCMOS33  12                 High  None           No    35                No           No
+SRAM_DATA[15]     31   Yes    GEB1/IO110RSB1  LVCMOS33  12                 High  None           No    35                No           No
+SRAM_LB           84   Yes    GCC2/IO59RSB0   LVCMOS33  12                 High  None           No    35                No           No
+SRAM_OE           80   Yes    GDB1/IO63RSB0   LVCMOS33  12                 High  None           No    35                No           No
+SRAM_UB           83   Yes    IO60RSB0        LVCMOS33  12                 High  None           No    35                No           No
+SRAM_WE           39   Yes    GEB2/IO105RSB1  LVCMOS33  12                 High  None           No    35                No           No
+SYSCLK            14   Yes    GFC0/IO125RSB1  LVCMOS33  ---                ---   None           ---   ---               No           No
+TX                106  Yes    GBA2/IO41RSB0   LVCMOS33  12                 High  None           No    35                No           No

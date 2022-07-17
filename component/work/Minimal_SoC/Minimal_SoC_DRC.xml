@@ -3,263 +3,18 @@
 <drcreport>
   <header>Minimal_SoC</header>
   <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:fiqSource0</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:fiqSource0</crossprobe>
+    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin COREABC_0:INTACT</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/COREABC_0:INTACT</crossprobe>
   </drc>
   <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:fiqSource1</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:fiqSource1</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:fiqSource2</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:fiqSource2</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:fiqSource3</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:fiqSource3</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:fiqSource4</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:fiqSource4</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:fiqSource5</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:fiqSource5</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:fiqSource6</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:fiqSource6</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:fiqSource7</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:fiqSource7</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource0</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource0</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource4</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource4</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource5</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource5</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource6</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource6</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource7</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource7</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource8</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource8</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource9</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource9</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource10</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource10</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource11</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource11</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource12</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource12</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource13</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource13</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource14</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource14</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource15</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource15</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource16</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource16</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource17</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource17</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource18</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource18</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource19</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource19</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource20</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource20</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource21</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource21</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource22</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource22</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource23</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource23</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource24</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource24</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource25</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource25</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource26</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource26</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource27</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource27</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource28</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource28</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource29</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource29</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource30</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource30</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin CoreInterrupt_0:irqSource31</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:irqSource31</crossprobe>
+    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin CoreAPB3_0:APBmslave7</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreAPB3_0:APBmslave7</crossprobe>
   </drc>
   <drc>
     <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
@@ -272,15 +27,15 @@
     <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
     <StatusMessage>Warning</StatusMessage>
     <message>Floating Driver</message>
-    <detail>Floating output pin CORESPI_0:SPISS</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CORESPI_0:SPISS</crossprobe>
+    <detail>Floating output pin CoreInterrupt_0:IRQ</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:IRQ</crossprobe>
   </drc>
   <drc>
     <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
     <StatusMessage>Warning</StatusMessage>
     <message>Floating Driver</message>
-    <detail>Floating output pin CoreTimer_0:TIMINT</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreTimer_0:TIMINT</crossprobe>
+    <detail>Floating output pin CORESPI_0:SPISS</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CORESPI_0:SPISS</crossprobe>
   </drc>
   <drc>
     <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>

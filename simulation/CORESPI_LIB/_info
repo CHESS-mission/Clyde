@@ -9,87 +9,87 @@ z2
 cModel Technology
 Z0 dC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/simulation
 vCORESPI
-Z1 !s110 1657826158
+!s110 1658082030
 !i10b 1
 !s100 >z^NKURg=?zimHC_]OTcG0
 IdjFIJV5zQIKWEo`>zUc;X1
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1657655278
+Z2 w1657655278
 8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/corespi.v
 FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/corespi.v
 L0 27
-Z4 OW;L;10.5c;63
+Z3 OW;L;10.5c;63
 r1
 !s85 0
 31
-!s108 1657826158.000000
+!s108 1658082030.000000
 !s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/corespi.v|
 !s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|CORESPI_LIB|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/corespi.v|
 !s101 -O0
 !i113 1
-Z5 o-vlog01compat -work CORESPI_LIB -O0
-Z6 !s92 {+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core} -vlog01compat -work CORESPI_LIB -O0
-Z7 tCvgOpt 0
+Z4 o-vlog01compat -work CORESPI_LIB -O0
+Z5 !s92 {+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core} -vlog01compat -work CORESPI_LIB -O0
+Z6 tCvgOpt 0
 n@c@o@r@e@s@p@i
 vspi
-R1
+Z7 !s110 1658082029
 !i10b 1
 !s100 6LU3O8XgUKJhbUVHDT0Ic0
 I^aHBY]2^WO1cYk:?7HXWK1
-R2
+R1
 R0
-R3
+R2
 8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi.v
 FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi.v
 Z8 L0 29
-R4
+R3
 r1
 !s85 0
 31
-Z9 !s108 1657826157.000000
+Z9 !s108 1658082029.000000
 !s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi.v|
 !s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|CORESPI_LIB|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi.v|
 !s101 -O0
 !i113 1
+R4
 R5
 R6
-R7
 vspi_chanctrl
-Z10 !s110 1657826157
+Z10 !s110 1658082028
 !i10b 1
 !s100 o5T<M:TYIGegdoRWSYjbg2
 IM7[FHMoC@02F[7WbNjX`52
-R2
+R1
 R0
-R3
+R2
 8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_chanctrl.v
 FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_chanctrl.v
 R8
-R4
+R3
 r1
 !s85 0
 31
-Z11 !s108 1657826156.000000
+Z11 !s108 1658082028.000000
 !s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_chanctrl.v|
 !s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|CORESPI_LIB|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_chanctrl.v|
 !s101 -O0
 !i113 1
+R4
 R5
 R6
-R7
 vspi_clockmux
-!s110 1657826156
+R10
 !i10b 1
 !s100 ijnN]`?7dEJiVV_QWNobI3
 I5FYF5ZSTOCEoE^K::[lSJ0
-R2
+R1
 R0
-R3
+R2
 8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_clockmux.v
 FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_clockmux.v
 Z12 L0 24
-R4
+R3
 r1
 !s85 0
 31
@@ -98,44 +98,44 @@ R11
 !s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|CORESPI_LIB|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_clockmux.v|
 !s101 -O0
 !i113 1
+R4
 R5
 R6
-R7
 vspi_control
 R10
 !i10b 1
 !s100 IiXSQINSQa40:LVBL2Vjl0
 I72fC^NLIB7dWFQ8bUB4mN1
-R2
+R1
 R0
-R3
+R2
 8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_control.v
 FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_control.v
 R12
-R4
+R3
 r1
 !s85 0
 31
-R9
+R11
 !s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_control.v|
 !s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|CORESPI_LIB|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_control.v|
 !s101 -O0
 !i113 1
+R4
 R5
 R6
-R7
 vspi_fifo
-R10
+R7
 !i10b 1
 !s100 M6^1eCmFonBc9AM_G6;Ah2
 I_V]42QVOc8I87]<maSS_B3
-R2
+R1
 R0
-R3
+R2
 8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_fifo.v
 FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_fifo.v
 L0 25
-R4
+R3
 r1
 !s85 0
 31
@@ -144,21 +144,21 @@ R9
 !s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|CORESPI_LIB|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_fifo.v|
 !s101 -O0
 !i113 1
+R4
 R5
 R6
-R7
 vspi_rf
-R10
+R7
 !i10b 1
 !s100 z7]:E[h3iKAX]d85<0i^I2
 I64dI8FKlWK3zh@DUSH0c50
-R2
+R1
 R0
-R3
+R2
 8C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_rf.v
 FC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_rf.v
 L0 31
-R4
+R3
 r1
 !s85 0
 31
@@ -167,6 +167,6 @@ R9
 !s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|CORESPI_LIB|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_rf.v|
 !s101 -O0
 !i113 1
+R4
 R5
 R6
-R7

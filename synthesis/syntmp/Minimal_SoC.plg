@@ -1,36 +1,42 @@
-@P:  Worst Slack : -7.946
-@P:  Minimal_SoC_with_PLL|GLA_inferred_clock - Estimated Frequency : 55.7 MHz
+@P:  Worst Slack : -10.191
+@P:  Minimal_SoC_with_PLL|GLA_inferred_clock - Estimated Frequency : 49.5 MHz
 @P:  Minimal_SoC_with_PLL|GLA_inferred_clock - Requested Frequency : 100.0 MHz
-@P:  Minimal_SoC_with_PLL|GLA_inferred_clock - Estimated Period : 17.946
+@P:  Minimal_SoC_with_PLL|GLA_inferred_clock - Estimated Period : 20.191
 @P:  Minimal_SoC_with_PLL|GLA_inferred_clock - Requested Period : 10.000
-@P:  Minimal_SoC_with_PLL|GLA_inferred_clock - Slack : -7.946
-@P:  Total Area : 1951.0
+@P:  Minimal_SoC_with_PLL|GLA_inferred_clock - Slack : -10.191
+@P:  Total Area : 3108.0
+@P:  Total Area : 16.0
+@P:  Total Area : 20.0
+@P:  Total Area : 8.0
 @P:  Total Area : 0.0
-@P:  Total Area : 349.0
-@P:  Total Area : 285.0
+@P:  Total Area : 464.0
+@P:  Total Area : 389.0
+@P:  Total Area : 19.0
 @P:  Total Area : 11.0
-@P:  Total Area : 3.0
 @P:  Total Area : 9.0
 @P:  Total Area : 1.0
-@P:  Total Area : 99.0
-@P:  Total Area : 54.0
-@P:  Total Area : 77.0
-@P:  Total Area : 299.0
-@P:  Total Area : 787.0
-@P:  Total Area : 787.0
+@P:  Total Area : 127.0
+@P:  Total Area : 66.0
+@P:  Total Area : 126.0
 @P:  Total Area : 312.0
+@P:  Total Area : 802.0
+@P:  Total Area : 802.0
+@P:  Total Area : 311.0
 @P:  Total Area : 1.0
-@P:  Total Area : 144.0
-@P:  Total Area : 148.0
-@P:  Total Area : 14.0
-@P:  Total Area : 169.0
+@P:  Total Area : 128.0
+@P:  Total Area : 143.0
+@P:  Total Area : 10.0
+@P:  Total Area : 210.0
+@P:  Total Area : 92.0
+@P:  Total Area : 29.0
+@P:  Total Area : 632.0
+@P:  Total Area : 4.0
 @P:  Total Area : 0.0
-@P:  Total Area : 0.0
-@P:  Total Area : 102.0
-@P:  Total Area : 102.0
-@P:  Total Area : 406.0
-@P:  Total Area : 88.0
-@P:  Total Area : 1.0
-@P:  Total Area : 1.0
-@P:  Total Area : 1951.0
-@P:  CPU Time : 0h:00m:10s
+@P:  Total Area : 168.0
+@P:  Total Area : 158.0
+@P:  Total Area : 548.0
+@P:  Total Area : 203.0
+@P:  Total Area : 2.0
+@P:  Total Area : 2.0
+@P:  Total Area : 3072.0
+@P:  CPU Time : 0h:00m:25s

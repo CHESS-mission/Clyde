@@ -2,13 +2,6 @@ Microsemi Libero Software
 Version: 11.9.0.4
 Release: v11.9
 
-
- Netlist Reading Time = 0.0 seconds
-Imported the file:
-   C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS
-OBC\SoC\LiberoProjects\Clyde\Clyde\synthesis\Minimal_SoC.edn
-
-The Import command succeeded ( 00:00:02 )
 Info: The design C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS
       OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Minimal_SoC.adb was last modified by
       software version 11.9.0.4.
@@ -26,327 +19,68 @@ OBC\SoC\LiberoProjects\Clyde\Clyde\designer'
 'IDE_DESIGNERVIEW_LASTREV' set to '1'
 
 The Execute Script command succeeded ( 00:00:00 )
-=====================================================================
-Parameters used to run compile:
-===============================
+***** Layout Variables *********************************************
 
-Family      : ProASIC3
-Device      : A3P125
-Package     : 144 TQFP
-Source      : C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS
-OBC\SoC\LiberoProjects\Clyde\Clyde\synthesis\Minimal_SoC.edn
-Format      : EDIF
-Topcell     : Minimal_SoC
-Speed grade : STD
-Temp        : 0:25:70
-Voltage     : 1.58:1.50:1.42
-
-Keep Existing Physical Constraints : Yes
-Keep Existing Timing Constraints   : Yes
-
-pdc_abort_on_error                 : Yes
-pdc_eco_display_unmatched_objects  : No
-pdc_eco_max_warnings               : 10000
-
-demote_globals                     : No
-promote_globals                    : No
-localclock_max_shared_instances    : 12
-localclock_buffer_tree_max_fanout  : 12
-
-combine_register                   : No
-delete_buffer_tree                 : No
-
-report_high_fanout_nets_limit      : 10
-
-=====================================================================
-Compile starts ...
-
-Warning: CMP201: Net Minimal_SoC_with_PLL_0/Core_GLB drives no load.
-Warning: CMP201: Net Minimal_SoC_with_PLL_0/Core_GLC drives no load.
-Warning: CMP201: Net Minimal_SoC_with_PLL_0/LOCK drives no load.
-Warning: CMP201: Net Minimal_SoC_with_PLL_0/Core_YB drives no load.
-Warning: CMP201: Net Minimal_SoC_with_PLL_0/Core_YC drives no load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_lIOl_DOUTA0 drives no
-         load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_lIOl_DOUTA1 drives no
-         load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_lIOl_DOUTA2 drives no
-         load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_lIOl_DOUTA3 drives no
-         load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_lIOl_DOUTA4 drives no
-         load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_lIOl_DOUTA5 drives no
-         load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_lIOl_DOUTA6 drives no
-         load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_lIOl_DOUTA7 drives no
-         load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_lIOl_DOUTA8 drives no
-         load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IlI[4] drives no load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IlI[5] drives no load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IlI[6] drives no load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IlI[7] drives no load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_lIOl_DOUTB8 drives no
-         load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IIOl_DOUTA0 drives no
-         load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IIOl_DOUTA1 drives no
-         load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IIOl_DOUTA2 drives no
-         load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IIOl_DOUTA3 drives no
-         load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IIOl_DOUTA4 drives no
-         load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IIOl_DOUTA5 drives no
-         load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IIOl_DOUTA6 drives no
-         load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IIOl_DOUTA7 drives no
-         load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IIOl_DOUTA8 drives no
-         load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_llI_0[4] drives no load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_llI_0[5] drives no load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_llI_0[6] drives no load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_llI_0[7] drives no load.
-Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IIOl_DOUTB8 drives no
-         load.
-Warning: CMP201: Net COREABC_0/URAM_UR/UG3_UR_xhdl12/RD_1[12] drives no load.
-Warning: CMP201: Net COREABC_0/URAM_UR/UG3_UR_xhdl12/RD_1[13] drives no load.
-Warning: CMP201: Net COREABC_0/URAM_UR/UG3_UR_xhdl12/RD_1[14] drives no load.
-Warning: CMP201: Net COREABC_0/URAM_UR/UG3_UR_xhdl12/RD_1[15] drives no load.
-Warning: CMP201: Net COREABC_0/URAM_UR/UG3_UR_xhdl12/Ram256x16_R0C0_RD16 drives no load.
-Warning: CMP201: Net COREABC_0/URAM_UR/UG3_UR_xhdl12/Ram256x16_R0C0_RD17 drives no load.
-Warning: CMP201: Net
-         CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/AEMP\
-         TY drives no load.
-Warning: CMP201: Net
-         CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUAR\
-         TIlOl_FULL drives no load.
-Warning: CMP201: Net
-         CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUAR\
-         TIlOl_RD8 drives no load.
-Warning: CMP201: Net
-         CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUAR\
-         TIlOl_RD9 drives no load.
-Warning: CMP201: Net
-         CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUAR\
-         TIlOl_RD10 drives no load.
-Warning: CMP201: Net
-         CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUAR\
-         TIlOl_RD11 drives no load.
-Warning: CMP201: Net
-         CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUAR\
-         TIlOl_RD12 drives no load.
-Warning: CMP201: Net
-         CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUAR\
-         TIlOl_RD13 drives no load.
-Warning: CMP201: Net
-         CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUAR\
-         TIlOl_RD14 drives no load.
-Warning: CMP201: Net
-         CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUAR\
-         TIlOl_RD15 drives no load.
-Warning: CMP201: Net
-         CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUAR\
-         TIlOl_RD16 drives no load.
-Warning: CMP201: Net
-         CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUAR\
-         TIlOl_RD17 drives no load.
-Warning: CMP201: Net
-         CoreUARTapb_0/CUARTlOlI/genblk3_CUARTIIOI/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/AEM\
-         PTY drives no load.
-Warning: CMP201: Net
-         CoreUARTapb_0/CUARTlOlI/genblk3_CUARTIIOI/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUA\
-         RTIlOl_FULL_0 drives no load.
-Warning: CMP201: Net
-         CoreUARTapb_0/CUARTlOlI/genblk3_CUARTIIOI/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUA\
-         RTIlOl_RD8_0 drives no load.
-Warning: CMP201: Net
-         CoreUARTapb_0/CUARTlOlI/genblk3_CUARTIIOI/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUA\
-         RTIlOl_RD9_0 drives no load.
-Warning: CMP201: Net
-         CoreUARTapb_0/CUARTlOlI/genblk3_CUARTIIOI/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUA\
-         RTIlOl_RD10_0 drives no load.
-Warning: CMP201: Net
-         CoreUARTapb_0/CUARTlOlI/genblk3_CUARTIIOI/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUA\
-         RTIlOl_RD11_0 drives no load.
-Warning: CMP201: Net
-         CoreUARTapb_0/CUARTlOlI/genblk3_CUARTIIOI/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUA\
-         RTIlOl_RD12_0 drives no load.
-Warning: CMP201: Net
-         CoreUARTapb_0/CUARTlOlI/genblk3_CUARTIIOI/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUA\
-         RTIlOl_RD13_0 drives no load.
-Warning: CMP201: Net
-         CoreUARTapb_0/CUARTlOlI/genblk3_CUARTIIOI/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUA\
-         RTIlOl_RD14_0 drives no load.
-Warning: CMP201: Net
-         CoreUARTapb_0/CUARTlOlI/genblk3_CUARTIIOI/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUA\
-         RTIlOl_RD15_0 drives no load.
-Warning: CMP201: Net
-         CoreUARTapb_0/CUARTlOlI/genblk3_CUARTIIOI/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUA\
-         RTIlOl_RD16_0 drives no load.
-Warning: CMP201: Net
-         CoreUARTapb_0/CUARTlOlI/genblk3_CUARTIIOI/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/CUA\
-         RTIlOl_RD17_0 drives no load.
-
-Netlist Optimization Report
-===========================
-
-Optimized macros:
-  - Dangling net drivers:   3
-  - Buffers:                1
-  - Inverters:              0
-  - Tieoff:                 1
-  - Logic combining:        76
-
-    Total macros optimized  81
-
-Warning: CMP503: Remapped 61 enable flip-flop(s) to a 2-tile implementation because the CLR/PRE
-         pin on the enable flip-flop is not being driven by a global net.
-
-There were 0 error(s) and 64 warning(s) in this design.
-=====================================================================
-
-Reading previous post-compile physical placement constraints.
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
 
 
-There were 0 error(s) and 0 warning(s).
 
-=====================================================================
-Compile report:
-===============
+Running I/O Bank Assigner.
 
-    CORE                       Used:   1932  Total:   3072   (62.89%)
-    IO (W/ clocks)             Used:     13  Total:    100   (13.00%)
-    GLOBAL (Chip+Quadrant)     Used:      2  Total:     18   (11.11%)
-    PLL                        Used:      1  Total:      1   (100.00%)
-    RAM/FIFO                   Used:      5  Total:      8   (62.50%)
-    Low Static ICC             Used:      0  Total:      1   (0.00%)
-    FlashROM                   Used:      0  Total:      1   (0.00%)
-    User JTAG                  Used:      0  Total:      1   (0.00%)
+I/O Bank Assigner completed successfully.
+ 
 
-Global Information:
+Planning global net placement...
 
-    Type            | Used   | Total
-    ----------------|--------|--------------
-    Chip global     | 2      | 6  (33.33%)*
-    Quadrant global | 0      | 12 (0.00%)
 
-    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
-        or Physical Design Constraints (PDC).
-        They may also be assigned to Quadrant globals automatically during Layout.
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Sun Jul 17 20:27:19 2022
+
+Placer Finished: Sun Jul 17 20:28:28 2022
+Total Placer CPU Time:     00:01:09
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: Minimal_SoC                     Started: Sun Jul 17 20:28:34 2022
+
+ 
+Iterative improvement...
+
+Timing-driven Router completed successfully.
+
+Design: Minimal_SoC                     
+Finished: Sun Jul 17 20:28:56 2022
+Total CPU Time:     00:00:19            Total Elapsed Time: 00:00:22
+Total Memory Usage: 183.3 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
 
-Core Information:
+The Layout command succeeded ( 00:01:47 )
+Warning: You changed the output filename from
+         'C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS
+         OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Minimal_SoC' to
+         'C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS
+         OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Minimal_SoC_UART_0x55'. This may
+         impact Libero. Do you wish to continue? [YES]
 
-    Type    | Instances    | Core tiles
-    --------|--------------|-----------
-    COMB    | 1429         | 1429
-    SEQ     | 503          | 503
+The Export-map command succeeded ( 00:00:12 )
+Wrote to the file: C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS
+OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Minimal_SoC_UART_0x55.pdb
+Wrote to the file: C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS
+OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Minimal_SoC_UART_0x55.dat
+CHECKSUM: 847B
 
-I/O Function:
-
-    Type                                  | w/o register  | w/ register  | w/ DDR register
-    --------------------------------------|---------------|--------------|----------------
-    Input I/O                             | 7             | 0            | 0
-    Output I/O                            | 6             | 0            | 0
-    Bidirectional I/O                     | 0             | 0            | 0
-    Differential Input I/O Pairs          | 0             | 0            | 0
-    Differential Output I/O Pairs         | 0             | 0            | 0
-
-I/O Technology:
-
-                                    |   Voltages    |             I/Os
-    --------------------------------|-------|-------|-------|--------|--------------
-    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
-    --------------------------------|-------|-------|-------|--------|--------------
-    LVCMOS33                        | 3.30v | N/A   | 7     | 6      | 0
-
-I/O Placement:
-
-    Locked  :  12 ( 92.31% )
-    Placed  :   0
-    UnPlaced:   1 (  7.69% )
-
-Warning: Only some I/Os are locked
-
-Net information report:
-=======================
-
-The following nets drive enable flip-flops that have been remapped to a 2-tile implementation:
-    EffCnt  Type          Name
-    --------------------------
-    18      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_1
-                          Driver: COREABC_0/genblk2.RSTSYNC2_1
-    17      SET/RESET_NET Net   : CORESPI_0/USPI/UCC/ssel_rx_q2_RNIBQH6
-                          Driver: CORESPI_0/USPI/UCC/ssel_rx_q2_RNIBQH6
-    17      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_0
-                          Driver: COREABC_0/genblk2.RSTSYNC2_0
-    9       SET/RESET_NET Net   : PRESETN
-                          Driver: COREABC_0/genblk2.RSTSYNC2
-
-The following nets have been assigned to a chip global resource:
-    Fanout  Type          Name
-    --------------------------
-    513     CLK_NET       Net   : GLA
-                          Driver: Minimal_SoC_with_PLL_0/Core
-                          Source: ESSENTIAL
-    357     SET/RESET_NET Net   : COREABC_0_PRESETN
-                          Driver: COREABC_0_PRESETN_RNIUAJ1
-                          Source: NETLIST
-
-High fanout nets in the post compile netlist:
-    Fanout  Type          Name
-    --------------------------
-    26      INT_NET       Net   : COREABC_0_APB3master_PADDR[2]
-                          Driver: COREABC_0/UROM.INSTR_ADDR[2]
-    24      INT_NET       Net   : COREABC_0_APB3master_PADDR_0[3]
-                          Driver: COREABC_0_PADDR_M_RNIVLR2[3]
-    24      INT_NET       Net   : COREABC_0_APB3master_PADDR_1[3]
-                          Driver: COREABC_0_PADDR_M_RNIVLR2_0[3]
-    23      INT_NET       Net   : COREABC_0_APB3master_PADDR_0[2]
-                          Driver: COREABC_0_PADDR_M_RNIUKR2[2]
-    23      INT_NET       Net   : COREABC_0/SMADDR[3]
-                          Driver: COREABC_0/SMADDR[3]/U1
-    21      INT_NET       Net   : COREABC_0_APB3master_PADDR[13]
-                          Driver: COREABC_0/UROM.INSTR_SLOT[1]
-    21      INT_NET       Net   : COREABC_0_APB3master_PWDATA[2]
-                          Driver: COREABC_0/un1_ACCUMULATOR_PWDATA_M[2]
-    21      SET/RESET_NET Net   : CORESPI_0/USPI/UCC/ssel_rx_q2_RNIBQH6
-                          Driver: CORESPI_0/USPI/UCC/ssel_rx_q2_RNIBQH6
-    21      INT_NET       Net   : CoreUARTapb_0/CUARTlOlI/CUARTIl
-                          Driver: CoreUARTapb_0/CUARTlOlI/CUARTOO1/genblk1.CUARTI0
-    20      INT_NET       Net   : COREABC_0/N_828
-                          Driver: COREABC_0/un1_ACCUMULATOR_RAMADDR_1_sqmuxa_i_o3
-
-Nets that are candidates for clock assignment and the resulting fanout:
-    Fanout  Type          Name
-    --------------------------
-    50      INT_NET       Net   : COREABC_0_APB3master_PADDR[3]
-                          Driver: COREABC_0/UROM.INSTR_ADDR[3]
-    48      INT_NET       Net   : COREABC_0_APB3master_PADDR[2]
-                          Driver: COREABC_0/UROM.INSTR_ADDR[2]
-    40      INT_NET       Net   : COREABC_0_APB3master_PSELx
-                          Driver: COREABC_0/PSELI
-    31      INT_NET       Net   : COREABC_0_APB3master_PADDR[12]
-                          Driver: COREABC_0/UROM.INSTR_SLOT[0]
-    30      INT_NET       Net   : COREABC_0_APB3master_PADDR[4]
-                          Driver: COREABC_0/UROM.INSTR_ADDR[4]
-    29      INT_NET       Net   : COREABC_0/UROM.INSTR_SCMD[1]
-                          Driver: COREABC_0/UROM.INSTR_SCMD[1]
-    26      INT_NET       Net   : COREABC_0_APB3master_PADDR[5]
-                          Driver: COREABC_0/UROM.INSTR_ADDR[5]
-    23      INT_NET       Net   : COREABC_0/SMADDR[3]
-                          Driver: COREABC_0/SMADDR[3]/U1
-    21      INT_NET       Net   : COREABC_0_APB3master_PADDR[13]
-                          Driver: COREABC_0/UROM.INSTR_SLOT[1]
-    21      INT_NET       Net   : COREABC_0_APB3master_PWDATA[2]
-                          Driver: COREABC_0/un1_ACCUMULATOR_PWDATA_M[2]
-
-The Compile command succeeded ( 00:00:02 )
+The Generate programming file command succeeded ( 00:00:13 )
 Design saved to file C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS
 OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Minimal_SoC.adb.
 Wrote pin report to file: C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS

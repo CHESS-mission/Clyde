@@ -63,19 +63,19 @@ ENDLIST
 LIST FileManager
 VALUE "<project>\component\Actel\DirectCore\COREABC\3.8.102\COREABC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1657792917"
+TIME="1658081977"
 SIZE="480"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf,actgen_cxf"
 STATE="utd"
-TIME="1657792918"
+TIME="1658081977"
 SIZE="2736"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\coreparameters.v,tb_hdl"
 STATE="utd"
-TIME="1657792918"
+TIME="1658081977"
 SIZE="1283"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
 IS_READONLY="TRUE"
@@ -162,9 +162,72 @@ MODULE_UNDER_TEST="testbench"
 SIMULATION_TIME="-all"
 IS_READONLY="TRUE"
 ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\COREAPBSRAM.cxf,actgen_cxf"
+STATE="utd"
+TIME="1658081977"
+SIZE="1346"
+PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\coreparameters.v,tb_hdl"
+STATE="utd"
+TIME="1658081977"
+SIZE="546"
+PARENT="<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\COREAPBSRAM.cxf"
+IS_READONLY="TRUE"
+IS_INCLUDED="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\mti\scripts\wave.do,do"
+STATE="utd"
+TIME="1657828271"
+SIZE="1215"
+PARENT="<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\COREAPBSRAM.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v,hdl"
+STATE="utd"
+TIME="1657828271"
+SIZE="17170"
+PARENT="<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\COREAPBSRAM.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v,hdl"
+STATE="utd"
+TIME="1657828271"
+SIZE="475761"
+PARENT="<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\COREAPBSRAM.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\test\user\coreapbsram_user_tb.v,tb_hdl"
+STATE="utd"
+TIME="1657828271"
+SIZE="7299"
+PARENT="<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\COREAPBSRAM.cxf"
+MODULE_UNDER_TEST="coreapbsram_user_tb"
+SIMULATION_TIME="-all"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreGPIO\3.2.102\CoreGPIO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1658081978"
+SIZE="752"
+PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreInterrupt\1.1.101\CoreInterrupt.cxf,actgen_cxf"
+STATE="utd"
+TIME="1658081978"
+SIZE="720"
+PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v,hdl"
+STATE="utd"
+TIME="1657880125"
+SIZE="16143"
+PARENT="<project>\component\Actel\DirectCore\CoreInterrupt\1.1.101\CoreInterrupt.cxf"
+IS_READONLY="TRUE"
+ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf,actgen_cxf"
 STATE="utd"
-TIME="1657792918"
+TIME="1658081978"
 SIZE="2961"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 ENDFILE
@@ -173,12 +236,14 @@ STATE="utd"
 TIME="1657655278"
 SIZE="922"
 PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\mti\wave.do,do"
 STATE="utd"
 TIME="1657655278"
 SIZE="3399"
 PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
 STATE="utd"
@@ -186,6 +251,7 @@ TIME="1657655277"
 SIZE="6496"
 LIBRARY="CORESPI_LIB"
 PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
 STATE="utd"
@@ -193,6 +259,7 @@ TIME="1657655277"
 SIZE="9225"
 LIBRARY="CORESPI_LIB"
 PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
 STATE="utd"
@@ -200,6 +267,7 @@ TIME="1657655277"
 SIZE="197644"
 LIBRARY="CORESPI_LIB"
 PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_package.v,tb_hdl"
 STATE="utd"
@@ -207,6 +275,7 @@ TIME="1657655277"
 SIZE="40025"
 LIBRARY="CORESPI_LIB"
 PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+IS_READONLY="TRUE"
 IS_INCLUDED="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v,hdl"
@@ -215,6 +284,7 @@ TIME="1657655278"
 SIZE="4698"
 LIBRARY="CORESPI_LIB"
 PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v,hdl"
 STATE="utd"
@@ -222,6 +292,7 @@ TIME="1657655278"
 SIZE="13098"
 LIBRARY="CORESPI_LIB"
 PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v,hdl"
 STATE="utd"
@@ -229,6 +300,7 @@ TIME="1657655278"
 SIZE="42389"
 LIBRARY="CORESPI_LIB"
 PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_clockmux.v,hdl"
 STATE="utd"
@@ -236,6 +308,7 @@ TIME="1657655278"
 SIZE="1034"
 LIBRARY="CORESPI_LIB"
 PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v,hdl"
 STATE="utd"
@@ -243,6 +316,7 @@ TIME="1657655278"
 SIZE="3070"
 LIBRARY="CORESPI_LIB"
 PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v,hdl"
 STATE="utd"
@@ -250,6 +324,7 @@ TIME="1657655278"
 SIZE="6157"
 LIBRARY="CORESPI_LIB"
 PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v,hdl"
 STATE="utd"
@@ -257,6 +332,7 @@ TIME="1657655278"
 SIZE="9209"
 LIBRARY="CORESPI_LIB"
 PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
+IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\test\user\testbench.v,tb_hdl"
 STATE="utd"
@@ -266,10 +342,11 @@ LIBRARY="CORESPI_LIB"
 PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
 MODULE_UNDER_TEST="testbench"
 SIMULATION_TIME="-all"
+IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreTimer\2.0.103\CoreTimer.cxf,actgen_cxf"
 STATE="utd"
-TIME="1657792919"
+TIME="1658081978"
 SIZE="2315"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 ENDFILE
@@ -348,13 +425,13 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.7.100\CoreUARTapb.cxf,actgen_cxf"
 STATE="utd"
-TIME="1657792919"
+TIME="1658081978"
 SIZE="779"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.cxf,actgen_cxf"
 STATE="utd"
-TIME="1657792484"
+TIME="1658081672"
 SIZE="468"
 PARENT="<project>\component\work\Basic_Input_Testbench\Basic_Input_Testbench.cxf"
 ENDFILE
@@ -367,7 +444,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.cxf,actgen_cxf"
 STATE="utd"
-TIME="1657792484"
+TIME="1658081672"
 SIZE="472"
 PARENT="<project>\component\work\Basic_Input_Testbench\Basic_Input_Testbench.cxf"
 ENDFILE
@@ -380,13 +457,20 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Basic_Input_Testbench\Basic_Input_Testbench.cxf,actgen_cxf"
 STATE="utd"
-TIME="1657792947"
-SIZE="2637"
+TIME="1658081673"
+SIZE="4452"
+ENDFILE
+VALUE "<project>\component\work\Basic_Input_Testbench\Basic_Input_Testbench.v,tb_hdl"
+STATE="utd"
+TIME="1658081672"
+SIZE="5723"
+PARENT="<project>\component\work\Basic_Input_Testbench\Basic_Input_Testbench.cxf"
+IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
 STATE="utd"
-TIME="1657481871"
-SIZE="861"
+TIME="1658002522"
+SIZE="1553"
 ENDFILE
 VALUE "<project>\component\work\DESIGN_IO\DESIGN_IO.cxf,actgen_cxf"
 STATE="utd"
@@ -395,104 +479,104 @@ SIZE="413"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\CoreABC.log,log"
 STATE="utd"
-TIME="1657792917"
-SIZE="1312"
+TIME="1658081977"
+SIZE="1335"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\coreparameters_tgi.v,hdl"
 STATE="utd"
-TIME="1657792917"
+TIME="1658081977"
 SIZE="1752"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1657792917"
+TIME="1658081977"
 SIZE="3395"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v,hdl"
 STATE="utd"
-TIME="1657792917"
+TIME="1658081977"
 SIZE="3366"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v,hdl"
 STATE="utd"
-TIME="1657792917"
+TIME="1658081977"
 SIZE="57933"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v,hdl"
 STATE="utd"
-TIME="1657792917"
+TIME="1658081977"
 SIZE="28055"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructions.v,hdl"
 STATE="utd"
-TIME="1657792917"
-SIZE="122780"
+TIME="1658081977"
+SIZE="124833"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructnvm_bb.v,hdl"
 STATE="utd"
-TIME="1657792917"
+TIME="1658081977"
 SIZE="2139"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructram.v,hdl"
 STATE="utd"
-TIME="1657792917"
+TIME="1658081977"
 SIZE="12041"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\iram512x9_pa3.v,hdl"
 STATE="utd"
-TIME="1657792917"
+TIME="1658081977"
 SIZE="3735"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram128x8_rtl.v,hdl"
 STATE="utd"
-TIME="1657792917"
+TIME="1658081977"
 SIZE="1365"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x16_pa3.v,hdl"
 STATE="utd"
-TIME="1657792917"
+TIME="1658081977"
 SIZE="2944"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x8_rtl.v,hdl"
 STATE="utd"
-TIME="1657792917"
+TIME="1658081977"
 SIZE="1236"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v,hdl"
 STATE="utd"
-TIME="1657792917"
+TIME="1658081977"
 SIZE="21186"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\support.v,hdl"
 STATE="utd"
-TIME="1657792917"
+TIME="1658081977"
 SIZE="56274"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
@@ -500,14 +584,14 @@ IS_INCLUDED="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\apbmodel.v,tb_hdl"
 STATE="utd"
-TIME="1657792917"
+TIME="1658081977"
 SIZE="4836"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\testbench.v,tb_hdl"
 STATE="utd"
-TIME="1657792917"
+TIME="1658081977"
 SIZE="24064"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 MODULE_UNDER_TEST="TESTBENCH"
@@ -516,15 +600,243 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\testsupport.v,tb_hdl"
 STATE="utd"
-TIME="1657792917"
+TIME="1658081977"
 SIZE="30783"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 IS_INCLUDED="TRUE"
 ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\bfmtovec_compile.do,do"
+STATE="utd"
+TIME="1658081977"
+SIZE="1218"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_0\Minimal_SoC_CoreGPIO_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\coreparameters.v,tb_hdl"
+STATE="utd"
+TIME="1658081978"
+SIZE="4039"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_0\Minimal_SoC_CoreGPIO_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+IS_INCLUDED="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\Minimal_SoC_CoreGPIO_0_CoreGPIO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1658081978"
+SIZE="3317"
+PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbl.v,tb_hdl"
+STATE="utd"
+TIME="1658081977"
+SIZE="8104"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_0\Minimal_SoC_CoreGPIO_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahblapb.v,tb_hdl"
+STATE="utd"
+TIME="1658081977"
+SIZE="11226"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_0\Minimal_SoC_CoreGPIO_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbslave.v,tb_hdl"
+STATE="utd"
+TIME="1658081977"
+SIZE="2484"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_0\Minimal_SoC_CoreGPIO_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbslaveext.v,tb_hdl"
+STATE="utd"
+TIME="1658081977"
+SIZE="48773"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_0\Minimal_SoC_CoreGPIO_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
+STATE="utd"
+TIME="1658081977"
+SIZE="4658"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_0\Minimal_SoC_CoreGPIO_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
+STATE="utd"
+TIME="1658081977"
+SIZE="9141"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_0\Minimal_SoC_CoreGPIO_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
+STATE="utd"
+TIME="1658081977"
+SIZE="25150"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_0\Minimal_SoC_CoreGPIO_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apbslaveext.v,tb_hdl"
+STATE="utd"
+TIME="1658081977"
+SIZE="36296"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_0\Minimal_SoC_CoreGPIO_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apbtoapb.v,tb_hdl"
+STATE="utd"
+TIME="1658081977"
+SIZE="4721"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_0\Minimal_SoC_CoreGPIO_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
+STATE="utd"
+TIME="1658081977"
+SIZE="122554"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_0\Minimal_SoC_CoreGPIO_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v,hdl"
+STATE="utd"
+TIME="1658081978"
+SIZE="29299"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_0\Minimal_SoC_CoreGPIO_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\test\user\testbench.v,tb_hdl"
+STATE="utd"
+TIME="1658081977"
+SIZE="13856"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_0\Minimal_SoC_CoreGPIO_0_CoreGPIO.cxf"
+MODULE_UNDER_TEST="testbench"
+SIMULATION_TIME="-all"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\wave_vlog.do,do"
+STATE="utd"
+TIME="1658081977"
+SIZE="1452"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_0\Minimal_SoC_CoreGPIO_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\bfmtovec_compile.do,do"
+STATE="utd"
+TIME="1658081978"
+SIZE="1218"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_1\Minimal_SoC_CoreGPIO_1_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\coreparameters.v,tb_hdl"
+STATE="utd"
+TIME="1658081978"
+SIZE="4039"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_1\Minimal_SoC_CoreGPIO_1_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+IS_INCLUDED="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\Minimal_SoC_CoreGPIO_1_CoreGPIO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1658081978"
+SIZE="3317"
+PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbl.v,tb_hdl"
+STATE="utd"
+TIME="1658081978"
+SIZE="8104"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_1\Minimal_SoC_CoreGPIO_1_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahblapb.v,tb_hdl"
+STATE="utd"
+TIME="1658081978"
+SIZE="11226"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_1\Minimal_SoC_CoreGPIO_1_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbslave.v,tb_hdl"
+STATE="utd"
+TIME="1658081978"
+SIZE="2484"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_1\Minimal_SoC_CoreGPIO_1_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbslaveext.v,tb_hdl"
+STATE="utd"
+TIME="1658081978"
+SIZE="48773"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_1\Minimal_SoC_CoreGPIO_1_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
+STATE="utd"
+TIME="1658081978"
+SIZE="4658"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_1\Minimal_SoC_CoreGPIO_1_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
+STATE="utd"
+TIME="1658081978"
+SIZE="9141"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_1\Minimal_SoC_CoreGPIO_1_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
+STATE="utd"
+TIME="1658081978"
+SIZE="25150"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_1\Minimal_SoC_CoreGPIO_1_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apbslaveext.v,tb_hdl"
+STATE="utd"
+TIME="1658081978"
+SIZE="36296"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_1\Minimal_SoC_CoreGPIO_1_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apbtoapb.v,tb_hdl"
+STATE="utd"
+TIME="1658081978"
+SIZE="4721"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_1\Minimal_SoC_CoreGPIO_1_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
+STATE="utd"
+TIME="1658081978"
+SIZE="122554"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_1\Minimal_SoC_CoreGPIO_1_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v,hdl"
+STATE="utd"
+TIME="1658081978"
+SIZE="29299"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_1\Minimal_SoC_CoreGPIO_1_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\test\user\testbench.v,tb_hdl"
+STATE="utd"
+TIME="1658081978"
+SIZE="13856"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_1\Minimal_SoC_CoreGPIO_1_CoreGPIO.cxf"
+MODULE_UNDER_TEST="testbench"
+SIMULATION_TIME="-all"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\wave_vlog.do,do"
+STATE="utd"
+TIME="1658081978"
+SIZE="1452"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_1\Minimal_SoC_CoreGPIO_1_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\coreparameters.v,tb_hdl"
 STATE="utd"
-TIME="1657792919"
+TIME="1658081978"
 SIZE="605"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
@@ -532,139 +844,139 @@ IS_INCLUDED="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf,actgen_cxf"
 STATE="utd"
-TIME="1657792919"
+TIME="1658081978"
 SIZE="4205"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\mti\scripts\bfmtovec_compile.do,do"
 STATE="utd"
-TIME="1657792919"
+TIME="1658081978"
 SIZE="1011"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\mti\scripts\wave_vlog_amba.do,do"
 STATE="utd"
-TIME="1657792919"
+TIME="1658081978"
 SIZE="2034"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahbl.v,tb_hdl"
 STATE="utd"
-TIME="1657792919"
+TIME="1658081978"
 SIZE="8110"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahblapb.v,tb_hdl"
 STATE="utd"
-TIME="1657792919"
+TIME="1658081978"
 SIZE="11258"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahbslave.v,tb_hdl"
 STATE="utd"
-TIME="1657792919"
+TIME="1658081978"
 SIZE="2513"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahbslaveext.v,tb_hdl"
 STATE="utd"
-TIME="1657792919"
+TIME="1658081978"
 SIZE="48854"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
 STATE="utd"
-TIME="1657792919"
+TIME="1658081978"
 SIZE="4661"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
 STATE="utd"
-TIME="1657792919"
+TIME="1658081978"
 SIZE="9150"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
 STATE="utd"
-TIME="1657792919"
+TIME="1658081978"
 SIZE="25205"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_apbslaveext.v,tb_hdl"
 STATE="utd"
-TIME="1657792919"
+TIME="1658081978"
 SIZE="36325"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_apbtoapb.v,tb_hdl"
 STATE="utd"
-TIME="1657792919"
+TIME="1658081978"
 SIZE="4724"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
 STATE="utd"
-TIME="1657792919"
+TIME="1658081978"
 SIZE="122531"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v,hdl"
 STATE="utd"
-TIME="1657792919"
+TIME="1658081978"
 SIZE="6422"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v,hdl"
 STATE="utd"
-TIME="1657792919"
+TIME="1658081978"
 SIZE="10082"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v,hdl"
 STATE="utd"
-TIME="1657792919"
+TIME="1658081978"
 SIZE="7077"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v,hdl"
 STATE="utd"
-TIME="1657792919"
+TIME="1658081978"
 SIZE="4274"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v,hdl"
 STATE="utd"
-TIME="1657792919"
+TIME="1658081978"
 SIZE="10506"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v,hdl"
 STATE="utd"
-TIME="1657792919"
+TIME="1658081978"
 SIZE="5581"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\test\user\testbench.v,tb_hdl"
 STATE="utd"
-TIME="1657792919"
+TIME="1658081978"
 SIZE="8972"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 MODULE_UNDER_TEST="testbench"
@@ -673,34 +985,54 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\Minimal_SoC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1657792926"
-SIZE="5389"
+TIME="1658081986"
+SIZE="8374"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\Minimal_SoC.v,hdl"
 STATE="utd"
-TIME="1657792919"
-SIZE="22876"
+TIME="1658081978"
+SIZE="41894"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\designer\impl1\Minimal_SoC.adb,adb"
-STATE="ood"
-TIME="1657792833"
-SIZE="956928"
+STATE="utd"
+TIME="1657981885"
+SIZE="1945600"
 ENDFILE
 VALUE "<project>\designer\impl1\Minimal_SoC.ide_des,ide_des"
 STATE="utd"
-TIME="1657813464"
-SIZE="1083"
+TIME="1658002225"
+SIZE="1082"
+ENDFILE
+VALUE "<project>\designer\impl1\Minimal_SoC.pdb,pdb"
+STATE="ood"
+TIME="1658080504"
+SIZE="79414"
+ENDFILE
+VALUE "<project>\designer\impl1\Minimal_SoC_ba.sdf,ba_sdf"
+STATE="ood"
+TIME="1658080463"
+SIZE="1679004"
 ENDFILE
 VALUE "<project>\designer\impl1\Minimal_SoC_compile_log.rpt,log"
 STATE="utd"
-TIME="1657813532"
-SIZE="1476"
+TIME="1658082307"
+SIZE="17840"
+ENDFILE
+VALUE "<project>\designer\impl1\Minimal_SoC_UART_0x55.pdb,pdb"
+STATE="utd"
+TIME="1658082833"
+SIZE="80881"
+ENDFILE
+VALUE "<project>\simulation\Basic_Input_Testbench_presynth_simulation.log,log"
+STATE="utd"
+TIME="1658082001"
+SIZE="68"
 ENDFILE
 VALUE "<project>\simulation\bfmtovec_compile.log,log"
 STATE="utd"
-TIME="1657792499"
+TIME="1658003505"
 SIZE="407"
 ENDFILE
 VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
@@ -714,6 +1046,26 @@ STATE="utd"
 TIME="1657481871"
 SIZE="8016"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\simulation\coregpio_usertb_apb_master.bfm,sim"
+STATE="utd"
+TIME="1657982995"
+SIZE="2823"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_0\Minimal_SoC_CoreGPIO_0_CoreGPIO.cxf"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_1\Minimal_SoC_CoreGPIO_1_CoreGPIO.cxf"
+ENDFILE
+VALUE "<project>\simulation\coregpio_usertb_include.bfm,sim"
+STATE="utd"
+TIME="1657982995"
+SIZE="23755"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_0\Minimal_SoC_CoreGPIO_0_CoreGPIO.cxf"
+PARENT="<project>\component\work\Minimal_SoC\CoreGPIO_1\Minimal_SoC_CoreGPIO_1_CoreGPIO.cxf"
+ENDFILE
+VALUE "<project>\simulation\CoreInterrupt_scriptlet.bfm,sim"
+STATE="utd"
+TIME="1657880125"
+SIZE="744"
+PARENT="<project>\component\Actel\DirectCore\CoreInterrupt\1.1.101\CoreInterrupt.cxf"
 ENDFILE
 VALUE "<project>\simulation\coreuart_usertb_apb_master.bfm,sim"
 STATE="utd"
@@ -729,13 +1081,13 @@ PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTa
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
-TIME="1657792489"
-SIZE="8184"
+TIME="1658003498"
+SIZE="10546"
 ENDFILE
 VALUE "<project>\simulation\subsystem.bfm,sim"
 STATE="utd"
-TIME="1657792919"
-SIZE="855"
+TIME="1658081978"
+SIZE="1027"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 ENDFILE
 VALUE "<project>\simulation\TESTBENCH_presynth_simulation.log,log"
@@ -750,34 +1102,196 @@ SIZE="4701"
 PARENT="<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf"
 PARENT="<project>\component\Actel\DirectCore\CoreTimer\2.0.103\CoreTimer.cxf"
 ENDFILE
+VALUE "<project>\smartgen\Minimal_SoC_with_PLL\Minimal_SoC_with_PLL.cxf,actgen_cxf"
+STATE="utd"
+TIME="1657826013"
+SIZE="1528"
+ENDFILE
+VALUE "<project>\smartgen\Minimal_SoC_with_PLL\Minimal_SoC_with_PLL.gen,gen"
+STATE="utd"
+TIME="1657826009"
+SIZE="610"
+PARENT="<project>\smartgen\Minimal_SoC_with_PLL\Minimal_SoC_with_PLL.cxf"
+ENDFILE
+VALUE "<project>\smartgen\Minimal_SoC_with_PLL\Minimal_SoC_with_PLL.log,log"
+STATE="utd"
+TIME="1657826010"
+SIZE="2760"
+PARENT="<project>\smartgen\Minimal_SoC_with_PLL\Minimal_SoC_with_PLL.cxf"
+ENDFILE
+VALUE "<project>\smartgen\Minimal_SoC_with_PLL\Minimal_SoC_with_PLL.v,hdl"
+STATE="utd"
+TIME="1657826010"
+SIZE="2794"
+PARENT="<project>\smartgen\Minimal_SoC_with_PLL\Minimal_SoC_with_PLL.cxf"
+ENDFILE
+VALUE "<project>\smartgen\OR_15bit\OR_15bit.cxf,actgen_cxf"
+STATE="utd"
+TIME="1657983670"
+SIZE="1183"
+ENDFILE
+VALUE "<project>\smartgen\OR_15bit\OR_15bit.gen,gen"
+STATE="utd"
+TIME="1657983668"
+SIZE="444"
+PARENT="<project>\smartgen\OR_15bit\OR_15bit.cxf"
+ENDFILE
+VALUE "<project>\smartgen\OR_15bit\OR_15bit.log,log"
+STATE="utd"
+TIME="1657983668"
+SIZE="1256"
+PARENT="<project>\smartgen\OR_15bit\OR_15bit.cxf"
+ENDFILE
+VALUE "<project>\smartgen\OR_15bit\OR_15bit.v,hdl"
+STATE="utd"
+TIME="1657983668"
+SIZE="1474"
+PARENT="<project>\smartgen\OR_15bit\OR_15bit.cxf"
+ENDFILE
+VALUE "<project>\smartgen\SRAM_ADDRESS_IO\SRAM_ADDRESS_IO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1657981300"
+SIZE="1306"
+ENDFILE
+VALUE "<project>\smartgen\SRAM_ADDRESS_IO\SRAM_ADDRESS_IO.gen,gen"
+STATE="utd"
+TIME="1657981297"
+SIZE="494"
+PARENT="<project>\smartgen\SRAM_ADDRESS_IO\SRAM_ADDRESS_IO.cxf"
+ENDFILE
+VALUE "<project>\smartgen\SRAM_ADDRESS_IO\SRAM_ADDRESS_IO.log,log"
+STATE="utd"
+TIME="1657981298"
+SIZE="1325"
+PARENT="<project>\smartgen\SRAM_ADDRESS_IO\SRAM_ADDRESS_IO.cxf"
+ENDFILE
+VALUE "<project>\smartgen\SRAM_ADDRESS_IO\SRAM_ADDRESS_IO.v,hdl"
+STATE="utd"
+TIME="1657981298"
+SIZE="2472"
+PARENT="<project>\smartgen\SRAM_ADDRESS_IO\SRAM_ADDRESS_IO.cxf"
+ENDFILE
+VALUE "<project>\smartgen\SRAM_Control_IO\SRAM_Control_IO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1658049594"
+SIZE="1304"
+ENDFILE
+VALUE "<project>\smartgen\SRAM_Control_IO\SRAM_Control_IO.gen,gen"
+STATE="utd"
+TIME="1658049593"
+SIZE="493"
+PARENT="<project>\smartgen\SRAM_Control_IO\SRAM_Control_IO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\SRAM_Control_IO\SRAM_Control_IO.log,log"
+STATE="utd"
+TIME="1658049594"
+SIZE="1323"
+PARENT="<project>\smartgen\SRAM_Control_IO\SRAM_Control_IO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\SRAM_Control_IO\SRAM_Control_IO.v,hdl"
+STATE="utd"
+TIME="1658049594"
+SIZE="1374"
+PARENT="<project>\smartgen\SRAM_Control_IO\SRAM_Control_IO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\SRAM_DATA_IO\SRAM_DATA_IO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1657985061"
+SIZE="1635"
+ENDFILE
+VALUE "<project>\smartgen\SRAM_DATA_IO\SRAM_DATA_IO.gen,gen"
+STATE="utd"
+TIME="1657985058"
+SIZE="489"
+PARENT="<project>\smartgen\SRAM_DATA_IO\SRAM_DATA_IO.cxf"
+ENDFILE
+VALUE "<project>\smartgen\SRAM_DATA_IO\SRAM_DATA_IO.log,log"
+STATE="utd"
+TIME="1657985059"
+SIZE="1371"
+PARENT="<project>\smartgen\SRAM_DATA_IO\SRAM_DATA_IO.cxf"
+ENDFILE
+VALUE "<project>\smartgen\SRAM_DATA_IO\SRAM_DATA_IO.v,hdl"
+STATE="utd"
+TIME="1657985059"
+SIZE="2575"
+PARENT="<project>\smartgen\SRAM_DATA_IO\SRAM_DATA_IO.cxf"
+ENDFILE
 VALUE "<project>\synthesis\Minimal_SoC.edn,syn_edn"
-STATE="ood"
-TIME="1657792965"
-SIZE="1096998"
+STATE="utd"
+TIME="1658002221"
+SIZE="2061109"
 ENDFILE
 VALUE "<project>\synthesis\Minimal_SoC.so,so"
 STATE="utd"
-TIME="1657792965"
+TIME="1658002221"
 SIZE="282"
 ENDFILE
 VALUE "<project>\synthesis\Minimal_SoC_sdc.sdc,syn_sdc"
-STATE="ood"
-TIME="1657792965"
-SIZE="406"
+STATE="utd"
+TIME="1658002221"
+SIZE="310"
 ENDFILE
 VALUE "<project>\synthesis\Minimal_SoC_syn.prj,prj"
 STATE="utd"
-TIME="1657792965"
-SIZE="7312"
+TIME="1658002222"
+SIZE="8864"
 ENDFILE
 ENDLIST
 LIST UsedFile
 ENDLIST
 LIST NewModulesInfo
+LIST "COREAPBSRAM::work"
+FILE "<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v,hdl"
+LIST Other_Association
+VALUE "<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\coreparameters.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\test\user\coreapbsram_user_tb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\mti\scripts\wave.do,do"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\coreparameters.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\test\user\coreapbsram_user_tb.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "CoreInterrupt::work"
+FILE "<project>\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\CoreInterrupt_scriptlet.bfm,sim"
+ENDLIST
+ENDLIST
 LIST "Minimal_SoC::work"
 FILE "<project>\component\work\Minimal_SoC\Minimal_SoC.v,hdl"
 LIST Other_Association
 VALUE "<project>\simulation\subsystem.bfm,sim"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Layout
+ideSYNTHESIS(<project>\synthesis\Minimal_SoC.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\Minimal_SoC.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
 ENDLIST
 LIST PinReports
 VALUE "<project>\designer\impl1\Minimal_SoC_report_pin_byname.txt,log"
@@ -795,6 +1309,100 @@ LIST AssociatedStimulus
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\testsupport.v,tb_hdl"
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\apbmodel.v,tb_hdl"
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\testbench.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_0_CoreGPIO::work"
+FILE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\coregpio_usertb_apb_master.bfm,sim"
+VALUE "<project>\simulation\coregpio_usertb_include.bfm,sim"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbl.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahblapb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbslave.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbslaveext.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apbslaveext.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apbtoapb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\coreparameters.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\test\user\testbench.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\bfmtovec_compile.do,do"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\wave_vlog.do,do"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbl.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahblapb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbslave.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbslaveext.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apbslaveext.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apbtoapb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\coreparameters.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\test\user\testbench.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_1_CoreGPIO::work"
+FILE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\coregpio_usertb_apb_master.bfm,sim"
+VALUE "<project>\simulation\coregpio_usertb_include.bfm,sim"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbl.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahblapb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbslave.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbslaveext.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apbslaveext.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apbtoapb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\coreparameters.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\test\user\testbench.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\bfmtovec_compile.do,do"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\wave_vlog.do,do"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbl.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahblapb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbslave.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbslaveext.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apbslaveext.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apbtoapb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\coreparameters.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\test\user\testbench.v,tb_hdl"
 ENDLIST
 LIST ProjectState5.1
 LIST Impl1
@@ -938,13 +1546,64 @@ VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\test\user\t
 VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\mti\bfmtovec_compile.do,do"
 VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\mti\wave.do,do"
 ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_package.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\test\user\testbench.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 ENDLIST
 ENDLIST
 LIST AssociatedStimulus
+LIST COREAPBSRAM
+VALUE "<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\coreparameters.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\test\user\coreapbsram_user_tb.v,tb_hdl"
+ENDLIST
 LIST Minimal_SoC_COREABC_0_COREABC
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\testsupport.v,tb_hdl"
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\apbmodel.v,tb_hdl"
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\testbench.v,tb_hdl"
+ENDLIST
+LIST Minimal_SoC_CoreGPIO_0_CoreGPIO
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbl.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahblapb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbslave.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbslaveext.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apbslaveext.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apbtoapb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\coreparameters.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\test\user\testbench.v,tb_hdl"
+ENDLIST
+LIST Minimal_SoC_CoreGPIO_1_CoreGPIO
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbl.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahblapb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbslave.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbslaveext.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apbslaveext.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apbtoapb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\coreparameters.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\test\user\testbench.v,tb_hdl"
 ENDLIST
 LIST Minimal_SoC_CoreUARTapb_0_CoreUARTapb
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahbl.v,tb_hdl"
@@ -969,6 +1628,13 @@ VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\amba_bfm\b
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\test\user\testbench.v,tb_hdl"
 ENDLIST
+LIST CORESPI
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_package.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\test\user\testbench.v,tb_hdl"
+ENDLIST
 LIST CoreTimer
 VALUE "<project>\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
@@ -982,10 +1648,54 @@ LIST Other_Association
 LIST Minimal_SoC
 VALUE "<project>\simulation\subsystem.bfm,sim"
 ENDLIST
+LIST COREAPBSRAM
+VALUE "<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\coreparameters.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\test\user\coreapbsram_user_tb.v,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\mti\scripts\wave.do,do"
+ENDLIST
+LIST CoreInterrupt
+VALUE "<project>\simulation\CoreInterrupt_scriptlet.bfm,sim"
+ENDLIST
 LIST Minimal_SoC_COREABC_0_COREABC
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\testsupport.v,tb_hdl"
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\apbmodel.v,tb_hdl"
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\testbench.v,tb_hdl"
+ENDLIST
+LIST Minimal_SoC_CoreGPIO_0_CoreGPIO
+VALUE "<project>\simulation\coregpio_usertb_apb_master.bfm,sim"
+VALUE "<project>\simulation\coregpio_usertb_include.bfm,sim"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbl.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahblapb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbslave.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbslaveext.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apbslaveext.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apbtoapb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\coreparameters.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\test\user\testbench.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\bfmtovec_compile.do,do"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_0\wave_vlog.do,do"
+ENDLIST
+LIST Minimal_SoC_CoreGPIO_1_CoreGPIO
+VALUE "<project>\simulation\coregpio_usertb_apb_master.bfm,sim"
+VALUE "<project>\simulation\coregpio_usertb_include.bfm,sim"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbl.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahblapb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbslave.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbslaveext.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apbslaveext.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apbtoapb.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\coreparameters.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\test\user\testbench.v,tb_hdl"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\bfmtovec_compile.do,do"
+VALUE "<project>\component\work\Minimal_SoC\CoreGPIO_1\wave_vlog.do,do"
 ENDLIST
 LIST Minimal_SoC_CoreUARTapb_0_CoreUARTapb
 VALUE "<project>\simulation\coreuart_usertb_apb_master.bfm,sim"
@@ -1043,7 +1753,7 @@ LIST SimulationOptions
 UseAutomaticDoFile=true
 IncludeWaveDo=false
 Type=max
-RunTime=100us
+RunTime=10ms
 Resolution=1ps
 VsimOpt=
 EntityName=testbench
@@ -1105,8 +1815,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\synplify_pro.exe"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -1114,7 +1824,7 @@ NAME="ModelSim ME"
 FUNCTION="Simulation"
 TOOL="ModelSim"
 LOCATION="C:\Microsemi\Libero_SoC_v11.9\Modelsim\win32acoem\modelsim.exe"
-PARAM=""
+PARAM=" -l Basic_Input_Testbench_presynth_simulation.log "
 BATCH=0
 LICENSE=""
 IS32BIT="1"
@@ -1139,7 +1849,57 @@ IS32BIT="1"
 EndProfile
 ENDLIST
 LIST ProjectState5.1
+LIST "COREAPBSRAM::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "Minimal_SoC::work"
+LIST Impl1
+LiberoState=Post_Layout
+ideSYNTHESIS(<project>\synthesis\Minimal_SoC.edn,syn_edn)=StateSuccess
+ideDESIGNER(<project>\designer\impl1\Minimal_SoC.adb,adb)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 LIST "Minimal_SoC_COREABC_0_COREABC::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_0_CoreGPIO::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_1_CoreGPIO::work"
 LIST Impl1
 ideSTIMULUS=StateSuccess
 LIST FlowOptions
@@ -1187,6 +1947,18 @@ Used_File_List
 ENDUsed_File_List
 ENDLIST
 ENDLIST
+LIST "CORESPI::CORESPI_LIB"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
 ENDLIST
 LIST ExcludePackageForSimulation
 ENDLIST
@@ -1200,23 +1972,51 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Compile:Minimal_SoC_compile_log.rpt
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+SmartDesign;Minimal_SoC;0
+SmartDesign;Basic_Input_Testbench;0
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
+LIST "COREAPBSRAM::work","component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v","FALSE","FALSE"
+SUBBLOCK "CoreApbSram_l1I::work","component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreApbSram_l1I::work","component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreGPIO_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "CoreInterrupt::work","component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v","FALSE","FALSE"
+ENDLIST
+LIST "CoreInterrupt_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "CoreSPI_Driver::work","","FALSE","FALSE"
+ENDLIST
 LIST "CoreTimer_Driver::work","","FALSE","FALSE"
 ENDLIST
 LIST "CoreUARTapb_Driver::work","","FALSE","FALSE"
 ENDLIST
 LIST "DESIGN_FIRMWARE::work","component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf","TRUE","FALSE"
+SUBBLOCK "CoreGPIO_Driver::work","","FALSE","FALSE"
+SUBBLOCK "CoreInterrupt_Driver::work","","FALSE","FALSE"
+SUBBLOCK "CoreSPI_Driver::work","","FALSE","FALSE"
 SUBBLOCK "CoreTimer_Driver::work","","FALSE","FALSE"
 SUBBLOCK "CoreUARTapb_Driver::work","","FALSE","FALSE"
 ENDLIST
 LIST "DESIGN_IO::work","component\work\DESIGN_IO\DESIGN_IO.cxf","TRUE","FALSE"
 ENDLIST
 LIST "Minimal_SoC::work","component\work\Minimal_SoC\Minimal_SoC.v","TRUE","FALSE"
+SUBBLOCK "COREAPBSRAM::work","component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v","FALSE","FALSE"
+SUBBLOCK "CoreInterrupt::work","component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v","FALSE","FALSE"
 SUBBLOCK "Minimal_SoC_COREABC_0_COREABC::work","component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v","FALSE","FALSE"
+SUBBLOCK "Minimal_SoC_CoreGPIO_0_CoreGPIO::work","component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v","FALSE","FALSE"
+SUBBLOCK "Minimal_SoC_CoreGPIO_1_CoreGPIO::work","component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v","FALSE","FALSE"
 SUBBLOCK "Minimal_SoC_CoreUARTapb_0_CoreUARTapb::work","component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v","FALSE","FALSE"
+SUBBLOCK "Minimal_SoC_with_PLL::work","smartgen\Minimal_SoC_with_PLL\Minimal_SoC_with_PLL.v","TRUE","FALSE"
+SUBBLOCK "OR_15bit::work","smartgen\OR_15bit\OR_15bit.v","TRUE","FALSE"
+SUBBLOCK "SRAM_ADDRESS_IO::work","smartgen\SRAM_ADDRESS_IO\SRAM_ADDRESS_IO.v","TRUE","FALSE"
+SUBBLOCK "SRAM_DATA_IO::work","smartgen\SRAM_DATA_IO\SRAM_DATA_IO.v","TRUE","FALSE"
 SUBBLOCK "CoreAPB3::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v","FALSE","FALSE"
 SUBBLOCK "CORESPI::CORESPI_LIB","component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v","FALSE","FALSE"
 SUBBLOCK "CoreTimer::CORETIMER_LIB","component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v","FALSE","FALSE"
@@ -1256,6 +2056,10 @@ SUBBLOCK "Minimal_SoC_COREABC_0_RAM256X16::work","component\work\Minimal_SoC\COR
 SUBBLOCK "Minimal_SoC_COREABC_0_RAM256X8::work","component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x8_rtl.v","FALSE","FALSE"
 SUBBLOCK "Minimal_SoC_COREABC_0_RAM256XDWIDTH_ECC::work","","FALSE","FALSE"
 ENDLIST
+LIST "Minimal_SoC_CoreGPIO_0_CoreGPIO::work","component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v","FALSE","FALSE"
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_1_CoreGPIO::work","component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v","FALSE","FALSE"
+ENDLIST
 LIST "Minimal_SoC_CoreUARTapb_0_Clock_gen::work","component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v","FALSE","FALSE"
 ENDLIST
 LIST "Minimal_SoC_CoreUARTapb_0_COREUART::work","component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v","FALSE","FALSE"
@@ -1276,14 +2080,87 @@ LIST "Minimal_SoC_CoreUARTapb_0_Rx_async::work","component\work\Minimal_SoC\Core
 ENDLIST
 LIST "Minimal_SoC_CoreUARTapb_0_Tx_async::work","component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v","FALSE","FALSE"
 ENDLIST
-LIST "Basic_Input_Testbench::work","component\work\Basic_Input_Testbench\Basic_Input_Testbench.cxf","TRUE","TRUE"
-SUBBLOCK "CLK_GEN::work","","FALSE","TRUE"
-SUBBLOCK "RESET_GEN::work","","FALSE","TRUE"
+LIST "Minimal_SoC_with_PLL::work","smartgen\Minimal_SoC_with_PLL\Minimal_SoC_with_PLL.v","TRUE","FALSE"
+ENDLIST
+LIST "OR_15bit::work","smartgen\OR_15bit\OR_15bit.v","TRUE","FALSE"
+ENDLIST
+LIST "SRAM_ADDRESS_IO::work","smartgen\SRAM_ADDRESS_IO\SRAM_ADDRESS_IO.v","TRUE","FALSE"
+ENDLIST
+LIST "SRAM_Control_IO::work","smartgen\SRAM_Control_IO\SRAM_Control_IO.v","TRUE","FALSE"
+ENDLIST
+LIST "SRAM_DATA_IO::work","smartgen\SRAM_DATA_IO\SRAM_DATA_IO.v","TRUE","FALSE"
+ENDLIST
+LIST "Basic_Input_Testbench::work","component\work\Basic_Input_Testbench\Basic_Input_Testbench.v","TRUE","TRUE"
+SUBBLOCK "CLK_GEN::work","component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.v","FALSE","TRUE"
+SUBBLOCK "RESET_GEN::work","component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.v","FALSE","TRUE"
 SUBBLOCK "Minimal_SoC::work","component\work\Minimal_SoC\Minimal_SoC.v","TRUE","FALSE"
 ENDLIST
-LIST "CLK_GEN::work","","FALSE","TRUE"
+LIST "BFM_AHBSLAVEEXT::work","","FALSE","FALSE"
+ENDLIST
+LIST "BFM_APBSLAVEEXT::work","","FALSE","FALSE"
+ENDLIST
+LIST "BFMA1l1OII::work","","FALSE","FALSE"
+ENDLIST
+LIST "CLK_GEN::work","component\Actel\Simulation\CLK_GEN\1.0.1\CLK_GEN.v","FALSE","TRUE"
+ENDLIST
+LIST "coreapbsram_user_tb::work","component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\test\user\coreapbsram_user_tb.v","FALSE","TRUE"
+SUBBLOCK "COREAPBSRAM::work","component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v","FALSE","FALSE"
 ENDLIST
 LIST "Minimal_SoC_COREABC_0_APBModel::work","component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\apbmodel.v","FALSE","TRUE"
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_0_BFM_AHBL::work","component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbl.v","FALSE","TRUE"
+SUBBLOCK "Minimal_SoC_CoreGPIO_0_BFM_MAIN::work","component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_0_BFM_AHBLAPB::work","component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahblapb.v","FALSE","TRUE"
+SUBBLOCK "BFMA1l1OII::work","","FALSE","FALSE"
+SUBBLOCK "Minimal_SoC_CoreGPIO_0_BFM_MAIN::work","component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_0_BFM_AHBSLAVE::work","component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbslave.v","FALSE","TRUE"
+SUBBLOCK "BFM_AHBSLAVEEXT::work","","FALSE","FALSE"
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_0_BFM_AHBSLAVEEXT::work","component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbslaveext.v","FALSE","TRUE"
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_0_BFM_APB::work","component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apb.v","FALSE","TRUE"
+SUBBLOCK "Minimal_SoC_CoreGPIO_0_BFMA1l1OII::work","component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbtoapb.v","FALSE","TRUE"
+SUBBLOCK "Minimal_SoC_CoreGPIO_0_BFM_MAIN::work","component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_0_BFM_APB2APB::work","component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apbtoapb.v","FALSE","TRUE"
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_0_BFM_APBSLAVE::work","component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apbslave.v","FALSE","TRUE"
+SUBBLOCK "BFM_APBSLAVEEXT::work","","FALSE","FALSE"
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_0_BFM_APBSLAVEEXT::work","component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apbslaveext.v","FALSE","TRUE"
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_0_BFM_MAIN::work","component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_0_BFMA1l1OII::work","component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_ahbtoapb.v","FALSE","TRUE"
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_1_BFM_AHBL::work","component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbl.v","FALSE","TRUE"
+SUBBLOCK "Minimal_SoC_CoreGPIO_1_BFM_MAIN::work","component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_1_BFM_AHBLAPB::work","component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahblapb.v","FALSE","TRUE"
+SUBBLOCK "BFMA1l1OII::work","","FALSE","FALSE"
+SUBBLOCK "Minimal_SoC_CoreGPIO_1_BFM_MAIN::work","component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_1_BFM_AHBSLAVE::work","component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbslave.v","FALSE","TRUE"
+SUBBLOCK "BFM_AHBSLAVEEXT::work","","FALSE","FALSE"
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_1_BFM_AHBSLAVEEXT::work","component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbslaveext.v","FALSE","TRUE"
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_1_BFM_APB::work","component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apb.v","FALSE","TRUE"
+SUBBLOCK "Minimal_SoC_CoreGPIO_1_BFMA1l1OII::work","component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbtoapb.v","FALSE","TRUE"
+SUBBLOCK "Minimal_SoC_CoreGPIO_1_BFM_MAIN::work","component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_1_BFM_APB2APB::work","component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apbtoapb.v","FALSE","TRUE"
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_1_BFM_APBSLAVE::work","component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apbslave.v","FALSE","TRUE"
+SUBBLOCK "BFM_APBSLAVEEXT::work","","FALSE","FALSE"
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_1_BFM_APBSLAVEEXT::work","component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apbslaveext.v","FALSE","TRUE"
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_1_BFM_MAIN::work","component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
+ENDLIST
+LIST "Minimal_SoC_CoreGPIO_1_BFMA1l1OII::work","component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_ahbtoapb.v","FALSE","TRUE"
 ENDLIST
 LIST "Minimal_SoC_CoreUARTapb_0_BFM_AHBL::work","component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahbl.v","FALSE","TRUE"
 SUBBLOCK "Minimal_SoC_CoreUARTapb_0_BFM_MAIN::work","component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_main.v","FALSE","TRUE"
@@ -1312,11 +2189,19 @@ LIST "Minimal_SoC_CoreUARTapb_0_BFM_MAIN::work","component\work\Minimal_SoC\Core
 ENDLIST
 LIST "Minimal_SoC_CoreUARTapb_0_BFMA1l1OII::work","component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahbtoapb.v","FALSE","TRUE"
 ENDLIST
-LIST "RESET_GEN::work","","FALSE","TRUE"
+LIST "RESET_GEN::work","component\Actel\Simulation\RESET_GEN\1.0.1\RESET_GEN.v","FALSE","TRUE"
 ENDLIST
 LIST "TESTBENCH::work","component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\testbench.v","FALSE","TRUE"
 SUBBLOCK "Minimal_SoC_COREABC_0_APBModel::work","component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\apbmodel.v","FALSE","TRUE"
 SUBBLOCK "Minimal_SoC_COREABC_0_COREABC::work","component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v","FALSE","FALSE"
+ENDLIST
+LIST "testbench::work","component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\test\user\testbench.v","FALSE","TRUE"
+SUBBLOCK "Minimal_SoC_CoreGPIO_0_BFM_APB::work","component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\amba_bfm\bfm_apb.v","FALSE","TRUE"
+SUBBLOCK "Minimal_SoC_CoreGPIO_0_CoreGPIO::work","component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v","FALSE","FALSE"
+ENDLIST
+LIST "testbench::work","component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\test\user\testbench.v","FALSE","TRUE"
+SUBBLOCK "Minimal_SoC_CoreGPIO_1_BFM_APB::work","component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\amba_bfm\bfm_apb.v","FALSE","TRUE"
+SUBBLOCK "Minimal_SoC_CoreGPIO_1_CoreGPIO::work","component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v","FALSE","FALSE"
 ENDLIST
 LIST "testbench::work","component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\test\user\testbench.v","FALSE","TRUE"
 SUBBLOCK "Minimal_SoC_CoreUARTapb_0_BFM_APB::work","component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_apb.v","FALSE","TRUE"

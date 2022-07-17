@@ -1,0 +1,38 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Sun Jul 17 11:19:53 2022
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : SRAM_Control_IO
+Family                          : PA3LC
+Output Format                   : VERILOG
+Type                            : Output Buffers
+Variation                       : Special
+Width                           : 5
+Technology                      : LVCMOS33
+
+**************
+Compile Report
+**************
+
+
+Netlist Resource Report
+=======================
+
+    CORE                       Used:      0  Total:   3072   (0.00%)
+    IO (W/ clocks)             Used:      5  Total:    100   (5.00%)
+    GLOBAL (Chip+Quadrant)     Used:      0  Total:     18   (0.00%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:      8   (0.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Wrote Verilog netlist to C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/smartgen\SRAM_Control_IO\SRAM_Control_IO.v.
+
+ ** Log Ended:   Sun Jul 17 11:19:54 2022
+

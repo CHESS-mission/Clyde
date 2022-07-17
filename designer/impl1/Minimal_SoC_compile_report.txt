@@ -1,13 +1,13 @@
 ***************************************************************************
                                Status Report
-                          Tue Jul 12 23:02:44 2022 ***************************************************************************
+                          Sun Jul 17 20:25:04 2022 ***************************************************************************
 
 Product: Designer
 Release: v11.9
 Version: 11.9.0.4
 File Name: C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Minimal_SoC.adb
 Design Name: Minimal_SoC  Design State: compile
-Last Saved: Sun Jul 10 21:43:47 2022
+Last Saved: Sun Jul 17 20:01:30 2022
 
 ***** Device Data **************************************************
 
@@ -22,7 +22,7 @@ Voltage Range:   COM
 
 ***** Import Variables *********************************************
 
-Source File(s) Imported on Tue Jul 12 23:02:40 2022:
+Source File(s) Imported on Sun Jul 17 20:24:56 2022:
         C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\synthesis\Minimal_SoC.edn
 
 
@@ -57,7 +57,7 @@ Speed grade : STD
 Temp        : 0:25:70
 Voltage     : 1.58:1.50:1.42
 
-Keep Existing Physical Constraints : No
+Keep Existing Physical Constraints : Yes
 Keep Existing Timing Constraints   : Yes
 
 pdc_abort_on_error                 : Yes
@@ -77,6 +77,65 @@ report_high_fanout_nets_limit      : 10
 =====================================================================
 Compile starts ...
 
+Warning: CMP201: Net Minimal_SoC_with_PLL_0/Core_GLB drives no load.
+Warning: CMP201: Net Minimal_SoC_with_PLL_0/Core_GLC drives no load.
+Warning: CMP201: Net Minimal_SoC_with_PLL_0/LOCK drives no load.
+Warning: CMP201: Net Minimal_SoC_with_PLL_0/Core_YB drives no load.
+Warning: CMP201: Net Minimal_SoC_with_PLL_0/Core_YC drives no load.
+Warning: CMP201: Net SRAM_DATA_IO_0/Y_1[2] drives no load.
+Warning: CMP201: Net SRAM_DATA_IO_0/Y_1[1] drives no load.
+Warning: CMP201: Net SRAM_DATA_IO_0/Y_1[13] drives no load.
+Warning: CMP201: Net SRAM_DATA_IO_0/Y_1[3] drives no load.
+Warning: CMP201: Net SRAM_DATA_IO_0/Y_1[12] drives no load.
+Warning: CMP201: Net SRAM_DATA_IO_0/Y_1[0] drives no load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_lIOl_DOUTA0 drives no
+         load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_lIOl_DOUTA1 drives no
+         load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_lIOl_DOUTA2 drives no
+         load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_lIOl_DOUTA3 drives no
+         load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_lIOl_DOUTA4 drives no
+         load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_lIOl_DOUTA5 drives no
+         load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_lIOl_DOUTA6 drives no
+         load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_lIOl_DOUTA7 drives no
+         load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_lIOl_DOUTA8 drives no
+         load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IlI[4] drives no load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IlI[5] drives no load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IlI[6] drives no load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IlI[7] drives no load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_lIOl_DOUTB8 drives no
+         load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IIOl_DOUTA0 drives no
+         load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IIOl_DOUTA1 drives no
+         load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IIOl_DOUTA2 drives no
+         load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IIOl_DOUTA3 drives no
+         load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IIOl_DOUTA4 drives no
+         load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IIOl_DOUTA5 drives no
+         load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IIOl_DOUTA6 drives no
+         load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IIOl_DOUTA7 drives no
+         load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IIOl_DOUTA8 drives no
+         load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_llI_0[4] drives no load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_llI_0[5] drives no load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_llI_0[6] drives no load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_llI_0[7] drives no load.
+Warning: CMP201: Net COREAPBSRAM_0/genblk1_CoreApbSram_l0l/CoreApbSram_IIOl_DOUTB8 drives no
+         load.
 Warning: CMP201: Net
          CoreUARTapb_0/CUARTlOlI/genblk2_CUARTl11/Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3/AEMP\
          TY drives no load.
@@ -155,25 +214,23 @@ Warning: CMP201: Net COREABC_0/URAM_UR/UG3_UR_xhdl12/RD_1[14] drives no load.
 Warning: CMP201: Net COREABC_0/URAM_UR/UG3_UR_xhdl12/RD_1[15] drives no load.
 Warning: CMP201: Net COREABC_0/URAM_UR/UG3_UR_xhdl12/Ram256x16_R0C0_RD16 drives no load.
 Warning: CMP201: Net COREABC_0/URAM_UR/UG3_UR_xhdl12/Ram256x16_R0C0_RD17 drives no load.
-Warning: Top level port SDA_MCU is not connected to any IO pad
-Warning: Top level port SDA_Sensors is not connected to any IO pad
 
 Netlist Optimization Report
 ===========================
 
 Optimized macros:
-  - Dangling net drivers:   2
-  - Buffers:                0
-  - Inverters:              0
-  - Tieoff:                 0
-  - Logic combining:        70
+  - Dangling net drivers:   15
+  - Buffers:                1
+  - Inverters:              3
+  - Tieoff:                 6
+  - Logic combining:        88
 
-    Total macros optimized  72
+    Total macros optimized  113
 
-Warning: CMP503: Remapped 62 enable flip-flop(s) to a 2-tile implementation because the CLR/PRE
+Warning: CMP503: Remapped 65 enable flip-flop(s) to a 2-tile implementation because the CLR/PRE
          pin on the enable flip-flop is not being driven by a global net.
 
-There were 0 error(s) and 33 warning(s) in this design.
+There were 0 error(s) and 70 warning(s) in this design.
 =====================================================================
 
 Reading previous post-compile physical placement constraints.
@@ -185,11 +242,11 @@ There were 0 error(s) and 0 warning(s).
 Compile report:
 ===============
 
-    CORE                       Used:   1893  Total:   3072   (61.62%)
-    IO (W/ clocks)             Used:     26  Total:    100   (26.00%)
-    GLOBAL (Chip+Quadrant)     Used:      3  Total:     18   (16.67%)
-    PLL                        Used:      0  Total:      1   (0.00%)
-    RAM/FIFO                   Used:      3  Total:      8   (37.50%)
+    CORE                       Used:   3025  Total:   3072   (98.47%)
+    IO (W/ clocks)             Used:     54  Total:    100   (54.00%)
+    GLOBAL (Chip+Quadrant)     Used:      5  Total:     18   (27.78%)
+    PLL                        Used:      1  Total:      1   (100.00%)
+    RAM/FIFO                   Used:      5  Total:      8   (62.50%)
     Low Static ICC             Used:      0  Total:      1   (0.00%)
     FlashROM                   Used:      0  Total:      1   (0.00%)
     User JTAG                  Used:      0  Total:      1   (0.00%)
@@ -198,7 +255,7 @@ Global Information:
 
     Type            | Used   | Total
     ----------------|--------|--------------
-    Chip global     | 3      | 6  (50.00%)*
+    Chip global     | 5      | 6  (83.33%)*
     Quadrant global | 0      | 12 (0.00%)
 
     (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
@@ -209,16 +266,16 @@ Core Information:
 
     Type    | Instances    | Core tiles
     --------|--------------|-----------
-    COMB    | 1381         | 1381
-    SEQ     | 512          | 512
+    COMB    | 2288         | 2288
+    SEQ     | 737          | 737
 
 I/O Function:
 
     Type                                  | w/o register  | w/ register  | w/ DDR register
     --------------------------------------|---------------|--------------|----------------
-    Input I/O                             | 5             | 0            | 0
-    Output I/O                            | 21            | 0            | 0
-    Bidirectional I/O                     | 0             | 0            | 0
+    Input I/O                             | 6             | 0            | 0
+    Output I/O                            | 30            | 0            | 0
+    Bidirectional I/O                     | 18            | 0            | 0
     Differential Input I/O Pairs          | 0             | 0            | 0
     Differential Output I/O Pairs         | 0             | 0            | 0
 
@@ -228,13 +285,13 @@ I/O Technology:
     --------------------------------|-------|-------|-------|--------|--------------
     I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
     --------------------------------|-------|-------|-------|--------|--------------
-    LVCMOS33                        | 3.30v | N/A   | 5     | 21     | 0
+    LVCMOS33                        | 3.30v | N/A   | 6     | 30     | 18
 
 I/O Placement:
 
-    Locked  :   0
+    Locked  :  54 ( 100.00% )
     Placed  :   0
-    UnPlaced:  26 ( 100.00% )
+    UnPlaced:   0
 
 Net information report:
 =======================
@@ -242,74 +299,80 @@ Net information report:
 The following nets drive enable flip-flops that have been remapped to a 2-tile implementation:
     EffCnt  Type          Name
     --------------------------
-    21      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_1
+    19      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_1
                           Driver: COREABC_0/genblk2.RSTSYNC2_1
-    20      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_0
+    18      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_0
                           Driver: COREABC_0/genblk2.RSTSYNC2_0
     17      SET/RESET_NET Net   : CORESPI_0/USPI/UCC/ssel_rx_q2_RNIBQH6
                           Driver: CORESPI_0/USPI/UCC/ssel_rx_q2_RNIBQH6
-    4       SET/RESET_NET Net   : PRESETN
+    11      SET/RESET_NET Net   : PRESETN
                           Driver: COREABC_0/genblk2.RSTSYNC2
 
 The following nets have been assigned to a chip global resource:
     Fanout  Type          Name
     --------------------------
-    518     CLK_NET       Net   : SYSCLK_c
-                          Driver: SYSCLK_pad
-                          Source: NETLIST
-    355     SET/RESET_NET Net   : COREABC_0_PRESETN
+    747     CLK_NET       Net   : GLA
+                          Driver: Minimal_SoC_with_PLL_0/Core
+                          Source: ESSENTIAL
+    585     SET/RESET_NET Net   : COREABC_0_PRESETN_0
                           Driver: COREABC_0_PRESETN_RNIUAJ1
                           Source: NETLIST
-    57      INT_NET       Net   : COREABC_0_APB3master_PADDR[3]
+    126     INT_NET       Net   : APB_GPIO_0_PADDR[2]
+                          Driver: COREABC_0_PADDR_M_RNIUKR2[2]
+                          Source: NETLIST
+    92      INT_NET       Net   : APB_GPIO_0_PADDR[4]
+                          Driver: COREABC_0_PADDR_M_RNI0NR2[4]
+                          Source: NETLIST
+    86      INT_NET       Net   : APB_GPIO_0_PADDR[3]
                           Driver: COREABC_0_PADDR_M_RNIVLR2[3]
                           Source: NETLIST
 
 High fanout nets in the post compile netlist:
     Fanout  Type          Name
     --------------------------
-    26      INT_NET       Net   : COREABC_0_APB3master_PADDR[2]
-                          Driver: COREABC_0/UROM.INSTR_ADDR[2]
-    24      INT_NET       Net   : COREABC_0_APB3master_PADDR_0[2]
-                          Driver: COREABC_0_PADDR_M_RNIUKR2[2]
-    23      INT_NET       Net   : COREABC_0/RAMADDR_1_sqmuxa
-                          Driver: COREABC_0/un1_ACCUMULATOR_m4_0
-    22      INT_NET       Net   : COREABC_0_APB3master_PADDR[5]
+    26      INT_NET       Net   : APB_GPIO_0_PADDR[5]
                           Driver: COREABC_0/UROM.INSTR_ADDR[5]
-    21      SET/RESET_NET Net   : CORESPI_0/USPI/UCC/ssel_rx_q2_RNIBQH6
-                          Driver: CORESPI_0/USPI/UCC/ssel_rx_q2_RNIBQH6
-    21      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_0
-                          Driver: COREABC_0/genblk2.RSTSYNC2_0
-    21      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_1
-                          Driver: COREABC_0/genblk2.RSTSYNC2_1
-    20      INT_NET       Net   : COREABC_0_APB3master_PADDR[4]
-                          Driver: COREABC_0/UROM.INSTR_ADDR[4]
-    20      INT_NET       Net   : COREABC_0_APB3master_PWDATA[2]
-                          Driver: COREABC_0/ACCUMULATOR_RNIK0LL_0[2]
-    20      SET/RESET_NET Net   : PRESETN
-                          Driver: COREABC_0/genblk2.RSTSYNC2
+    25      INT_NET       Net   : COREABC_0/SMADDR[0]
+                          Driver: COREABC_0/SMADDR[0]/U1
+    24      INT_NET       Net   : APB_GPIO_0_PWRITE
+                          Driver: COREABC_0/UROM.UROM/un1_PWRITE_M_i
+    24      INT_NET       Net   : APB_GPIO_0_PWDATA[0]
+                          Driver: COREABC_0/un1_ACCUMULATOR_PWDATA_M[0]
+    24      INT_NET       Net   : APB_GPIO_0_PWDATA[2]
+                          Driver: COREABC_0/UROM.UROM/PWDATA_M[2]
+    24      INT_NET       Net   : CoreGPIO_0/INTR_reg150
+                          Driver: CoreGPIO_0/xhdl1.GEN_BITS[8].APB_8.INTR_reg150_0_a2
+    23      INT_NET       Net   : APB_GPIO_0_PWDATA[1]
+                          Driver: COREABC_0/UROM.UROM/PWDATA_M[1]
+    23      INT_NET       Net   : APB_GPIO_0_PADDR_0[5]
+                          Driver: COREABC_0_PADDR_M_RNI1OR2[5]
+    23      INT_NET       Net   : APB_GPIO_0_PADDR_1[5]
+                          Driver: COREABC_0_PADDR_M_RNI1OR2_0[5]
+    22      INT_NET       Net   : APB_GPIO_0_PADDR[7]
+                          Driver: COREABC_0/UROM.INSTR_ADDR[7]
 
 Nets that are candidates for clock assignment and the resulting fanout:
     Fanout  Type          Name
     --------------------------
-    49      INT_NET       Net   : COREABC_0_APB3master_PADDR[2]
-                          Driver: COREABC_0/UROM.INSTR_ADDR[2]
-    37      INT_NET       Net   : COREABC_0_APB3master_PADDR[4]
-                          Driver: COREABC_0/UROM.INSTR_ADDR[4]
-    31      INT_NET       Net   : COREABC_0_APB3master_PADDR[5]
+    86      INT_NET       Net   : APB_GPIO_0_PADDR[5]
                           Driver: COREABC_0/UROM.INSTR_ADDR[5]
-    28      INT_NET       Net   : COREABC_0/UROM.INSTR_SCMD[1]
-                          Driver: COREABC_0/UROM.INSTR_SCMD[1]
-    23      INT_NET       Net   : COREABC_0/RAMADDR_1_sqmuxa
-                          Driver: COREABC_0/un1_ACCUMULATOR_m4_0
-    22      INT_NET       Net   : COREABC_0/N_143_mux
-                          Driver: COREABC_0/ACCUMULATOR_RNIK0LL[2]
-    21      SET/RESET_NET Net   : CORESPI_0/USPI/UCC/ssel_rx_q2_RNIBQH6
-                          Driver: CORESPI_0/USPI/UCC/ssel_rx_q2_RNIBQH6
-    21      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_0
-                          Driver: COREABC_0/genblk2.RSTSYNC2_0
-    21      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_1
-                          Driver: COREABC_0/genblk2.RSTSYNC2_1
-    20      SET/RESET_NET Net   : PRESETN
-                          Driver: COREABC_0/genblk2.RSTSYNC2
+    44      INT_NET       Net   : APB_GPIO_0_PWDATA[2]
+                          Driver: COREABC_0/UROM.UROM/PWDATA_M[2]
+    43      INT_NET       Net   : APB_GPIO_0_PWDATA[0]
+                          Driver: COREABC_0/un1_ACCUMULATOR_PWDATA_M[0]
+    42      INT_NET       Net   : APB_GPIO_0_PWDATA[1]
+                          Driver: COREABC_0/UROM.UROM/PWDATA_M[1]
+    38      INT_NET       Net   : APB_GPIO_0_PWDATA[3]
+                          Driver: COREABC_0/UROM.UROM/PWDATA_M[3]
+    38      INT_NET       Net   : APB_GPIO_0_PWDATA[6]
+                          Driver: COREABC_0/UROM.UROM/PWDATA_M[6]
+    38      INT_NET       Net   : APB_GPIO_0_PWDATA[7]
+                          Driver: COREABC_0/un1_ACCUMULATOR_PWDATA_M[7]
+    34      INT_NET       Net   : APB_GPIO_0_PWDATA[4]
+                          Driver: COREABC_0/UROM.UROM/PWDATA_M[4]
+    32      INT_NET       Net   : APB_GPIO_0_PWDATA[5]
+                          Driver: COREABC_0/un17_ZREGISTER_PWDATA_M[5]
+    27      INT_NET       Net   : COREABC_0/un1_PWRITE_M
+                          Driver: COREABC_0/UROM.UROM/un1_PWRITE_M
 
 
