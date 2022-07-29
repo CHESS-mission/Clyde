@@ -11,60 +11,60 @@ fsm_state_encoding {211041410415} CYCLE3 {11}
 
 fsm_registers {211041410415} {ICYCLE[1]}  {ICYCLE[0]} 
 
-fsm_encoding {3941604164} onehot
+fsm_encoding {3441604164} onehot
 
-fsm_state_encoding {3941604164} MTX_IDLE1 {000001}
+fsm_state_encoding {3441604164} MTX_IDLE1 {000001}
 
-fsm_state_encoding {3941604164} MTX_IDLE2 {000010}
+fsm_state_encoding {3441604164} MTX_IDLE2 {000010}
 
-fsm_state_encoding {3941604164} MTX_MOTSTART {000100}
+fsm_state_encoding {3441604164} MTX_MOTSTART {000100}
 
-fsm_state_encoding {3941604164} MTX_SHIFT1 {001000}
+fsm_state_encoding {3441604164} MTX_SHIFT1 {001000}
 
-fsm_state_encoding {3941604164} MTX_SHIFT2 {010000}
+fsm_state_encoding {3441604164} MTX_SHIFT2 {010000}
 
-fsm_state_encoding {3941604164} MTX_END {100000}
+fsm_state_encoding {3441604164} MTX_END {100000}
 
-fsm_registers {3941604164} {mtx_state[5]}  {mtx_state[4]}  {mtx_state[3]}  {mtx_state[2]}  {mtx_state[1]}  {mtx_state[0]} 
+fsm_registers {3441604164} {mtx_state[5]}  {mtx_state[4]}  {mtx_state[3]}  {mtx_state[2]}  {mtx_state[1]}  {mtx_state[0]} 
 
-fsm_encoding {2998409841} sequential
+fsm_encoding {2798409841} sequential
 
-fsm_state_encoding {2998409841} 00 {00}
+fsm_state_encoding {2798409841} 00 {00}
 
-fsm_state_encoding {2998409841} 01 {01}
+fsm_state_encoding {2798409841} 01 {01}
 
-fsm_state_encoding {2998409841} 10 {10}
+fsm_state_encoding {2798409841} 10 {10}
 
-fsm_state_encoding {2998409841} 11 {11}
+fsm_state_encoding {2798409841} 11 {11}
 
-fsm_registers {2998409841} {CUARTll0[1]}  {CUARTll0[0]} 
+fsm_registers {2798409841} {CUARTll0[1]}  {CUARTll0[0]} 
 
-fsm_encoding {2730103013} onehot
+fsm_encoding {2530103013} onehot
 
-fsm_state_encoding {2730103013} CUARTI1ll {0000001}
+fsm_state_encoding {2530103013} CUARTI1ll {0000001}
 
-fsm_state_encoding {2730103013} CUARTl1ll {0000010}
+fsm_state_encoding {2530103013} CUARTl1ll {0000010}
 
-fsm_state_encoding {2730103013} CUARTOO0l {0000100}
+fsm_state_encoding {2530103013} CUARTOO0l {0000100}
 
-fsm_state_encoding {2730103013} CUARTIO0l {0001000}
+fsm_state_encoding {2530103013} CUARTIO0l {0001000}
 
-fsm_state_encoding {2730103013} CUARTlO0l {0010000}
+fsm_state_encoding {2530103013} CUARTlO0l {0010000}
 
-fsm_state_encoding {2730103013} CUARTOI0l {0100000}
+fsm_state_encoding {2530103013} CUARTOI0l {0100000}
 
-fsm_state_encoding {2730103013} CUARTII0l {1000000}
+fsm_state_encoding {2530103013} CUARTII0l {1000000}
 
-fsm_registers {2730103013} {CUARTlI0l[6]}  {CUARTlI0l[5]}  {CUARTlI0l[4]}  {CUARTlI0l[3]}  {CUARTlI0l[2]}  {CUARTlI0l[1]}  {CUARTlI0l[0]} 
+fsm_registers {2530103013} {CUARTlI0l[6]}  {CUARTlI0l[5]}  {CUARTlI0l[4]}  {CUARTlI0l[3]}  {CUARTlI0l[2]}  {CUARTlI0l[1]}  {CUARTlI0l[0]} 
 
-fsm_encoding {2687108712} sequential
+fsm_encoding {2487108712} sequential
 
-fsm_state_encoding {2687108712} 00 {00}
+fsm_state_encoding {2487108712} 00 {00}
 
-fsm_state_encoding {2687108712} 01 {01}
+fsm_state_encoding {2487108712} 01 {01}
 
-fsm_state_encoding {2687108712} 10 {10}
+fsm_state_encoding {2487108712} 10 {10}
 
-fsm_state_encoding {2687108712} 11 {11}
+fsm_state_encoding {2487108712} 11 {11}
 
-fsm_registers {2687108712} {CUARTll0[1]}  {CUARTll0[0]} 
+fsm_registers {2487108712} {CUARTll0[1]}  {CUARTll0[0]} 

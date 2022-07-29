@@ -1,0 +1,37 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Fri Jul 29 15:40:02 2022
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : AND3_core
+Family                          : PA3LC
+Output Format                   : VERILOG
+Type                            : AND(Nand)
+Nb of Inputs                    : 3
+Result                          : Active High
+
+**************
+Compile Report
+**************
+
+
+Netlist Resource Report
+=======================
+
+    CORE                       Used:      1  Total:   3072   (0.03%)
+    IO (W/ clocks)             Used:      0  Total:    100   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      0  Total:     18   (0.00%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:      8   (0.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Wrote Verilog netlist to C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/smartgen\AND3_core\AND3_core.v.
+
+ ** Log Ended:   Fri Jul 29 15:40:03 2022
+

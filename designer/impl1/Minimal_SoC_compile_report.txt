@@ -1,13 +1,13 @@
 ***************************************************************************
                                Status Report
-                          Sun Jul 17 20:25:04 2022 ***************************************************************************
+                          Wed Jul 20 18:11:43 2022 ***************************************************************************
 
 Product: Designer
 Release: v11.9
 Version: 11.9.0.4
 File Name: C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Minimal_SoC.adb
 Design Name: Minimal_SoC  Design State: compile
-Last Saved: Sun Jul 17 20:01:30 2022
+Last Saved: Wed Jul 20 11:32:56 2022
 
 ***** Device Data **************************************************
 
@@ -22,7 +22,7 @@ Voltage Range:   COM
 
 ***** Import Variables *********************************************
 
-Source File(s) Imported on Sun Jul 17 20:24:56 2022:
+Source File(s) Imported on Wed Jul 20 18:11:36 2022:
         C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\synthesis\Minimal_SoC.edn
 
 
@@ -77,6 +77,7 @@ report_high_fanout_nets_limit      : 10
 =====================================================================
 Compile starts ...
 
+Warning: CMP201: Net IO_OUT[0] drives no load.
 Warning: CMP201: Net Minimal_SoC_with_PLL_0/Core_GLB drives no load.
 Warning: CMP201: Net Minimal_SoC_with_PLL_0/Core_GLC drives no load.
 Warning: CMP201: Net Minimal_SoC_with_PLL_0/LOCK drives no load.
@@ -219,18 +220,18 @@ Netlist Optimization Report
 ===========================
 
 Optimized macros:
-  - Dangling net drivers:   15
+  - Dangling net drivers:   17
   - Buffers:                1
-  - Inverters:              3
-  - Tieoff:                 6
-  - Logic combining:        88
+  - Inverters:              0
+  - Tieoff:                 5
+  - Logic combining:        61
 
-    Total macros optimized  113
+    Total macros optimized  84
 
-Warning: CMP503: Remapped 65 enable flip-flop(s) to a 2-tile implementation because the CLR/PRE
+Warning: CMP503: Remapped 68 enable flip-flop(s) to a 2-tile implementation because the CLR/PRE
          pin on the enable flip-flop is not being driven by a global net.
 
-There were 0 error(s) and 70 warning(s) in this design.
+There were 0 error(s) and 71 warning(s) in this design.
 =====================================================================
 
 Reading previous post-compile physical placement constraints.
@@ -242,9 +243,9 @@ There were 0 error(s) and 0 warning(s).
 Compile report:
 ===============
 
-    CORE                       Used:   3025  Total:   3072   (98.47%)
+    CORE                       Used:   2968  Total:   3072   (96.61%)
     IO (W/ clocks)             Used:     54  Total:    100   (54.00%)
-    GLOBAL (Chip+Quadrant)     Used:      5  Total:     18   (27.78%)
+    GLOBAL (Chip+Quadrant)     Used:      6  Total:     18   (33.33%)
     PLL                        Used:      1  Total:      1   (100.00%)
     RAM/FIFO                   Used:      5  Total:      8   (62.50%)
     Low Static ICC             Used:      0  Total:      1   (0.00%)
@@ -255,7 +256,7 @@ Global Information:
 
     Type            | Used   | Total
     ----------------|--------|--------------
-    Chip global     | 5      | 6  (83.33%)*
+    Chip global     | 6      | 6  (100.00%)*
     Quadrant global | 0      | 12 (0.00%)
 
     (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
@@ -266,8 +267,8 @@ Core Information:
 
     Type    | Instances    | Core tiles
     --------|--------------|-----------
-    COMB    | 2288         | 2288
-    SEQ     | 737          | 737
+    COMB    | 2246         | 2246
+    SEQ     | 722          | 722
 
 I/O Function:
 
@@ -299,80 +300,83 @@ Net information report:
 The following nets drive enable flip-flops that have been remapped to a 2-tile implementation:
     EffCnt  Type          Name
     --------------------------
-    19      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_1
+    20      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_1
                           Driver: COREABC_0/genblk2.RSTSYNC2_1
     18      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_0
                           Driver: COREABC_0/genblk2.RSTSYNC2_0
     17      SET/RESET_NET Net   : CORESPI_0/USPI/UCC/ssel_rx_q2_RNIBQH6
                           Driver: CORESPI_0/USPI/UCC/ssel_rx_q2_RNIBQH6
-    11      SET/RESET_NET Net   : PRESETN
+    13      SET/RESET_NET Net   : PRESETN
                           Driver: COREABC_0/genblk2.RSTSYNC2
 
 The following nets have been assigned to a chip global resource:
     Fanout  Type          Name
     --------------------------
-    747     CLK_NET       Net   : GLA
+    732     CLK_NET       Net   : GLA
                           Driver: Minimal_SoC_with_PLL_0/Core
                           Source: ESSENTIAL
-    585     SET/RESET_NET Net   : COREABC_0_PRESETN_0
+    561     SET/RESET_NET Net   : COREABC_0_PRESETN_0
                           Driver: COREABC_0_PRESETN_RNIUAJ1
                           Source: NETLIST
-    126     INT_NET       Net   : APB_GPIO_0_PADDR[2]
+    104     INT_NET       Net   : APB_GPIO_0_PADDR[2]
                           Driver: COREABC_0_PADDR_M_RNIUKR2[2]
                           Source: NETLIST
-    92      INT_NET       Net   : APB_GPIO_0_PADDR[4]
+    84      INT_NET       Net   : APB_GPIO_0_PADDR[3]
+                          Driver: COREABC_0_PADDR_M_RNIVLR2[3]
+                          Source: NETLIST
+    55      INT_NET       Net   : APB_GPIO_0_PADDR[4]
                           Driver: COREABC_0_PADDR_M_RNI0NR2[4]
                           Source: NETLIST
-    86      INT_NET       Net   : APB_GPIO_0_PADDR[3]
-                          Driver: COREABC_0_PADDR_M_RNIVLR2[3]
+    55      INT_NET       Net   : APB_GPIO_0_PADDR[5]
+                          Driver: COREABC_0_PADDR_M_RNI1OR2[5]
                           Source: NETLIST
 
 High fanout nets in the post compile netlist:
     Fanout  Type          Name
     --------------------------
-    26      INT_NET       Net   : APB_GPIO_0_PADDR[5]
-                          Driver: COREABC_0/UROM.INSTR_ADDR[5]
-    25      INT_NET       Net   : COREABC_0/SMADDR[0]
-                          Driver: COREABC_0/SMADDR[0]/U1
-    24      INT_NET       Net   : APB_GPIO_0_PWRITE
-                          Driver: COREABC_0/UROM.UROM/un1_PWRITE_M_i
-    24      INT_NET       Net   : APB_GPIO_0_PWDATA[0]
-                          Driver: COREABC_0/un1_ACCUMULATOR_PWDATA_M[0]
-    24      INT_NET       Net   : APB_GPIO_0_PWDATA[2]
-                          Driver: COREABC_0/UROM.UROM/PWDATA_M[2]
     24      INT_NET       Net   : CoreGPIO_0/INTR_reg150
                           Driver: CoreGPIO_0/xhdl1.GEN_BITS[8].APB_8.INTR_reg150_0_a2
     23      INT_NET       Net   : APB_GPIO_0_PWDATA[1]
-                          Driver: COREABC_0/UROM.UROM/PWDATA_M[1]
-    23      INT_NET       Net   : APB_GPIO_0_PADDR_0[5]
-                          Driver: COREABC_0_PADDR_M_RNI1OR2[5]
-    23      INT_NET       Net   : APB_GPIO_0_PADDR_1[5]
-                          Driver: COREABC_0_PADDR_M_RNI1OR2_0[5]
-    22      INT_NET       Net   : APB_GPIO_0_PADDR[7]
-                          Driver: COREABC_0/UROM.INSTR_ADDR[7]
+                          Driver: COREABC_0/UROM.INSTR_DATA_RNI25RH1[1]
+    23      INT_NET       Net   : APB_GPIO_0_PWDATA[2]
+                          Driver: COREABC_0/UROM.INSTR_DATA_RNI47RH1[2]
+    23      INT_NET       Net   : COREABC_0/SMADDR[1]
+                          Driver: COREABC_0/SMADDR[1]/U1
+    23      INT_NET       Net   : COREABC_0/SMADDR_0[1]
+                          Driver: COREABC_0/SMADDR_0[1]/U1
+    22      INT_NET       Net   : APB_GPIO_0_PWDATA[0]
+                          Driver: COREABC_0/UROM.INSTR_DATA_RNI03RH1[0]
+    22      INT_NET       Net   : CoreUARTapb_0/CUARTlOlI/CUARTIl
+                          Driver: CoreUARTapb_0/CUARTlOlI/CUARTOO1/genblk1.CUARTI0
+    22      INT_NET       Net   : COREABC_0/SMADDR[3]
+                          Driver: COREABC_0/SMADDR[3]/U1
+    22      INT_NET       Net   : COREABC_0/SMADDR_0[3]
+                          Driver: COREABC_0/SMADDR_0[3]/U1
+    21      INT_NET       Net   : APB_GPIO_0_PWDATA[3]
+                          Driver: COREABC_0/UROM.INSTR_DATA_RNI69RH1[3]
 
 Nets that are candidates for clock assignment and the resulting fanout:
     Fanout  Type          Name
     --------------------------
-    86      INT_NET       Net   : APB_GPIO_0_PADDR[5]
-                          Driver: COREABC_0/UROM.INSTR_ADDR[5]
-    44      INT_NET       Net   : APB_GPIO_0_PWDATA[2]
-                          Driver: COREABC_0/UROM.UROM/PWDATA_M[2]
-    43      INT_NET       Net   : APB_GPIO_0_PWDATA[0]
-                          Driver: COREABC_0/un1_ACCUMULATOR_PWDATA_M[0]
-    42      INT_NET       Net   : APB_GPIO_0_PWDATA[1]
-                          Driver: COREABC_0/UROM.UROM/PWDATA_M[1]
-    38      INT_NET       Net   : APB_GPIO_0_PWDATA[3]
-                          Driver: COREABC_0/UROM.UROM/PWDATA_M[3]
-    38      INT_NET       Net   : APB_GPIO_0_PWDATA[6]
-                          Driver: COREABC_0/UROM.UROM/PWDATA_M[6]
-    38      INT_NET       Net   : APB_GPIO_0_PWDATA[7]
+    41      INT_NET       Net   : APB_GPIO_0_PWDATA[1]
+                          Driver: COREABC_0/UROM.INSTR_DATA_RNI25RH1[1]
+    41      INT_NET       Net   : APB_GPIO_0_PWDATA[2]
+                          Driver: COREABC_0/UROM.INSTR_DATA_RNI47RH1[2]
+    40      INT_NET       Net   : APB_GPIO_0_PWDATA[0]
+                          Driver: COREABC_0/UROM.INSTR_DATA_RNI03RH1[0]
+    37      INT_NET       Net   : APB_GPIO_0_PADDR[6]
+                          Driver: COREABC_0/un17_ZREGISTER_PADDR_M_1[6]
+    37      INT_NET       Net   : APB_GPIO_0_PWDATA[3]
+                          Driver: COREABC_0/UROM.INSTR_DATA_RNI69RH1[3]
+    37      INT_NET       Net   : APB_GPIO_0_PWDATA[6]
+                          Driver: COREABC_0/un1_ACCUMULATOR_PWDATA_M[6]
+    36      INT_NET       Net   : APB_GPIO_0_PWDATA[7]
                           Driver: COREABC_0/un1_ACCUMULATOR_PWDATA_M[7]
-    34      INT_NET       Net   : APB_GPIO_0_PWDATA[4]
-                          Driver: COREABC_0/UROM.UROM/PWDATA_M[4]
-    32      INT_NET       Net   : APB_GPIO_0_PWDATA[5]
+    33      INT_NET       Net   : APB_GPIO_0_PWDATA[4]
+                          Driver: COREABC_0/UROM.INSTR_DATA_RNI8BRH1[4]
+    33      INT_NET       Net   : APB_GPIO_0_PWDATA[5]
                           Driver: COREABC_0/un17_ZREGISTER_PWDATA_M[5]
-    27      INT_NET       Net   : COREABC_0/un1_PWRITE_M
-                          Driver: COREABC_0/UROM.UROM/un1_PWRITE_M
+    24      INT_NET       Net   : CoreGPIO_0/INTR_reg150
+                          Driver: CoreGPIO_0/xhdl1.GEN_BITS[8].APB_8.INTR_reg150_0_a2
 
 

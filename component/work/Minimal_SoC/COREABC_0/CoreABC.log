@@ -10,18 +10,18 @@ None
 
 Instructions Used
 
-APBREAD, APBWRT, APBWRT ACC, APBWRT DAT, JUMP, RETISR
+APBREAD, APBWRT, APBWRT ACC, APBWRT DAT, CALL, CMP, DEF, JUMP, LOAD, NOP, POP, PUSH, PUSH ACC, RAMREAD, RAMWRT, RAMWRT ACC, RAMWRT DAT, RETISR, RETURN, WAIT
 
 ---------------------------------------------
 
 Constraints
 
    Maximum value of APB data written directly is 255 so 'Data Bus Width' >= 8.
-   Maximum APB slot used is 6 so 'Number of APB Slots' >= 7.
-   Maximum APB address used 160 so 'APB Slot Size' >= 256 locations
-   Maximum program counter is 27 so 'Maximum Number of Instructions' >= 32.
+   Maximum APB slot used is 2 so 'Number of APB Slots' >= 3.
+   Maximum APB address used 36 so 'APB Slot Size' >= 64 locations
+   Maximum program counter is 66 so 'Maximum Number of Instructions' >= 128.
    Z register not used so 'Z Register size' may be set to disabled.
-   'INPUTn' not used so 'Number of I/O Flags' >= 0.
+   'INPUT2' used so 'Number of I/O Flags' >= 3.
    'IOWRT' not used so 'Number of I/O Outputs' >= 0.
    Uses stack ('CALL', 'RETURN', 'RETISR', 'PUSH' or 'POP'), 'RAMREAD' or 'RAMWRT' so requires 'Internal Data/Stack Memory'.
    Uses stack - please ensure 'Stack Size' is sufficient.
@@ -31,18 +31,92 @@ Constraints
 
 Instruction Store Details
 
-   Width of instructions is Data+Addr+Slots+6 = 8+12+3+6 = 29 bits
+   Width of instructions is Data+Addr+Slots+6 = 16+12+3+6 = 37 bits
 
 ---------------------------------------------
 
 Labels
 
-Address 5:$MAIN
+Address 0:$RESET
+Address 1:$INTERRUPT_DO_NOT_CALL
+Address 4:$INTERRUPT_TIMER
+Address 7:$INTERRUPT_UART_RX
+Address 8:$INT_RX_CMP1
+Address 13:$INT_RX_CMP2
+Address 18:$INT_RX_CMP3
+Address 23:$INT_RX_CMP4
+Address 28:$INT_RX_DEFAULT
+Address 28:$INT_RX_CMP_END
+Address 29:$INTERRUPT_END
+Address 31:$INIT
+Address 40:$MAIN
+Address 40:$MAIN_LOOP
+Address 54:$INFINIT_LOOP
+Address 56:$COMMAND_1
+Address 58:$COMMAND_2
+Address 60:$COMMAND_3
+Address 62:$COMMAND_4
+Address 64:$WAIT_AND_PRINT_ACC_TO_UART
 
 ---------------------------------------------
 
 Symbols
 
-None
+Line 10:REG0=0x0
+Line 11:REG1=0x1
+Line 12:REG2=0x2
+Line 13:REG3=0x3
+Line 14:REG4=0x4
+Line 15:REG5=0x5
+Line 16:REG6=0x6
+Line 17:REG7=0x7
+Line 18:REG8=0x8
+Line 19:REG9=0x9
+Line 20:REG10=0xA
+Line 21:REG11=0xB
+Line 22:REG12=0xC
+Line 23:REG13=0xD
+Line 24:REG14=0xE
+Line 25:REG15=0xF
+Line 27:COMMAND_REG=0x10
+Line 28:COMMAND_1_BIT=0x1
+Line 29:COMMAND_2_BIT=0x2
+Line 30:COMMAND_3_BIT=0x4
+Line 31:COMMAND_4_BIT=0x8
+Line 32:COMMAND_5_BIT=0x10
+Line 33:COMMAND_6_BIT=0x20
+Line 34:COMMAND_7_BIT=0x40
+Line 35:COMMAND_8_BIT=0x80
+Line 40:RAM_TEST_REGION_START=0x10
+Line 41:RAM_TEST_REGION_END=0x7F
+Line 49:TIMER=0x0
+Line 50:UART=0x1
+Line 51:SPI=0x2
+Line 52:ON_CHIP_SRAM=0x3
+Line 59:INT_RESET_REG=0x10
+Line 60:LOAD_REG=0x0
+Line 61:PRESCALER=0xC
+Line 62:TIMER_CONTROL=0x8
+Line 65:PRESCALER2=0x0
+Line 66:PRESCALER4=0x1
+Line 67:PRESCALER8=0x2
+Line 68:PRESCALER16=0x3
+Line 69:PRESCALER32=0x4
+Line 70:PRESCALER64=0x5
+Line 71:PRESCALER128=0x6
+Line 72:PRESCALER256=0x7
+Line 73:PRESCALER512=0x8
+Line 74:PRESCALER1024=0x9
+Line 75:PRESCALER2048=0xA
+Line 76:PRESCALER4096=0xB
+Line 77:PRESCALER8182=0xC
+Line 78:PRESCALER16364=0xD
+Line 79:PRESCALER32728=0xE
+Line 80:PRESCALER65456=0xF
+Line 86:UART_TX_REG=0x0
+Line 87:UART_RX_REG=0x4
+Line 93:ON_CHIP_RAM_TEST_START=0x100
+Line 94:ON_CHIP_RAM_TEST_PAGES=0x3
+Line 95:ON_CHIP_RAM_TEST_PAGESIZE=0xFF
 
 ---------------------------------------------

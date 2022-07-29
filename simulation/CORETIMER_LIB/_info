@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Bunny Murax/Bunny_Minimal_SoC/simulation
 vCoreTimer
-!s110 1658082030
+!s110 1659134199
 !i10b 1
 !s100 ];J1KV@^llXRj;cBg3R:Y0
 IPU9zW==VC3P0X85KkAXbj1
@@ -23,7 +23,7 @@ OW;L;10.5c;63
 r1
 !s85 0
 31
-!s108 1658082030.000000
+!s108 1659134199.000000
 !s107 C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/core/coretimer.v|
 !s90 -reportprogress|300|+incdir+C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core|-vlog01compat|-work|CORETIMER_LIB|C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/core/coretimer.v|
 !s101 -O0

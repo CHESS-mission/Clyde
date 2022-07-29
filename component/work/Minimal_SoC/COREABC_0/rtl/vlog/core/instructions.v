@@ -59,7 +59,82 @@ module Minimal_SoC_COREABC_0_INSTRUCTIONS (ADDRESS, INSTRUCTION);
     localparam iADC_CTRL2_HI_ADDR = 8'h10;
     localparam iADC_STAT_HI_ADDR  = 8'h20;
     // CCDirective Insert constants
-parameter Label_MAIN = 5;
+parameter Sym_REG0 = 0;
+parameter Sym_REG1 = 1;
+parameter Sym_REG2 = 2;
+parameter Sym_REG3 = 3;
+parameter Sym_REG4 = 4;
+parameter Sym_REG5 = 5;
+parameter Sym_REG6 = 6;
+parameter Sym_REG7 = 7;
+parameter Sym_REG8 = 8;
+parameter Sym_REG9 = 9;
+parameter Sym_REG10 = 10;
+parameter Sym_REG11 = 11;
+parameter Sym_REG12 = 12;
+parameter Sym_REG13 = 13;
+parameter Sym_REG14 = 14;
+parameter Sym_REG15 = 15;
+parameter Sym_COMMAND_REG = 16;
+parameter Sym_COMMAND_1_BIT = 1;
+parameter Sym_COMMAND_2_BIT = 2;
+parameter Sym_COMMAND_3_BIT = 4;
+parameter Sym_COMMAND_4_BIT = 8;
+parameter Sym_COMMAND_5_BIT = 16;
+parameter Sym_COMMAND_6_BIT = 32;
+parameter Sym_COMMAND_7_BIT = 64;
+parameter Sym_COMMAND_8_BIT = 128;
+parameter Sym_RAM_TEST_REGION_START = 16;
+parameter Sym_RAM_TEST_REGION_END = 127;
+parameter Sym_TIMER = 0;
+parameter Sym_UART = 1;
+parameter Sym_SPI = 2;
+parameter Sym_ON_CHIP_SRAM = 3;
+parameter Sym_INT_RESET_REG = 16;
+parameter Sym_LOAD_REG = 0;
+parameter Sym_PRESCALER = 12;
+parameter Sym_TIMER_CONTROL = 8;
+parameter Sym_PRESCALER2 = 0;
+parameter Sym_PRESCALER4 = 1;
+parameter Sym_PRESCALER8 = 2;
+parameter Sym_PRESCALER16 = 3;
+parameter Sym_PRESCALER32 = 4;
+parameter Sym_PRESCALER64 = 5;
+parameter Sym_PRESCALER128 = 6;
+parameter Sym_PRESCALER256 = 7;
+parameter Sym_PRESCALER512 = 8;
+parameter Sym_PRESCALER1024 = 9;
+parameter Sym_PRESCALER2048 = 10;
+parameter Sym_PRESCALER4096 = 11;
+parameter Sym_PRESCALER8182 = 12;
+parameter Sym_PRESCALER16364 = 13;
+parameter Sym_PRESCALER32728 = 14;
+parameter Sym_PRESCALER65456 = 15;
+parameter Sym_UART_TX_REG = 0;
+parameter Sym_UART_RX_REG = 4;
+parameter Sym_ON_CHIP_RAM_TEST_START = 256;
+parameter Sym_ON_CHIP_RAM_TEST_PAGES = 3;
+parameter Sym_ON_CHIP_RAM_TEST_PAGESIZE = 255;
+parameter Label_RESET = 0;
+parameter Label_INTERRUPT_DO_NOT_CALL = 1;
+parameter Label_INTERRUPT_TIMER = 4;
+parameter Label_INTERRUPT_UART_RX = 7;
+parameter Label_INT_RX_CMP1 = 8;
+parameter Label_INT_RX_CMP2 = 13;
+parameter Label_INT_RX_CMP3 = 18;
+parameter Label_INT_RX_CMP4 = 23;
+parameter Label_INT_RX_DEFAULT = 28;
+parameter Label_INT_RX_CMP_END = 28;
+parameter Label_INTERRUPT_END = 29;
+parameter Label_INIT = 31;
+parameter Label_MAIN = 40;
+parameter Label_MAIN_LOOP = 40;
+parameter Label_INFINIT_LOOP = 54;
+parameter Label_COMMAND_1 = 56;
+parameter Label_COMMAND_2 = 58;
+parameter Label_COMMAND_3 = 60;
+parameter Label_COMMAND_4 = 62;
+parameter Label_WAIT_AND_PRINT_ACC_TO_UART = 64;
     // These are the procedure calls to create the instruction sequence
     always @(ADDRESS)
     begin : UROM
@@ -76,79 +151,165 @@ parameter Label_MAIN = 5;
                             endcase
                             // CCDirective Insert code
     case (ADDRINT)
-       0 : INS <= doins2( iJUMP, Label_MAIN);
+      //   --------------- 
+      //   Defintitions
+      //   ---------------
+      //   --------------- 
+      //   RAM
+      //   ---------------
+      //   the stack grouws downwards from 0xFF
+      //   registers
+      //   Command Register
+      //   Bitflip measurement
+      //   INPUT0 : UART TX Ready
+      //   --------------- 
+      //   APB
+      //   ---------------
+      //   APB SLOTS
+      //   --------------- 
+      //   Timer
+      //   ---------------
+      //   TIMER REGISTERS
+      //   TIMER PRESCALERS
+      //   --------------- 
+      //   UART
+      //   ---------------
+      //   UART REGISTER
+      //   --------------- 
+      //   on-chip SRAM
+      //   ---------------
+      //   total 1024 bytes adressed continiously (0x00, 0x01, ..., 0x3FF)
+      //   ---------------------
+      //    Program Code Start
+      //   ---------------------  
+      //   The first line is called after a reset. This usually is a jump that goes to the location the actual program starts. 
+      //   This is needed as the interrupt is at program memory address 1 (= 2nd instruction).
+      // $RESET
+       0 : INS <= doins2( iJUMP, Label_INIT);
       //   --------------- 
       //   Interrupt Routine 
       //   ---------------
-      //  Read from on-chip sram
-       1 : INS <= doins3( iAPBREAD, 3, 32'h0000000C);
-      //   print val read to uart
-       2 : INS <= doins4( iAPBWRT, iACC, 1, 32'h00000000);
-      //   print to uart
-      //  APBWRT DAT8 1 0x000 ':'
-      //  APBWRT DAT8 1 0x000 'D'
-      //   write to SPI
-      //  APBWRT DAT 2 0x0C 'S'
-      //  APBWRT DAT 2 0x0C 'P'
-      //  APBWRT DAT 2 0x0C 'I'
-      //   clear timer interrupt
-       3 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000010, 32'h00000000);
-       4 : INS <= doins1( iRETISR);
+      // $INTERRUPT_DO_NOT_CALL
+       1 : INS <= doins2( iPUSH, iACC);
+       2 : INS <= doins4( iJUMP, iIFNOT, iINPUT2, Label_INTERRUPT_TIMER);
+       3 : INS <= doins4( iJUMP, iIFNOT, iINPUT1, Label_INTERRUPT_UART_RX);
+      // $INTERRUPT_TIMER
+      //   increment reg15 and send it to UART
+       4 : INS <= doins5( iAPBWRT, iDAT, Sym_UART, Sym_UART_TX_REG, 32'h00000042);
+      //   reset timer interrupt
+       5 : INS <= doins5( iAPBWRT, iDAT, Sym_TIMER, Sym_INT_RESET_REG, 32'h00000000);
+       6 : INS <= doins2( iJUMP, Label_INTERRUPT_END);
+      // $INTERRUPT_UART_RX
+       7 : INS <= doins3( iAPBREAD, Sym_UART, 32'h00000004);
+      //   compare the received value to known commands and set the coresponding bits
+      // $INT_RX_CMP1
+       8 : INS <= doins3( iCMP, iDAT, 32'h00000001);
+       9 : INS <= doins4( iJUMP, iIFNOT, iZERO, Label_INT_RX_CMP2);
+      10 : INS <= doins3( iLOAD, iDAT, 1);
+      11 : INS <= doins3( iRAMWRT, Sym_COMMAND_REG, iACC);
+      12 : INS <= doins2( iJUMP, Label_INT_RX_CMP_END);
+      // $INT_RX_CMP2
+      13 : INS <= doins3( iCMP, iDAT, 32'h00000002);
+      14 : INS <= doins4( iJUMP, iIFNOT, iZERO, Label_INT_RX_CMP3);
+      15 : INS <= doins3( iLOAD, iDAT, 2);
+      16 : INS <= doins3( iRAMWRT, Sym_COMMAND_REG, iACC);
+      17 : INS <= doins2( iJUMP, Label_INT_RX_CMP_END);
+      // $INT_RX_CMP3
+      18 : INS <= doins3( iCMP, iDAT, 32'h00000003);
+      19 : INS <= doins4( iJUMP, iIFNOT, iZERO, Label_INT_RX_CMP4);
+      20 : INS <= doins3( iLOAD, iDAT, 4);
+      21 : INS <= doins3( iRAMWRT, Sym_COMMAND_REG, iACC);
+      22 : INS <= doins2( iJUMP, Label_INT_RX_CMP_END);
+      // $INT_RX_CMP4
+      23 : INS <= doins3( iCMP, iDAT, 32'h00000004);
+      24 : INS <= doins4( iJUMP, iIFNOT, iZERO, Label_INT_RX_DEFAULT);
+      25 : INS <= doins3( iLOAD, iDAT, 8);
+      26 : INS <= doins3( iRAMWRT, Sym_COMMAND_REG, iACC);
+      27 : INS <= doins2( iJUMP, Label_INT_RX_CMP_END);
+      // $INT_RX_DEFAULT
+      //   received sth. that's not a command
+      // $INT_RX_CMP_END
+      28 : INS <= doins2( iJUMP, Label_INTERRUPT_END);
+      // $INTERRUPT_END
+      29 : INS <= doins1( iPOP);
+      30 : INS <= doins1( iRETISR);
       //   --------------- 
-      //   Main Program 
+      //   Init Program 
       //   ---------------
-      // $MAIN
+      // $INIT
+      //   reset command register
+      31 : INS <= doins4( iRAMWRT, Sym_COMMAND_REG, iDAT, 32'h00000000);
       //   ------------------------
       //   UART
       //   ------------------------
       //   set uart baud-rate to 115200 (with 32MHz clock)
-       5 : INS <= doins5( iAPBWRT, iDAT, 1, 32'h00000008, 16);
-       6 : INS <= doins5( iAPBWRT, iDAT, 1, 32'h00000014, 32'b011);
-       7 : INS <= doins5( iAPBWRT, iDAT, 1, 32'h0000000C, 0);
+      32 : INS <= doins5( iAPBWRT, iDAT, 1, 32'h00000008, 16);
+      33 : INS <= doins5( iAPBWRT, iDAT, 1, 32'h00000014, 32'b011);
+      34 : INS <= doins5( iAPBWRT, iDAT, 1, 32'h0000000C, 0);
+      //   ------------------------
+      //   SPI
+      //   ------------------------
+      //   enable CoreSPI as master
+      35 : INS <= doins5( iAPBWRT, iDAT8, Sym_SPI, 32'h00000000, 32'b11);
+      //  SS 1
+      36 : INS <= doins5( iAPBWRT, iDAT8, Sym_SPI, 32'h00000024, 1);
       //   ------------------------
       //   timer
       //   ------------------------
       //   load value to timer
-       8 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000000, 32'h000000FF);
+      37 : INS <= doins5( iAPBWRT, iDAT, Sym_TIMER, Sym_LOAD_REG, 32'h000000FF);
       //   set prescaler to 32
-       9 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h0000000C, 32'b0100);
+      38 : INS <= doins5( iAPBWRT, iDAT, Sym_TIMER, Sym_PRESCALER, Sym_PRESCALER256);
       //  Enable the timer and its interrupt
-      10 : INS <= doins5( iAPBWRT, iDAT, 0, 32'h00000008, 3);
-      //   ------------------------
-      //   SPI
-      //   ------------------------
-      //   write to SPI
-      //   enable CoreSPI as master
-      11 : INS <= doins5( iAPBWRT, iDAT, 2, 32'h00000000, 32'b11);
-      //  SS 1
-      12 : INS <= doins5( iAPBWRT, iDAT, 2, 32'h00000024, 1);
-      //   ------------------------
-      //   Interrupt Controller
-      //   ------------------------
-      //   enable interrupts in interrupt controller
-      13 : INS <= doins5( iAPBWRT, iDAT, 4, 32'h00000020, 32'h000000FF);
-      //   ------------------------
-      //   SRAM
-      //   ------------------------
-      //   sram test
-      14 : INS <= doins5( iAPBWRT, iDAT, 5, 32'h00000000, 32'b101);
-      15 : INS <= doins5( iAPBWRT, iDAT, 5, 32'h00000004, 32'b101);
-      16 : INS <= doins5( iAPBWRT, iDAT, 5, 32'h00000008, 32'b101);
-      17 : INS <= doins5( iAPBWRT, iDAT, 5, 32'h0000000C, 32'b101);
-      18 : INS <= doins5( iAPBWRT, iDAT, 5, 32'h00000010, 32'b111);
-      19 : INS <= doins5( iAPBWRT, iDAT, 5, 32'h00000014, 32'b111);
-      20 : INS <= doins5( iAPBWRT, iDAT, 5, 32'h00000018, 32'b111);
-      21 : INS <= doins5( iAPBWRT, iDAT, 5, 32'h0000001C, 32'b111);
-      22 : INS <= doins5( iAPBWRT, iDAT, 5, 32'h000000A0, 32'h000000FF);
-      23 : INS <= doins5( iAPBWRT, iDAT, 6, 32'h000000A0, 32'h000000FF);
-      //   ------------------------
-      //   on-chip SRAM
-      //   ------------------------
-      //   store some data
-      24 : INS <= doins5( iAPBWRT, iDAT, 3, 32'h00000000, 1);
-      25 : INS <= doins5( iAPBWRT, iDAT, 3, 32'h00000004, 2);
-      26 : INS <= doins5( iAPBWRT, iDAT, 3, 32'h00000008, 3);
-      27 : INS <= doins5( iAPBWRT, iDAT, 3, 32'h0000000C, 5);
+      39 : INS <= doins5( iAPBWRT, iDAT, Sym_TIMER, Sym_TIMER_CONTROL, 3);
+      //   --------------- 
+      //   MAIN Program 
+      //   ---------------
+      // $MAIN
+      // $MAIN_LOOP
+      40 : INS <= doins2( iRAMREAD, Sym_COMMAND_REG);
+      41 : INS <= doins3( iCMP, iDAT, 32'h00000000);
+      42 : INS <= doins4( iJUMP, iIF, iZERO, Label_MAIN_LOOP);
+      //   the following code is exectued if there's a command to be run
+      43 : INS <= doins3( iCMP, iDAT, Sym_COMMAND_1_BIT);
+      44 : INS <= doins4( iCALL, iIF, iZERO, Label_COMMAND_1);
+      45 : INS <= doins3( iCMP, iDAT, Sym_COMMAND_2_BIT);
+      46 : INS <= doins4( iCALL, iIF, iZERO, Label_COMMAND_2);
+      47 : INS <= doins3( iCMP, iDAT, Sym_COMMAND_3_BIT);
+      48 : INS <= doins4( iCALL, iIF, iZERO, Label_COMMAND_3);
+      49 : INS <= doins3( iCMP, iDAT, Sym_COMMAND_4_BIT);
+      50 : INS <= doins4( iCALL, iIF, iZERO, Label_COMMAND_4);
+      51 : INS <= doins4( iRAMWRT, Sym_COMMAND_REG, iDAT, 32'h00000000);
+      52 : INS <= doins2( iJUMP, Label_MAIN_LOOP);
+      53 : INS <= doins2( iJUMP, Label_INFINIT_LOOP);
+      // $INFINIT_LOOP
+      54 : INS <= doins1( iNOP);
+      55 : INS <= doins2( iJUMP, Label_INFINIT_LOOP);
+      // $COMMAND_1
+      56 : INS <= doins5( iAPBWRT, iDAT, Sym_UART, Sym_UART_TX_REG, 32'h00000011);
+      57 : INS <= doins1( iRETURN);
+      // $COMMAND_2
+      58 : INS <= doins5( iAPBWRT, iDAT, Sym_UART, Sym_UART_TX_REG, 32'h00000022);
+      59 : INS <= doins1( iRETURN);
+      // $COMMAND_3
+      60 : INS <= doins5( iAPBWRT, iDAT, Sym_UART, Sym_UART_TX_REG, 32'h00000033);
+      61 : INS <= doins1( iRETURN);
+      // $COMMAND_4
+      62 : INS <= doins5( iAPBWRT, iDAT, Sym_UART, Sym_UART_TX_REG, 32'h00000044);
+      63 : INS <= doins1( iRETURN);
+      //   -------------------
+      //   Useful Functions 
+      //   -------------------
+      //   send data from the accumulator to uart. If the TX-buffer is full, this functions waits until the buffer has capacity.
+      // $WAIT_AND_PRINT_ACC_TO_UART
+      64 : INS <= doins3( iWAIT, iIFNOT, iINPUT0);
+      65 : INS <= doins4( iAPBWRT, iACC, Sym_UART, Sym_UART_TX_REG);
+      66 : INS <= doins1( iRETURN);
+      //   fill the apb sram with fixed numbers: 
+      //   page 1: 0x00
+      //   page 2: 0xFF
+      //   page 3: 0x55
+      //   ------------------------------------------------
       default  : INS <= doins1(iNOP) ;
    endcase
                         end

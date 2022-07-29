@@ -1,40 +1,35 @@
-#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\synthesis\\synwork\\Minimal_SoC_comp.srs|-top|Minimal_SoC|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\proasic3.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|CORETIMER_LIB|-lib|work"
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\synthesis\\synwork\\Minimal_SoC_comp.srs|-top|Minimal_SoC|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\proasic3.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|CORESPI_LIB|-lib|CORETIMER_LIB|-lib|work"
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\bin64\\c_ver.exe":1509336736
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\proasic3.v":1509005888
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\hypermods.v":1509007928
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\umr_capim.v":1509007928
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1509007928
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1509007928
+#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\smartgen\\AND3_core\\AND3_core.v":1659102003
 #CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\Actel\\DirectCore\\COREAPBSRAM\\2.0.102\\rtl\\vlog\\core_obfuscated\\sram_512to8192x8.v":1657828271
 #CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\Actel\\DirectCore\\COREAPBSRAM\\2.0.102\\rtl\\vlog\\core_obfuscated\\coreapbsram.v":1657828271
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\Actel\\DirectCore\\CoreInterrupt\\1.1.101\\rtl\\verilog\\u\\CoreInterrupt.v":1657880125
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\acmtable.v":1658081977
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\debugblk.v":1658081977
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\support.v":1658081977
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\instructions.v":1658081977
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\support.v":1658081977
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\instructnvm_bb.v":1658081977
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\support.v":1658081977
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\iram512x9_pa3.v":1658081977
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\instructram.v":1658081977
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\ram128x8_rtl.v":1658081977
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\ram256x16_pa3.v":1658081977
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\ram256x8_rtl.v":1658081977
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\ramblocks.v":1658081977
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\coreabc.v":1658081977
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\support.v":1658081977
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\CoreGPIO_0\\rtl\\vlog\\core\\coregpio.v":1658081978
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\CoreGPIO_1\\rtl\\vlog\\core\\coregpio.v":1658081978
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\CoreUARTapb_0\\rtl\\vlog\\core_obfuscated\\Clock_gen.v":1658081978
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\CoreUARTapb_0\\rtl\\vlog\\core_obfuscated\\Rx_async.v":1658081978
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\CoreUARTapb_0\\rtl\\vlog\\core_obfuscated\\Tx_async.v":1658081978
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\CoreUARTapb_0\\rtl\\vlog\\core_obfuscated\\fifo_256x8_pa3.v":1658081978
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\CoreUARTapb_0\\rtl\\vlog\\core_obfuscated\\CoreUART.v":1658081978
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\CoreUARTapb_0\\rtl\\vlog\\core_obfuscated\\CoreUARTapb.v":1658081978
+#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\acmtable.v":1659134937
+#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\debugblk.v":1659134937
+#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\support.v":1659134937
+#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\instructions.v":1659134937
+#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\support.v":1659134937
+#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\instructnvm_bb.v":1659134937
+#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\support.v":1659134937
+#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\iram512x9_pa3.v":1659134937
+#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\instructram.v":1659134937
+#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\ram128x8_rtl.v":1659134937
+#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\ram256x16_pa3.v":1659134937
+#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\ram256x8_rtl.v":1659134937
+#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\ramblocks.v":1659134937
+#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\coreabc.v":1659134937
+#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\COREABC_0\\rtl\\vlog\\core\\support.v":1659134937
+#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\CoreUARTapb_0\\rtl\\vlog\\core_obfuscated\\Clock_gen.v":1659134940
+#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\CoreUARTapb_0\\rtl\\vlog\\core_obfuscated\\Rx_async.v":1659134940
+#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\CoreUARTapb_0\\rtl\\vlog\\core_obfuscated\\Tx_async.v":1659134940
+#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\CoreUARTapb_0\\rtl\\vlog\\core_obfuscated\\fifo_256x8_pa3.v":1659134940
+#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\CoreUARTapb_0\\rtl\\vlog\\core_obfuscated\\CoreUART.v":1659134940
+#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\CoreUARTapb_0\\rtl\\vlog\\core_obfuscated\\CoreUARTapb.v":1659134940
 #CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\smartgen\\Minimal_SoC_with_PLL\\Minimal_SoC_with_PLL.v":1657826010
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\smartgen\\OR_15bit\\OR_15bit.v":1657983668
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\smartgen\\SRAM_ADDRESS_IO\\SRAM_ADDRESS_IO.v":1657981298
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\smartgen\\SRAM_DATA_IO\\SRAM_DATA_IO.v":1657985059
 #CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vlog\\core\\coreapb3_muxptob3.v":1656687072
 #CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vlog\\core\\coreapb3_iaddr_reg.v":1656687072
 #CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vlog\\core\\coreapb3.v":1656687072
@@ -46,12 +41,12 @@
 #CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\Actel\\DirectCore\\CORESPI\\5.2.104\\rtl\\vlog\\core\\spi.v":1657655278
 #CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\Actel\\DirectCore\\CORESPI\\5.2.104\\rtl\\vlog\\core\\corespi.v":1657655278
 #CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\Actel\\DirectCore\\CoreTimer\\2.0.103\\rtl\\vlog\\core\\coretimer.v":1656705178
-#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\Minimal_SoC.v":1658081978
+#CUR:"C:\\Users\\micha\\SynologyDrive\\Engineering\\Projects\\CHESS OBC\\SoC\\LiberoProjects\\Clyde\\Clyde\\component\\work\\Minimal_SoC\\Minimal_SoC.v":1659134940
 #numinternalfiles:5
 #defaultlanguage:verilog
-0			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v" verilog
-1			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v" verilog
-2			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v" verilog
+0			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\smartgen\AND3_core\AND3_core.v" verilog
+1			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v" verilog
+2			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v" verilog
 3			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v" verilog
 4			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v" verilog
 5		*	"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\support.v" verilog
@@ -64,34 +59,29 @@
 12			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x8_rtl.v" verilog
 13			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v" verilog
 14			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v" verilog
-15			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v" verilog
-16			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v" verilog
-17			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v" verilog
-18			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v" verilog
-19			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v" verilog
-20			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v" verilog
-21			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v" verilog
-22			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v" verilog
-23			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\smartgen\Minimal_SoC_with_PLL\Minimal_SoC_with_PLL.v" verilog
-24			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\smartgen\OR_15bit\OR_15bit.v" verilog
-25			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\smartgen\SRAM_ADDRESS_IO\SRAM_ADDRESS_IO.v" verilog
-26			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\smartgen\SRAM_DATA_IO\SRAM_DATA_IO.v" verilog
-27			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v" verilog
-28			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v" verilog
-29			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v" verilog
-30			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_clockmux.v" verilog
-31			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v" verilog
-32			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v" verilog
-33			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v" verilog
-34			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v" verilog
-35			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v" verilog
-36			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v" verilog
-37			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v" verilog
-38			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\Minimal_SoC.v" verilog
+15			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v" verilog
+16			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v" verilog
+17			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v" verilog
+18			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v" verilog
+19			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v" verilog
+20			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v" verilog
+21			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\smartgen\Minimal_SoC_with_PLL\Minimal_SoC_with_PLL.v" verilog
+22			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v" verilog
+23			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v" verilog
+24			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v" verilog
+25			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_clockmux.v" verilog
+26			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v" verilog
+27			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v" verilog
+28			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v" verilog
+29			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v" verilog
+30			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v" verilog
+31			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v" verilog
+32			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v" verilog
+33			"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\Minimal_SoC.v" verilog
 #Dependency Lists(Uses List)
 0 -1
-1 0
-2 -1
+1 -1
+2 1
 3 -1
 4 5
 5 -1
@@ -108,33 +98,28 @@
 16 -1
 17 -1
 18 -1
-19 -1
-20 -1
-21 17 19 18 20
-22 21
+19 15 17 16 18
+20 19
+21 -1
+22 -1
 23 -1
-24 -1
+24 22 23
 25 -1
-26 -1
+26 25
 27 -1
 28 -1
-29 27 28
-30 -1
+29 -1
+30 29 27 28 26
 31 30
 32 -1
-33 -1
-34 -1
-35 34 32 33 31
-36 35
-37 -1
-38 14 5 29 1 15 16 2 36 37 22 23 24 25 26
+33 0 14 5 24 2 31 32 20 21
 #Dependency Lists(Users Of)
-0 1
-1 38
-2 38
+0 33
+1 2
+2 33
 3 14
 4 -1
-5 4 6 7 14 38
+5 4 6 7 14 33
 6 14
 7 14
 8 9
@@ -143,35 +128,30 @@
 11 13
 12 13
 13 14
-14 38
-15 38
-16 38
-17 21
-18 21
-19 21
-20 21
-21 22
-22 38
-23 38
-24 38
-25 38
-26 38
-27 29
-28 29
-29 38
+14 33
+15 19
+16 19
+17 19
+18 19
+19 20
+20 33
+21 33
+22 24
+23 24
+24 33
+25 26
+26 30
+27 30
+28 30
+29 30
 30 31
-31 35
-32 35
-33 35
-34 35
-35 36
-36 38
-37 38
-38 -1
+31 33
+32 33
+33 -1
 #Design Unit to File Association
-module work CoreApbSram_l1I 0
-module work COREAPBSRAM 1
-module work CoreInterrupt 2
+module work AND3_core 0
+module work CoreApbSram_l1I 1
+module work COREAPBSRAM 2
 module work Minimal_SoC_COREABC_0_ACMTABLE 3
 module work Minimal_SoC_COREABC_0_DEBUGBLK 4
 module work Minimal_SoC_COREABC_0_INSTRUCTIONS 6
@@ -183,28 +163,23 @@ module work Minimal_SoC_COREABC_0_RAM256X16 11
 module work Minimal_SoC_COREABC_0_RAM256X8 12
 module work Minimal_SoC_COREABC_0_RAMBLOCKS 13
 module work Minimal_SoC_COREABC_0_COREABC 14
-module work Minimal_SoC_CoreGPIO_0_CoreGPIO 15
-module work Minimal_SoC_CoreGPIO_1_CoreGPIO 16
-module work Minimal_SoC_CoreUARTapb_0_Clock_gen 17
-module work Minimal_SoC_CoreUARTapb_0_Rx_async 18
-module work Minimal_SoC_CoreUARTapb_0_Tx_async 19
-module work Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3 20
-module work Minimal_SoC_CoreUARTapb_0_fifo_256x8 20
-module work Minimal_SoC_CoreUARTapb_0_COREUART 21
-module work Minimal_SoC_CoreUARTapb_0_CoreUARTapb 22
-module work Minimal_SoC_with_PLL 23
-module work OR_15bit 24
-module work SRAM_ADDRESS_IO 25
-module work SRAM_DATA_IO 26
-module work Minimal_SoC 38
-module COREAPB3_LIB COREAPB3_MUXPTOB3 27
-module COREAPB3_LIB coreapb3_iaddr_reg 28
-module COREAPB3_LIB CoreAPB3 29
-module CORESPI_LIB spi_clockmux 30
-module CORESPI_LIB spi_chanctrl 31
-module CORESPI_LIB spi_control 32
-module CORESPI_LIB spi_fifo 33
-module CORESPI_LIB spi_rf 34
-module CORESPI_LIB spi 35
-module CORESPI_LIB CORESPI 36
-module CORETIMER_LIB CoreTimer 37
+module work Minimal_SoC_CoreUARTapb_0_Clock_gen 15
+module work Minimal_SoC_CoreUARTapb_0_Rx_async 16
+module work Minimal_SoC_CoreUARTapb_0_Tx_async 17
+module work Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3 18
+module work Minimal_SoC_CoreUARTapb_0_fifo_256x8 18
+module work Minimal_SoC_CoreUARTapb_0_COREUART 19
+module work Minimal_SoC_CoreUARTapb_0_CoreUARTapb 20
+module work Minimal_SoC_with_PLL 21
+module work Minimal_SoC 33
+module COREAPB3_LIB COREAPB3_MUXPTOB3 22
+module COREAPB3_LIB coreapb3_iaddr_reg 23
+module COREAPB3_LIB CoreAPB3 24
+module CORESPI_LIB spi_clockmux 25
+module CORESPI_LIB spi_chanctrl 26
+module CORESPI_LIB spi_control 27
+module CORESPI_LIB spi_fifo 28
+module CORESPI_LIB spi_rf 29
+module CORESPI_LIB spi 30
+module CORESPI_LIB CORESPI 31
+module CORETIMER_LIB CoreTimer 32

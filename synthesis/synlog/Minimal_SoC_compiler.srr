@@ -11,9 +11,9 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
 @I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
 @I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\smartgen\AND3_core\AND3_core.v" (library work)
 @I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v" (library work)
 @I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v" (library work)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v" (library work)
 @I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v" (library work)
 @I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v" (library work)
 @I:"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v":"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\support.v" (library work)
@@ -34,8 +34,6 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @N: CG333 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":994:21:994:32|Read directive translate_on.
 @N: CG334 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":1389:17:1389:29|Read directive translate_off.
 @N: CG333 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":1433:17:1433:28|Read directive translate_on.
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v" (library work)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v" (library work)
 @I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v" (library work)
 @I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v" (library work)
 @I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v" (library work)
@@ -43,9 +41,6 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v" (library work)
 @I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v" (library work)
 @I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\smartgen\Minimal_SoC_with_PLL\Minimal_SoC_with_PLL.v" (library work)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\smartgen\OR_15bit\OR_15bit.v" (library work)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\smartgen\SRAM_ADDRESS_IO\SRAM_ADDRESS_IO.v" (library work)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\smartgen\SRAM_DATA_IO\SRAM_DATA_IO.v" (library work)
 @I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v" (library COREAPB3_LIB)
 @I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v" (library COREAPB3_LIB)
 @I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v" (library COREAPB3_LIB)
@@ -78,8 +73,6 @@ File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProje
 File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v changed - recompiling
 File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v changed - recompiling
 File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\support.v changed - recompiling
-File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v changed - recompiling
-File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v changed - recompiling
 File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v changed - recompiling
 File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v changed - recompiling
 File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v changed - recompiling
@@ -88,18 +81,22 @@ File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProje
 File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v changed - recompiling
 File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\Minimal_SoC.v changed - recompiling
 Selecting top level module Minimal_SoC
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":20:7:20:10|Synthesizing module AND3 in library work.
+
+@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\smartgen\AND3_core\AND3_core.v":5:7:5:15|Synthesizing module AND3_core in library work.
+
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":281:7:281:11|Synthesizing module BIBUF in library work.
 
 @N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":46:7:46:35|Synthesizing module Minimal_SoC_COREABC_0_COREABC in library work.
 
 	FAMILY=32'b00000000000000000000000000001111
 	APB_AWIDTH=32'b00000000000000000000000000001100
-	APB_DWIDTH=32'b00000000000000000000000000001000
+	APB_DWIDTH=32'b00000000000000000000000000010000
 	APB_SDEPTH=32'b00000000000000000000000000000111
 	ICWIDTH=32'b00000000000000000000000000001100
-	ZRWIDTH=32'b00000000000000000000000000001000
-	IFWIDTH=32'b00000000000000000000000000000001
-	IIWIDTH=32'b00000000000000000000000000000001
+	ZRWIDTH=32'b00000000000000000000000000010000
+	IFWIDTH=32'b00000000000000000000000000000100
+	IIWIDTH=32'b00000000000000000000000000000100
 	IOWIDTH=32'b00000000000000000000000000000001
 	STWIDTH=32'b00000000000000000000000000001000
 	EN_RAM=32'b00000000000000000000000000000001
@@ -119,7 +116,7 @@ Selecting top level module Minimal_SoC
 	EN_INT=32'b00000000000000000000000000000010
 	EN_IOREAD=32'b00000000000000000000000000000001
 	EN_IOWRT=32'b00000000000000000000000000000001
-	EN_ALURAM=32'b00000000000000000000000000000000
+	EN_ALURAM=32'b00000000000000000000000000000001
 	EN_INDIRECT=32'b00000000000000000000000000000001
 	ISRADDR=32'b00000000000000000000000000000001
 	DEBUG=32'b00000000000000000000000000000001
@@ -275,9 +272,9 @@ Selecting top level module Minimal_SoC
 	IRWIDTH=32'b00000000000000000000000000010000
 	ICDEPTH=32'b00000000000000000001000000000000
 	APB_SWIDTH=32'b00000000000000000000000000000011
-	RAMWIDTH=32'b00000000000000000000000000011101
+	RAMWIDTH=32'b00000000000000000000000000100101
 	SYNC_RESET=32'b00000000000000000000000000000000
-	ZRWIDTH_ZR=32'b00000000000000000000000000001000
+	ZRWIDTH_ZR=32'b00000000000000000000000000010000
 	CYCLE0=2'b00
 	CYCLE1=2'b01
 	CYCLE2=2'b10
@@ -314,11 +311,11 @@ Selecting top level module Minimal_SoC
 @N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructions.v":26:7:26:40|Synthesizing module Minimal_SoC_COREABC_0_INSTRUCTIONS in library work.
 
 	AWIDTH=32'b00000000000000000000000000001100
-	DWIDTH=32'b00000000000000000000000000001000
+	DWIDTH=32'b00000000000000000000000000010000
 	SWIDTH=32'b00000000000000000000000000000011
 	ICWIDTH=32'b00000000000000000000000000001100
-	IIWIDTH=32'b00000000000000000000000000000001
-	IFWIDTH=32'b00000000000000000000000000000001
+	IIWIDTH=32'b00000000000000000000000000000100
+	IFWIDTH=32'b00000000000000000000000000000100
 	IWWIDTH=32'b00000000000000000000000000111010
 	EN_MULT=32'b00000000000000000000000000000000
 	EN_INC=32'b00000000000000000000000000000001
@@ -465,23 +462,98 @@ Selecting top level module Minimal_SoC
 	LOOPZ=32'b00000000000000000000000000001000
 	EN_USER=32'b00000000000000000000000000000000
 	AW=32'b00000000000000000000000000001100
-	DW=32'b00000000000000000000000000001000
+	DW=32'b00000000000000000000000000010000
 	SW=32'b00000000000000000000000000000011
 	IW=32'b00000000000000000000000000001100
-	FW=32'b00000000000000000000000000000101
-	iJUMP=32'b00000000000000000010001000000001
-	iCALL=32'b00000000000000000010001100000001
-	iRETURN=32'b00000000000000000010010000000001
-	iRETISR=32'b00000000000000000010010100000001
-	iWAIT=32'b00000000000000000010011000000001
-	iHALT=32'b00000000000000000010011000000001
+	FW=32'b00000000000000000000000000001000
+	iJUMP=32'b00000000000000000010001000000100
+	iCALL=32'b00000000000000000010001100000100
+	iRETURN=32'b00000000000000000010010000000100
+	iRETISR=32'b00000000000000000010010100000100
+	iWAIT=32'b00000000000000000010011000000100
+	iHALT=32'b00000000000000000010011000000100
 	iINC=32'b00000000000000000000001100000000
 	iACM_CTRLSTAT=8'b00000000
 	iACM_ADDR_ADDR=8'b00000100
 	iACM_DATA_ADDR=8'b00001000
 	iADC_CTRL2_HI_ADDR=8'b00010000
 	iADC_STAT_HI_ADDR=8'b00100000
-	Label_MAIN=32'b00000000000000000000000000000101
+	Sym_REG0=32'b00000000000000000000000000000000
+	Sym_REG1=32'b00000000000000000000000000000001
+	Sym_REG2=32'b00000000000000000000000000000010
+	Sym_REG3=32'b00000000000000000000000000000011
+	Sym_REG4=32'b00000000000000000000000000000100
+	Sym_REG5=32'b00000000000000000000000000000101
+	Sym_REG6=32'b00000000000000000000000000000110
+	Sym_REG7=32'b00000000000000000000000000000111
+	Sym_REG8=32'b00000000000000000000000000001000
+	Sym_REG9=32'b00000000000000000000000000001001
+	Sym_REG10=32'b00000000000000000000000000001010
+	Sym_REG11=32'b00000000000000000000000000001011
+	Sym_REG12=32'b00000000000000000000000000001100
+	Sym_REG13=32'b00000000000000000000000000001101
+	Sym_REG14=32'b00000000000000000000000000001110
+	Sym_REG15=32'b00000000000000000000000000001111
+	Sym_COMMAND_REG=32'b00000000000000000000000000010000
+	Sym_COMMAND_1_BIT=32'b00000000000000000000000000000001
+	Sym_COMMAND_2_BIT=32'b00000000000000000000000000000010
+	Sym_COMMAND_3_BIT=32'b00000000000000000000000000000100
+	Sym_COMMAND_4_BIT=32'b00000000000000000000000000001000
+	Sym_COMMAND_5_BIT=32'b00000000000000000000000000010000
+	Sym_COMMAND_6_BIT=32'b00000000000000000000000000100000
+	Sym_COMMAND_7_BIT=32'b00000000000000000000000001000000
+	Sym_COMMAND_8_BIT=32'b00000000000000000000000010000000
+	Sym_RAM_TEST_REGION_START=32'b00000000000000000000000000010000
+	Sym_RAM_TEST_REGION_END=32'b00000000000000000000000001111111
+	Sym_TIMER=32'b00000000000000000000000000000000
+	Sym_UART=32'b00000000000000000000000000000001
+	Sym_SPI=32'b00000000000000000000000000000010
+	Sym_ON_CHIP_SRAM=32'b00000000000000000000000000000011
+	Sym_INT_RESET_REG=32'b00000000000000000000000000010000
+	Sym_LOAD_REG=32'b00000000000000000000000000000000
+	Sym_PRESCALER=32'b00000000000000000000000000001100
+	Sym_TIMER_CONTROL=32'b00000000000000000000000000001000
+	Sym_PRESCALER2=32'b00000000000000000000000000000000
+	Sym_PRESCALER4=32'b00000000000000000000000000000001
+	Sym_PRESCALER8=32'b00000000000000000000000000000010
+	Sym_PRESCALER16=32'b00000000000000000000000000000011
+	Sym_PRESCALER32=32'b00000000000000000000000000000100
+	Sym_PRESCALER64=32'b00000000000000000000000000000101
+	Sym_PRESCALER128=32'b00000000000000000000000000000110
+	Sym_PRESCALER256=32'b00000000000000000000000000000111
+	Sym_PRESCALER512=32'b00000000000000000000000000001000
+	Sym_PRESCALER1024=32'b00000000000000000000000000001001
+	Sym_PRESCALER2048=32'b00000000000000000000000000001010
+	Sym_PRESCALER4096=32'b00000000000000000000000000001011
+	Sym_PRESCALER8182=32'b00000000000000000000000000001100
+	Sym_PRESCALER16364=32'b00000000000000000000000000001101
+	Sym_PRESCALER32728=32'b00000000000000000000000000001110
+	Sym_PRESCALER65456=32'b00000000000000000000000000001111
+	Sym_UART_TX_REG=32'b00000000000000000000000000000000
+	Sym_UART_RX_REG=32'b00000000000000000000000000000100
+	Sym_ON_CHIP_RAM_TEST_START=32'b00000000000000000000000100000000
+	Sym_ON_CHIP_RAM_TEST_PAGES=32'b00000000000000000000000000000011
+	Sym_ON_CHIP_RAM_TEST_PAGESIZE=32'b00000000000000000000000011111111
+	Label_RESET=32'b00000000000000000000000000000000
+	Label_INTERRUPT_DO_NOT_CALL=32'b00000000000000000000000000000001
+	Label_INTERRUPT_TIMER=32'b00000000000000000000000000000100
+	Label_INTERRUPT_UART_RX=32'b00000000000000000000000000000111
+	Label_INT_RX_CMP1=32'b00000000000000000000000000001000
+	Label_INT_RX_CMP2=32'b00000000000000000000000000001101
+	Label_INT_RX_CMP3=32'b00000000000000000000000000010010
+	Label_INT_RX_CMP4=32'b00000000000000000000000000010111
+	Label_INT_RX_DEFAULT=32'b00000000000000000000000000011100
+	Label_INT_RX_CMP_END=32'b00000000000000000000000000011100
+	Label_INTERRUPT_END=32'b00000000000000000000000000011101
+	Label_INIT=32'b00000000000000000000000000011111
+	Label_MAIN=32'b00000000000000000000000000101000
+	Label_MAIN_LOOP=32'b00000000000000000000000000101000
+	Label_INFINIT_LOOP=32'b00000000000000000000000000110110
+	Label_COMMAND_1=32'b00000000000000000000000000111000
+	Label_COMMAND_2=32'b00000000000000000000000000111010
+	Label_COMMAND_3=32'b00000000000000000000000000111100
+	Label_COMMAND_4=32'b00000000000000000000000000111110
+	Label_WAIT_AND_PRINT_ACC_TO_UART=32'b00000000000000000000000001000000
    Generated name = Minimal_SoC_COREABC_0_INSTRUCTIONS_Z2
 
 @W: CG133 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":696:34:696:37|Object MULT is declared but not assigned. Either assign a value or remove the declaration.
@@ -498,7 +570,7 @@ Selecting top level module Minimal_SoC
 @W: CG134 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":267:14:267:21|No assignment to bit 15 of ins_addr
 @W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":1041:4:1041:9|Pruning unused register GETINST. Make sure that there are no unused intermediate registers.
 @W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":511:12:511:17|Pruning unused register UROM.upper_addr[7:0]. Make sure that there are no unused intermediate registers.
-@W: CL208 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":1041:4:1041:9|All reachable assignments to bit 8 of ZREGISTER[8:0] assign 0, register removed by optimization.
+@W: CL208 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":1041:4:1041:9|All reachable assignments to bit 16 of ZREGISTER[16:0] assign 0, register removed by optimization.
 @N: CL189 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":494:12:494:17|Register bit UROM.INSTR_SLOT[3] is always 0.
 @W: CL260 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":494:12:494:17|Pruning register bit 3 of UROM.INSTR_SLOT[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
 @W: CG775 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Found Component CoreAPB3 in library COREAPB3_LIB
@@ -506,16 +578,16 @@ Selecting top level module Minimal_SoC
 
 @N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
 
-	APB_DWIDTH=6'b001000
+	APB_DWIDTH=6'b010000
 	IADDR_OPTION=32'b00000000000000000000000000000000
 	APBSLOT0ENABLE=1'b1
 	APBSLOT1ENABLE=1'b1
 	APBSLOT2ENABLE=1'b1
 	APBSLOT3ENABLE=1'b1
-	APBSLOT4ENABLE=1'b1
-	APBSLOT5ENABLE=1'b1
-	APBSLOT6ENABLE=1'b1
-	APBSLOT7ENABLE=1'b1
+	APBSLOT4ENABLE=1'b0
+	APBSLOT5ENABLE=1'b0
+	APBSLOT6ENABLE=1'b0
+	APBSLOT7ENABLE=1'b0
 	APBSLOT8ENABLE=1'b0
 	APBSLOT9ENABLE=1'b0
 	APBSLOT10ENABLE=1'b0
@@ -566,10 +638,10 @@ Selecting top level module Minimal_SoC
 	SL1=16'b0000000000000010
 	SL2=16'b0000000000000100
 	SL3=16'b0000000000001000
-	SL4=16'b0000000000010000
-	SL5=16'b0000000000100000
-	SL6=16'b0000000001000000
-	SL7=16'b0000000010000000
+	SL4=16'b0000000000000000
+	SL5=16'b0000000000000000
+	SL6=16'b0000000000000000
+	SL7=16'b0000000000000000
 	SL8=16'b0000000000000000
 	SL9=16'b0000000000000000
 	SL10=16'b0000000000000000
@@ -586,12 +658,12 @@ Selecting top level module Minimal_SoC
 @N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v":16:0:16:10|Synthesizing module COREAPBSRAM in library work.
 
 	FAMILY=32'b00000000000000000000000000001111
-	APB_DWIDTH=32'b00000000000000000000000000001000
+	APB_DWIDTH=32'b00000000000000000000000000010000
 	NUM_LOCATIONS_DWIDTH32=32'b00000000000000000000001000000000
 	NUM_LOCATIONS_DWIDTH24=32'b00000000000000000000001000000000
 	NUM_LOCATIONS_DWIDTH16=32'b00000000000000000000001000000000
 	NUM_LOCATIONS_DWIDTH08=32'b00000000000000000000010000000000
-	ADDR_SCHEME=32'b00000000000000000000000000000000
+	ADDR_SCHEME=32'b00000000000000000000000000000001
 	CoreApbSram_O=32'b00000000000000000000001000000000
 	CoreApbSram_I=32'b00000000000000000000001000000000
 	CoreApbSram_l=32'b00000000000000000000001000000000
@@ -630,645 +702,16 @@ Selecting top level module Minimal_SoC
 @W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":68767:0:68767:15|Removing instance CoreApbSram_OlOl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
 @W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":68266:0:68266:15|Removing instance CoreApbSram_lIOl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
 @W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":879:0:879:5|Pruning unused register CoreApbSram_I1l[12:9]. Make sure that there are no unused intermediate registers.
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":16:0:16:14|Synthesizing module CoreApbSram_l1I in library work.
-
-	CoreApbSram_OOl=32'b00000000000000000000010000000000
-	CoreApbSram_O1l=32'b00000000000000000000000000000001
-   Generated name = CoreApbSram_l1I_1024_1s
-
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":75280:0:75280:15|Removing instance CoreApbSram_IIIl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":74779:0:74779:15|Removing instance CoreApbSram_OIIl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":74278:0:74278:15|Removing instance CoreApbSram_lOIl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":73777:0:73777:15|Removing instance CoreApbSram_IOIl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":73276:0:73276:15|Removing instance CoreApbSram_OOIl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":72775:0:72775:15|Removing instance CoreApbSram_l1Ol because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":72274:0:72274:15|Removing instance CoreApbSram_I1Ol because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":71773:0:71773:15|Removing instance CoreApbSram_O1Ol because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":71272:0:71272:15|Removing instance CoreApbSram_l0Ol because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":70771:0:70771:15|Removing instance CoreApbSram_I0Ol because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":70270:0:70270:15|Removing instance CoreApbSram_O0Ol because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":69769:0:69769:15|Removing instance CoreApbSram_llOl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":69268:0:69268:15|Removing instance CoreApbSram_IlOl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":68767:0:68767:15|Removing instance CoreApbSram_OlOl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":879:0:879:5|Pruning unused register CoreApbSram_I1l[12:9]. Make sure that there are no unused intermediate registers.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v":2498:0:2498:14|Removing instance genblk1.CoreApbSram_I0l because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v":2439:0:2439:14|Removing instance genblk1.CoreApbSram_O0l because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v":2380:0:2380:14|Removing instance genblk1.CoreApbSram_IOl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":23:7:23:37|Synthesizing module Minimal_SoC_CoreGPIO_0_CoreGPIO in library work.
-
-	IO_NUM=32'b00000000000000000000000000010000
-	APB_WIDTH=32'b00000000000000000000000000001000
-	OE_TYPE=1'b0
-	INT_BUS=1'b0
-	FIXED_CONFIG_0=1'b1
-	FIXED_CONFIG_1=1'b1
-	FIXED_CONFIG_2=1'b1
-	FIXED_CONFIG_3=1'b1
-	FIXED_CONFIG_4=1'b0
-	FIXED_CONFIG_5=1'b0
-	FIXED_CONFIG_6=1'b0
-	FIXED_CONFIG_7=1'b0
-	FIXED_CONFIG_8=1'b0
-	FIXED_CONFIG_9=1'b0
-	FIXED_CONFIG_10=1'b0
-	FIXED_CONFIG_11=1'b0
-	FIXED_CONFIG_12=1'b1
-	FIXED_CONFIG_13=1'b1
-	FIXED_CONFIG_14=1'b0
-	FIXED_CONFIG_15=1'b0
-	FIXED_CONFIG_16=1'b0
-	FIXED_CONFIG_17=1'b0
-	FIXED_CONFIG_18=1'b0
-	FIXED_CONFIG_19=1'b0
-	FIXED_CONFIG_20=1'b0
-	FIXED_CONFIG_21=1'b0
-	FIXED_CONFIG_22=1'b0
-	FIXED_CONFIG_23=1'b0
-	FIXED_CONFIG_24=1'b0
-	FIXED_CONFIG_25=1'b0
-	FIXED_CONFIG_26=1'b0
-	FIXED_CONFIG_27=1'b0
-	FIXED_CONFIG_28=1'b0
-	FIXED_CONFIG_29=1'b0
-	FIXED_CONFIG_30=1'b0
-	FIXED_CONFIG_31=1'b0
-	IO_TYPE_0=2'b01
-	IO_TYPE_1=2'b01
-	IO_TYPE_2=2'b01
-	IO_TYPE_3=2'b01
-	IO_TYPE_4=2'b00
-	IO_TYPE_5=2'b00
-	IO_TYPE_6=2'b00
-	IO_TYPE_7=2'b00
-	IO_TYPE_8=2'b00
-	IO_TYPE_9=2'b00
-	IO_TYPE_10=2'b00
-	IO_TYPE_11=2'b00
-	IO_TYPE_12=2'b01
-	IO_TYPE_13=2'b01
-	IO_TYPE_14=2'b00
-	IO_TYPE_15=2'b00
-	IO_TYPE_16=2'b00
-	IO_TYPE_17=2'b00
-	IO_TYPE_18=2'b00
-	IO_TYPE_19=2'b00
-	IO_TYPE_20=2'b00
-	IO_TYPE_21=2'b00
-	IO_TYPE_22=2'b00
-	IO_TYPE_23=2'b00
-	IO_TYPE_24=2'b00
-	IO_TYPE_25=2'b00
-	IO_TYPE_26=2'b00
-	IO_TYPE_27=2'b00
-	IO_TYPE_28=2'b00
-	IO_TYPE_29=2'b00
-	IO_TYPE_30=2'b00
-	IO_TYPE_31=2'b00
-	IO_INT_TYPE_0=3'b111
-	IO_INT_TYPE_1=3'b111
-	IO_INT_TYPE_2=3'b111
-	IO_INT_TYPE_3=3'b111
-	IO_INT_TYPE_4=3'b111
-	IO_INT_TYPE_5=3'b111
-	IO_INT_TYPE_6=3'b111
-	IO_INT_TYPE_7=3'b111
-	IO_INT_TYPE_8=3'b111
-	IO_INT_TYPE_9=3'b111
-	IO_INT_TYPE_10=3'b111
-	IO_INT_TYPE_11=3'b111
-	IO_INT_TYPE_12=3'b111
-	IO_INT_TYPE_13=3'b111
-	IO_INT_TYPE_14=3'b111
-	IO_INT_TYPE_15=3'b111
-	IO_INT_TYPE_16=3'b111
-	IO_INT_TYPE_17=3'b111
-	IO_INT_TYPE_18=3'b111
-	IO_INT_TYPE_19=3'b111
-	IO_INT_TYPE_20=3'b111
-	IO_INT_TYPE_21=3'b111
-	IO_INT_TYPE_22=3'b111
-	IO_INT_TYPE_23=3'b111
-	IO_INT_TYPE_24=3'b111
-	IO_INT_TYPE_25=3'b111
-	IO_INT_TYPE_26=3'b111
-	IO_INT_TYPE_27=3'b111
-	IO_INT_TYPE_28=3'b111
-	IO_INT_TYPE_29=3'b111
-	IO_INT_TYPE_30=3'b111
-	IO_INT_TYPE_31=3'b111
-	IO_VAL_0=1'b0
-	IO_VAL_1=1'b0
-	IO_VAL_2=1'b1
-	IO_VAL_3=1'b0
-	IO_VAL_4=1'b0
-	IO_VAL_5=1'b0
-	IO_VAL_6=1'b0
-	IO_VAL_7=1'b0
-	IO_VAL_8=1'b0
-	IO_VAL_9=1'b0
-	IO_VAL_10=1'b0
-	IO_VAL_11=1'b0
-	IO_VAL_12=1'b0
-	IO_VAL_13=1'b1
-	IO_VAL_14=1'b0
-	IO_VAL_15=1'b0
-	IO_VAL_16=1'b0
-	IO_VAL_17=1'b0
-	IO_VAL_18=1'b0
-	IO_VAL_19=1'b0
-	IO_VAL_20=1'b0
-	IO_VAL_21=1'b0
-	IO_VAL_22=1'b0
-	IO_VAL_23=1'b0
-	IO_VAL_24=1'b0
-	IO_VAL_25=1'b0
-	IO_VAL_26=1'b0
-	IO_VAL_27=1'b0
-	IO_VAL_28=1'b0
-	IO_VAL_29=1'b0
-	IO_VAL_30=1'b0
-	IO_VAL_31=1'b0
-	FIXED_CONFIG=32'b11110000000011000000000000000000
-	IO_INT_TYPE=96'b111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
-	IO_TYPE=64'b0101010100000000000000000101000000000000000000000000000000000000
-	IO_VAL=32'b00100000000001000000000000000000
-   Generated name = Minimal_SoC_CoreGPIO_0_CoreGPIO_Z5
-
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[13].APB_8.edge_both_148[13]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[13].APB_8.edge_neg_148[13]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[13].APB_8.edge_pos_148[13]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[13].gpin3_98[13]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[13].gpin1_98[13]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[13].gpin2_98[13]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[12].APB_8.edge_both_142[12]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[12].APB_8.edge_neg_142[12]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[12].APB_8.edge_pos_142[12]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[12].gpin3_91[12]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[12].gpin1_91[12]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[12].gpin2_91[12]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[3].APB_8.edge_both_24[3]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[3].APB_8.edge_neg_24[3]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[3].APB_8.edge_pos_24[3]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[3].gpin3_28[3]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[3].gpin1_28[3]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[3].gpin2_28[3]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[2].APB_8.edge_both_18[2]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[2].APB_8.edge_neg_18[2]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[2].APB_8.edge_pos_18[2]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[2].gpin3_21[2]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[2].gpin1_21[2]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[2].gpin2_21[2]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[1].APB_8.edge_both_12[1]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[1].APB_8.edge_neg_12[1]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[1].APB_8.edge_pos_12[1]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[1].gpin3_14[1]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[1].gpin1_14[1]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[1].gpin2_14[1]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[0].APB_8.edge_both_6[0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[0].APB_8.edge_neg_6[0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[0].APB_8.edge_pos_6[0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[0].gpin3_7[0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[0].gpin1_7[0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[0].gpin2_7[0]. Make sure that there are no unused intermediate registers.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[0].APB_8.INTR_reg[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[1].APB_8.INTR_reg[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[2].APB_8.INTR_reg[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[3].APB_8.INTR_reg[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[12].APB_8.INTR_reg[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[13].APB_8.INTR_reg[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[0].APB_8.INTR_reg[0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[1].APB_8.INTR_reg[1]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[2].APB_8.INTR_reg[2]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[3].APB_8.INTR_reg[3]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[12].APB_8.INTR_reg[12]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[13].APB_8.INTR_reg[13]. Make sure that there are no unused intermediate registers.
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":23:7:23:37|Synthesizing module Minimal_SoC_CoreGPIO_1_CoreGPIO in library work.
-
-	IO_NUM=32'b00000000000000000000000000011001
-	APB_WIDTH=32'b00000000000000000000000000001000
-	OE_TYPE=1'b0
-	INT_BUS=1'b0
-	FIXED_CONFIG_0=1'b1
-	FIXED_CONFIG_1=1'b1
-	FIXED_CONFIG_2=1'b1
-	FIXED_CONFIG_3=1'b1
-	FIXED_CONFIG_4=1'b1
-	FIXED_CONFIG_5=1'b1
-	FIXED_CONFIG_6=1'b1
-	FIXED_CONFIG_7=1'b1
-	FIXED_CONFIG_8=1'b1
-	FIXED_CONFIG_9=1'b1
-	FIXED_CONFIG_10=1'b1
-	FIXED_CONFIG_11=1'b1
-	FIXED_CONFIG_12=1'b1
-	FIXED_CONFIG_13=1'b1
-	FIXED_CONFIG_14=1'b1
-	FIXED_CONFIG_15=1'b1
-	FIXED_CONFIG_16=1'b1
-	FIXED_CONFIG_17=1'b1
-	FIXED_CONFIG_18=1'b1
-	FIXED_CONFIG_19=1'b1
-	FIXED_CONFIG_20=1'b1
-	FIXED_CONFIG_21=1'b1
-	FIXED_CONFIG_22=1'b1
-	FIXED_CONFIG_23=1'b1
-	FIXED_CONFIG_24=1'b1
-	FIXED_CONFIG_25=1'b0
-	FIXED_CONFIG_26=1'b0
-	FIXED_CONFIG_27=1'b0
-	FIXED_CONFIG_28=1'b0
-	FIXED_CONFIG_29=1'b0
-	FIXED_CONFIG_30=1'b0
-	FIXED_CONFIG_31=1'b0
-	IO_TYPE_0=2'b01
-	IO_TYPE_1=2'b01
-	IO_TYPE_2=2'b01
-	IO_TYPE_3=2'b01
-	IO_TYPE_4=2'b01
-	IO_TYPE_5=2'b01
-	IO_TYPE_6=2'b01
-	IO_TYPE_7=2'b01
-	IO_TYPE_8=2'b01
-	IO_TYPE_9=2'b01
-	IO_TYPE_10=2'b01
-	IO_TYPE_11=2'b01
-	IO_TYPE_12=2'b01
-	IO_TYPE_13=2'b01
-	IO_TYPE_14=2'b01
-	IO_TYPE_15=2'b01
-	IO_TYPE_16=2'b01
-	IO_TYPE_17=2'b01
-	IO_TYPE_18=2'b01
-	IO_TYPE_19=2'b01
-	IO_TYPE_20=2'b01
-	IO_TYPE_21=2'b01
-	IO_TYPE_22=2'b01
-	IO_TYPE_23=2'b01
-	IO_TYPE_24=2'b01
-	IO_TYPE_25=2'b00
-	IO_TYPE_26=2'b00
-	IO_TYPE_27=2'b00
-	IO_TYPE_28=2'b00
-	IO_TYPE_29=2'b00
-	IO_TYPE_30=2'b00
-	IO_TYPE_31=2'b00
-	IO_INT_TYPE_0=3'b111
-	IO_INT_TYPE_1=3'b111
-	IO_INT_TYPE_2=3'b111
-	IO_INT_TYPE_3=3'b111
-	IO_INT_TYPE_4=3'b111
-	IO_INT_TYPE_5=3'b111
-	IO_INT_TYPE_6=3'b111
-	IO_INT_TYPE_7=3'b111
-	IO_INT_TYPE_8=3'b111
-	IO_INT_TYPE_9=3'b111
-	IO_INT_TYPE_10=3'b111
-	IO_INT_TYPE_11=3'b111
-	IO_INT_TYPE_12=3'b111
-	IO_INT_TYPE_13=3'b111
-	IO_INT_TYPE_14=3'b111
-	IO_INT_TYPE_15=3'b111
-	IO_INT_TYPE_16=3'b111
-	IO_INT_TYPE_17=3'b111
-	IO_INT_TYPE_18=3'b111
-	IO_INT_TYPE_19=3'b111
-	IO_INT_TYPE_20=3'b111
-	IO_INT_TYPE_21=3'b111
-	IO_INT_TYPE_22=3'b111
-	IO_INT_TYPE_23=3'b111
-	IO_INT_TYPE_24=3'b111
-	IO_INT_TYPE_25=3'b111
-	IO_INT_TYPE_26=3'b111
-	IO_INT_TYPE_27=3'b111
-	IO_INT_TYPE_28=3'b111
-	IO_INT_TYPE_29=3'b111
-	IO_INT_TYPE_30=3'b111
-	IO_INT_TYPE_31=3'b111
-	IO_VAL_0=1'b1
-	IO_VAL_1=1'b1
-	IO_VAL_2=1'b1
-	IO_VAL_3=1'b1
-	IO_VAL_4=1'b1
-	IO_VAL_5=1'b1
-	IO_VAL_6=1'b1
-	IO_VAL_7=1'b1
-	IO_VAL_8=1'b1
-	IO_VAL_9=1'b1
-	IO_VAL_10=1'b1
-	IO_VAL_11=1'b1
-	IO_VAL_12=1'b1
-	IO_VAL_13=1'b1
-	IO_VAL_14=1'b1
-	IO_VAL_15=1'b1
-	IO_VAL_16=1'b1
-	IO_VAL_17=1'b1
-	IO_VAL_18=1'b1
-	IO_VAL_19=1'b1
-	IO_VAL_20=1'b1
-	IO_VAL_21=1'b1
-	IO_VAL_22=1'b1
-	IO_VAL_23=1'b1
-	IO_VAL_24=1'b1
-	IO_VAL_25=1'b0
-	IO_VAL_26=1'b0
-	IO_VAL_27=1'b0
-	IO_VAL_28=1'b0
-	IO_VAL_29=1'b0
-	IO_VAL_30=1'b0
-	IO_VAL_31=1'b0
-	FIXED_CONFIG=32'b11111111111111111111111110000000
-	IO_INT_TYPE=96'b111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
-	IO_TYPE=64'b0101010101010101010101010101010101010101010101010100000000000000
-	IO_VAL=32'b11111111111111111111111110000000
-   Generated name = Minimal_SoC_CoreGPIO_1_CoreGPIO_Z6
-
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[24].APB_8.edge_both[24]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[24].APB_8.edge_neg[24]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[24].APB_8.edge_pos[24]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[24].gpin3[24]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[24].gpin1[24]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[24].gpin2[24]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[23].APB_8.edge_both[23]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[23].APB_8.edge_neg[23]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[23].APB_8.edge_pos[23]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[23].gpin3[23]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[23].gpin1[23]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[23].gpin2[23]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[22].APB_8.edge_both[22]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[22].APB_8.edge_neg[22]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[22].APB_8.edge_pos[22]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[22].gpin3[22]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[22].gpin1[22]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[22].gpin2[22]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[21].APB_8.edge_both[21]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[21].APB_8.edge_neg[21]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[21].APB_8.edge_pos[21]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[21].gpin3[21]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[21].gpin1[21]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[21].gpin2[21]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[20].APB_8.edge_both[20]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[20].APB_8.edge_neg[20]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[20].APB_8.edge_pos[20]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[20].gpin3[20]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[20].gpin1[20]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[20].gpin2[20]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[19].APB_8.edge_both[19]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[19].APB_8.edge_neg[19]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[19].APB_8.edge_pos[19]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[19].gpin3[19]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[19].gpin1[19]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[19].gpin2[19]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[18].APB_8.edge_both[18]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[18].APB_8.edge_neg[18]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[18].APB_8.edge_pos[18]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[18].gpin3[18]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[18].gpin1[18]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[18].gpin2[18]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[17].APB_8.edge_both[17]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[17].APB_8.edge_neg[17]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[17].APB_8.edge_pos[17]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[17].gpin3[17]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[17].gpin1[17]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[17].gpin2[17]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[16].APB_8.edge_both[16]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[16].APB_8.edge_neg[16]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[16].APB_8.edge_pos[16]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[16].gpin3[16]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[16].gpin1[16]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[16].gpin2[16]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[15].APB_8.edge_both[15]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[15].APB_8.edge_neg[15]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[15].APB_8.edge_pos[15]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[15].gpin3[15]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[15].gpin1[15]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[15].gpin2[15]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[14].APB_8.edge_both[14]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[14].APB_8.edge_neg[14]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[14].APB_8.edge_pos[14]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[14].gpin3[14]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[14].gpin1[14]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[14].gpin2[14]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[13].APB_8.edge_both[13]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[13].APB_8.edge_neg[13]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[13].APB_8.edge_pos[13]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[13].gpin3[13]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[13].gpin1[13]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[13].gpin2[13]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[12].APB_8.edge_both[12]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[12].APB_8.edge_neg[12]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[12].APB_8.edge_pos[12]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[12].gpin3[12]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[12].gpin1[12]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[12].gpin2[12]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[11].APB_8.edge_both[11]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[11].APB_8.edge_neg[11]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[11].APB_8.edge_pos[11]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[11].gpin3[11]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[11].gpin1[11]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[11].gpin2[11]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[10].APB_8.edge_both[10]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[10].APB_8.edge_neg[10]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[10].APB_8.edge_pos[10]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[10].gpin3[10]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[10].gpin1[10]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[10].gpin2[10]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[9].APB_8.edge_both[9]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[9].APB_8.edge_neg[9]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[9].APB_8.edge_pos[9]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[9].gpin3[9]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[9].gpin1[9]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[9].gpin2[9]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[8].APB_8.edge_both[8]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[8].APB_8.edge_neg[8]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[8].APB_8.edge_pos[8]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[8].gpin3[8]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[8].gpin1[8]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[8].gpin2[8]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[7].APB_8.edge_both[7]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[7].APB_8.edge_neg[7]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[7].APB_8.edge_pos[7]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[7].gpin3[7]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[7].gpin1[7]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[7].gpin2[7]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[6].APB_8.edge_both[6]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[6].APB_8.edge_neg[6]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[6].APB_8.edge_pos[6]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[6].gpin3[6]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[6].gpin1[6]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[6].gpin2[6]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[5].APB_8.edge_both[5]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[5].APB_8.edge_neg[5]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[5].APB_8.edge_pos[5]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[5].gpin3[5]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[5].gpin1[5]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[5].gpin2[5]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[4].APB_8.edge_both[4]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[4].APB_8.edge_neg[4]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[4].APB_8.edge_pos[4]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[4].gpin3[4]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[4].gpin1[4]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[4].gpin2[4]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[3].APB_8.edge_both[3]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[3].APB_8.edge_neg[3]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[3].APB_8.edge_pos[3]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[3].gpin3[3]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[3].gpin1[3]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[3].gpin2[3]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[2].APB_8.edge_both[2]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[2].APB_8.edge_neg[2]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[2].APB_8.edge_pos[2]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[2].gpin3[2]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[2].gpin1[2]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[2].gpin2[2]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[1].APB_8.edge_both[1]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[1].APB_8.edge_neg[1]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[1].APB_8.edge_pos[1]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[1].gpin3[1]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[1].gpin1[1]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[1].gpin2[1]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[0].APB_8.edge_both[0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[0].APB_8.edge_neg[0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[0].APB_8.edge_pos[0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[0].gpin3[0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[0].gpin1[0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[0].gpin2[0]. Make sure that there are no unused intermediate registers.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[0].APB_8.INTR_reg[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[1].APB_8.INTR_reg[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[2].APB_8.INTR_reg[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[3].APB_8.INTR_reg[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[4].APB_8.INTR_reg[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[5].APB_8.INTR_reg[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[6].APB_8.INTR_reg[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[7].APB_8.INTR_reg[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[8].APB_8.INTR_reg[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[9].APB_8.INTR_reg[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[10].APB_8.INTR_reg[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[11].APB_8.INTR_reg[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[12].APB_8.INTR_reg[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[13].APB_8.INTR_reg[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[14].APB_8.INTR_reg[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[15].APB_8.INTR_reg[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[16].APB_8.INTR_reg[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[17].APB_8.INTR_reg[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[18].APB_8.INTR_reg[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[19].APB_8.INTR_reg[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[20].APB_8.INTR_reg[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[21].APB_8.INTR_reg[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[22].APB_8.INTR_reg[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[23].APB_8.INTR_reg[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[24].APB_8.INTR_reg[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[0].APB_8.INTR_reg[0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[1].APB_8.INTR_reg[1]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[2].APB_8.INTR_reg[2]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[3].APB_8.INTR_reg[3]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[4].APB_8.INTR_reg[4]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[5].APB_8.INTR_reg[5]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[6].APB_8.INTR_reg[6]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[7].APB_8.INTR_reg[7]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[8].APB_8.INTR_reg[8]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[9].APB_8.INTR_reg[9]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[10].APB_8.INTR_reg[10]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[11].APB_8.INTR_reg[11]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[12].APB_8.INTR_reg[12]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[13].APB_8.INTR_reg[13]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[14].APB_8.INTR_reg[14]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[15].APB_8.INTR_reg[15]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[16].APB_8.INTR_reg[16]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[17].APB_8.INTR_reg[17]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[18].APB_8.INTR_reg[18]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[19].APB_8.INTR_reg[19]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[20].APB_8.INTR_reg[20]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[21].APB_8.INTR_reg[21]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[22].APB_8.INTR_reg[22]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[23].APB_8.INTR_reg[23]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[24].APB_8.INTR_reg[24]. Make sure that there are no unused intermediate registers.
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":15:7:15:19|Synthesizing module CoreInterrupt in library work.
-
-	NUMIRQSRC=32'b00000000000000000000000000001000
-	NUMFIQSRC=32'b00000000000000000000000000000000
-	IRQPOLARITY=32'b00000000000000000000000000000000
-	FIQPOLARITY=32'b00000000000000000000000000000000
-   Generated name = CoreInterrupt_8s_0s_0s_0s
-
-@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":329:48:329:54|Removing redundant assignment.
-@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":345:48:345:56|Removing redundant assignment.
-@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":361:48:361:54|Removing redundant assignment.
-@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":377:48:377:56|Removing redundant assignment.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":320:4:320:9|Optimizing register bit fiqSoft[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":320:4:320:9|Optimizing register bit fiqSoft[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":320:4:320:9|Optimizing register bit fiqSoft[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":320:4:320:9|Optimizing register bit fiqSoft[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":320:4:320:9|Optimizing register bit fiqSoft[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":320:4:320:9|Optimizing register bit fiqSoft[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":320:4:320:9|Optimizing register bit fiqSoft[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":320:4:320:9|Optimizing register bit fiqSoft[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":336:4:336:9|Optimizing register bit fiqEnable[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":336:4:336:9|Optimizing register bit fiqEnable[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":336:4:336:9|Optimizing register bit fiqEnable[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":336:4:336:9|Optimizing register bit fiqEnable[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":336:4:336:9|Optimizing register bit fiqEnable[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":336:4:336:9|Optimizing register bit fiqEnable[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":336:4:336:9|Optimizing register bit fiqEnable[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":336:4:336:9|Optimizing register bit fiqEnable[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Optimizing register bit irqSoft[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Optimizing register bit irqSoft[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Optimizing register bit irqSoft[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Optimizing register bit irqSoft[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Optimizing register bit irqSoft[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Optimizing register bit irqSoft[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Optimizing register bit irqSoft[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Optimizing register bit irqSoft[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Optimizing register bit irqSoft[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Optimizing register bit irqSoft[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Optimizing register bit irqSoft[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Optimizing register bit irqSoft[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Optimizing register bit irqSoft[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Optimizing register bit irqSoft[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Optimizing register bit irqSoft[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Optimizing register bit irqSoft[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Optimizing register bit irqSoft[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Optimizing register bit irqSoft[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Optimizing register bit irqSoft[26] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Optimizing register bit irqSoft[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Optimizing register bit irqSoft[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Optimizing register bit irqSoft[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Optimizing register bit irqSoft[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Optimizing register bit irqSoft[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Optimizing register bit irqEnable[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Optimizing register bit irqEnable[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Optimizing register bit irqEnable[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Optimizing register bit irqEnable[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Optimizing register bit irqEnable[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Optimizing register bit irqEnable[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Optimizing register bit irqEnable[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Optimizing register bit irqEnable[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Optimizing register bit irqEnable[16] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Optimizing register bit irqEnable[17] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Optimizing register bit irqEnable[18] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Optimizing register bit irqEnable[19] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Optimizing register bit irqEnable[20] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Optimizing register bit irqEnable[21] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Optimizing register bit irqEnable[22] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Optimizing register bit irqEnable[23] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Optimizing register bit irqEnable[24] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Optimizing register bit irqEnable[25] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Optimizing register bit irqEnable[26] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Optimizing register bit irqEnable[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Optimizing register bit irqEnable[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Optimizing register bit irqEnable[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Optimizing register bit irqEnable[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Optimizing register bit irqEnable[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL279 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":352:4:352:9|Pruning register bits 31 to 8 of irqSoft[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL279 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":368:4:368:9|Pruning register bits 31 to 8 of irqEnable[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":320:4:320:9|Pruning unused register fiqSoft[7:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":336:4:336:9|Pruning unused register fiqEnable[7:0]. Make sure that there are no unused intermediate registers.
+@W: CG360 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v":304:0:304:14|Removing wire CoreApbSram_l0I, as there is no assignment to it.
+@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v":1676:0:1676:14|Removing instance genblk1.CoreApbSram_O0l because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v":1617:0:1617:14|Removing instance genblk1.CoreApbSram_IOl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
 @W: CG775 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v":27:0:27:6|Found Component CORESPI in library CORESPI_LIB
 @N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":31:7:31:12|Synthesizing module spi_rf in library CORESPI_LIB.
 
-	APB_DWIDTH=32'b00000000000000000000000000001000
+	APB_DWIDTH=32'b00000000000000000000000000010000
 	CFG_CLK=32'b00000000000000000000000000000111
-	ZEROS=8'b00000000
-   Generated name = spi_rf_8s_7s_0
+	ZEROS=16'b0000000000000000
+   Generated name = spi_rf_16s_7s_0
 
 @W: CL208 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|All reachable assignments to bit 3 of control2[7:0] assign 0, register removed by optimization.
 @N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":24:7:24:17|Synthesizing module spi_control in library CORESPI_LIB.
@@ -1312,7 +755,7 @@ Selecting top level module Minimal_SoC
 	MOTNOSSEL=1'b1
 	NSCNOSSEL=1'b0
 	cfg_framesizeM1=32'b00000000000000000000000000000011
-   Generated name = spi_chanctrl_Z7
+   Generated name = spi_chanctrl_Z5
 
 @W:"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":132:12:132:21|Index into variable txfifo_dhold could be out of range - a simulation mismatch is possible
 @W: CG133 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":195:12:195:22|Object resetn_rx_d is declared but not assigned. Either assign a value or remove the declaration.
@@ -1332,7 +775,7 @@ Selecting top level module Minimal_SoC
 @W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Pruning unused register mtx_holdsel. Make sure that there are no unused intermediate registers.
 @N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v":29:7:29:9|Synthesizing module spi in library CORESPI_LIB.
 
-	APB_DWIDTH=32'b00000000000000000000000000001000
+	APB_DWIDTH=32'b00000000000000000000000000010000
 	CFG_FRAME_SIZE=32'b00000000000000000000000000000100
 	CFG_FIFO_DEPTH=32'b00000000000000000000000000000100
 	CFG_CLK=32'b00000000000000000000000000000111
@@ -1340,11 +783,11 @@ Selecting top level module Minimal_SoC
 	SPH=1'b1
 	SPS=1'b0
 	CFG_MODE=32'b00000000000000000000000000000000
-   Generated name = spi_8s_4s_4s_7s_1_1_0_0s
+   Generated name = spi_16s_4s_4s_7s_1_1_0_0s
 
 @N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v":27:0:27:6|Synthesizing module CORESPI in library CORESPI_LIB.
 
-	APB_DWIDTH=32'b00000000000000000000000000001000
+	APB_DWIDTH=32'b00000000000000000000000000010000
 	CFG_FRAME_SIZE=32'b00000000000000000000000000000100
 	CFG_FIFO_DEPTH=32'b00000000000000000000000000000100
 	CFG_CLK=32'b00000000000000000000000000000111
@@ -1358,7 +801,7 @@ Selecting top level module Minimal_SoC
 	SPS=1'b0
 	SPO=1'b1
 	SPH=1'b1
-   Generated name = CORESPI_Z8
+   Generated name = CORESPI_Z6
 
 @W: CG775 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":24:7:24:15|Found Component CoreTimer in library CORETIMER_LIB
 @N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":24:7:24:15|Synthesizing module CoreTimer in library CORETIMER_LIB.
@@ -1456,7 +899,7 @@ Selecting top level module Minimal_SoC
 	BAUD_VAL_FRCTN=32'b00000000000000000000000000000000
 	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000001
 	SYNC_RESET=32'b00000000000000000000000000000000
-   Generated name = Minimal_SoC_CoreUARTapb_0_CoreUARTapb_Z9
+   Generated name = Minimal_SoC_CoreUARTapb_0_CoreUARTapb_Z7
 
 @N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":785:0:785:8|Removing redundant assignment.
 @N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":868:0:868:8|Removing redundant assignment.
@@ -1466,21 +909,6 @@ Selecting top level module Minimal_SoC
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":276:7:276:12|Synthesizing module PLLINT in library work.
 
 @N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\smartgen\Minimal_SoC_with_PLL\Minimal_SoC_with_PLL.v":5:7:5:26|Synthesizing module Minimal_SoC_with_PLL in library work.
-
-@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1482:7:1482:9|Synthesizing module OR3 in library work.
-
-@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1464:7:1464:9|Synthesizing module OR2 in library work.
-
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\smartgen\OR_15bit\OR_15bit.v":5:7:5:14|Synthesizing module OR_15bit in library work.
-
-@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1554:7:1554:21|Synthesizing module OUTBUF_LVCMOS33 in library work.
-
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\smartgen\SRAM_ADDRESS_IO\SRAM_ADDRESS_IO.v":5:7:5:21|Synthesizing module SRAM_ADDRESS_IO in library work.
-
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\smartgen\SRAM_ADDRESS_IO\SRAM_ADDRESS_IO.v":36:8:36:22|Removing instance VCC_power_inst1 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":435:7:435:20|Synthesizing module BIBUF_LVCMOS33 in library work.
-
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\smartgen\SRAM_DATA_IO\SRAM_DATA_IO.v":5:7:5:18|Synthesizing module SRAM_DATA_IO in library work.
 
 @N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\Minimal_SoC.v":9:7:9:17|Synthesizing module Minimal_SoC in library work.
 
@@ -1542,6 +970,7 @@ State machine has 6 reachable states with original encodings of:
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":34:35:34:44|Input cfg_master is unused.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":35:35:35:47|Input rx_fifo_empty is unused.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":36:35:36:47|Input tx_fifo_empty is unused.
+@W: CL246 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":42:45:42:50|Input port bits 15 to 8 of wrdata[15:0] are unused. Assign logic for all port bits or change the input port size.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":52:35:52:46|Input tx_fifo_read is unused.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":55:35:55:46|Input rx_fifo_full is unused.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":56:35:56:51|Input rx_fifo_full_next is unused.
@@ -1549,53 +978,16 @@ State machine has 6 reachable states with original encodings of:
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":61:35:61:51|Input tx_fifo_full_next is unused.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":62:35:62:47|Input tx_fifo_empty is unused.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":63:35:63:52|Input tx_fifo_empty_next is unused.
-@W: CL279 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":414:4:414:9|Pruning register bits 31 to 9 of iPRDATA[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@N: CL189 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":414:4:414:9|Register bit iPRDATA[8] is always 0.
-@W: CL260 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":414:4:414:9|Pruning register bit 8 of iPRDATA[8:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL246 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":103:24:103:29|Input port bits 31 to 8 of PWDATA[31:0] are unused. Assign logic for all port bits or change the input port size.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":106:24:106:33|Input fiqSource7 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":107:24:107:33|Input fiqSource6 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":108:24:108:33|Input fiqSource5 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":109:24:109:33|Input fiqSource4 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":110:24:110:33|Input fiqSource3 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":111:24:111:33|Input fiqSource2 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":112:24:112:33|Input fiqSource1 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":113:24:113:33|Input fiqSource0 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":114:24:114:34|Input irqSource31 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":115:24:115:34|Input irqSource30 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":116:24:116:34|Input irqSource29 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":117:24:117:34|Input irqSource28 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":118:24:118:34|Input irqSource27 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":119:24:119:34|Input irqSource26 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":120:24:120:34|Input irqSource25 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":121:24:121:34|Input irqSource24 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":122:24:122:34|Input irqSource23 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":123:24:123:34|Input irqSource22 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":124:24:124:34|Input irqSource21 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":125:24:125:34|Input irqSource20 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":126:24:126:34|Input irqSource19 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":127:24:127:34|Input irqSource18 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":128:24:128:34|Input irqSource17 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":129:24:129:34|Input irqSource16 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":130:24:130:34|Input irqSource15 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":131:24:131:34|Input irqSource14 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":132:24:132:34|Input irqSource13 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":133:24:133:34|Input irqSource12 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":134:24:134:34|Input irqSource11 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":135:24:135:34|Input irqSource10 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":136:24:136:33|Input irqSource9 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\verilog\u\CoreInterrupt.v":137:24:137:33|Input irqSource8 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_1\rtl\vlog\core\coregpio.v":186:26:186:32|Input GPIO_IN is unused.
-@W: CL246 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":186:26:186:32|Input port bits 13 to 12 of GPIO_IN[15:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreGPIO_0\rtl\vlog\core\coregpio.v":186:26:186:32|Input port bits 3 to 0 of GPIO_IN[15:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":65:0:65:14|Input port bits 12 to 10 of CoreApbSram_lIl[12:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":73:0:73:14|Input port bits 12 to 10 of CoreApbSram_Oll[12:0] are unused. Assign logic for all port bits or change the input port size.
 @W: CL246 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":65:0:65:14|Input port bits 12 to 9 of CoreApbSram_lIl[12:0] are unused. Assign logic for all port bits or change the input port size.
 @W: CL246 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":73:0:73:14|Input port bits 12 to 9 of CoreApbSram_Oll[12:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v":205:0:205:4|Input port bits 1 to 0 of PADDR[16:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v":205:0:205:4|Input port bits 16 to 14 of PADDR[16:0] are unused. Assign logic for all port bits or change the input port size.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":72:36:72:40|Input IADDR is unused.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":73:13:73:19|Input PRESETN is unused.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":74:13:74:16|Input PCLK is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":108:18:108:25|Input PRDATAS4 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":109:18:109:25|Input PRDATAS5 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":110:18:110:25|Input PRDATAS6 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":111:18:111:25|Input PRDATAS7 is unused.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":112:18:112:25|Input PRDATAS8 is unused.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":113:18:113:25|Input PRDATAS9 is unused.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":114:18:114:26|Input PRDATAS10 is unused.
@@ -1604,6 +996,10 @@ State machine has 6 reachable states with original encodings of:
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":117:18:117:26|Input PRDATAS13 is unused.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":118:18:118:26|Input PRDATAS14 is unused.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":119:18:119:26|Input PRDATAS15 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":125:13:125:20|Input PREADYS4 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":126:13:126:20|Input PREADYS5 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":127:13:127:20|Input PREADYS6 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":128:13:128:20|Input PREADYS7 is unused.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":129:13:129:20|Input PREADYS8 is unused.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":130:13:130:20|Input PREADYS9 is unused.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":131:13:131:21|Input PREADYS10 is unused.
@@ -1612,6 +1008,10 @@ State machine has 6 reachable states with original encodings of:
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":134:13:134:21|Input PREADYS13 is unused.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":135:13:135:21|Input PREADYS14 is unused.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":136:13:136:21|Input PREADYS15 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":142:13:142:21|Input PSLVERRS4 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":143:13:143:21|Input PSLVERRS5 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":144:13:144:21|Input PSLVERRS6 is unused.
+@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":145:13:145:21|Input PSLVERRS7 is unused.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":146:13:146:21|Input PSLVERRS8 is unused.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":147:13:147:21|Input PSLVERRS9 is unused.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":148:13:148:22|Input PSLVERRS10 is unused.
@@ -1643,32 +1043,32 @@ State machine has 4 reachable states with original encodings of:
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":156:28:156:34|Input PADDR_S is unused.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":157:28:157:35|Input PWDATA_S is unused.
 
-At c_ver Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 102MB peak: 108MB)
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 104MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Jul 17 20:23:59 2022
+# Sat Jul 30 00:49:45 2022
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
 @N|Running in 64-bit mode
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Jul 17 20:24:00 2022
+# Sat Jul 30 00:49:45 2022
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
 
-Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Jul 17 20:24:00 2022
+# Sat Jul 30 00:49:45 2022
 
 ###########################################################]

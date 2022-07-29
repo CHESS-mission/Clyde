@@ -1,5 +1,5 @@
 *****************************************************************
-Pin Report - Date: Sun Jul 17 22:29:57 2022 Pinchecksum: NOT-AVAILABLE
+Pin Report - Date: Sat Jul 30 00:54:28 2022 Pinchecksum: NOT-AVAILABLE
 Product: Designer
 Release: v11.9
 Version: 11.9.0.4
@@ -8,149 +8,149 @@ Family: ProASIC3
 Die: A3P125
 Package: 144 TQFP
 *****************************************************************
-Number |Port             |Function       |State       |I/O Std  |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
--------|-----------------|---------------|------------|---------|------------------|-----|--------------|-----|-----------------|------------|--------------|
-1                         GAA2/IO67RSB1   Special
-2                         IO68RSB1        Unassigned
-3                         GAB2/IO69RSB1   Special
-4                         IO132RSB1       Unassigned
-5       SRAM_ADDRESS[15]  GAC2/IO131RSB1  Special      LVCMOS33  12                 High  ---            ---   35                No           No
-6       SRAM_ADDRESS[16]  IO130RSB1       Fixed        LVCMOS33  12                 High  ---            ---   35                No           No
-7       SRAM_ADDRESS[17]  IO129RSB1       Fixed        LVCMOS33  12                 High  ---            ---   35                No           No
-8       SRAM_ADDRESS[18]  IO128RSB1       Fixed        LVCMOS33  12                 High  ---            ---   35                No           No
-9                         VCC             Reserved
-10                        GND             Reserved
-11                        VCCIB1          Reserved
-12                        IO127RSB1       Unassigned
-13      SRAM_ADDRESS[14]  GFC1/IO126RSB1  Special      LVCMOS33  12                 High  ---            ---   35                No           No
-14      SYSCLK            GFC0/IO125RSB1  Special      LVCMOS33  ---                ---   None           ---   ---               No           No
-15      SRAM_ADDRESS[13]  GFB1/IO124RSB1  Special      LVCMOS33  12                 High  ---            ---   35                No           No
-16      SRAM_ADDRESS[12]  GFB0/IO123RSB1  Special      LVCMOS33  12                 High  ---            ---   35                No           No
-17                        VCOMPLF         Reserved
-18      SRAM_ADDRESS[11]  GFA0/IO122RSB1  Special      LVCMOS33  12                 High  ---            ---   35                No           No
-19                        VCCPLF          Reserved
-20      SRAM_ADDRESS[10]  GFA1/IO121RSB1  Special      LVCMOS33  12                 High  ---            ---   35                No           No
-21      SRAM_ADDRESS[9]   GFA2/IO120RSB1  Special      LVCMOS33  12                 High  ---            ---   35                No           No
-22      SRAM_DATA[8]      GFB2/IO119RSB1  Special      LVCMOS33  12                 High  None           No    35                No           No
-23      SRAM_DATA[9]      GFC2/IO118RSB1  Special      LVCMOS33  12                 High  None           No    35                No           No
-24      SRAM_DATA[10]     IO117RSB1       Fixed        LVCMOS33  12                 High  None           No    35                No           No
-25      SRAM_DATA[11]     IO116RSB1       Fixed        LVCMOS33  12                 High  None           No    35                No           No
-26      SRAM_DATA[12]     IO115RSB1       Fixed        LVCMOS33  12                 High  None           No    35                No           No
-27                        GND             Reserved
-28                        VCCIB1          Reserved
-29      SRAM_DATA[13]     GEC1/IO112RSB1  Special      LVCMOS33  12                 High  None           No    35                No           No
-30      SRAM_DATA[14]     GEC0/IO111RSB1  Special      LVCMOS33  12                 High  None           No    35                No           No
-31      SRAM_DATA[15]     GEB1/IO110RSB1  Special      LVCMOS33  12                 High  None           No    35                No           No
-32                        GEB0/IO109RSB1  Special
-33      SCL_Sensor        GEA1/IO108RSB1  Special      LVCMOS33  12                 High  None           No    35                No           No
-34      SDA_Sensors       GEA0/IO107RSB1  Special      LVCMOS33  12                 High  None           No    35                No           No
-35                        VMV1            Reserved
-36                        GNDQ            Reserved
-37                        Not Bonded      Unconnected
-38      SRAM_ADDRESS[19]  GEA2/IO106RSB1  Special      LVCMOS33  12                 High  ---            ---   35                No           No
-39      SRAM_WE           GEB2/IO105RSB1  Special      LVCMOS33  12                 High  None           No    35                No           No
-40      SRAM_DATA[7]      GEC2/IO104RSB1  Special      LVCMOS33  12                 High  None           No    35                No           No
-41      SRAM_DATA[6]      IO103RSB1       Fixed        LVCMOS33  12                 High  None           No    35                No           No
-42      SRAM_DATA[5]      IO102RSB1       Fixed        LVCMOS33  12                 High  None           No    35                No           No
-43      SRAM_DATA[4]      IO101RSB1       Fixed        LVCMOS33  12                 High  None           No    35                No           No
-44      SRAM_DATA[3]      IO100RSB1       Fixed        LVCMOS33  12                 High  None           No    35                No           No
-45                        VCC             Reserved
-46                        GND             Reserved
-47                        VCCIB1          Reserved
-48                        IO99RSB1        Unassigned
-49      SRAM_DATA[2]      IO97RSB1        Fixed        LVCMOS33  12                 High  None           No    35                No           No
-50                        IO95RSB1        Unassigned
-51      SRAM_DATA[1]      IO93RSB1        Fixed        LVCMOS33  12                 High  None           No    35                No           No
-52                        IO92RSB1        Unassigned
-53      SRAM_DATA[0]      IO90RSB1        Fixed        LVCMOS33  12                 High  None           No    35                No           No
-54                        IO88RSB1        Unassigned
-55      SRAM_CE           IO86RSB1        Fixed        LVCMOS33  12                 High  None           No    35                No           No
-56                        IO84RSB1        Unassigned
-57                        IO83RSB1        Unassigned
-58      SRAM_ADDRESS[0]   IO82RSB1        Fixed        LVCMOS33  12                 High  ---            ---   35                No           No
-59      SRAM_ADDRESS[1]   IO81RSB1        Fixed        LVCMOS33  12                 High  ---            ---   35                No           No
-60      SRAM_ADDRESS[2]   IO80RSB1        Fixed        LVCMOS33  12                 High  ---            ---   35                No           No
-61      SRAM_ADDRESS[3]   IO79RSB1        Fixed        LVCMOS33  12                 High  ---            ---   35                No           No
-62                        VCC             Reserved
-63                        GND             Reserved
-64                        VCCIB1          Reserved
-65      SRAM_ADDRESS[4]   GDC2/IO72RSB1   Special      LVCMOS33  12                 High  ---            ---   35                No           No
-66      SRAM_ADDRESS[5]   GDB2/IO71RSB1   Special      LVCMOS33  12                 High  ---            ---   35                No           No
-67      SRAM_ADDRESS[6]   GDA2/IO70RSB1   Special      LVCMOS33  12                 High  ---            ---   35                No           No
-68                        GNDQ            Reserved
-69                        TCK             Reserved
-70                        TDI             Reserved
-71                        TMS             Reserved
-72                        VMV1            Reserved
-73                        VPUMP           Reserved
-74                        Not Bonded      Unconnected
-75                        TDO             Reserved
-76                        TRST            Reserved
-77                        VJTAG           Reserved
-78      SRAM_ADDRESS[7]   GDA0/IO66RSB0   Special      LVCMOS33  12                 High  ---            ---   35                No           No
-79      SRAM_ADDRESS[8]   GDB0/IO64RSB0   Special      LVCMOS33  12                 High  ---            ---   35                No           No
-80      SRAM_OE           GDB1/IO63RSB0   Special      LVCMOS33  12                 High  None           No    35                No           No
-81                        VCCIB0          Reserved
-82                        GND             Reserved
-83      SRAM_UB           IO60RSB0        Fixed        LVCMOS33  12                 High  None           No    35                No           No
-84      SRAM_LB           GCC2/IO59RSB0   Special      LVCMOS33  12                 High  None           No    35                No           No
-85      SPISCLKO          GCB2/IO58RSB0   Special      LVCMOS33  12                 High  None           No    35                No           No
-86      SPISDO            GCA2/IO57RSB0   Special      LVCMOS33  12                 High  None           No    35                No           No
-87      SPISS             GCA0/IO56RSB0   Special      LVCMOS33  12                 High  None           No    35                No           No
-88      SPISDI            GCA1/IO55RSB0   Special      LVCMOS33  ---                ---   None           ---   ---               No           No
-89                        GCB0/IO54RSB0   Special
-90                        GCB1/IO53RSB0   Special
-91                        GCC0/IO52RSB0   Special
-92                        GCC1/IO51RSB0   Special
-93                        IO50RSB0        Unassigned
-94                        IO49RSB0        Unassigned
-95                        Not Bonded      Unconnected
-96                        Not Bonded      Unconnected
-97                        Not Bonded      Unconnected
-98                        VCCIB0          Reserved
-99                        GND             Reserved
-100                       VCC             Reserved
-101     Power_Down        IO47RSB0        Fixed        LVCMOS33  ---                ---   None           ---   ---               No           No
-102     NSYSRESET         GBC2/IO45RSB0   Special      LVCMOS33  ---                ---   None           ---   ---               No           No
-103     SDA_MCU           IO44RSB0        Fixed        LVCMOS33  12                 High  None           No    35                No           No
-104     SCL_MCU           GBB2/IO43RSB0   Special      LVCMOS33  ---                ---   None           ---   ---               No           No
-105     RX                IO42RSB0        Fixed        LVCMOS33  ---                ---   None           ---   ---               No           No
-106     TX                GBA2/IO41RSB0   Special      LVCMOS33  12                 High  None           No    35                No           No
-107                       VMV0            Reserved
-108                       GNDQ            Reserved
-109                       GBA1/IO40RSB0   Special
-110                       GBA0/IO39RSB0   Special
-111                       GBB1/IO38RSB0   Special
-112                       GBB0/IO37RSB0   Special
-113                       GBC1/IO36RSB0   Special
-114                       GBC0/IO35RSB0   Special
-115                       IO34RSB0        Unassigned
-116                       IO33RSB0        Unassigned
-117                       VCCIB0          Reserved
-118                       GND             Reserved
-119                       VCC             Reserved
-120                       IO29RSB0        Unassigned
-121                       IO28RSB0        Unassigned
-122                       IO27RSB0        Unassigned
-123                       IO25RSB0        Unassigned
-124                       IO23RSB0        Unassigned
-125                       IO21RSB0        Unassigned
-126                       IO19RSB0        Unassigned
-127                       IO17RSB0        Unassigned
-128                       IO16RSB0        Unassigned
-129                       IO14RSB0        Unassigned
-130                       IO12RSB0        Unassigned
-131                       IO10RSB0        Unassigned
-132                       IO08RSB0        Unassigned
-133                       IO06RSB0        Unassigned
-134                       VCCIB0          Reserved
-135                       GND             Reserved
-136                       VCC             Reserved
-137                       GAC1/IO05RSB0   Special
-138                       GAC0/IO04RSB0   Special
-139                       GAB1/IO03RSB0   Special
-140                       GAB0/IO02RSB0   Special
-141                       GAA1/IO01RSB0   Special
-142                       GAA0/IO00RSB0   Special
-143                       GNDQ            Reserved
-144                       VMV0            Reserved
+Number |Port        |Function       |State       |I/O Std  |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-------|------------|---------------|------------|---------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+1                    GAA2/IO67RSB1   Special
+2                    IO68RSB1        Unassigned
+3                    GAB2/IO69RSB1   Special
+4                    IO132RSB1       Unassigned
+5                    GAC2/IO131RSB1  Special
+6                    IO130RSB1       Unassigned
+7                    IO129RSB1       Unassigned
+8                    IO128RSB1       Unassigned
+9                    VCC             Reserved
+10                   GND             Reserved
+11                   VCCIB1          Reserved
+12                   IO127RSB1       Unassigned
+13                   GFC1/IO126RSB1  Special
+14      SYSCLK       GFC0/IO125RSB1  Special      LVCMOS33  ---                ---   None           ---   ---               No           No
+15                   GFB1/IO124RSB1  Special
+16                   GFB0/IO123RSB1  Special
+17                   VCOMPLF         Reserved
+18                   GFA0/IO122RSB1  Special
+19                   VCCPLF          Reserved
+20                   GFA1/IO121RSB1  Special
+21                   GFA2/IO120RSB1  Special
+22                   GFB2/IO119RSB1  Special
+23                   GFC2/IO118RSB1  Special
+24                   IO117RSB1       Unassigned
+25                   IO116RSB1       Unassigned
+26                   IO115RSB1       Unassigned
+27                   GND             Reserved
+28                   VCCIB1          Reserved
+29                   GEC1/IO112RSB1  Special
+30                   GEC0/IO111RSB1  Special
+31                   GEB1/IO110RSB1  Special
+32                   GEB0/IO109RSB1  Special
+33      SCL_Sensor   GEA1/IO108RSB1  Special      LVCMOS33  12                 High  None           No    35                No           No
+34      SDA_Sensors  GEA0/IO107RSB1  Special      LVCMOS33  12                 High  None           No    35                No           No
+35                   VMV1            Reserved
+36                   GNDQ            Reserved
+37                   Not Bonded      Unconnected
+38                   GEA2/IO106RSB1  Special
+39                   GEB2/IO105RSB1  Special
+40                   GEC2/IO104RSB1  Special
+41                   IO103RSB1       Unassigned
+42                   IO102RSB1       Unassigned
+43                   IO101RSB1       Unassigned
+44                   IO100RSB1       Unassigned
+45                   VCC             Reserved
+46                   GND             Reserved
+47                   VCCIB1          Reserved
+48                   IO99RSB1        Unassigned
+49                   IO97RSB1        Unassigned
+50                   IO95RSB1        Unassigned
+51                   IO93RSB1        Unassigned
+52                   IO92RSB1        Unassigned
+53                   IO90RSB1        Unassigned
+54                   IO88RSB1        Unassigned
+55                   IO86RSB1        Unassigned
+56                   IO84RSB1        Unassigned
+57                   IO83RSB1        Unassigned
+58                   IO82RSB1        Unassigned
+59                   IO81RSB1        Unassigned
+60                   IO80RSB1        Unassigned
+61                   IO79RSB1        Unassigned
+62                   VCC             Reserved
+63                   GND             Reserved
+64                   VCCIB1          Reserved
+65                   GDC2/IO72RSB1   Special
+66                   GDB2/IO71RSB1   Special
+67                   GDA2/IO70RSB1   Special
+68                   GNDQ            Reserved
+69                   TCK             Reserved
+70                   TDI             Reserved
+71                   TMS             Reserved
+72                   VMV1            Reserved
+73                   VPUMP           Reserved
+74                   Not Bonded      Unconnected
+75                   TDO             Reserved
+76                   TRST            Reserved
+77                   VJTAG           Reserved
+78                   GDA0/IO66RSB0   Special
+79                   GDB0/IO64RSB0   Special
+80                   GDB1/IO63RSB0   Special
+81                   VCCIB0          Reserved
+82                   GND             Reserved
+83                   IO60RSB0        Unassigned
+84                   GCC2/IO59RSB0   Special
+85      SPISCLKO     GCB2/IO58RSB0   Special      LVCMOS33  12                 High  None           No    35                No           No
+86      SPISDO       GCA2/IO57RSB0   Special      LVCMOS33  12                 High  None           No    35                No           No
+87      SPISS        GCA0/IO56RSB0   Special      LVCMOS33  12                 High  None           No    35                No           No
+88      SPISDI       GCA1/IO55RSB0   Special      LVCMOS33  ---                ---   None           ---   ---               No           No
+89                   GCB0/IO54RSB0   Special
+90                   GCB1/IO53RSB0   Special
+91                   GCC0/IO52RSB0   Special
+92                   GCC1/IO51RSB0   Special
+93                   IO50RSB0        Unassigned
+94                   IO49RSB0        Unassigned
+95                   Not Bonded      Unconnected
+96                   Not Bonded      Unconnected
+97                   Not Bonded      Unconnected
+98                   VCCIB0          Reserved
+99                   GND             Reserved
+100                  VCC             Reserved
+101     Power_Down   IO47RSB0        Fixed        LVCMOS33  ---                ---   Up             ---   ---               No           No
+102     NSYSRESET    GBC2/IO45RSB0   Special      LVCMOS33  ---                ---   Up             ---   ---               No           No
+103     SDA_MCU      IO44RSB0        Fixed        LVCMOS33  12                 High  None           No    35                No           No
+104     SCL_MCU      GBB2/IO43RSB0   Special      LVCMOS33  ---                ---   None           ---   ---               No           No
+105     RX           IO42RSB0        Fixed        LVCMOS33  ---                ---   None           ---   ---               No           No
+106     TX           GBA2/IO41RSB0   Special      LVCMOS33  12                 High  None           No    35                No           No
+107                  VMV0            Reserved
+108                  GNDQ            Reserved
+109                  GBA1/IO40RSB0   Special
+110                  GBA0/IO39RSB0   Special
+111                  GBB1/IO38RSB0   Special
+112                  GBB0/IO37RSB0   Special
+113                  GBC1/IO36RSB0   Special
+114                  GBC0/IO35RSB0   Special
+115                  IO34RSB0        Unassigned
+116                  IO33RSB0        Unassigned
+117                  VCCIB0          Reserved
+118                  GND             Reserved
+119                  VCC             Reserved
+120                  IO29RSB0        Unassigned
+121                  IO28RSB0        Unassigned
+122                  IO27RSB0        Unassigned
+123                  IO25RSB0        Unassigned
+124                  IO23RSB0        Unassigned
+125                  IO21RSB0        Unassigned
+126                  IO19RSB0        Unassigned
+127                  IO17RSB0        Unassigned
+128                  IO16RSB0        Unassigned
+129                  IO14RSB0        Unassigned
+130                  IO12RSB0        Unassigned
+131                  IO10RSB0        Unassigned
+132                  IO08RSB0        Unassigned
+133                  IO06RSB0        Unassigned
+134                  VCCIB0          Reserved
+135                  GND             Reserved
+136                  VCC             Reserved
+137                  GAC1/IO05RSB0   Special
+138                  GAC0/IO04RSB0   Special
+139                  GAB1/IO03RSB0   Special
+140                  GAB0/IO02RSB0   Special
+141                  GAA1/IO01RSB0   Special
+142                  GAA0/IO00RSB0   Special
+143                  GNDQ            Reserved
+144                  VMV0            Reserved

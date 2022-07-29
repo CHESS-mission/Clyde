@@ -72,13 +72,16 @@
                 </ProgrammingMode>
             </FlashPro5>
         </Hardware>
-        <Algo type="unknown">
-            <irlength>
-                0
-            </irlength>
-            <MaxTCK>
-                4000000
-            </MaxTCK>
+        <Algo type="PDB">
+            <filename>
+                C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Minimal_SoC.pdb
+            </filename>
+            <local>
+                projectData\Minimal_SoC.pdb
+            </local>
+            <SelectedAction>
+                PROGRAM
+            </SelectedAction>
         </Algo>
     </configuration>
 </project>

@@ -3,10 +3,10 @@
 <drcreport>
   <header>Basic_Input_Testbench</header>
   <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\error.png</status>
-    <StatusMessage>Error</StatusMessage>
-    <message>Undriven Pin</message>
-    <detail>Unconnected input pin Minimal_SoC_0:SRAM_DATA[15:0]</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Basic_Input_Testbench/pins/Minimal_SoC_0:SRAM_DATA</crossprobe>
+    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin Minimal_SoC_0:TIMINT</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Basic_Input_Testbench/pins/Minimal_SoC_0:TIMINT</crossprobe>
   </drc>
 </drcreport>

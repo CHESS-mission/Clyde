@@ -9,12 +9,12 @@ The file contains the area information from mapper to be displayed as part of th
 <title>Report for cell</title>
 </report_link>
 <parameter tooltip="Total Core Cells used" name="Core Cells">
-<data>3072</data>
+<data>2803</data>
 </parameter>
 <parameter tooltip="Total IO Cells used" name="IO Cells">
-<data>54</data>
+<data>13</data>
 </parameter>
 <parameter tcl_name="v_ram" tooltip="Total Block RAMs used" name="Block RAMs">
-<data>5</data>
+<data>3</data>
 </parameter>
 </report_table>

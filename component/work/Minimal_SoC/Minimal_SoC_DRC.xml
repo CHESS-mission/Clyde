@@ -6,29 +6,8 @@
     <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
     <StatusMessage>Warning</StatusMessage>
     <message>Floating Driver</message>
-    <detail>Floating output pin COREABC_0:INTACT</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/COREABC_0:INTACT</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
-    <StatusMessage>Warning</StatusMessage>
-    <message>Unconnected Bus Interface</message>
-    <detail>Unconnected bus interface pin CoreAPB3_0:APBmslave7</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreAPB3_0:APBmslave7</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
-    <StatusMessage>Warning</StatusMessage>
-    <message>Floating Driver</message>
-    <detail>Floating output pin CoreInterrupt_0:FIQ</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:FIQ</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
-    <StatusMessage>Warning</StatusMessage>
-    <message>Floating Driver</message>
-    <detail>Floating output pin CoreInterrupt_0:IRQ</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CoreInterrupt_0:IRQ</crossprobe>
+    <detail>Floating output pin CORESPI_0:SPIINT</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Minimal_SoC/pins/CORESPI_0:SPIINT</crossprobe>
   </drc>
   <drc>
     <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>

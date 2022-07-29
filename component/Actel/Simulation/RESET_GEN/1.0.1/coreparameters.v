@@ -1,5 +1,5 @@
 //--------------------------------------------------------------------
-// Created by Microsemi SmartDesign Sun Jul 17 20:14:32 2022
+// Created by Microsemi SmartDesign Sat Jul 30 00:35:19 2022
 // Parameters for RESET_GEN
 //--------------------------------------------------------------------
 

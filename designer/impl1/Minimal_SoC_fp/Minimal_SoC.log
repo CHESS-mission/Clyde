@@ -1,26 +1,27 @@
+FlashPro
+Version: 11.9.0.4
+Release: v11.9
+
 Software Version: 11.9.0.4
-creating folder: C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS
-OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Minimal_SoC_fp
-programmer 'S201YQHKH8' : FlashPro5
-Created new project 'C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS
-OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Minimal_SoC_fp\Minimal_SoC.pro'
 PDB file 'C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS
 OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Minimal_SoC.pdb' has been loaded successfully.
-DESIGN : Minimal_SoC;  CHECKSUM : 4F95;  PDB_VERSION : 1.9
+DESIGN : Minimal_SoC;  CHECKSUM : 6DED;  PDB_VERSION : 1.9
+programmer 'S201YQHKH8' : FlashPro5
+Opened 'C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS
+OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Minimal_SoC_fp\Minimal_SoC.pro'
 programmer 'S201YQHKH8' : Scan Chain...
 programmer 'S201YQHKH8' : Scan Chain PASSED.
 programmer 'S201YQHKH8' : Executing action PROGRAM
 programmer 'S201YQHKH8' : EXPORT FSN[48] = 802b96480c84
 programmer 'S201YQHKH8' : Erase ...
 programmer 'S201YQHKH8' : Completed erase
-programmer 'S201YQHKH8' : EXPORT CHECKSUM[16] = 4f95
+programmer 'S201YQHKH8' : EXPORT CHECKSUM[16] = 6ded
 programmer 'S201YQHKH8' : Programming FPGA Array
 programmer 'S201YQHKH8' : Verifying FPGA Array
 programmer 'S201YQHKH8' :         Verifying FPGA Array -- pass
-programmer 'S201YQHKH8' : Finished: Thu Jul 14 18:49:28 2022 (Elapsed time 00:00:28)
+programmer 'S201YQHKH8' : Finished: Wed Jul 20 18:20:43 2022 (Elapsed time 00:00:29)
 programmer 'S201YQHKH8' : Executing action PROGRAM PASSED.
 
                         o - o - o - o - o - o
 
-Warning: Project 'Minimal_SoC' has been modified. Do you want to save it? [NO]
 Project closed.

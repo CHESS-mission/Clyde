@@ -1,6 +1,6 @@
 Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)
 
-Date      :  Sun Jul 17 20:19:46 2022
+Date      :  Sat Jul 30 00:49:14 2022
 Project   :  C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde
 Component :  Minimal_SoC
 Family    :  ProASIC3
@@ -19,7 +19,6 @@ HDL source files for all Synthesis and Simulation tools:
     C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v
     C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_iaddr_reg.v
     C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CoreInterrupt/1.1.101/rtl/verilog/u/CoreInterrupt.v
     C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/core/coretimer.v
     C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/coreparameters_tgi.v
     C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/acmtable.v
@@ -34,8 +33,6 @@ HDL source files for all Synthesis and Simulation tools:
     C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram256x8_rtl.v
     C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ramblocks.v
     C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/support.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_0/rtl/vlog/core/coregpio.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_1/rtl/vlog/core/coregpio.v
     C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Clock_gen.v
     C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUART.v
     C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUARTapb.v
@@ -45,14 +42,6 @@ HDL source files for all Synthesis and Simulation tools:
     C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/Minimal_SoC.v
 
 Stimulus files for all Simulation tools:
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_0/bfmtovec_compile.do
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_0/coregpio_usertb_apb_master.bfm
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_0/coregpio_usertb_include.bfm
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_0/wave_vlog.do
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_1/bfmtovec_compile.do
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_1/coregpio_usertb_apb_master.bfm
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_1/coregpio_usertb_include.bfm
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_1/wave_vlog.do
     C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/mti/scripts/bfmtovec_compile.do
     C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/mti/scripts/coreuart_usertb_apb_master.bfm
     C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/mti/scripts/coreuart_usertb_include.bfm
@@ -62,30 +51,6 @@ Stimulus files for all Simulation tools:
     C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test/apbmodel.v
     C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test/testbench.v
     C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test/testsupport.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_0/coreparameters.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_0/rtl/vlog/amba_bfm/bfm_ahbl.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_0/rtl/vlog/amba_bfm/bfm_ahblapb.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_0/rtl/vlog/amba_bfm/bfm_ahbslave.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_0/rtl/vlog/amba_bfm/bfm_ahbslaveext.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_0/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_0/rtl/vlog/amba_bfm/bfm_apb.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_0/rtl/vlog/amba_bfm/bfm_apbslave.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_0/rtl/vlog/amba_bfm/bfm_apbslaveext.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_0/rtl/vlog/amba_bfm/bfm_apbtoapb.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_0/rtl/vlog/amba_bfm/bfm_main.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_0/rtl/vlog/test/user/testbench.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_1/coreparameters.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_1/rtl/vlog/amba_bfm/bfm_ahbl.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_1/rtl/vlog/amba_bfm/bfm_ahblapb.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_1/rtl/vlog/amba_bfm/bfm_ahbslave.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_1/rtl/vlog/amba_bfm/bfm_ahbslaveext.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_1/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_1/rtl/vlog/amba_bfm/bfm_apb.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_1/rtl/vlog/amba_bfm/bfm_apbslave.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_1/rtl/vlog/amba_bfm/bfm_apbslaveext.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_1/rtl/vlog/amba_bfm/bfm_apbtoapb.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_1/rtl/vlog/amba_bfm/bfm_main.v
-    C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreGPIO_1/rtl/vlog/test/user/testbench.v
     C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/coreparameters.v
     C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_ahbl.v
     C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_ahblapb.v

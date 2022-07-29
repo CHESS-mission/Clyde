@@ -1,11 +1,11 @@
 //--------------------------------------------------------------------
-// Created by Microsemi SmartDesign Sun Jul 17 20:19:37 2022
+// Created by Microsemi SmartDesign Sat Jul 30 00:48:58 2022
 // Parameters for COREAPBSRAM
 //--------------------------------------------------------------------
 
 
-parameter ADDR_SCHEME = 0;
-parameter APB_DWIDTH = 8;
+parameter ADDR_SCHEME = 1;
+parameter APB_DWIDTH = 16;
 parameter FAMILY = 15;
 parameter HDL_license = "O";
 parameter NUM_LOCATIONS_DWIDTH08 = 1024;
