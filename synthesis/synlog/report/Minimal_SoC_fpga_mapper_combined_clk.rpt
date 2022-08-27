@@ -7,13 +7,13 @@
 
 Clock optimization not enabled
 0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-1 gated/generated clock tree(s) driving 568 clock pin(s) of sequential element(s)
-0 instances converted, 568 sequential instances remain driven by gated/generated clocks
+1 gated/generated clock tree(s) driving 576 clock pin(s) of sequential element(s)
+0 instances converted, 576 sequential instances remain driven by gated/generated clocks
 
 ============================================================================================================ Gated/Generated Clocks =============================================================================================================
 Clock Tree ID     Driving Element                 Drive Element Type     Fanout     Sample Instance                Explanation                                                                                                                   
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       Minimal_SoC_with_PLL_0.Core     PLL                    568        CoreUARTapb_0.CUARTl0OI[7]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0001       Minimal_SoC_with_PLL_0.Core     PLL                    576        CoreUARTapb_0.CUARTl0OI[7]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
 =================================================================================================================================================================================================================================================
 
 

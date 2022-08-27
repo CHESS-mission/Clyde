@@ -543,17 +543,26 @@ Selecting top level module Minimal_SoC
 	Label_INT_RX_CMP3=32'b00000000000000000000000000010010
 	Label_INT_RX_CMP4=32'b00000000000000000000000000010111
 	Label_INT_RX_DEFAULT=32'b00000000000000000000000000011100
-	Label_INT_RX_CMP_END=32'b00000000000000000000000000011100
-	Label_INTERRUPT_END=32'b00000000000000000000000000011101
-	Label_INIT=32'b00000000000000000000000000011111
-	Label_MAIN=32'b00000000000000000000000000101000
-	Label_MAIN_LOOP=32'b00000000000000000000000000101000
-	Label_INFINIT_LOOP=32'b00000000000000000000000000110110
-	Label_COMMAND_1=32'b00000000000000000000000000111000
-	Label_COMMAND_2=32'b00000000000000000000000000111010
-	Label_COMMAND_3=32'b00000000000000000000000000111100
-	Label_COMMAND_4=32'b00000000000000000000000000111110
-	Label_WAIT_AND_PRINT_ACC_TO_UART=32'b00000000000000000000000001000000
+	Label_INT_RX_CMP_END=32'b00000000000000000000000000011110
+	Label_INTERRUPT_END=32'b00000000000000000000000000011111
+	Label_INIT=32'b00000000000000000000000000100001
+	Label_NO_DEBUG_START=32'b00000000000000000000000000101100
+	Label_MAIN=32'b00000000000000000000000000101100
+	Label_MAIN_LOOP=32'b00000000000000000000000000101100
+	Label_INFINIT_LOOP=32'b00000000000000000000000000111110
+	Label_COMMAND_1=32'b00000000000000000000000001000000
+	Label_COMMAND_2=32'b00000000000000000000000001000010
+	Label_COMMAND_3=32'b00000000000000000000000001000100
+	Label_COMMAND_4=32'b00000000000000000000000001000110
+	Label_DELAY_1=32'b00000000000000000000000001001000
+	Label_DELAY_2=32'b00000000000000000000000001001101
+	Label_DELAY_3=32'b00000000000000000000000001010010
+	Label_DELAY_4=32'b00000000000000000000000001010111
+	Label_DELAY_5=32'b00000000000000000000000001011100
+	Label_DELAY_6=32'b00000000000000000000000001100001
+	Label_DELAY_7=32'b00000000000000000000000001100110
+	Label_DELAY_2MS=32'b00000000000000000000000001101011
+	Label_WAIT_AND_PRINT_ACC_TO_UART=32'b00000000000000000000000001101110
    Generated name = Minimal_SoC_COREABC_0_INSTRUCTIONS_Z2
 
 @W: CG133 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":696:34:696:37|Object MULT is declared but not assigned. Either assign a value or remove the declaration.
@@ -1043,12 +1052,12 @@ State machine has 4 reachable states with original encodings of:
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":156:28:156:34|Input PADDR_S is unused.
 @N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":157:28:157:35|Input PWDATA_S is unused.
 
-At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 95MB peak: 104MB)
+At c_ver Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 96MB peak: 105MB)
 
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
 
 Process completed successfully.
-# Sat Jul 30 00:49:45 2022
+# Sun Aug 14 16:37:39 2022
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
@@ -1059,16 +1068,16 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sat Jul 30 00:49:45 2022
+# Sun Aug 14 16:37:39 2022
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 3MB peak: 4MB)
 
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
 
 Process completed successfully.
-# Sat Jul 30 00:49:45 2022
+# Sun Aug 14 16:37:39 2022
 
 ###########################################################]

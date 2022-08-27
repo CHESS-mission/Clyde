@@ -1,4 +1,4 @@
-# Sat Jul 30 00:49:48 2022
+# Sun Aug 14 16:37:41 2022
 
 Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -26,7 +26,7 @@ Available hyper_sources - for debug and ip models
 	None Found
 
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
 
 @N: MO231 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":1041:4:1041:9|Found counter in view:work.Minimal_SoC_COREABC_0_COREABC_Z1(verilog) instance STKPTR[7:0] 
 Encoding state machine ICYCLE[3:0] (in view: work.Minimal_SoC_COREABC_0_COREABC_Z1(verilog))
@@ -36,13 +36,12 @@ original code -> new code
    10 -> 10
    11 -> 11
 @N: MO225 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":1041:4:1041:9|There are no possible illegal states for state machine ICYCLE[3:0] (in view: work.Minimal_SoC_COREABC_0_COREABC_Z1(verilog)); safe FSM implementation is not required.
-@N: MO106 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\instructions.v":153:4:153:7|Found ROM .delname. (in view: work.Minimal_SoC_COREABC_0_COREABC_Z1(verilog)) with 67 words by 58 bits.
+@N: MO106 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\instructions.v":162:4:162:7|Found ROM .delname. (in view: work.Minimal_SoC_COREABC_0_COREABC_Z1(verilog)) with 113 words by 58 bits.
 @N: MF238 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":1028:35:1028:61|Found 8-bit incrementor, 'un1_STKPTRP1[7:0]'
 @N: MF238 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":1311:54:1311:65|Found 12-bit incrementor, 'un37_SMADDR[11:0]'
 @N: MF176 |Default generator successful 
 @N: MF176 |Default generator successful 
 @W: MO129 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sequential instance COREABC_0.UROM.INSTR_SLOT[2] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sequential instance COREABC_0.UROM.INSTR_ADDR[6] is reduced to a combinational gate by constant propagation.
 @W: MO129 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sequential instance COREABC_0.UROM.INSTR_ADDR[7] is reduced to a combinational gate by constant propagation.
 @W: MO129 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sequential instance COREABC_0.UROM.INSTR_ADDR[8] is reduced to a combinational gate by constant propagation.
 @W: MO129 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sequential instance COREABC_0.UROM.INSTR_ADDR[9] is reduced to a combinational gate by constant propagation.
@@ -119,13 +118,13 @@ original code -> new code
 @N: MO231 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\rx_async.v":472:0:472:5|Found counter in view:work.Minimal_SoC_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s(verilog) instance CUARTIlIl[3:0] 
 @N: MF794 |RAM fifo_mem_q[4:0] required 40 registers during mapping 
 
-Starting factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 114MB peak: 116MB)
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 115MB peak: 116MB)
 
 Auto Dissolve of CORESPI_0.USPI (inst of view:CORESPI_LIB.spi_16s_4s_4s_7s_1_1_0_0s(verilog))
 @N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coreapbsram\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":67765:0:67765:15|Removing sequential instance COREAPBSRAM_0.genblk1\.CoreApbSram_I0l.CoreApbSram_IIOl (in view: work.Minimal_SoC(verilog)) of type view:PA3.RAM4K9(prim) because it does not drive other instances.
 @N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coreapbsram\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":67765:0:67765:15|Removing sequential instance COREAPBSRAM_0.genblk1\.CoreApbSram_l0l.CoreApbSram_IIOl (in view: work.Minimal_SoC(verilog)) of type view:PA3.RAM4K9(prim) because it does not drive other instances.
 
-Finished factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 127MB peak: 128MB)
+Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 128MB peak: 130MB)
 
 @N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[16] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[17] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
@@ -146,29 +145,29 @@ Finished factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; M
 @W: BN132 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\coreuart.v":936:0:936:5|Removing sequential instance CoreUARTapb_0.CUARTlOlI.CUARTlO0 because it is equivalent to instance CoreUARTapb_0.CUARTlOlI.CUARTl1l. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\coreuart.v":888:0:888:5|Removing sequential instance CoreUARTapb_0.CUARTlOlI.CUARTOO0 because it is equivalent to instance CoreUARTapb_0.CUARTlOlI.CUARTOI0. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
-Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 121MB peak: 128MB)
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 121MB peak: 130MB)
 
 
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 121MB peak: 128MB)
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 121MB peak: 130MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 123MB peak: 134MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 122MB peak: 131MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 124MB peak: 134MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 123MB peak: 131MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:17s; Memory used current: 159MB peak: 160MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 146MB peak: 146MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:17s; Memory used current: 158MB peak: 160MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 145MB peak: 147MB)
 
 @N: MF794 |RAM fifo_mem_q[4:0] required 40 registers during mapping 
 
-Finished preparing to map (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 158MB peak: 160MB)
+Finished preparing to map (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 145MB peak: 147MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:18s; Memory used current: 181MB peak: 183MB)
+Finished technology mapping (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 171MB peak: 173MB)
 
 
 High Fanout Net Report
@@ -177,55 +176,65 @@ High Fanout Net Report
 Driver Instance / Pin Name                        Fanout, notes                   
 ----------------------------------------------------------------------------------
 COREABC_0.genblk2.RSTSYNC2 / Q                    452 : 448 asynchronous set/reset
-COREABC_0.un1_ACCUMULATOR.PADDR_M_1[2] / Y        51                              
-COREABC_0.un1_ACCUMULATOR.PADDR_M_1[3] / Y        25                              
-COREABC_0.UROM.INSTR_SLOT[0] / Q                  26                              
-COREABC_0.SMADDR[0] / Q                           29                              
-COREABC_0.SMADDR[1] / Q                           62                              
-COREABC_0.SMADDR[2] / Q                           65                              
-COREABC_0.SMADDR[3] / Q                           27                              
-COREABC_0.SMADDR[5] / Q                           41                              
-COREABC_0.DOISR / Q                               29                              
-COREABC_0.UROM.INSTR_SCMD[0] / Q                  31                              
-COREABC_0.un1_ACCUMULATOR.xhdl_m2_0_a2 / Y        57                              
-COREABC_0.r_m1_2_m2_0_a2 / Y                      39                              
+COREABC_0.PADDR_M_1[2] / Y                        39                              
+COREABC_0.PADDR_M_1[3] / Y                        25                              
+COREABC_0.UROM.INSTR_SLOT[0] / Q                  35                              
+COREABC_0.SMADDR[0] / Q                           75                              
+COREABC_0.SMADDR[3] / Q                           83                              
+COREABC_0.SMADDR[4] / Q                           58                              
+COREABC_0.SMADDR[5] / Q                           43                              
+COREABC_0.SMADDR[6] / Q                           28                              
+COREABC_0.DOISR / Q                               28                              
+COREABC_0.UROM.INSTR_SCMD[0] / Q                  25                              
+COREABC_0.UROM.INSTR_CMD[1] / Q                   32                              
+COREABC_0.UROM.INSTR_CMD[0] / Q                   25                              
+COREABC_0.UROM.INSTR_SCMD[1] / Q                  27                              
+COREABC_0.UROM.INSTR_SCMD[2] / Q                  32                              
+COREABC_0.xhdl_31.MSEL_i_i[2] / Y                 28                              
 CoreUARTapb_0.CUARTlOlI.CUARTO01.CUARTI11 / Q     28                              
+CORESPI_0.USPI.URF.control15_0_a2_0 / Y           26                              
+CoreTimer_0.PrdataNextEn / Y                      25                              
 CoreTimer_0.Countlde / Y                          32                              
 CoreTimer_0.un1_m6_i / Y                          48                              
 ==================================================================================
 
-@N: FP130 |Promoting Net COREABC_0_PRESETN_0 on CLKINT  I_62 
-@N: FP130 |Promoting Net COREABC_0_APB3master_PADDR[2] on CLKINT  I_63 
+@N: FP130 |Promoting Net COREABC_0_PRESETN_0 on CLKINT  I_59 
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:18s; Memory used current: 181MB peak: 183MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 171MB peak: 173MB)
 
-Replicating Combinational Instance COREABC_0.r_m1_2_m2_0_a2, fanout 39 segments 2
-Replicating Combinational Instance COREABC_0.un1_ACCUMULATOR.xhdl_m2_0_a2, fanout 57 segments 3
-Replicating Sequential Instance COREABC_0.UROM.INSTR_SCMD[0], fanout 31 segments 2
-Replicating Sequential Instance COREABC_0.DOISR, fanout 29 segments 2
-Replicating Sequential Instance COREABC_0.SMADDR[5], fanout 41 segments 2
-Replicating Sequential Instance COREABC_0.SMADDR[3], fanout 27 segments 2
-Replicating Sequential Instance COREABC_0.SMADDR[2], fanout 65 segments 3
-Replicating Sequential Instance COREABC_0.SMADDR[1], fanout 62 segments 3
-Replicating Sequential Instance COREABC_0.SMADDR[0], fanout 29 segments 2
-Replicating Sequential Instance COREABC_0.genblk2.RSTSYNC2, fanout 76 segments 4
+Replicating Combinational Instance COREABC_0.xhdl_31.MSEL_i_i[2], fanout 28 segments 2
+Replicating Sequential Instance COREABC_0.UROM.INSTR_SCMD[2], fanout 33 segments 2
+Replicating Sequential Instance COREABC_0.UROM.INSTR_SCMD[1], fanout 27 segments 2
+Replicating Sequential Instance COREABC_0.UROM.INSTR_CMD[0], fanout 25 segments 2
+Replicating Sequential Instance COREABC_0.UROM.INSTR_CMD[1], fanout 32 segments 2
+Replicating Sequential Instance COREABC_0.UROM.INSTR_SCMD[0], fanout 25 segments 2
+Replicating Sequential Instance COREABC_0.DOISR, fanout 28 segments 2
+Replicating Sequential Instance COREABC_0.SMADDR[6], fanout 28 segments 2
+Replicating Sequential Instance COREABC_0.SMADDR[5], fanout 43 segments 2
+Replicating Sequential Instance COREABC_0.SMADDR[4], fanout 58 segments 3
+Replicating Sequential Instance COREABC_0.SMADDR[3], fanout 83 segments 4
+Replicating Sequential Instance COREABC_0.SMADDR[0], fanout 75 segments 4
+Replicating Sequential Instance COREABC_0.genblk2.RSTSYNC2, fanout 79 segments 4
 
 Added 0 Buffers
-Added 15 Cells via replication
-	Added 12 Sequential Cells via replication
-	Added 3 Combinational Cells via replication
+Added 20 Cells via replication
+	Added 19 Sequential Cells via replication
+	Added 1 Combinational Cells via replication
 Replicating Combinational Instance CoreTimer_0.un1_m6_i, fanout 48 segments 2
 Replicating Combinational Instance CoreTimer_0.Countlde, fanout 32 segments 2
+Replicating Combinational Instance CoreTimer_0.PrdataNextEn, fanout 25 segments 2
+Replicating Combinational Instance CORESPI_0.USPI.URF.control15_0_a2_0, fanout 26 segments 2
 Replicating Sequential Instance CoreUARTapb_0.CUARTlOlI.CUARTO01.CUARTI11, fanout 28 segments 2
-Buffering COREABC_0_APB3master_PADDR[3], fanout 25 segments 2
-Replicating Combinational Instance CoreTimer_0.un1_m6_i, fanout 25 segments 2
+Buffering COREABC_0_APB3master_PADDR[3], fanout 26 segments 2
+Buffering COREABC_0_APB3master_PADDR[2], fanout 40 segments 2
+Replicating Combinational Instance CoreTimer_0.un1_m6_i_0, fanout 25 segments 2
 
-Added 1 Buffers
-Added 4 Cells via replication
+Added 2 Buffers
+Added 6 Cells via replication
 	Added 1 Sequential Cells via replication
-	Added 3 Combinational Cells via replication
+	Added 5 Combinational Cells via replication
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:18s; Memory used current: 182MB peak: 183MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 172MB peak: 173MB)
 
 
 
@@ -236,38 +245,38 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:
 
 Clock optimization not enabled
 0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-1 gated/generated clock tree(s) driving 568 clock pin(s) of sequential element(s)
-0 instances converted, 568 sequential instances remain driven by gated/generated clocks
+1 gated/generated clock tree(s) driving 576 clock pin(s) of sequential element(s)
+0 instances converted, 576 sequential instances remain driven by gated/generated clocks
 
 ============================================================================================================ Gated/Generated Clocks =============================================================================================================
 Clock Tree ID     Driving Element                 Drive Element Type     Fanout     Sample Instance                Explanation                                                                                                                   
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       Minimal_SoC_with_PLL_0.Core     PLL                    568        CoreUARTapb_0.CUARTl0OI[7]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0001       Minimal_SoC_with_PLL_0.Core     PLL                    576        CoreUARTapb_0.CUARTl0OI[7]     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
 =================================================================================================================================================================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:19s; Memory used current: 174MB peak: 183MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 166MB peak: 173MB)
 
 Writing Analyst data base C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\synthesis\synwork\Minimal_SoC_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:20s; CPU Time elapsed 0h:00m:19s; Memory used current: 177MB peak: 183MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 169MB peak: 173MB)
 
 Writing EDIF Netlist and constraint files
 L-2016.09M-SP1-5
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:20s; CPU Time elapsed 0h:00m:19s; Memory used current: 180MB peak: 183MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 171MB peak: 173MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:20s; CPU Time elapsed 0h:00m:19s; Memory used current: 178MB peak: 183MB)
+Start final timing analysis (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 169MB peak: 173MB)
 
 @W: MT420 |Found inferred clock Minimal_SoC_with_PLL|GLA_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:Minimal_SoC_with_PLL_0.GLA"
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Sat Jul 30 00:50:09 2022
+# Timing Report written on Sun Aug 14 16:37:52 2022
 #
 
 
@@ -289,12 +298,12 @@ Performance Summary
 *******************
 
 
-Worst slack in design: -15.448
+Worst slack in design: -13.645
 
                                             Requested     Estimated     Requested     Estimated                 Clock        Clock              
 Starting Clock                              Frequency     Frequency     Period        Period        Slack       Type         Group              
 ------------------------------------------------------------------------------------------------------------------------------------------------
-Minimal_SoC_with_PLL|GLA_inferred_clock     100.0 MHz     39.3 MHz      10.000        25.448        -15.448     inferred     Inferred_clkgroup_0
+Minimal_SoC_with_PLL|GLA_inferred_clock     100.0 MHz     42.3 MHz      10.000        23.645        -13.645     inferred     Inferred_clkgroup_0
 ================================================================================================================================================
 
 
@@ -308,7 +317,7 @@ Clocks                                                                          
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Starting                                 Ending                                   |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Minimal_SoC_with_PLL|GLA_inferred_clock  Minimal_SoC_with_PLL|GLA_inferred_clock  |  10.000      -15.448  |  No paths    -      |  No paths    -      |  No paths    -    
+Minimal_SoC_with_PLL|GLA_inferred_clock  Minimal_SoC_with_PLL|GLA_inferred_clock  |  10.000      -13.645  |  No paths    -      |  No paths    -      |  No paths    -    
 ==========================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -331,21 +340,21 @@ Detailed Report for Clock: Minimal_SoC_with_PLL|GLA_inferred_clock
 Starting Points with Worst Slack
 ********************************
 
-                                  Starting                                                                                 Arrival            
-Instance                          Reference                                   Type         Pin     Net                     Time        Slack  
-                                  Clock                                                                                                       
-----------------------------------------------------------------------------------------------------------------------------------------------
-COREABC_0.UROM\.INSTR_CMD[1]      Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1         Q       UROM\.INSTR_CMD[1]      0.737       -15.448
-COREABC_0.UROM\.INSTR_CMD[0]      Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1         Q       UROM\.INSTR_CMD[0]      0.737       -15.264
-COREABC_0.UROM\.INSTR_SCMD[2]     Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1         Q       UROM\.INSTR_SCMD[2]     0.580       -14.772
-COREABC_0.UROM\.INSTR_SCMD[1]     Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1         Q       UROM\.INSTR_SCMD[1]     0.580       -14.659
-COREABC_0.UROM\.INSTR_CMD[2]      Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1         Q       UROM\.INSTR_CMD[2]      0.580       -14.247
-COREABC_0.ZREGISTER[3]            Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E0C0     Q       ZREGISTER[3]            0.737       -11.344
-COREABC_0.ZREGISTER[4]            Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E0C0     Q       ZREGISTER[4]            0.737       -11.231
-COREABC_0.UROM\.INSTR_ADDR[3]     Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1         Q       UROM\.INSTR_ADDR[3]     0.737       -10.878
-COREABC_0.UROM\.INSTR_SLOT[0]     Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1         Q       UROM\.INSTR_SLOT[0]     0.737       -10.771
-COREABC_0.UROM\.INSTR_SCMD[0]     Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1         Q       UROM\.INSTR_SCMD[0]     0.737       -10.572
-==============================================================================================================================================
+                                                     Starting                                                                                    Arrival            
+Instance                                             Reference                                   Type          Pin     Net                       Time        Slack  
+                                                     Clock                                                                                                          
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COREABC_0.UROM\.INSTR_SCMD_0[2]                      Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1          Q       UROM\.INSTR_SCMD_0[2]     0.737       -13.645
+COREABC_0.ZREGISTER[2]                               Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E0C0      Q       ZREGISTER[2]              0.580       -12.656
+COREABC_0.UROM\.INSTR_ADDR[2]                        Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1          Q       UROM\.INSTR_ADDR[2]       0.580       -12.166
+COREABC_0.UROM\.INSTR_CMD[1]                         Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1          Q       UROM\.INSTR_CMD[1]        0.737       -11.729
+COREABC_0.ZREGISTER[3]                               Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E0C0      Q       ZREGISTER[3]              0.580       -11.717
+COREABC_0.UROM\.INSTR_CMD_0[0]                       Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1          Q       UROM\.INSTR_CMD_0[0]      0.737       -11.629
+COREABC_0.UROM\.INSTR_ADDR[3]                        Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1          Q       UROM\.INSTR_ADDR[3]       0.580       -11.227
+COREABC_0.UROM\.INSTR_CMD[2]                         Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1          Q       UROM\.INSTR_CMD[2]        0.580       -10.680
+COREABC_0.URAM\.UR.UG3\.UR_xhdl12.Ram256x16_R0C0     Minimal_SoC_with_PLL|GLA_inferred_clock     RAM512X18     RD1     RAMRDATA[1]               2.963       -10.180
+COREABC_0.UROM\.INSTR_CMD_0[1]                       Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1          Q       UROM\.INSTR_CMD_0[1]      0.737       -10.172
+====================================================================================================================================================================
 
 
 Ending Points with Worst Slack
@@ -355,16 +364,16 @@ Ending Points with Worst Slack
 Instance                      Reference                                   Type         Pin     Net                      Time         Slack  
                               Clock                                                                                                         
 --------------------------------------------------------------------------------------------------------------------------------------------
-COREABC_0.ISR_ACCUM_ZERO      Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     D       to_logic_2\.tmp_6[0]     9.461        -15.448
-COREABC_0.STD_ACCUM_ZERO      Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     D       to_logic_2\.tmp_6[0]     9.461        -15.448
-COREABC_0.ACCUMULATOR[12]     Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     D       ACCUM_NEXT[12]           9.461        -12.704
-COREABC_0.ACCUMULATOR[15]     Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     D       ACCUM_NEXT[15]           9.461        -12.397
-COREABC_0.ISR_ACCUM_NEG       Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     D       ACCUM_NEXT[15]           9.461        -12.397
-COREABC_0.STD_ACCUM_NEG       Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     D       ACCUM_NEXT[15]           9.461        -12.397
-COREABC_0.ACCUMULATOR[8]      Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     D       ACCUM_NEXT[8]            9.496        -12.379
-COREABC_0.ACCUMULATOR[14]     Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     D       ACCUM_NEXT[14]           9.496        -11.935
-COREABC_0.ACCUMULATOR[10]     Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     D       ACCUM_NEXT[10]           9.496        -11.568
-COREABC_0.ACCUMULATOR[11]     Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     D       ACCUM_NEXT[11]           9.496        -11.483
+COREABC_0.ISR_ACCUM_ZERO      Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E0C0     D       to_logic_2\.tmp_6[0]     9.461        -13.645
+COREABC_0.STD_ACCUM_ZERO      Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     D       to_logic_2\.tmp_6[0]     9.461        -13.645
+COREABC_0.ACCUMULATOR[7]      Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     D       ACCUM_NEXT[7]            9.461        -10.308
+COREABC_0.ACCUMULATOR[4]      Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     D       ACCUM_NEXT[4]            9.496        -10.240
+COREABC_0.ACCUMULATOR[5]      Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     D       ACCUM_NEXT[5]            9.496        -10.240
+COREABC_0.ISR_ACCUM_NEG       Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E0C0     D       ACCUM_NEXT[15]           9.427        -10.162
+COREABC_0.ACCUMULATOR[15]     Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     D       ACCUM_NEXT[15]           9.496        -10.092
+COREABC_0.STD_ACCUM_NEG       Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     D       ACCUM_NEXT[15]           9.496        -10.092
+COREABC_0.ACCUMULATOR[6]      Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     D       ACCUM_NEXT[6]            9.496        -10.018
+COREABC_0.ACCUMULATOR[3]      Minimal_SoC_with_PLL|GLA_inferred_clock     DFN1E1C0     D       ACCUM_NEXT[3]            9.496        -10.007
 ============================================================================================================================================
 
 
@@ -379,72 +388,66 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         9.461
 
-    - Propagation time:                      24.910
+    - Propagation time:                      23.106
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -15.448
+    = Slack (critical) :                     -13.645
 
-    Number of logic level(s):                16
-    Starting point:                          COREABC_0.UROM\.INSTR_CMD[1] / Q
+    Number of logic level(s):                14
+    Starting point:                          COREABC_0.UROM\.INSTR_SCMD_0[2] / Q
     Ending point:                            COREABC_0.ISR_ACCUM_ZERO / D
     The start point is clocked by            Minimal_SoC_with_PLL|GLA_inferred_clock [rising] on pin CLK
     The end   point is clocked by            Minimal_SoC_with_PLL|GLA_inferred_clock [rising] on pin CLK
 
-Instance / Net                                                        Pin      Pin               Arrival     No. of    
-Name                                                     Type         Name     Dir     Delay     Time        Fan Out(s)
------------------------------------------------------------------------------------------------------------------------
-COREABC_0.UROM\.INSTR_CMD[1]                             DFN1         Q        Out     0.737     0.737       -         
-UROM\.INSTR_CMD[1]                                       Net          -        -       2.437     -           23        
-COREABC_0.un1_ACCUMULATOR.xhdl_m1_e_0                    NOR3B        B        In      -         3.174       -         
-COREABC_0.un1_ACCUMULATOR.xhdl_m1_e_0                    NOR3B        Y        Out     0.607     3.780       -         
-un1_ACCUMULATOR.un7_m1_e_0_1                             Net          -        -       1.994     -           12        
-COREABC_0.UROM\.INSTR_SCMD_RNIOF7U[1]                    NOR2A        A        In      -         5.774       -         
-COREABC_0.UROM\.INSTR_SCMD_RNIOF7U[1]                    NOR2A        Y        Out     0.627     6.401       -         
-UROM\.INSTR_SCMD_RNIOF7U[1]                              Net          -        -       1.423     -           6         
-COREABC_0.UROM\.INSTR_SLOT_RNI2NF51[0]                   NOR2         B        In      -         7.824       -         
-COREABC_0.UROM\.INSTR_SLOT_RNI2NF51[0]                   NOR2         Y        Out     0.646     8.471       -         
-r_m1_N_6_mux_0                                           Net          -        -       2.353     -           20        
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I0_CO1_0_a1     NOR3B        C        In      -         10.824      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I0_CO1_0_a1     NOR3B        Y        Out     0.360     11.184      -         
-ADD_16x16_fast_I0_CO1_0_a1                               Net          -        -       0.386     -           2         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I0_CO1          OR2          A        In      -         11.570      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I0_CO1          OR2          Y        Out     0.507     12.077      -         
-un1_ACCUMULATOR.N204                                     Net          -        -       1.184     -           4         
-COREABC_0.un1_ACCUMULATOR.N204_i                         INV          A        In      -         13.261      -         
-COREABC_0.un1_ACCUMULATOR.N204_i                         INV          Y        Out     0.507     13.768      -         
-un1_ACCUMULATOR.N204_i                                   Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ADD_m3_1_0                     OR2          B        In      -         14.090      -         
-COREABC_0.un1_ACCUMULATOR.ADD_m3_1_0                     OR2          Y        Out     0.514     14.604      -         
-un1_ACCUMULATOR.ADD_m3_1_0                               Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ADD_m1_e_2                     OA1B         B        In      -         14.926      -         
-COREABC_0.un1_ACCUMULATOR.ADD_m1_e_2                     OA1B         Y        Out     0.984     15.909      -         
-un1_ACCUMULATOR.ADD_N_3_mux_0                            Net          -        -       1.279     -           5         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I66_un1_Y       NOR3B        C        In      -         17.188      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I66_un1_Y       NOR3B        Y        Out     0.360     17.548      -         
-un1_ACCUMULATOR.I66_un1_Y                                Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I66_Y           OR2          A        In      -         17.870      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I66_Y           OR2          Y        Out     0.507     18.377      -         
-un1_ACCUMULATOR.N304                                     Net          -        -       0.386     -           2         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I84_un1_Y       NOR2B        B        In      -         18.763      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I84_un1_Y       NOR2B        Y        Out     0.627     19.390      -         
-un1_ACCUMULATOR.I84_un1_Y                                Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I114_Y          AX1D         B        In      -         19.712      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I114_Y          AX1D         Y        Out     0.992     20.704      -         
-un1_ACCUMULATOR[8]                                       Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIMOL653      AO1          A        In      -         21.026      -         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIMOL653      AO1          Y        Out     0.464     21.490      -         
-ACCUM_NEXT[8]                                            Net          -        -       0.386     -           2         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIJ3DL0A      NOR3A        C        In      -         21.875      -         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIJ3DL0A      NOR3A        Y        Out     0.716     22.591      -         
-un1_ACCUMULATOR.to_logic_2\.tmp_6_6[0]                   Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNI5VP6HQ      NOR3B        A        In      -         22.913      -         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNI5VP6HQ      NOR3B        Y        Out     0.666     23.578      -         
-un1_ACCUMULATOR.to_logic_2\.tmp_6_12[0]                  Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIG4632G1     NOR3B        B        In      -         23.900      -         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIG4632G1     NOR3B        Y        Out     0.624     24.524      -         
-to_logic_2\.tmp_6[0]                                     Net          -        -       0.386     -           2         
-COREABC_0.ISR_ACCUM_ZERO                                 DFN1E1C0     D        In      -         24.910      -         
-=======================================================================================================================
-Total path delay (propagation time + setup) of 25.448 is 10.985(43.2%) logic and 14.463(56.8%) route.
+Instance / Net                                               Pin      Pin               Arrival     No. of    
+Name                                            Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------
+COREABC_0.UROM\.INSTR_SCMD_0[2]                 DFN1         Q        Out     0.737     0.737       -         
+UROM\.INSTR_SCMD_0[2]                           Net          -        -       2.218     -           17        
+COREABC_0.UROM\.INSTR_ADDR_RNIEV0F[2]           MX2          S        In      -         2.955       -         
+COREABC_0.UROM\.INSTR_ADDR_RNIEV0F[2]           MX2          Y        Out     0.480     3.434       -         
+PADDR_M_1[2]                                    Net          -        -       2.381     -           21        
+COREABC_0_PADDR_M_RNIUKR2[2]                    BUFF         A        In      -         5.815       -         
+COREABC_0_PADDR_M_RNIUKR2[2]                    BUFF         Y        Out     0.499     6.314       -         
+COREABC_0_APB3master_PADDR_0[2]                 Net          -        -       2.353     -           20        
+CORESPI_0.USPI.URF.control15_0_a2_0             NOR3         C        In      -         8.667       -         
+CORESPI_0.USPI.URF.control15_0_a2_0             NOR3         Y        Out     0.683     9.350       -         
+N_127                                           Net          -        -       2.037     -           13        
+CORESPI_0.USPI.URF.rdata54_0_a2                 NOR2B        A        In      -         11.387      -         
+CORESPI_0.USPI.URF.rdata54_0_a2                 NOR2B        Y        Out     0.514     11.902      -         
+rdata54                                         Net          -        -       1.526     -           7         
+CORESPI_0.USPI.URF.tx_fifo_full_m               NOR2B        B        In      -         13.428      -         
+CORESPI_0.USPI.URF.tx_fifo_full_m               NOR2B        Y        Out     0.627     14.055      -         
+tx_fifo_full_m                                  Net          -        -       0.322     -           1         
+CORESPI_0.USPI.URF.CLK_DIV_RNIG7032[3]          OR3          C        In      -         14.377      -         
+CORESPI_0.USPI.URF.CLK_DIV_RNIG7032[3]          OR3          Y        Out     0.751     15.127      -         
+rdata_0_iv_2[3]                                 Net          -        -       0.322     -           1         
+CORESPI_0.USPI.URF.rdata_0_iv_1_RNIPDDT2[3]     OR3          C        In      -         15.449      -         
+CORESPI_0.USPI.URF.rdata_0_iv_1_RNIPDDT2[3]     OR3          Y        Out     0.751     16.200      -         
+rdata[3]                                        Net          -        -       0.322     -           1         
+CoreAPB3_0.u_mux_p_to_b3.PRDATA_iv_i_2[3]       AO1B         B        In      -         16.521      -         
+CoreAPB3_0.u_mux_p_to_b3.PRDATA_iv_i_2[3]       AO1B         Y        Out     0.596     17.117      -         
+N_13                                            Net          -        -       0.322     -           1         
+COREABC_0.PRDATA_M_RNIAOVS[3]                   NOR3B        B        In      -         17.439      -         
+COREABC_0.PRDATA_M_RNIAOVS[3]                   NOR3B        Y        Out     0.607     18.045      -         
+PRDATA_M_m[3]                                   Net          -        -       0.322     -           1         
+COREABC_0.PRDATA_M_RNI9UH4A1[3]                 OR3          C        In      -         18.367      -         
+COREABC_0.PRDATA_M_RNI9UH4A1[3]                 OR3          Y        Out     0.751     19.118      -         
+ACCUM_NEXT[3]                                   Net          -        -       0.386     -           2         
+COREABC_0.PRDATA_M_RNIOCS0S3[2]                 NOR3A        B        In      -         19.503      -         
+COREABC_0.PRDATA_M_RNIOCS0S3[2]                 NOR3A        Y        Out     0.488     19.992      -         
+to_logic_2\.tmp_6_2[0]                          Net          -        -       0.322     -           1         
+COREABC_0.PRDATA_M_RNIFCHS36[2]                 NOR2A        A        In      -         20.313      -         
+COREABC_0.PRDATA_M_RNIFCHS36[2]                 NOR2A        Y        Out     0.516     20.829      -         
+to_logic_2\.tmp_6_5[0]                          Net          -        -       0.322     -           1         
+COREABC_0.UROM\.INSTR_SCMD_RNI2M9PTN[1]         NOR3C        B        In      -         21.151      -         
+COREABC_0.UROM\.INSTR_SCMD_RNI2M9PTN[1]         NOR3C        Y        Out     0.624     21.775      -         
+to_logic_2\.tmp_6_12[0]                         Net          -        -       0.322     -           1         
+COREABC_0.UROM\.INSTR_SCMD_RNIVCI2K81[1]        NOR3B        B        In      -         22.096      -         
+COREABC_0.UROM\.INSTR_SCMD_RNIVCI2K81[1]        NOR3B        Y        Out     0.624     22.720      -         
+to_logic_2\.tmp_6[0]                            Net          -        -       0.386     -           2         
+COREABC_0.ISR_ACCUM_ZERO                        DFN1E0C0     D        In      -         23.106      -         
+==============================================================================================================
+Total path delay (propagation time + setup) of 23.645 is 9.786(41.4%) logic and 13.859(58.6%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -454,72 +457,66 @@ Path information for path number 2:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         9.461
 
-    - Propagation time:                      24.910
+    - Propagation time:                      23.106
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -15.448
+    = Slack (critical) :                     -13.645
 
-    Number of logic level(s):                16
-    Starting point:                          COREABC_0.UROM\.INSTR_CMD[1] / Q
+    Number of logic level(s):                14
+    Starting point:                          COREABC_0.UROM\.INSTR_SCMD_0[2] / Q
     Ending point:                            COREABC_0.STD_ACCUM_ZERO / D
     The start point is clocked by            Minimal_SoC_with_PLL|GLA_inferred_clock [rising] on pin CLK
     The end   point is clocked by            Minimal_SoC_with_PLL|GLA_inferred_clock [rising] on pin CLK
 
-Instance / Net                                                        Pin      Pin               Arrival     No. of    
-Name                                                     Type         Name     Dir     Delay     Time        Fan Out(s)
------------------------------------------------------------------------------------------------------------------------
-COREABC_0.UROM\.INSTR_CMD[1]                             DFN1         Q        Out     0.737     0.737       -         
-UROM\.INSTR_CMD[1]                                       Net          -        -       2.437     -           23        
-COREABC_0.un1_ACCUMULATOR.xhdl_m1_e_0                    NOR3B        B        In      -         3.174       -         
-COREABC_0.un1_ACCUMULATOR.xhdl_m1_e_0                    NOR3B        Y        Out     0.607     3.780       -         
-un1_ACCUMULATOR.un7_m1_e_0_1                             Net          -        -       1.994     -           12        
-COREABC_0.UROM\.INSTR_SCMD_RNIOF7U[1]                    NOR2A        A        In      -         5.774       -         
-COREABC_0.UROM\.INSTR_SCMD_RNIOF7U[1]                    NOR2A        Y        Out     0.627     6.401       -         
-UROM\.INSTR_SCMD_RNIOF7U[1]                              Net          -        -       1.423     -           6         
-COREABC_0.UROM\.INSTR_SLOT_RNI2NF51[0]                   NOR2         B        In      -         7.824       -         
-COREABC_0.UROM\.INSTR_SLOT_RNI2NF51[0]                   NOR2         Y        Out     0.646     8.471       -         
-r_m1_N_6_mux_0                                           Net          -        -       2.353     -           20        
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I0_CO1_0_a1     NOR3B        C        In      -         10.824      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I0_CO1_0_a1     NOR3B        Y        Out     0.360     11.184      -         
-ADD_16x16_fast_I0_CO1_0_a1                               Net          -        -       0.386     -           2         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I0_CO1          OR2          A        In      -         11.570      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I0_CO1          OR2          Y        Out     0.507     12.077      -         
-un1_ACCUMULATOR.N204                                     Net          -        -       1.184     -           4         
-COREABC_0.un1_ACCUMULATOR.N204_i                         INV          A        In      -         13.261      -         
-COREABC_0.un1_ACCUMULATOR.N204_i                         INV          Y        Out     0.507     13.768      -         
-un1_ACCUMULATOR.N204_i                                   Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ADD_m3_1_0                     OR2          B        In      -         14.090      -         
-COREABC_0.un1_ACCUMULATOR.ADD_m3_1_0                     OR2          Y        Out     0.514     14.604      -         
-un1_ACCUMULATOR.ADD_m3_1_0                               Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ADD_m1_e_2                     OA1B         B        In      -         14.926      -         
-COREABC_0.un1_ACCUMULATOR.ADD_m1_e_2                     OA1B         Y        Out     0.984     15.909      -         
-un1_ACCUMULATOR.ADD_N_3_mux_0                            Net          -        -       1.279     -           5         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I66_un1_Y       NOR3B        C        In      -         17.188      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I66_un1_Y       NOR3B        Y        Out     0.360     17.548      -         
-un1_ACCUMULATOR.I66_un1_Y                                Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I66_Y           OR2          A        In      -         17.870      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I66_Y           OR2          Y        Out     0.507     18.377      -         
-un1_ACCUMULATOR.N304                                     Net          -        -       0.386     -           2         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I84_un1_Y       NOR2B        B        In      -         18.763      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I84_un1_Y       NOR2B        Y        Out     0.627     19.390      -         
-un1_ACCUMULATOR.I84_un1_Y                                Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I114_Y          AX1D         B        In      -         19.712      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I114_Y          AX1D         Y        Out     0.992     20.704      -         
-un1_ACCUMULATOR[8]                                       Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIMOL653      AO1          A        In      -         21.026      -         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIMOL653      AO1          Y        Out     0.464     21.490      -         
-ACCUM_NEXT[8]                                            Net          -        -       0.386     -           2         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIJ3DL0A      NOR3A        C        In      -         21.875      -         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIJ3DL0A      NOR3A        Y        Out     0.716     22.591      -         
-un1_ACCUMULATOR.to_logic_2\.tmp_6_6[0]                   Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNI5VP6HQ      NOR3B        A        In      -         22.913      -         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNI5VP6HQ      NOR3B        Y        Out     0.666     23.578      -         
-un1_ACCUMULATOR.to_logic_2\.tmp_6_12[0]                  Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIG4632G1     NOR3B        B        In      -         23.900      -         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIG4632G1     NOR3B        Y        Out     0.624     24.524      -         
-to_logic_2\.tmp_6[0]                                     Net          -        -       0.386     -           2         
-COREABC_0.STD_ACCUM_ZERO                                 DFN1E1C0     D        In      -         24.910      -         
-=======================================================================================================================
-Total path delay (propagation time + setup) of 25.448 is 10.985(43.2%) logic and 14.463(56.8%) route.
+Instance / Net                                               Pin      Pin               Arrival     No. of    
+Name                                            Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------
+COREABC_0.UROM\.INSTR_SCMD_0[2]                 DFN1         Q        Out     0.737     0.737       -         
+UROM\.INSTR_SCMD_0[2]                           Net          -        -       2.218     -           17        
+COREABC_0.UROM\.INSTR_ADDR_RNIEV0F[2]           MX2          S        In      -         2.955       -         
+COREABC_0.UROM\.INSTR_ADDR_RNIEV0F[2]           MX2          Y        Out     0.480     3.434       -         
+PADDR_M_1[2]                                    Net          -        -       2.381     -           21        
+COREABC_0_PADDR_M_RNIUKR2[2]                    BUFF         A        In      -         5.815       -         
+COREABC_0_PADDR_M_RNIUKR2[2]                    BUFF         Y        Out     0.499     6.314       -         
+COREABC_0_APB3master_PADDR_0[2]                 Net          -        -       2.353     -           20        
+CORESPI_0.USPI.URF.control15_0_a2_0             NOR3         C        In      -         8.667       -         
+CORESPI_0.USPI.URF.control15_0_a2_0             NOR3         Y        Out     0.683     9.350       -         
+N_127                                           Net          -        -       2.037     -           13        
+CORESPI_0.USPI.URF.rdata54_0_a2                 NOR2B        A        In      -         11.387      -         
+CORESPI_0.USPI.URF.rdata54_0_a2                 NOR2B        Y        Out     0.514     11.902      -         
+rdata54                                         Net          -        -       1.526     -           7         
+CORESPI_0.USPI.URF.tx_fifo_full_m               NOR2B        B        In      -         13.428      -         
+CORESPI_0.USPI.URF.tx_fifo_full_m               NOR2B        Y        Out     0.627     14.055      -         
+tx_fifo_full_m                                  Net          -        -       0.322     -           1         
+CORESPI_0.USPI.URF.CLK_DIV_RNIG7032[3]          OR3          C        In      -         14.377      -         
+CORESPI_0.USPI.URF.CLK_DIV_RNIG7032[3]          OR3          Y        Out     0.751     15.127      -         
+rdata_0_iv_2[3]                                 Net          -        -       0.322     -           1         
+CORESPI_0.USPI.URF.rdata_0_iv_1_RNIPDDT2[3]     OR3          C        In      -         15.449      -         
+CORESPI_0.USPI.URF.rdata_0_iv_1_RNIPDDT2[3]     OR3          Y        Out     0.751     16.200      -         
+rdata[3]                                        Net          -        -       0.322     -           1         
+CoreAPB3_0.u_mux_p_to_b3.PRDATA_iv_i_2[3]       AO1B         B        In      -         16.521      -         
+CoreAPB3_0.u_mux_p_to_b3.PRDATA_iv_i_2[3]       AO1B         Y        Out     0.596     17.117      -         
+N_13                                            Net          -        -       0.322     -           1         
+COREABC_0.PRDATA_M_RNIAOVS[3]                   NOR3B        B        In      -         17.439      -         
+COREABC_0.PRDATA_M_RNIAOVS[3]                   NOR3B        Y        Out     0.607     18.045      -         
+PRDATA_M_m[3]                                   Net          -        -       0.322     -           1         
+COREABC_0.PRDATA_M_RNI9UH4A1[3]                 OR3          C        In      -         18.367      -         
+COREABC_0.PRDATA_M_RNI9UH4A1[3]                 OR3          Y        Out     0.751     19.118      -         
+ACCUM_NEXT[3]                                   Net          -        -       0.386     -           2         
+COREABC_0.PRDATA_M_RNIOCS0S3[2]                 NOR3A        B        In      -         19.503      -         
+COREABC_0.PRDATA_M_RNIOCS0S3[2]                 NOR3A        Y        Out     0.488     19.992      -         
+to_logic_2\.tmp_6_2[0]                          Net          -        -       0.322     -           1         
+COREABC_0.PRDATA_M_RNIFCHS36[2]                 NOR2A        A        In      -         20.313      -         
+COREABC_0.PRDATA_M_RNIFCHS36[2]                 NOR2A        Y        Out     0.516     20.829      -         
+to_logic_2\.tmp_6_5[0]                          Net          -        -       0.322     -           1         
+COREABC_0.UROM\.INSTR_SCMD_RNI2M9PTN[1]         NOR3C        B        In      -         21.151      -         
+COREABC_0.UROM\.INSTR_SCMD_RNI2M9PTN[1]         NOR3C        Y        Out     0.624     21.775      -         
+to_logic_2\.tmp_6_12[0]                         Net          -        -       0.322     -           1         
+COREABC_0.UROM\.INSTR_SCMD_RNIVCI2K81[1]        NOR3B        B        In      -         22.096      -         
+COREABC_0.UROM\.INSTR_SCMD_RNIVCI2K81[1]        NOR3B        Y        Out     0.624     22.720      -         
+to_logic_2\.tmp_6[0]                            Net          -        -       0.386     -           2         
+COREABC_0.STD_ACCUM_ZERO                        DFN1E1C0     D        In      -         23.106      -         
+==============================================================================================================
+Total path delay (propagation time + setup) of 23.645 is 9.786(41.4%) logic and 13.859(58.6%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -529,72 +526,63 @@ Path information for path number 3:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         9.461
 
-    - Propagation time:                      24.725
+    - Propagation time:                      22.809
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -15.264
+    = Slack (non-critical) :                 -13.348
 
-    Number of logic level(s):                16
-    Starting point:                          COREABC_0.UROM\.INSTR_CMD[0] / Q
+    Number of logic level(s):                13
+    Starting point:                          COREABC_0.UROM\.INSTR_SCMD_0[2] / Q
     Ending point:                            COREABC_0.ISR_ACCUM_ZERO / D
     The start point is clocked by            Minimal_SoC_with_PLL|GLA_inferred_clock [rising] on pin CLK
     The end   point is clocked by            Minimal_SoC_with_PLL|GLA_inferred_clock [rising] on pin CLK
 
-Instance / Net                                                        Pin      Pin               Arrival     No. of    
-Name                                                     Type         Name     Dir     Delay     Time        Fan Out(s)
------------------------------------------------------------------------------------------------------------------------
-COREABC_0.UROM\.INSTR_CMD[0]                             DFN1         Q        Out     0.737     0.737       -         
-UROM\.INSTR_CMD[0]                                       Net          -        -       2.218     -           17        
-COREABC_0.un1_ACCUMULATOR.xhdl_m1_e_0                    NOR3B        A        In      -         2.955       -         
-COREABC_0.un1_ACCUMULATOR.xhdl_m1_e_0                    NOR3B        Y        Out     0.641     3.596       -         
-un1_ACCUMULATOR.un7_m1_e_0_1                             Net          -        -       1.994     -           12        
-COREABC_0.UROM\.INSTR_SCMD_RNIOF7U[1]                    NOR2A        A        In      -         5.589       -         
-COREABC_0.UROM\.INSTR_SCMD_RNIOF7U[1]                    NOR2A        Y        Out     0.627     6.217       -         
-UROM\.INSTR_SCMD_RNIOF7U[1]                              Net          -        -       1.423     -           6         
-COREABC_0.UROM\.INSTR_SLOT_RNI2NF51[0]                   NOR2         B        In      -         7.640       -         
-COREABC_0.UROM\.INSTR_SLOT_RNI2NF51[0]                   NOR2         Y        Out     0.646     8.287       -         
-r_m1_N_6_mux_0                                           Net          -        -       2.353     -           20        
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I0_CO1_0_a1     NOR3B        C        In      -         10.640      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I0_CO1_0_a1     NOR3B        Y        Out     0.360     11.000      -         
-ADD_16x16_fast_I0_CO1_0_a1                               Net          -        -       0.386     -           2         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I0_CO1          OR2          A        In      -         11.386      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I0_CO1          OR2          Y        Out     0.507     11.893      -         
-un1_ACCUMULATOR.N204                                     Net          -        -       1.184     -           4         
-COREABC_0.un1_ACCUMULATOR.N204_i                         INV          A        In      -         13.076      -         
-COREABC_0.un1_ACCUMULATOR.N204_i                         INV          Y        Out     0.507     13.584      -         
-un1_ACCUMULATOR.N204_i                                   Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ADD_m3_1_0                     OR2          B        In      -         13.905      -         
-COREABC_0.un1_ACCUMULATOR.ADD_m3_1_0                     OR2          Y        Out     0.514     14.420      -         
-un1_ACCUMULATOR.ADD_m3_1_0                               Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ADD_m1_e_2                     OA1B         B        In      -         14.741      -         
-COREABC_0.un1_ACCUMULATOR.ADD_m1_e_2                     OA1B         Y        Out     0.984     15.725      -         
-un1_ACCUMULATOR.ADD_N_3_mux_0                            Net          -        -       1.279     -           5         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I66_un1_Y       NOR3B        C        In      -         17.004      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I66_un1_Y       NOR3B        Y        Out     0.360     17.364      -         
-un1_ACCUMULATOR.I66_un1_Y                                Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I66_Y           OR2          A        In      -         17.685      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I66_Y           OR2          Y        Out     0.507     18.193      -         
-un1_ACCUMULATOR.N304                                     Net          -        -       0.386     -           2         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I84_un1_Y       NOR2B        B        In      -         18.579      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I84_un1_Y       NOR2B        Y        Out     0.627     19.206      -         
-un1_ACCUMULATOR.I84_un1_Y                                Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I114_Y          AX1D         B        In      -         19.528      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I114_Y          AX1D         Y        Out     0.992     20.520      -         
-un1_ACCUMULATOR[8]                                       Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIMOL653      AO1          A        In      -         20.841      -         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIMOL653      AO1          Y        Out     0.464     21.305      -         
-ACCUM_NEXT[8]                                            Net          -        -       0.386     -           2         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIJ3DL0A      NOR3A        C        In      -         21.691      -         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIJ3DL0A      NOR3A        Y        Out     0.716     22.407      -         
-un1_ACCUMULATOR.to_logic_2\.tmp_6_6[0]                   Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNI5VP6HQ      NOR3B        A        In      -         22.729      -         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNI5VP6HQ      NOR3B        Y        Out     0.666     23.394      -         
-un1_ACCUMULATOR.to_logic_2\.tmp_6_12[0]                  Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIG4632G1     NOR3B        B        In      -         23.716      -         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIG4632G1     NOR3B        Y        Out     0.624     24.340      -         
-to_logic_2\.tmp_6[0]                                     Net          -        -       0.386     -           2         
-COREABC_0.ISR_ACCUM_ZERO                                 DFN1E1C0     D        In      -         24.725      -         
-=======================================================================================================================
-Total path delay (propagation time + setup) of 25.264 is 11.020(43.6%) logic and 14.244(56.4%) route.
+Instance / Net                                              Pin      Pin               Arrival     No. of    
+Name                                           Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------
+COREABC_0.UROM\.INSTR_SCMD_0[2]                DFN1         Q        Out     0.737     0.737       -         
+UROM\.INSTR_SCMD_0[2]                          Net          -        -       2.218     -           17        
+COREABC_0.UROM\.INSTR_ADDR_RNIEV0F[2]          MX2          S        In      -         2.955       -         
+COREABC_0.UROM\.INSTR_ADDR_RNIEV0F[2]          MX2          Y        Out     0.480     3.434       -         
+PADDR_M_1[2]                                   Net          -        -       2.381     -           21        
+COREABC_0_PADDR_M_RNIUKR2[2]                   BUFF         A        In      -         5.815       -         
+COREABC_0_PADDR_M_RNIUKR2[2]                   BUFF         Y        Out     0.499     6.314       -         
+COREABC_0_APB3master_PADDR_0[2]                Net          -        -       2.353     -           20        
+CORESPI_0.USPI.URF.control15_0_a2_0            NOR3         C        In      -         8.667       -         
+CORESPI_0.USPI.URF.control15_0_a2_0            NOR3         Y        Out     0.683     9.350       -         
+N_127                                          Net          -        -       2.037     -           13        
+CORESPI_0.USPI.URF.rdata54_0_a2                NOR2B        A        In      -         11.387      -         
+CORESPI_0.USPI.URF.rdata54_0_a2                NOR2B        Y        Out     0.514     11.902      -         
+rdata54                                        Net          -        -       1.526     -           7         
+CORESPI_0.USPI.URF.int_raw_RNIQQNE[2]          NOR2B        B        In      -         13.428      -         
+CORESPI_0.USPI.URF.int_raw_RNIQQNE[2]          NOR2B        Y        Out     0.627     14.055      -         
+int_raw_m_0[2]                                 Net          -        -       0.322     -           1         
+CORESPI_0.USPI.URF.int_raw_RNIKICJ4[2]         OR3          B        In      -         14.377      -         
+CORESPI_0.USPI.URF.int_raw_RNIKICJ4[2]         OR3          Y        Out     0.714     15.091      -         
+rdata[4]                                       Net          -        -       0.322     -           1         
+CoreAPB3_0.u_mux_p_to_b3.PRDATA_iv_i_a2[4]     OA1A         A        In      -         15.412      -         
+CoreAPB3_0.u_mux_p_to_b3.PRDATA_iv_i_a2[4]     OA1A         Y        Out     0.933     16.346      -         
+N_51                                           Net          -        -       0.322     -           1         
+CoreAPB3_0.u_mux_p_to_b3.PRDATA_iv_i[4]        NOR3         C        In      -         16.667      -         
+CoreAPB3_0.u_mux_p_to_b3.PRDATA_iv_i[4]        NOR3         Y        Out     0.683     17.350      -         
+N_15                                           Net          -        -       0.322     -           1         
+COREABC_0.PRDATA_M_RNIBPVS[4]                  NOR3B        B        In      -         17.672      -         
+COREABC_0.PRDATA_M_RNIBPVS[4]                  NOR3B        Y        Out     0.607     18.278      -         
+PRDATA_M_m[4]                                  Net          -        -       0.322     -           1         
+COREABC_0.PRDATA_M_RNIN5VQB1[4]                OR3          C        In      -         18.600      -         
+COREABC_0.PRDATA_M_RNIN5VQB1[4]                OR3          Y        Out     0.751     19.351      -         
+ACCUM_NEXT[4]                                  Net          -        -       0.386     -           2         
+COREABC_0.UROM\.INSTR_SCMD_RNIOC34Q6[1]        NOR3         B        In      -         19.736      -         
+COREABC_0.UROM\.INSTR_SCMD_RNIOC34Q6[1]        NOR3         Y        Out     0.714     20.451      -         
+to_logic_2\.tmp_6_8[0]                         Net          -        -       0.322     -           1         
+COREABC_0.UROM\.INSTR_SCMD_RNI1TG67C[1]        NOR3A        A        In      -         20.772      -         
+COREABC_0.UROM\.INSTR_SCMD_RNI1TG67C[1]        NOR3A        Y        Out     0.664     21.436      -         
+to_logic_2\.tmp_6_11[0]                        Net          -        -       0.322     -           1         
+COREABC_0.UROM\.INSTR_SCMD_RNIVCI2K81[1]       NOR3B        A        In      -         21.758      -         
+COREABC_0.UROM\.INSTR_SCMD_RNIVCI2K81[1]       NOR3B        Y        Out     0.666     22.423      -         
+to_logic_2\.tmp_6[0]                           Net          -        -       0.386     -           2         
+COREABC_0.ISR_ACCUM_ZERO                       DFN1E0C0     D        In      -         22.809      -         
+=============================================================================================================
+Total path delay (propagation time + setup) of 23.348 is 9.810(42.0%) logic and 13.537(58.0%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -604,72 +592,63 @@ Path information for path number 4:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         9.461
 
-    - Propagation time:                      24.725
+    - Propagation time:                      22.809
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -15.264
+    = Slack (non-critical) :                 -13.348
 
-    Number of logic level(s):                16
-    Starting point:                          COREABC_0.UROM\.INSTR_CMD[0] / Q
+    Number of logic level(s):                13
+    Starting point:                          COREABC_0.UROM\.INSTR_SCMD_0[2] / Q
     Ending point:                            COREABC_0.STD_ACCUM_ZERO / D
     The start point is clocked by            Minimal_SoC_with_PLL|GLA_inferred_clock [rising] on pin CLK
     The end   point is clocked by            Minimal_SoC_with_PLL|GLA_inferred_clock [rising] on pin CLK
 
-Instance / Net                                                        Pin      Pin               Arrival     No. of    
-Name                                                     Type         Name     Dir     Delay     Time        Fan Out(s)
------------------------------------------------------------------------------------------------------------------------
-COREABC_0.UROM\.INSTR_CMD[0]                             DFN1         Q        Out     0.737     0.737       -         
-UROM\.INSTR_CMD[0]                                       Net          -        -       2.218     -           17        
-COREABC_0.un1_ACCUMULATOR.xhdl_m1_e_0                    NOR3B        A        In      -         2.955       -         
-COREABC_0.un1_ACCUMULATOR.xhdl_m1_e_0                    NOR3B        Y        Out     0.641     3.596       -         
-un1_ACCUMULATOR.un7_m1_e_0_1                             Net          -        -       1.994     -           12        
-COREABC_0.UROM\.INSTR_SCMD_RNIOF7U[1]                    NOR2A        A        In      -         5.589       -         
-COREABC_0.UROM\.INSTR_SCMD_RNIOF7U[1]                    NOR2A        Y        Out     0.627     6.217       -         
-UROM\.INSTR_SCMD_RNIOF7U[1]                              Net          -        -       1.423     -           6         
-COREABC_0.UROM\.INSTR_SLOT_RNI2NF51[0]                   NOR2         B        In      -         7.640       -         
-COREABC_0.UROM\.INSTR_SLOT_RNI2NF51[0]                   NOR2         Y        Out     0.646     8.287       -         
-r_m1_N_6_mux_0                                           Net          -        -       2.353     -           20        
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I0_CO1_0_a1     NOR3B        C        In      -         10.640      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I0_CO1_0_a1     NOR3B        Y        Out     0.360     11.000      -         
-ADD_16x16_fast_I0_CO1_0_a1                               Net          -        -       0.386     -           2         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I0_CO1          OR2          A        In      -         11.386      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I0_CO1          OR2          Y        Out     0.507     11.893      -         
-un1_ACCUMULATOR.N204                                     Net          -        -       1.184     -           4         
-COREABC_0.un1_ACCUMULATOR.N204_i                         INV          A        In      -         13.076      -         
-COREABC_0.un1_ACCUMULATOR.N204_i                         INV          Y        Out     0.507     13.584      -         
-un1_ACCUMULATOR.N204_i                                   Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ADD_m3_1_0                     OR2          B        In      -         13.905      -         
-COREABC_0.un1_ACCUMULATOR.ADD_m3_1_0                     OR2          Y        Out     0.514     14.420      -         
-un1_ACCUMULATOR.ADD_m3_1_0                               Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ADD_m1_e_2                     OA1B         B        In      -         14.741      -         
-COREABC_0.un1_ACCUMULATOR.ADD_m1_e_2                     OA1B         Y        Out     0.984     15.725      -         
-un1_ACCUMULATOR.ADD_N_3_mux_0                            Net          -        -       1.279     -           5         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I66_un1_Y       NOR3B        C        In      -         17.004      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I66_un1_Y       NOR3B        Y        Out     0.360     17.364      -         
-un1_ACCUMULATOR.I66_un1_Y                                Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I66_Y           OR2          A        In      -         17.685      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I66_Y           OR2          Y        Out     0.507     18.193      -         
-un1_ACCUMULATOR.N304                                     Net          -        -       0.386     -           2         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I84_un1_Y       NOR2B        B        In      -         18.579      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I84_un1_Y       NOR2B        Y        Out     0.627     19.206      -         
-un1_ACCUMULATOR.I84_un1_Y                                Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I114_Y          AX1D         B        In      -         19.528      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I114_Y          AX1D         Y        Out     0.992     20.520      -         
-un1_ACCUMULATOR[8]                                       Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIMOL653      AO1          A        In      -         20.841      -         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIMOL653      AO1          Y        Out     0.464     21.305      -         
-ACCUM_NEXT[8]                                            Net          -        -       0.386     -           2         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIJ3DL0A      NOR3A        C        In      -         21.691      -         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIJ3DL0A      NOR3A        Y        Out     0.716     22.407      -         
-un1_ACCUMULATOR.to_logic_2\.tmp_6_6[0]                   Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNI5VP6HQ      NOR3B        A        In      -         22.729      -         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNI5VP6HQ      NOR3B        Y        Out     0.666     23.394      -         
-un1_ACCUMULATOR.to_logic_2\.tmp_6_12[0]                  Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIG4632G1     NOR3B        B        In      -         23.716      -         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIG4632G1     NOR3B        Y        Out     0.624     24.340      -         
-to_logic_2\.tmp_6[0]                                     Net          -        -       0.386     -           2         
-COREABC_0.STD_ACCUM_ZERO                                 DFN1E1C0     D        In      -         24.725      -         
-=======================================================================================================================
-Total path delay (propagation time + setup) of 25.264 is 11.020(43.6%) logic and 14.244(56.4%) route.
+Instance / Net                                              Pin      Pin               Arrival     No. of    
+Name                                           Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------
+COREABC_0.UROM\.INSTR_SCMD_0[2]                DFN1         Q        Out     0.737     0.737       -         
+UROM\.INSTR_SCMD_0[2]                          Net          -        -       2.218     -           17        
+COREABC_0.UROM\.INSTR_ADDR_RNIEV0F[2]          MX2          S        In      -         2.955       -         
+COREABC_0.UROM\.INSTR_ADDR_RNIEV0F[2]          MX2          Y        Out     0.480     3.434       -         
+PADDR_M_1[2]                                   Net          -        -       2.381     -           21        
+COREABC_0_PADDR_M_RNIUKR2[2]                   BUFF         A        In      -         5.815       -         
+COREABC_0_PADDR_M_RNIUKR2[2]                   BUFF         Y        Out     0.499     6.314       -         
+COREABC_0_APB3master_PADDR_0[2]                Net          -        -       2.353     -           20        
+CORESPI_0.USPI.URF.control15_0_a2_0            NOR3         C        In      -         8.667       -         
+CORESPI_0.USPI.URF.control15_0_a2_0            NOR3         Y        Out     0.683     9.350       -         
+N_127                                          Net          -        -       2.037     -           13        
+CORESPI_0.USPI.URF.rdata54_0_a2                NOR2B        A        In      -         11.387      -         
+CORESPI_0.USPI.URF.rdata54_0_a2                NOR2B        Y        Out     0.514     11.902      -         
+rdata54                                        Net          -        -       1.526     -           7         
+CORESPI_0.USPI.URF.int_raw_RNIQQNE[2]          NOR2B        B        In      -         13.428      -         
+CORESPI_0.USPI.URF.int_raw_RNIQQNE[2]          NOR2B        Y        Out     0.627     14.055      -         
+int_raw_m_0[2]                                 Net          -        -       0.322     -           1         
+CORESPI_0.USPI.URF.int_raw_RNIKICJ4[2]         OR3          B        In      -         14.377      -         
+CORESPI_0.USPI.URF.int_raw_RNIKICJ4[2]         OR3          Y        Out     0.714     15.091      -         
+rdata[4]                                       Net          -        -       0.322     -           1         
+CoreAPB3_0.u_mux_p_to_b3.PRDATA_iv_i_a2[4]     OA1A         A        In      -         15.412      -         
+CoreAPB3_0.u_mux_p_to_b3.PRDATA_iv_i_a2[4]     OA1A         Y        Out     0.933     16.346      -         
+N_51                                           Net          -        -       0.322     -           1         
+CoreAPB3_0.u_mux_p_to_b3.PRDATA_iv_i[4]        NOR3         C        In      -         16.667      -         
+CoreAPB3_0.u_mux_p_to_b3.PRDATA_iv_i[4]        NOR3         Y        Out     0.683     17.350      -         
+N_15                                           Net          -        -       0.322     -           1         
+COREABC_0.PRDATA_M_RNIBPVS[4]                  NOR3B        B        In      -         17.672      -         
+COREABC_0.PRDATA_M_RNIBPVS[4]                  NOR3B        Y        Out     0.607     18.278      -         
+PRDATA_M_m[4]                                  Net          -        -       0.322     -           1         
+COREABC_0.PRDATA_M_RNIN5VQB1[4]                OR3          C        In      -         18.600      -         
+COREABC_0.PRDATA_M_RNIN5VQB1[4]                OR3          Y        Out     0.751     19.351      -         
+ACCUM_NEXT[4]                                  Net          -        -       0.386     -           2         
+COREABC_0.UROM\.INSTR_SCMD_RNIOC34Q6[1]        NOR3         B        In      -         19.736      -         
+COREABC_0.UROM\.INSTR_SCMD_RNIOC34Q6[1]        NOR3         Y        Out     0.714     20.451      -         
+to_logic_2\.tmp_6_8[0]                         Net          -        -       0.322     -           1         
+COREABC_0.UROM\.INSTR_SCMD_RNI1TG67C[1]        NOR3A        A        In      -         20.772      -         
+COREABC_0.UROM\.INSTR_SCMD_RNI1TG67C[1]        NOR3A        Y        Out     0.664     21.436      -         
+to_logic_2\.tmp_6_11[0]                        Net          -        -       0.322     -           1         
+COREABC_0.UROM\.INSTR_SCMD_RNIVCI2K81[1]       NOR3B        A        In      -         21.758      -         
+COREABC_0.UROM\.INSTR_SCMD_RNIVCI2K81[1]       NOR3B        Y        Out     0.666     22.423      -         
+to_logic_2\.tmp_6[0]                           Net          -        -       0.386     -           2         
+COREABC_0.STD_ACCUM_ZERO                       DFN1E1C0     D        In      -         22.809      -         
+=============================================================================================================
+Total path delay (propagation time + setup) of 23.348 is 9.810(42.0%) logic and 13.537(58.0%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -679,72 +658,66 @@ Path information for path number 5:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         9.461
 
-    - Propagation time:                      24.713
+    - Propagation time:                      22.744
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -15.252
+    = Slack (non-critical) :                 -13.283
 
-    Number of logic level(s):                16
-    Starting point:                          COREABC_0.UROM\.INSTR_CMD[1] / Q
+    Number of logic level(s):                14
+    Starting point:                          COREABC_0.UROM\.INSTR_SCMD_0[2] / Q
     Ending point:                            COREABC_0.ISR_ACCUM_ZERO / D
     The start point is clocked by            Minimal_SoC_with_PLL|GLA_inferred_clock [rising] on pin CLK
     The end   point is clocked by            Minimal_SoC_with_PLL|GLA_inferred_clock [rising] on pin CLK
 
-Instance / Net                                                        Pin      Pin               Arrival     No. of    
-Name                                                     Type         Name     Dir     Delay     Time        Fan Out(s)
------------------------------------------------------------------------------------------------------------------------
-COREABC_0.UROM\.INSTR_CMD[1]                             DFN1         Q        Out     0.737     0.737       -         
-UROM\.INSTR_CMD[1]                                       Net          -        -       2.437     -           23        
-COREABC_0.un1_ACCUMULATOR.xhdl_m1_e_0                    NOR3B        B        In      -         3.174       -         
-COREABC_0.un1_ACCUMULATOR.xhdl_m1_e_0                    NOR3B        Y        Out     0.607     3.780       -         
-un1_ACCUMULATOR.un7_m1_e_0_1                             Net          -        -       1.994     -           12        
-COREABC_0.UROM\.INSTR_SCMD_RNIOF7U[1]                    NOR2A        A        In      -         5.774       -         
-COREABC_0.UROM\.INSTR_SCMD_RNIOF7U[1]                    NOR2A        Y        Out     0.627     6.401       -         
-UROM\.INSTR_SCMD_RNIOF7U[1]                              Net          -        -       1.423     -           6         
-COREABC_0.UROM\.INSTR_SLOT_RNI2NF51[0]                   NOR2         B        In      -         7.824       -         
-COREABC_0.UROM\.INSTR_SLOT_RNI2NF51[0]                   NOR2         Y        Out     0.646     8.471       -         
-r_m1_N_6_mux_0                                           Net          -        -       2.353     -           20        
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I0_CO1_0_a1     NOR3B        C        In      -         10.824      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I0_CO1_0_a1     NOR3B        Y        Out     0.360     11.184      -         
-ADD_16x16_fast_I0_CO1_0_a1                               Net          -        -       0.386     -           2         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I0_CO1          OR2          A        In      -         11.570      -         
-COREABC_0.un1_ACCUMULATOR.ADD_16x16_fast_I0_CO1          OR2          Y        Out     0.507     12.077      -         
-un1_ACCUMULATOR.N204                                     Net          -        -       1.184     -           4         
-COREABC_0.un1_ACCUMULATOR.N204_i                         INV          A        In      -         13.261      -         
-COREABC_0.un1_ACCUMULATOR.N204_i                         INV          Y        Out     0.507     13.768      -         
-un1_ACCUMULATOR.N204_i                                   Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ADD_m3_1_0                     OR2          B        In      -         14.090      -         
-COREABC_0.un1_ACCUMULATOR.ADD_m3_1_0                     OR2          Y        Out     0.514     14.604      -         
-un1_ACCUMULATOR.ADD_m3_1_0                               Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ADD_m1_e_2                     OA1B         B        In      -         14.926      -         
-COREABC_0.un1_ACCUMULATOR.ADD_m1_e_2                     OA1B         Y        Out     0.984     15.909      -         
-un1_ACCUMULATOR.ADD_N_3_mux_0                            Net          -        -       1.279     -           5         
-COREABC_0.un1_ACCUMULATOR.un1_ACCUMULATOR_m[2]           XA1A         A        In      -         17.188      -         
-COREABC_0.un1_ACCUMULATOR.un1_ACCUMULATOR_m[2]           XA1A         Y        Out     0.407     17.595      -         
-un1_ACCUMULATOR_m[2]                                     Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIH9G841      OR2          B        In      -         17.916      -         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIH9G841      OR2          Y        Out     0.646     18.563      -         
-un1_ACCUMULATOR.ACCUM_NEXT_iv_6[2]                       Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNISFK851      OR2          A        In      -         18.884      -         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNISFK851      OR2          Y        Out     0.507     19.392      -         
-ACCUM_NEXT[2]                                            Net          -        -       0.386     -           2         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIIR6IV1      NOR2         B        In      -         19.778      -         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIIR6IV1      NOR2         Y        Out     0.646     20.424      -         
-un1_ACCUMULATOR.to_logic_2\.tmp_6_1[0]                   Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNI2F1794      NOR3A        A        In      -         20.746      -         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNI2F1794      NOR3A        Y        Out     0.664     21.410      -         
-un1_ACCUMULATOR.to_logic_2\.tmp_6_2[0]                   Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIJ3DL0A      NOR3A        A        In      -         21.731      -         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIJ3DL0A      NOR3A        Y        Out     0.664     22.395      -         
-un1_ACCUMULATOR.to_logic_2\.tmp_6_6[0]                   Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNI5VP6HQ      NOR3B        A        In      -         22.717      -         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNI5VP6HQ      NOR3B        Y        Out     0.666     23.382      -         
-un1_ACCUMULATOR.to_logic_2\.tmp_6_12[0]                  Net          -        -       0.322     -           1         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIG4632G1     NOR3B        B        In      -         23.704      -         
-COREABC_0.un1_ACCUMULATOR.ALUOUT_2_sqmuxa_RNIG4632G1     NOR3B        Y        Out     0.624     24.328      -         
-to_logic_2\.tmp_6[0]                                     Net          -        -       0.386     -           2         
-COREABC_0.ISR_ACCUM_ZERO                                 DFN1E1C0     D        In      -         24.713      -         
-=======================================================================================================================
-Total path delay (propagation time + setup) of 25.252 is 10.853(43.0%) logic and 14.399(57.0%) route.
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                          Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+COREABC_0.UROM\.INSTR_SCMD_0[2]               DFN1         Q        Out     0.737     0.737       -         
+UROM\.INSTR_SCMD_0[2]                         Net          -        -       2.218     -           17        
+COREABC_0.UROM\.INSTR_ADDR_RNIEV0F[2]         MX2          S        In      -         2.955       -         
+COREABC_0.UROM\.INSTR_ADDR_RNIEV0F[2]         MX2          Y        Out     0.480     3.434       -         
+PADDR_M_1[2]                                  Net          -        -       2.381     -           21        
+COREABC_0_PADDR_M_RNIUKR2[2]                  BUFF         A        In      -         5.815       -         
+COREABC_0_PADDR_M_RNIUKR2[2]                  BUFF         Y        Out     0.499     6.314       -         
+COREABC_0_APB3master_PADDR_0[2]               Net          -        -       2.353     -           20        
+CORESPI_0.USPI.URF.control15_0_a2_0           NOR3         C        In      -         8.667       -         
+CORESPI_0.USPI.URF.control15_0_a2_0           NOR3         Y        Out     0.683     9.350       -         
+N_127                                         Net          -        -       2.037     -           13        
+CORESPI_0.USPI.URF.rdata54_0_a2               NOR2B        A        In      -         11.387      -         
+CORESPI_0.USPI.URF.rdata54_0_a2               NOR2B        Y        Out     0.514     11.902      -         
+rdata54                                       Net          -        -       1.526     -           7         
+CORESPI_0.USPI.URF.first_frame_m              NOR3B        B        In      -         13.428      -         
+CORESPI_0.USPI.URF.first_frame_m              NOR3B        Y        Out     0.607     14.034      -         
+first_frame_m                                 Net          -        -       0.322     -           1         
+CORESPI_0.USPI.URF.control1_RNIMES75[0]       NOR3A        B        In      -         14.356      -         
+CORESPI_0.USPI.URF.control1_RNIMES75[0]       NOR3A        Y        Out     0.488     14.844      -         
+r_N_3_mux                                     Net          -        -       0.322     -           1         
+CoreAPB3_0.u_mux_p_to_b3.PRDATA_iv_i_2[0]     MX2C         B        In      -         15.166      -         
+CoreAPB3_0.u_mux_p_to_b3.PRDATA_iv_i_2[0]     MX2C         Y        Out     0.586     15.751      -         
+N_7                                           Net          -        -       0.322     -           1         
+COREABC_0.PRDATA_M_RNI7LVS[0]                 NOR3B        B        In      -         16.073      -         
+COREABC_0.PRDATA_M_RNI7LVS[0]                 NOR3B        Y        Out     0.607     16.679      -         
+PRDATA_M_m[0]                                 Net          -        -       0.322     -           1         
+COREABC_0.PRDATA_M_RNILE04N[0]                OR3          C        In      -         17.001      -         
+COREABC_0.PRDATA_M_RNILE04N[0]                OR3          Y        Out     0.751     17.752      -         
+ACCUM_NEXT[0]                                 Net          -        -       0.386     -           2         
+COREABC_0.PRDATA_M_RNI6PCHI1[0]               NOR2         A        In      -         18.137      -         
+COREABC_0.PRDATA_M_RNI6PCHI1[0]               NOR2         Y        Out     0.507     18.645      -         
+to_logic_2\.tmp_6_0[0]                        Net          -        -       0.322     -           1         
+COREABC_0.PRDATA_M_RNIOCS0S3[2]               NOR3A        A        In      -         18.966      -         
+COREABC_0.PRDATA_M_RNIOCS0S3[2]               NOR3A        Y        Out     0.664     19.630      -         
+to_logic_2\.tmp_6_2[0]                        Net          -        -       0.322     -           1         
+COREABC_0.PRDATA_M_RNIFCHS36[2]               NOR2A        A        In      -         19.952      -         
+COREABC_0.PRDATA_M_RNIFCHS36[2]               NOR2A        Y        Out     0.516     20.468      -         
+to_logic_2\.tmp_6_5[0]                        Net          -        -       0.322     -           1         
+COREABC_0.UROM\.INSTR_SCMD_RNI2M9PTN[1]       NOR3C        B        In      -         20.789      -         
+COREABC_0.UROM\.INSTR_SCMD_RNI2M9PTN[1]       NOR3C        Y        Out     0.624     21.413      -         
+to_logic_2\.tmp_6_12[0]                       Net          -        -       0.322     -           1         
+COREABC_0.UROM\.INSTR_SCMD_RNIVCI2K81[1]      NOR3B        B        In      -         21.735      -         
+COREABC_0.UROM\.INSTR_SCMD_RNIVCI2K81[1]      NOR3B        Y        Out     0.624     22.358      -         
+to_logic_2\.tmp_6[0]                          Net          -        -       0.386     -           2         
+COREABC_0.ISR_ACCUM_ZERO                      DFN1E0C0     D        In      -         22.744      -         
+============================================================================================================
+Total path delay (propagation time + setup) of 23.283 is 9.424(40.5%) logic and 13.859(59.5%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -754,92 +727,93 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 Timing exceptions that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:20s; CPU Time elapsed 0h:00m:20s; Memory used current: 178MB peak: 183MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 169MB peak: 173MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:20s; CPU Time elapsed 0h:00m:20s; Memory used current: 178MB peak: 183MB)
+Finished timing report (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 169MB peak: 173MB)
 
 --------------------------------------------------------------------------------
 Target Part: A3P125_TQFP144_STD
 Report for cell Minimal_SoC.verilog
   Core Cell usage:
               cell count     area count*area
-              AND2    44      1.0       44.0
+              AND2    36      1.0       36.0
               AND3    18      1.0       18.0
-               AO1   150      1.0      150.0
-              AO1A    27      1.0       27.0
-              AO1B     4      1.0        4.0
+               AO1   162      1.0      162.0
+              AO1A    24      1.0       24.0
+              AO1B     7      1.0        7.0
               AO1C     6      1.0        6.0
-              AO1D     1      1.0        1.0
-              AOI1    16      1.0       16.0
-             AOI1B    15      1.0       15.0
-               AX1    19      1.0       19.0
-              AX1B    10      1.0       10.0
-              AX1C     4      1.0        4.0
+              AO1D     2      1.0        2.0
+              AOI1    14      1.0       14.0
+             AOI1B     8      1.0        8.0
+               AX1    15      1.0       15.0
+              AX1A     1      1.0        1.0
+              AX1B     7      1.0        7.0
+              AX1C     9      1.0        9.0
               AX1D    15      1.0       15.0
-              AXO7     1      1.0        1.0
+              AX1E     1      1.0        1.0
              AXOI4     1      1.0        1.0
-             AXOI5     4      1.0        4.0
-              BUFF     1      1.0        1.0
-            CLKINT     2      0.0        0.0
-               GND    27      0.0        0.0
-               INV    23      1.0       23.0
-              MAJ3     6      1.0        6.0
-             MAJ3X     1      1.0        1.0
-              MIN3     1      1.0        1.0
-               MX2   342      1.0      342.0
-              MX2A    14      1.0       14.0
-              MX2B     8      1.0        8.0
-              MX2C    43      1.0       43.0
-              NOR2    94      1.0       94.0
-             NOR2A   222      1.0      222.0
-             NOR2B   320      1.0      320.0
-              NOR3    26      1.0       26.0
-             NOR3A    86      1.0       86.0
-             NOR3B    97      1.0       97.0
-             NOR3C   107      1.0      107.0
-               OA1    39      1.0       39.0
-              OA1A    15      1.0       15.0
-              OA1B     9      1.0        9.0
-              OA1C    22      1.0       22.0
-              OAI1     3      1.0        3.0
-               OR2    78      1.0       78.0
-              OR2A    15      1.0       15.0
-              OR2B     9      1.0        9.0
-               OR3    84      1.0       84.0
-              OR3A     8      1.0        8.0
-              OR3B     4      1.0        4.0
+             AXOI5     1      1.0        1.0
+              BUFF     2      1.0        2.0
+            CLKINT     1      0.0        0.0
+               GND    26      0.0        0.0
+               INV    24      1.0       24.0
+              MAJ3     7      1.0        7.0
+            MAJ3XI     1      1.0        1.0
+               MX2   367      1.0      367.0
+              MX2A    22      1.0       22.0
+              MX2B    11      1.0       11.0
+              MX2C    61      1.0       61.0
+              NOR2    65      1.0       65.0
+             NOR2A   189      1.0      189.0
+             NOR2B   340      1.0      340.0
+              NOR3    34      1.0       34.0
+             NOR3A    90      1.0       90.0
+             NOR3B    65      1.0       65.0
+             NOR3C   104      1.0      104.0
+               OA1    32      1.0       32.0
+              OA1A    21      1.0       21.0
+              OA1B     8      1.0        8.0
+              OA1C    10      1.0       10.0
+              OAI1     2      1.0        2.0
+               OR2    60      1.0       60.0
+              OR2A    21      1.0       21.0
+              OR2B    12      1.0       12.0
+               OR3    88      1.0       88.0
+              OR3A    10      1.0       10.0
+              OR3B     2      1.0        2.0
               OR3C     3      1.0        3.0
                PLL     1      0.0        0.0
             PLLINT     1      0.0        0.0
-               VCC    27      0.0        0.0
-               XA1    41      1.0       41.0
-              XA1A     5      1.0        5.0
-              XA1B    31      1.0       31.0
-              XA1C     4      1.0        4.0
-             XNOR2    26      1.0       26.0
-               XO1     4      1.0        4.0
-              XOR2   107      1.0      107.0
-              XOR3     8      1.0        8.0
+               VCC    26      0.0        0.0
+               XA1    36      1.0       36.0
+              XA1A     4      1.0        4.0
+              XA1B    32      1.0       32.0
+              XA1C     6      1.0        6.0
+             XNOR2    19      1.0       19.0
+               XO1     3      1.0        3.0
+              XO1A     1      1.0        1.0
+              XOR2   124      1.0      124.0
+              XOR3     7      1.0        7.0
 
 
           DFI1E0P0     1      1.0        1.0
-              DFN1    39      1.0       39.0
-            DFN1C0   148      1.0      148.0
+              DFN1    44      1.0       44.0
+            DFN1C0   149      1.0      149.0
             DFN1C1     4      1.0        4.0
           DFN1E0C0    54      1.0       54.0
           DFN1E0C1     4      1.0        4.0
-          DFN1E0P0    21      1.0       21.0
+          DFN1E0P0    24      1.0       24.0
             DFN1E1    40      1.0       40.0
           DFN1E1C0   151      1.0      151.0
           DFN1E1C1    12      1.0       12.0
           DFN1E1P0    54      1.0       54.0
           DFN1E1P1     1      1.0        1.0
-            DFN1P0    33      1.0       33.0
+            DFN1P0    32      1.0       32.0
           FIFO4K18     2      0.0        0.0
          RAM512X18     1      0.0        0.0
                    -----          ----------
-             TOTAL  2864              2803.0
+             TOTAL  2838              2780.0
 
 
   IO Cell usage:
@@ -851,7 +825,7 @@ Report for cell Minimal_SoC.verilog
              TOTAL    13
 
 
-Core Cells         : 2803 of 3072 (91%)
+Core Cells         : 2780 of 3072 (90%)
 IO Cells           : 13
 
   RAM/ROM Usage Summary
@@ -859,9 +833,9 @@ Block Rams : 3 of 8 (37%)
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:21s; CPU Time elapsed 0h:00m:20s; Memory used current: 33MB peak: 183MB)
+At Mapper Exit (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 31MB peak: 173MB)
 
-Process took 0h:00m:21s realtime, 0h:00m:20s cputime
-# Sat Jul 30 00:50:09 2022
+Process took 0h:00m:11s realtime, 0h:00m:10s cputime
+# Sun Aug 14 16:37:53 2022
 
 ###########################################################]

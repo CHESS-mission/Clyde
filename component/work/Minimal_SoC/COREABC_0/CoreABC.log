@@ -19,9 +19,9 @@ Constraints
    Maximum value of APB data written directly is 255 so 'Data Bus Width' >= 8.
    Maximum APB slot used is 2 so 'Number of APB Slots' >= 3.
    Maximum APB address used 36 so 'APB Slot Size' >= 64 locations
-   Maximum program counter is 66 so 'Maximum Number of Instructions' >= 128.
+   Maximum program counter is 112 so 'Maximum Number of Instructions' >= 128.
    Z register not used so 'Z Register size' may be set to disabled.
-   'INPUT2' used so 'Number of I/O Flags' >= 3.
+   'INPUT3' used so 'Number of I/O Flags' >= 4.
    'IOWRT' not used so 'Number of I/O Outputs' >= 0.
    Uses stack ('CALL', 'RETURN', 'RETISR', 'PUSH' or 'POP'), 'RAMREAD' or 'RAMWRT' so requires 'Internal Data/Stack Memory'.
    Uses stack - please ensure 'Stack Size' is sufficient.
@@ -46,17 +46,26 @@ Address 13:$INT_RX_CMP2
 Address 18:$INT_RX_CMP3
 Address 23:$INT_RX_CMP4
 Address 28:$INT_RX_DEFAULT
-Address 28:$INT_RX_CMP_END
-Address 29:$INTERRUPT_END
-Address 31:$INIT
-Address 40:$MAIN
-Address 40:$MAIN_LOOP
-Address 54:$INFINIT_LOOP
-Address 56:$COMMAND_1
-Address 58:$COMMAND_2
-Address 60:$COMMAND_3
-Address 62:$COMMAND_4
-Address 64:$WAIT_AND_PRINT_ACC_TO_UART
+Address 30:$INT_RX_CMP_END
+Address 31:$INTERRUPT_END
+Address 33:$INIT
+Address 44:$NO_DEBUG_START
+Address 44:$MAIN
+Address 44:$MAIN_LOOP
+Address 62:$INFINIT_LOOP
+Address 64:$COMMAND_1
+Address 66:$COMMAND_2
+Address 68:$COMMAND_3
+Address 70:$COMMAND_4
+Address 72:$DELAY_1
+Address 77:$DELAY_2
+Address 82:$DELAY_3
+Address 87:$DELAY_4
+Address 92:$DELAY_5
+Address 97:$DELAY_6
+Address 102:$DELAY_7
+Address 107:$DELAY_2MS
+Address 110:$WAIT_AND_PRINT_ACC_TO_UART
 
 ---------------------------------------------
 

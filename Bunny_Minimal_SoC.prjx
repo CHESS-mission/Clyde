@@ -63,19 +63,19 @@ ENDLIST
 LIST FileManager
 VALUE "<project>\component\Actel\DirectCore\COREABC\3.8.102\COREABC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1659134937"
+TIME="1660404357"
 SIZE="480"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf,actgen_cxf"
 STATE="utd"
-TIME="1659134938"
+TIME="1660404359"
 SIZE="2736"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\coreparameters.v,tb_hdl"
 STATE="utd"
-TIME="1659134938"
+TIME="1660404359"
 SIZE="1284"
 PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
 IS_READONLY="TRUE"
@@ -164,13 +164,13 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\COREAPBSRAM.cxf,actgen_cxf"
 STATE="utd"
-TIME="1659134938"
+TIME="1660404359"
 SIZE="1346"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\coreparameters.v,tb_hdl"
 STATE="utd"
-TIME="1659134938"
+TIME="1660404359"
 SIZE="547"
 PARENT="<project>\component\Actel\DirectCore\COREAPBSRAM\2.0.102\COREAPBSRAM.cxf"
 IS_READONLY="TRUE"
@@ -208,7 +208,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\CORESPI.cxf,actgen_cxf"
 STATE="utd"
-TIME="1659134938"
+TIME="1660404361"
 SIZE="2961"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 ENDFILE
@@ -327,7 +327,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreTimer\2.0.103\CoreTimer.cxf,actgen_cxf"
 STATE="utd"
-TIME="1659134939"
+TIME="1660404363"
 SIZE="2315"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 ENDFILE
@@ -406,7 +406,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\Actel\DirectCore\CoreUARTapb\5.7.100\CoreUARTapb.cxf,actgen_cxf"
 STATE="utd"
-TIME="1659134940"
+TIME="1660404364"
 SIZE="779"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 ENDFILE
@@ -424,8 +424,8 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Basic_Input_Testbench\Basic_Input_Testbench.cxf,actgen_cxf"
 STATE="utd"
-TIME="1659135392"
-SIZE="2925"
+TIME="1660489045"
+SIZE="3086"
 ENDFILE
 VALUE "<project>\component\work\DESIGN_FIRMWARE\DESIGN_FIRMWARE.cxf,actgen_cxf"
 STATE="utd"
@@ -439,104 +439,104 @@ SIZE="413"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\CoreABC.log,log"
 STATE="utd"
-TIME="1659134937"
-SIZE="3291"
+TIME="1660404357"
+SIZE="3493"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\coreparameters_tgi.v,hdl"
 STATE="utd"
-TIME="1659134936"
+TIME="1660404356"
 SIZE="1754"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1659134937"
+TIME="1660404357"
 SIZE="3395"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v,hdl"
 STATE="utd"
-TIME="1659134937"
+TIME="1660404357"
 SIZE="3366"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v,hdl"
 STATE="utd"
-TIME="1659134937"
+TIME="1660404357"
 SIZE="57933"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v,hdl"
 STATE="utd"
-TIME="1659134937"
+TIME="1660404357"
 SIZE="28055"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructions.v,hdl"
 STATE="utd"
-TIME="1659134937"
-SIZE="131156"
+TIME="1660404357"
+SIZE="134174"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructnvm_bb.v,hdl"
 STATE="utd"
-TIME="1659134937"
+TIME="1660404357"
 SIZE="2139"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructram.v,hdl"
 STATE="utd"
-TIME="1659134937"
+TIME="1660404357"
 SIZE="12041"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\iram512x9_pa3.v,hdl"
 STATE="utd"
-TIME="1659134937"
+TIME="1660404357"
 SIZE="3735"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram128x8_rtl.v,hdl"
 STATE="utd"
-TIME="1659134937"
+TIME="1660404357"
 SIZE="1365"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x16_pa3.v,hdl"
 STATE="utd"
-TIME="1659134937"
+TIME="1660404357"
 SIZE="2944"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x8_rtl.v,hdl"
 STATE="utd"
-TIME="1659134937"
+TIME="1660404357"
 SIZE="1236"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v,hdl"
 STATE="utd"
-TIME="1659134937"
+TIME="1660404357"
 SIZE="21186"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\support.v,hdl"
 STATE="utd"
-TIME="1659134937"
+TIME="1660404357"
 SIZE="56274"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
@@ -544,14 +544,14 @@ IS_INCLUDED="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\apbmodel.v,tb_hdl"
 STATE="utd"
-TIME="1659134937"
+TIME="1660404357"
 SIZE="4836"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\testbench.v,tb_hdl"
 STATE="utd"
-TIME="1659134937"
+TIME="1660404357"
 SIZE="24064"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 MODULE_UNDER_TEST="TESTBENCH"
@@ -560,7 +560,7 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\COREABC_0\rtl\vlog\test\testsupport.v,tb_hdl"
 STATE="utd"
-TIME="1659134937"
+TIME="1660404357"
 SIZE="30783"
 PARENT="<project>\component\work\Minimal_SoC\COREABC_0\Minimal_SoC_COREABC_0_COREABC.cxf"
 IS_READONLY="TRUE"
@@ -568,7 +568,7 @@ IS_INCLUDED="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\coreparameters.v,tb_hdl"
 STATE="utd"
-TIME="1659134940"
+TIME="1660404364"
 SIZE="605"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
@@ -576,139 +576,139 @@ IS_INCLUDED="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf,actgen_cxf"
 STATE="utd"
-TIME="1659134940"
+TIME="1660404364"
 SIZE="4205"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\mti\scripts\bfmtovec_compile.do,do"
 STATE="utd"
-TIME="1659134939"
+TIME="1660404364"
 SIZE="1011"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\mti\scripts\wave_vlog_amba.do,do"
 STATE="utd"
-TIME="1659134940"
+TIME="1660404364"
 SIZE="2034"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahbl.v,tb_hdl"
 STATE="utd"
-TIME="1659134939"
+TIME="1660404363"
 SIZE="8110"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahblapb.v,tb_hdl"
 STATE="utd"
-TIME="1659134939"
+TIME="1660404363"
 SIZE="11258"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahbslave.v,tb_hdl"
 STATE="utd"
-TIME="1659134939"
+TIME="1660404363"
 SIZE="2513"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahbslaveext.v,tb_hdl"
 STATE="utd"
-TIME="1659134939"
+TIME="1660404363"
 SIZE="48854"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
 STATE="utd"
-TIME="1659134939"
+TIME="1660404363"
 SIZE="4661"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
 STATE="utd"
-TIME="1659134939"
+TIME="1660404363"
 SIZE="9150"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
 STATE="utd"
-TIME="1659134939"
+TIME="1660404363"
 SIZE="25205"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_apbslaveext.v,tb_hdl"
 STATE="utd"
-TIME="1659134939"
+TIME="1660404363"
 SIZE="36325"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_apbtoapb.v,tb_hdl"
 STATE="utd"
-TIME="1659134939"
+TIME="1660404363"
 SIZE="4724"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
 STATE="utd"
-TIME="1659134939"
+TIME="1660404363"
 SIZE="122531"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v,hdl"
 STATE="utd"
-TIME="1659134940"
+TIME="1660404364"
 SIZE="6422"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v,hdl"
 STATE="utd"
-TIME="1659134940"
+TIME="1660404364"
 SIZE="10082"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v,hdl"
 STATE="utd"
-TIME="1659134940"
+TIME="1660404364"
 SIZE="7077"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v,hdl"
 STATE="utd"
-TIME="1659134940"
+TIME="1660404364"
 SIZE="4274"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v,hdl"
 STATE="utd"
-TIME="1659134940"
+TIME="1660404364"
 SIZE="10506"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v,hdl"
 STATE="utd"
-TIME="1659134940"
+TIME="1660404364"
 SIZE="5581"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\test\user\testbench.v,tb_hdl"
 STATE="utd"
-TIME="1659134939"
+TIME="1660404363"
 SIZE="8972"
 PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTapb_0_CoreUARTapb.cxf"
 MODULE_UNDER_TEST="testbench"
@@ -717,13 +717,13 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\Minimal_SoC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1659134954"
+TIME="1660404379"
 SIZE="5942"
 ENDFILE
 VALUE "<project>\component\work\Minimal_SoC\Minimal_SoC.v,hdl"
 STATE="utd"
-TIME="1659134940"
-SIZE="26754"
+TIME="1660404364"
+SIZE="26932"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
@@ -737,15 +737,20 @@ STATE="utd"
 TIME="1659111023"
 SIZE="666"
 ENDFILE
+VALUE "<project>\designer\impl1\Clyde_responsive_without_memory_controller.pdb,pdb"
+STATE="utd"
+TIME="1660488288"
+SIZE="22"
+ENDFILE
 VALUE "<project>\designer\impl1\Minimal_SoC.adb,adb"
 STATE="utd"
-TIME="1658333808"
-SIZE="3124224"
+TIME="1659135265"
+SIZE="2987008"
 ENDFILE
 VALUE "<project>\designer\impl1\Minimal_SoC.ide_des,ide_des"
 STATE="utd"
-TIME="1658333809"
-SIZE="1084"
+TIME="1659905021"
+SIZE="1078"
 ENDFILE
 VALUE "<project>\designer\impl1\Minimal_SoC.pdb,pdb"
 STATE="ood"
@@ -753,19 +758,14 @@ TIME="1658333802"
 SIZE="81291"
 ENDFILE
 VALUE "<project>\designer\impl1\Minimal_SoC_ba.sdf,ba_sdf"
-STATE="utd"
-TIME="1658309520"
-SIZE="1703827"
-ENDFILE
-VALUE "<project>\designer\impl1\Minimal_SoC_ba.v,ba_hdl"
-STATE="utd"
+STATE="ood"
 TIME="1659135247"
-SIZE="546317"
+SIZE="1451762"
 ENDFILE
 VALUE "<project>\designer\impl1\Minimal_SoC_compile_log.rpt,log"
 STATE="utd"
-TIME="1658333810"
-SIZE="3412"
+TIME="1659905126"
+SIZE="943"
 ENDFILE
 VALUE "<project>\designer\impl1\Minimal_SoC_fp\Minimal_SoC.pro,pro"
 STATE="utd"
@@ -789,7 +789,7 @@ SIZE="79075"
 ENDFILE
 VALUE "<project>\simulation\bfmtovec_compile.log,log"
 STATE="utd"
-TIME="1658340280"
+TIME="1659904851"
 SIZE="407"
 ENDFILE
 VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
@@ -828,12 +828,12 @@ PARENT="<project>\component\work\Minimal_SoC\CoreUARTapb_0\Minimal_SoC_CoreUARTa
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"
-TIME="1658340268"
-SIZE="8799"
+TIME="1659904830"
+SIZE="8068"
 ENDFILE
 VALUE "<project>\simulation\subsystem.bfm,sim"
 STATE="utd"
-TIME="1659134940"
+TIME="1660404364"
 SIZE="889"
 PARENT="<project>\component\work\Minimal_SoC\Minimal_SoC.cxf"
 ENDFILE
@@ -1047,23 +1047,23 @@ PARENT="<project>\smartgen\SRAM_DATA_IO\SRAM_DATA_IO.cxf"
 ENDFILE
 VALUE "<project>\synthesis\Minimal_SoC.edn,syn_edn"
 STATE="utd"
-TIME="1658333472"
-SIZE="1792211"
+TIME="1659135009"
+SIZE="1552282"
 ENDFILE
 VALUE "<project>\synthesis\Minimal_SoC.so,so"
 STATE="utd"
-TIME="1658333472"
+TIME="1659135009"
 SIZE="282"
 ENDFILE
 VALUE "<project>\synthesis\Minimal_SoC_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1658333472"
+TIME="1659135009"
 SIZE="310"
 ENDFILE
 VALUE "<project>\synthesis\Minimal_SoC_syn.prj,prj"
 STATE="utd"
-TIME="1658333473"
-SIZE="8673"
+TIME="1659904979"
+SIZE="7880"
 ENDFILE
 ENDLIST
 LIST UsedFile
@@ -1208,27 +1208,6 @@ VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\amba_bfm\b
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\test\user\testbench.v,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\mti\scripts\wave_user.do,do"
 ENDLIST
-LIST AssociatedStimulus
-VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\coreparameters.v,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\amba_bfm\bfm_apbslaveext.v,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\test\user\testbench.v,tb_hdl"
-ENDLIST
-LIST ProjectState5.1
-LIST Impl1
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-ENDLIST
 ENDLIST
 LIST "CoreTimer::CORETIMER_LIB"
 FILE "<project>\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v,hdl"
@@ -1242,26 +1221,6 @@ VALUE "<project>\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\amba_bfm\
 VALUE "<project>\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\test\testbench.v,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\CoreTimer\2.0.103\mti\bfmtovec_compile.do,do"
 VALUE "<project>\component\Actel\DirectCore\CoreTimer\2.0.103\mti\wave.do,do"
-ENDLIST
-LIST AssociatedStimulus
-VALUE "<project>\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\amba_bfm\bfm_apbtoapb.v,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\amba_bfm\bfm_package.v,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\test\testbench.v,tb_hdl"
-ENDLIST
-LIST ProjectState5.1
-LIST Impl1
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
 ENDLIST
 ENDLIST
 LIST "CORESPI::CORESPI_LIB"
@@ -1325,29 +1284,12 @@ VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\amba_bfm\bfm_
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\coreparameters.v,tb_hdl"
 VALUE "<project>\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\test\user\testbench.v,tb_hdl"
 ENDLIST
-LIST CoreAPB3
-VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\coreparameters.v,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\amba_bfm\bfm_apbslaveext.v,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\amba_bfm\bfm_apbslave.v,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\test\user\testbench.v,tb_hdl"
-ENDLIST
 LIST CORESPI
 VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\amba_bfm\bfm_package.v,tb_hdl"
 VALUE "<project>\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\test\user\testbench.v,tb_hdl"
-ENDLIST
-LIST CoreTimer
-VALUE "<project>\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\amba_bfm\bfm_ahbtoapb.v,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\amba_bfm\bfm_apb.v,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\amba_bfm\bfm_apbtoapb.v,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\amba_bfm\bfm_main.v,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\amba_bfm\bfm_package.v,tb_hdl"
-VALUE "<project>\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\test\testbench.v,tb_hdl"
 ENDLIST
 ENDLIST
 LIST Other_Association
@@ -1556,30 +1498,6 @@ ENDUsed_File_List
 ENDLIST
 ENDLIST
 LIST "Minimal_SoC_CoreUARTapb_0_CoreUARTapb::work"
-LIST Impl1
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-ENDLIST
-LIST "CoreAPB3::COREAPB3_LIB"
-LIST Impl1
-ideSTIMULUS=StateSuccess
-LIST FlowOptions
-UsePhySynth=FALSE
-UseSynth=TRUE
-UseFhbAutoInst=FALSE
-ENDLIST
-Used_File_List
-ENDUsed_File_List
-ENDLIST
-ENDLIST
-LIST "CoreTimer::CORETIMER_LIB"
 LIST Impl1
 ideSTIMULUS=StateSuccess
 LIST FlowOptions

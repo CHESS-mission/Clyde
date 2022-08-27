@@ -2,7 +2,7 @@
 Starting:    C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\mbin\synplify.exe
 Install:     C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
 Hostname:    DESKTOP-M0AE8I1
-Date:        Fri Jul 29 19:52:59 2022
+Date:        Fri Jul 29 19:53:18 2022
 Version:     L-2016.09M-SP1-5
 
 Arguments:   -product synplify_pro Minimal_SoC_syn.tcl
@@ -15,6 +15,7 @@ License Option: actel_oem
 
 
 
+Warning: File already exists in project: "C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\support.v"
 Warning: File already exists in project: "C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\support.v"
 auto_infer_blackbox is not supported in current product.
 TCL script complete: "Minimal_SoC_syn.tcl"

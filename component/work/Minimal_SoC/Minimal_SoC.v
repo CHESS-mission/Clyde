@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Sat Jul 30 00:49:00 2022
+// Created by SmartDesign Sat Aug 13 17:26:04 2022
 // Version: v11.9 11.9.0.4
 //////////////////////////////////////////////////////////////////////
 
@@ -131,7 +131,9 @@ wire   [31:0] PRDATAS16_const_net_0;
 // Inverted Nets
 //--------------------------------------------------------------------
 wire   [1:1]  Data_IN_POST_INV0_0;
-wire   [1:1]  IO_IN_IN_POST_INV1_0;
+wire          E_IN_POST_INV1_0;
+wire          E_IN_POST_INV2_0;
+wire   [1:1]  IO_IN_IN_POST_INV3_0;
 //--------------------------------------------------------------------
 // Bus Interface Nets Declarations - Unequal Pin Widths
 //--------------------------------------------------------------------
@@ -146,30 +148,30 @@ wire   [31:16]COREABC_0_APB3master_PWDATA_0_31to16;
 wire   [15:0] COREABC_0_APB3master_PWDATA_0_15to0;
 wire   [31:0] COREABC_0_APB3master_PWDATA_0;
 wire   [15:0] COREABC_0_APB3master_PWDATA;
+wire   [31:0] CoreAPB3_0_APBmslave0_PADDR;
+wire   [16:0] CoreAPB3_0_APBmslave0_PADDR_3_16to0;
+wire   [16:0] CoreAPB3_0_APBmslave0_PADDR_3;
+wire   [6:0]  CoreAPB3_0_APBmslave0_PADDR_2_6to0;
+wire   [6:0]  CoreAPB3_0_APBmslave0_PADDR_2;
 wire   [4:2]  CoreAPB3_0_APBmslave0_PADDR_0_4to2;
 wire   [4:2]  CoreAPB3_0_APBmslave0_PADDR_0;
 wire   [4:0]  CoreAPB3_0_APBmslave0_PADDR_1_4to0;
 wire   [4:0]  CoreAPB3_0_APBmslave0_PADDR_1;
-wire   [6:0]  CoreAPB3_0_APBmslave0_PADDR_2_6to0;
-wire   [6:0]  CoreAPB3_0_APBmslave0_PADDR_2;
-wire   [16:0] CoreAPB3_0_APBmslave0_PADDR_3_16to0;
-wire   [16:0] CoreAPB3_0_APBmslave0_PADDR_3;
-wire   [31:0] CoreAPB3_0_APBmslave0_PADDR;
 wire   [31:0] CoreAPB3_0_APBmslave0_PWDATA;
-wire   [7:0]  CoreAPB3_0_APBmslave0_PWDATA_0_7to0;
-wire   [7:0]  CoreAPB3_0_APBmslave0_PWDATA_0;
 wire   [15:0] CoreAPB3_0_APBmslave0_PWDATA_1_15to0;
 wire   [15:0] CoreAPB3_0_APBmslave0_PWDATA_1;
 wire   [15:0] CoreAPB3_0_APBmslave0_PWDATA_2_15to0;
 wire   [15:0] CoreAPB3_0_APBmslave0_PWDATA_2;
-wire   [7:0]  CoreAPB3_0_APBmslave1_PRDATA;
+wire   [7:0]  CoreAPB3_0_APBmslave0_PWDATA_0_7to0;
+wire   [7:0]  CoreAPB3_0_APBmslave0_PWDATA_0;
 wire   [31:8] CoreAPB3_0_APBmslave1_PRDATA_0_31to8;
 wire   [7:0]  CoreAPB3_0_APBmslave1_PRDATA_0_7to0;
 wire   [31:0] CoreAPB3_0_APBmslave1_PRDATA_0;
-wire   [15:0] CoreAPB3_0_APBmslave2_PRDATA;
+wire   [7:0]  CoreAPB3_0_APBmslave1_PRDATA;
 wire   [31:16]CoreAPB3_0_APBmslave2_PRDATA_0_31to16;
 wire   [15:0] CoreAPB3_0_APBmslave2_PRDATA_0_15to0;
 wire   [31:0] CoreAPB3_0_APBmslave2_PRDATA_0;
+wire   [15:0] CoreAPB3_0_APBmslave2_PRDATA;
 wire   [31:16]CoreAPB3_0_APBmslave3_PRDATA_0_31to16;
 wire   [15:0] CoreAPB3_0_APBmslave3_PRDATA_0_15to0;
 wire   [31:0] CoreAPB3_0_APBmslave3_PRDATA_0;
@@ -201,7 +203,9 @@ assign PRDATAS16_const_net_0 = 32'h00000000;
 // Inversions
 //--------------------------------------------------------------------
 assign Data_IN_POST_INV0_0[1]  = ~ RXRDY;
-assign IO_IN_IN_POST_INV1_0[1] = ~ RXRDY;
+assign E_IN_POST_INV1_0        = ~ BIBUF_1_Y;
+assign E_IN_POST_INV2_0        = ~ BIBUF_0_Y;
+assign IO_IN_IN_POST_INV3_0[1] = ~ RXRDY;
 //--------------------------------------------------------------------
 // Top level output port assignments
 //--------------------------------------------------------------------
@@ -229,7 +233,7 @@ assign SPISS_slice_6[7] = SPISS_net_0[7:7];
 //--------------------------------------------------------------------
 // Concatenation assignments
 //--------------------------------------------------------------------
-assign IO_IN_net_0 = { 1'b1 , TIMINT , IO_IN_IN_POST_INV1_0[1] , CoreUARTapb_0_TXRDY };
+assign IO_IN_net_0 = { 1'b0 , TIMINT , IO_IN_IN_POST_INV3_0[1] , CoreUARTapb_0_TXRDY };
 assign Data_net_0  = { TIMINT , Data_IN_POST_INV0_0[1] , 1'b1 };
 //--------------------------------------------------------------------
 // Bus Interface Nets Assignments - Unequal Pin Widths
@@ -245,21 +249,21 @@ assign COREABC_0_APB3master_PWDATA_0_31to16 = 16'h0;
 assign COREABC_0_APB3master_PWDATA_0_15to0 = COREABC_0_APB3master_PWDATA[15:0];
 assign COREABC_0_APB3master_PWDATA_0 = { COREABC_0_APB3master_PWDATA_0_31to16, COREABC_0_APB3master_PWDATA_0_15to0 };
 
+assign CoreAPB3_0_APBmslave0_PADDR_3_16to0 = CoreAPB3_0_APBmslave0_PADDR[16:0];
+assign CoreAPB3_0_APBmslave0_PADDR_3 = { CoreAPB3_0_APBmslave0_PADDR_3_16to0 };
+assign CoreAPB3_0_APBmslave0_PADDR_2_6to0 = CoreAPB3_0_APBmslave0_PADDR[6:0];
+assign CoreAPB3_0_APBmslave0_PADDR_2 = { CoreAPB3_0_APBmslave0_PADDR_2_6to0 };
 assign CoreAPB3_0_APBmslave0_PADDR_0_4to2 = CoreAPB3_0_APBmslave0_PADDR[4:2];
 assign CoreAPB3_0_APBmslave0_PADDR_0 = { CoreAPB3_0_APBmslave0_PADDR_0_4to2 };
 assign CoreAPB3_0_APBmslave0_PADDR_1_4to0 = CoreAPB3_0_APBmslave0_PADDR[4:0];
 assign CoreAPB3_0_APBmslave0_PADDR_1 = { CoreAPB3_0_APBmslave0_PADDR_1_4to0 };
-assign CoreAPB3_0_APBmslave0_PADDR_2_6to0 = CoreAPB3_0_APBmslave0_PADDR[6:0];
-assign CoreAPB3_0_APBmslave0_PADDR_2 = { CoreAPB3_0_APBmslave0_PADDR_2_6to0 };
-assign CoreAPB3_0_APBmslave0_PADDR_3_16to0 = CoreAPB3_0_APBmslave0_PADDR[16:0];
-assign CoreAPB3_0_APBmslave0_PADDR_3 = { CoreAPB3_0_APBmslave0_PADDR_3_16to0 };
 
-assign CoreAPB3_0_APBmslave0_PWDATA_0_7to0 = CoreAPB3_0_APBmslave0_PWDATA[7:0];
-assign CoreAPB3_0_APBmslave0_PWDATA_0 = { CoreAPB3_0_APBmslave0_PWDATA_0_7to0 };
 assign CoreAPB3_0_APBmslave0_PWDATA_1_15to0 = CoreAPB3_0_APBmslave0_PWDATA[15:0];
 assign CoreAPB3_0_APBmslave0_PWDATA_1 = { CoreAPB3_0_APBmslave0_PWDATA_1_15to0 };
 assign CoreAPB3_0_APBmslave0_PWDATA_2_15to0 = CoreAPB3_0_APBmslave0_PWDATA[15:0];
 assign CoreAPB3_0_APBmslave0_PWDATA_2 = { CoreAPB3_0_APBmslave0_PWDATA_2_15to0 };
+assign CoreAPB3_0_APBmslave0_PWDATA_0_7to0 = CoreAPB3_0_APBmslave0_PWDATA[7:0];
+assign CoreAPB3_0_APBmslave0_PWDATA_0 = { CoreAPB3_0_APBmslave0_PWDATA_0_7to0 };
 
 assign CoreAPB3_0_APBmslave1_PRDATA_0_31to8 = 24'h0;
 assign CoreAPB3_0_APBmslave1_PRDATA_0_7to0 = CoreAPB3_0_APBmslave1_PRDATA[7:0];
@@ -288,7 +292,7 @@ AND3_core AND3_core_0(
 BIBUF BIBUF_0(
         // Inputs
         .D   ( BIBUF_1_Y ),
-        .E   ( VCC_net ),
+        .E   ( E_IN_POST_INV1_0 ),
         // Outputs
         .Y   ( BIBUF_0_Y ),
         // Inouts
@@ -299,7 +303,7 @@ BIBUF BIBUF_0(
 BIBUF BIBUF_1(
         // Inputs
         .D   ( BIBUF_0_Y ),
-        .E   ( VCC_net ),
+        .E   ( E_IN_POST_INV2_0 ),
         // Outputs
         .Y   ( BIBUF_1_Y ),
         // Inouts

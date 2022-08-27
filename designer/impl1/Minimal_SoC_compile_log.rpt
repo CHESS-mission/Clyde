@@ -153,15 +153,15 @@ Netlist Optimization Report
 ===========================
 
 Optimized macros:
-  - Dangling net drivers:   12
+  - Dangling net drivers:   11
   - Buffers:                1
   - Inverters:              0
-  - Tieoff:                 0
-  - Logic combining:        108
+  - Tieoff:                 1
+  - Logic combining:        92
 
-    Total macros optimized  121
+    Total macros optimized  105
 
-Warning: CMP503: Remapped 84 enable flip-flop(s) to a 2-tile implementation because the CLR/PRE
+Warning: CMP503: Remapped 87 enable flip-flop(s) to a 2-tile implementation because the CLR/PRE
          pin on the enable flip-flop is not being driven by a global net.
 
 There were 0 error(s) and 40 warning(s) in this design.
@@ -176,9 +176,9 @@ There were 0 error(s) and 0 warning(s).
 Compile report:
 ===============
 
-    CORE                       Used:   2767  Total:   3072   (90.07%)
+    CORE                       Used:   2763  Total:   3072   (89.94%)
     IO (W/ clocks)             Used:     13  Total:    100   (13.00%)
-    GLOBAL (Chip+Quadrant)     Used:      3  Total:     18   (16.67%)
+    GLOBAL (Chip+Quadrant)     Used:      2  Total:     18   (11.11%)
     PLL                        Used:      1  Total:      1   (100.00%)
     RAM/FIFO                   Used:      3  Total:      8   (37.50%)
     Low Static ICC             Used:      0  Total:      1   (0.00%)
@@ -189,7 +189,7 @@ Global Information:
 
     Type            | Used   | Total
     ----------------|--------|--------------
-    Chip global     | 3      | 6  (50.00%)*
+    Chip global     | 2      | 6  (33.33%)*
     Quadrant global | 0      | 12 (0.00%)
 
     (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
@@ -200,8 +200,8 @@ Core Information:
 
     Type    | Instances    | Core tiles
     --------|--------------|-----------
-    COMB    | 2207         | 2207
-    SEQ     | 560          | 560
+    COMB    | 2195         | 2195
+    SEQ     | 568          | 568
 
 I/O Function:
 
@@ -233,11 +233,11 @@ Net information report:
 The following nets drive enable flip-flops that have been remapped to a 2-tile implementation:
     EffCnt  Type          Name
     --------------------------
-    19      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_2
+    20      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_2
                           Driver: COREABC_0/genblk2.RSTSYNC2_2
-    18      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_0
+    19      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_0
                           Driver: COREABC_0/genblk2.RSTSYNC2_0
-    18      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_1
+    19      SET/RESET_NET Net   : COREABC_0/genblk2.RSTSYNC2_1
                           Driver: COREABC_0/genblk2.RSTSYNC2_1
     17      SET/RESET_NET Net   : CORESPI_0/USPI/UCC/ssel_rx_q2_RNIBQH6
                           Driver: CORESPI_0/USPI/UCC/ssel_rx_q2_RNIBQH6
@@ -247,63 +247,60 @@ The following nets drive enable flip-flops that have been remapped to a 2-tile i
 The following nets have been assigned to a chip global resource:
     Fanout  Type          Name
     --------------------------
-    566     CLK_NET       Net   : GLA
+    574     CLK_NET       Net   : GLA
                           Driver: Minimal_SoC_with_PLL_0/Core
                           Source: ESSENTIAL
     384     SET/RESET_NET Net   : COREABC_0_PRESETN_0
                           Driver: COREABC_0_PRESETN_RNIUAJ1
                           Source: NETLIST
-    51      INT_NET       Net   : COREABC_0_APB3master_PADDR[2]
-                          Driver: COREABC_0_PADDR_M_RNIUKR2[2]
-                          Source: NETLIST
 
 High fanout nets in the post compile netlist:
     Fanout  Type          Name
     --------------------------
-    27      INT_NET       Net   : COREABC_0_APB3master_PADDR[12]
+    35      INT_NET       Net   : COREABC_0_APB3master_PADDR[12]
                           Driver: COREABC_0/UROM.INSTR_SLOT[0]
-    24      INT_NET       Net   : CORESPI_0.USPI.URF.N_127
-                          Driver: CORESPI_0/USPI/URF/control15_0_a2_0
-    24      INT_NET       Net   : CoreTimer_0/un1_PreScale8_0
+    24      INT_NET       Net   : CoreTimer_0/un1_PreScale8
                           Driver: CoreTimer_0/LoadEnReg_RNIRS88E
-    23      INT_NET       Net   : COREABC_0/UROM.INSTR_CMD[1]
-                          Driver: COREABC_0/UROM.INSTR_CMD[1]
-    23      INT_NET       Net   : COREABC_0/SMADDR_0[2]
-                          Driver: COREABC_0/SMADDR_0[2]/U1
-    23      INT_NET       Net   : COREABC_0/SMADDR_1[2]
-                          Driver: COREABC_0/SMADDR_1[2]/U1
-    22      INT_NET       Net   : COREABC_0_APB3master_PWDATA[1]
-                          Driver: COREABC_0/un1_ACCUMULATOR_PWDATA_M[1]
-    22      INT_NET       Net   : COREABC_0_APB3master_PWDATA[2]
-                          Driver: COREABC_0/un1_ACCUMULATOR_PWDATA_M[2]
-    22      INT_NET       Net   : CoreTimer_0/PrdataNextEn
-                          Driver: CoreTimer_0/PrdataNextEn
-    22      INT_NET       Net   : COREABC_0/SMADDR[2]
+    23      INT_NET       Net   : COREABC_0/SMADDR[2]
                           Driver: COREABC_0/SMADDR[2]/U1
+    23      INT_NET       Net   : COREABC_0/SMADDR_0[5]
+                          Driver: COREABC_0/SMADDR_0[5]/U1
+    22      INT_NET       Net   : COREABC_0_APB3master_PWDATA[1]
+                          Driver: COREABC_0/UROM.INSTR_DATA_RNIQ4DV[1]
+    22      INT_NET       Net   : COREABC_0_APB3master_PWDATA[2]
+                          Driver: COREABC_0/UROM.INSTR_DATA_RNIS6DV[2]
+    22      INT_NET       Net   : COREABC_0/SMADDR[5]
+                          Driver: COREABC_0/SMADDR[5]/U1
+    22      INT_NET       Net   : COREABC_0/un1_ICYCLE_6
+                          Driver: COREABC_0/UROM.INSTR_SCMD_RNIB1VF1[1]
+    22      INT_NET       Net   : COREABC_0/SMADDR_0[3]
+                          Driver: COREABC_0/SMADDR_0[3]/U1
+    22      INT_NET       Net   : COREABC_0/SMADDR_1[3]
+                          Driver: COREABC_0/SMADDR_1[3]/U1
 
 Nets that are candidates for clock assignment and the resulting fanout:
     Fanout  Type          Name
     --------------------------
-    27      INT_NET       Net   : COREABC_0_APB3master_PADDR[12]
+    40      INT_NET       Net   : COREABC_0_APB3master_PADDR[2]
+                          Driver: COREABC_0/UROM.INSTR_ADDR_RNIEV0F[2]
+    35      INT_NET       Net   : COREABC_0_APB3master_PADDR[12]
                           Driver: COREABC_0/UROM.INSTR_SLOT[0]
-    25      INT_NET       Net   : COREABC_0_APB3master_PADDR[3]
-                          Driver: COREABC_0/un1_ACCUMULATOR_PADDR_M_1[3]
-    24      INT_NET       Net   : CORESPI_0.USPI.URF.N_127
-                          Driver: CORESPI_0/USPI/URF/control15_0_a2_0
-    24      INT_NET       Net   : CoreTimer_0/un1_PreScale8_0
+    26      INT_NET       Net   : COREABC_0_APB3master_PADDR[3]
+                          Driver: COREABC_0/UROM.INSTR_ADDR_RNIG11F[3]
+    24      INT_NET       Net   : CoreTimer_0/un1_PreScale8
                           Driver: CoreTimer_0/LoadEnReg_RNIRS88E
-    23      INT_NET       Net   : COREABC_0/UROM.INSTR_CMD[1]
-                          Driver: COREABC_0/UROM.INSTR_CMD[1]
-    23      INT_NET       Net   : COREABC_0/SMADDR_0[2]
-                          Driver: COREABC_0/SMADDR_0[2]/U1
-    23      INT_NET       Net   : COREABC_0/SMADDR_1[2]
-                          Driver: COREABC_0/SMADDR_1[2]/U1
+    23      INT_NET       Net   : COREABC_0/SMADDR[2]
+                          Driver: COREABC_0/SMADDR[2]/U1
+    23      INT_NET       Net   : COREABC_0/SMADDR_0[5]
+                          Driver: COREABC_0/SMADDR_0[5]/U1
     22      INT_NET       Net   : COREABC_0_APB3master_PWDATA[1]
-                          Driver: COREABC_0/un1_ACCUMULATOR_PWDATA_M[1]
+                          Driver: COREABC_0/UROM.INSTR_DATA_RNIQ4DV[1]
     22      INT_NET       Net   : COREABC_0_APB3master_PWDATA[2]
-                          Driver: COREABC_0/un1_ACCUMULATOR_PWDATA_M[2]
-    22      INT_NET       Net   : CoreTimer_0/PrdataNextEn
-                          Driver: CoreTimer_0/PrdataNextEn
+                          Driver: COREABC_0/UROM.INSTR_DATA_RNIS6DV[2]
+    22      INT_NET       Net   : COREABC_0/SMADDR[5]
+                          Driver: COREABC_0/SMADDR[5]/U1
+    22      INT_NET       Net   : COREABC_0/un1_ICYCLE_6
+                          Driver: COREABC_0/UROM.INSTR_SCMD_RNIB1VF1[1]
 
 The Compile command succeeded ( 00:00:02 )
 ***** Layout Variables *********************************************
@@ -327,16 +324,16 @@ Global net placement completed successfully.
 
                         o - o - o - o - o - o
 
-Timing-driven Placer Started: Sat Jul 30 00:51:25 2022
+Timing-driven Placer Started: Sun Aug 14 16:41:56 2022
 
-Placer Finished: Sat Jul 30 00:52:16 2022
-Total Placer CPU Time:     00:00:51
+Placer Finished: Sun Aug 14 16:42:36 2022
+Total Placer CPU Time:     00:00:40
 
                         o - o - o - o - o - o
 
 
 Timing-driven Router 
-Design: Minimal_SoC                     Started: Sat Jul 30 00:52:20 2022
+Design: Minimal_SoC                     Started: Sun Aug 14 16:42:39 2022
 
  
 Iterative improvement...
@@ -344,39 +341,30 @@ Iterative improvement...
 Timing-driven Router completed successfully.
 
 Design: Minimal_SoC                     
-Finished: Sat Jul 30 00:52:43 2022
-Total CPU Time:     00:00:22            Total Elapsed Time: 00:00:23
-Total Memory Usage: 175.1 Mbytes
+Finished: Sun Aug 14 16:42:51 2022
+Total CPU Time:     00:00:11            Total Elapsed Time: 00:00:12
+Total Memory Usage: 172.7 Mbytes
                         o - o - o - o - o - o
 
 Loading the Timing data for the design.
 Finished loading the Timing data.
 
-The Layout command succeeded ( 00:01:26 )
+The Layout command succeeded ( 00:01:01 )
 Warning: You changed the output filename from
          'C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS
          OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Minimal_SoC' to
          'C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS
-         OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Minimal_SoC_with_UART_FEEDBACK'. This
-         may impact Libero. Do you wish to continue? [YES]
+         OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Clyde_responsive_without_memory_cont\
+         roller'. This may impact Libero. Do you wish to continue? [YES]
 
-The Export-map command succeeded ( 00:00:08 )
+The Export-map command succeeded ( 00:00:07 )
 Wrote to the file: C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS
-OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Minimal_SoC_with_UART_FEEDBACK.pdb
+OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Clyde_responsive_without_memory_controller.pdb
 Wrote to the file: C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS
-OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Minimal_SoC_with_UART_FEEDBACK.dat
-CHECKSUM: EDFB
+OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Clyde_responsive_without_memory_controller.dat
+CHECKSUM: 620B
 
-The Generate programming file command succeeded ( 00:00:09 )
-Warning: File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS
-         OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Minimal_SoC_ba.sdf
-         already exists.
-         Do you want to replace the file? [YES]
-Back-annotated to the file(s):
-   .\Minimal_SoC_ba.sdf
-   .\Minimal_SoC_ba.v
-
-The Back-Annotate command succeeded ( 00:00:01 )
+The Generate programming file command succeeded ( 00:00:07 )
 Design saved to file C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS
 OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Minimal_SoC.adb.
 Wrote pin report to file: C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS
@@ -386,8 +374,8 @@ The Report command succeeded ( 00:00:01 )
 Wrote pin report to file: C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS
 OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Minimal_SoC_report_pin_bynumber.txt
 
-The Report command succeeded ( 00:00:01 )
+The Report command succeeded ( 00:00:00 )
 
-The Execute Script command succeeded ( 00:00:02 )
+The Execute Script command succeeded ( 00:00:01 )
 Design closed.
 

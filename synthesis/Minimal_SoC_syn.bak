@@ -34,7 +34,6 @@ add_file -lib CORESPI_LIB -verilog "C:/Users/micha/SynologyDrive/Engineering/Pro
 add_file -lib CORETIMER_LIB -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/core/coretimer.v"
 add_file -verilog "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/Minimal_SoC.v"
 
-add_file -include "C:/Users/micha/SynologyDrive/Engineering/Projects/CHESS OBC/SoC/LiberoProjects/Clyde/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/support.v"
 
 
 #project files

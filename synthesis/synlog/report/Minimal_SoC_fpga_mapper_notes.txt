@@ -5,7 +5,7 @@
 @N: MO111 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreuartapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v":253:0:253:4|Tristate driver AFULL (in view: work.Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3(verilog)) on net AFULL (in view: work.Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3(verilog)) has its enable tied to GND.
 @N: MO231 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":1041:4:1041:9|Found counter in view:work.Minimal_SoC_COREABC_0_COREABC_Z1(verilog) instance STKPTR[7:0] 
 @N: MO225 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":1041:4:1041:9|There are no possible illegal states for state machine ICYCLE[3:0] (in view: work.Minimal_SoC_COREABC_0_COREABC_Z1(verilog)); safe FSM implementation is not required.
-@N: MO106 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\instructions.v":153:4:153:7|Found ROM .delname. (in view: work.Minimal_SoC_COREABC_0_COREABC_Z1(verilog)) with 67 words by 58 bits.
+@N: MO106 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\instructions.v":162:4:162:7|Found ROM .delname. (in view: work.Minimal_SoC_COREABC_0_COREABC_Z1(verilog)) with 113 words by 58 bits.
 @N: MF238 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":1028:35:1028:61|Found 8-bit incrementor, 'un1_STKPTRP1[7:0]'
 @N: MF238 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\work\minimal_soc\coreabc_0\rtl\vlog\core\coreabc.v":1311:54:1311:65|Found 12-bit incrementor, 'un37_SMADDR[11:0]'
 @N: MF176 |Default generator successful 
@@ -44,7 +44,6 @@
 @N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[30] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: BN362 :"c:\users\micha\synologydrive\engineering\projects\chess obc\soc\liberoprojects\clyde\clyde\component\actel\directcore\coretimer\2.0.103\rtl\vlog\core\coretimer.v":378:4:378:9|Removing sequential instance CoreTimer_0.iPRDATA[31] (in view: work.Minimal_SoC(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 @N: MF794 |RAM fifo_mem_q[4:0] required 40 registers during mapping 
-@N: FP130 |Promoting Net COREABC_0_PRESETN_0 on CLKINT  I_62 
-@N: FP130 |Promoting Net COREABC_0_APB3master_PADDR[2] on CLKINT  I_63 
+@N: FP130 |Promoting Net COREABC_0_PRESETN_0 on CLKINT  I_59 
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
 @N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

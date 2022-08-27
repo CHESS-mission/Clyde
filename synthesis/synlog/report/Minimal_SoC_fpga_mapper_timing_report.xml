@@ -17,7 +17,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>Minimal_SoC_with_PLL|GLA_inferred_clock</data>
 <data>100.0 MHz</data>
-<data>39.3 MHz</data>
-<data>-15.448</data>
+<data>42.3 MHz</data>
+<data>-13.645</data>
 </row>
 </report_table>

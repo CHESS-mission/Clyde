@@ -6,7 +6,28 @@
     <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
     <StatusMessage>Warning</StatusMessage>
     <message>Floating Driver</message>
-    <detail>Floating output pin Minimal_SoC_0:TIMINT</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/Basic_Input_Testbench/pins/Minimal_SoC_0:TIMINT</crossprobe>
+    <detail>Floating output pin Minimal_SoC_1:SPISCLKO</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Basic_Input_Testbench/pins/Minimal_SoC_1:SPISCLKO</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin Minimal_SoC_1:SPISDO</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Basic_Input_Testbench/pins/Minimal_SoC_1:SPISDO</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin Minimal_SoC_1:SCL_Sensor</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Basic_Input_Testbench/pins/Minimal_SoC_1:SCL_Sensor</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin Minimal_SoC_1:SPISS</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Basic_Input_Testbench/pins/Minimal_SoC_1:SPISS</crossprobe>
   </drc>
 </drcreport>

@@ -2,7 +2,7 @@
 <device>
   <name>Minimal_SoC</name>
   <version>1.0</version>
-  <description>CMSIS description for Minimal_SoC.  Created by Microsemi SmartDesign on Sat Jul 30 00:49:13 2022</description>
+  <description>CMSIS description for Minimal_SoC.  Created by Microsemi SmartDesign on Sat Aug 13 17:26:18 2022</description>
   <addressUnitBits>8</addressUnitBits>
   <width>32</width>
   <peripherals>

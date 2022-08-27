@@ -1,5 +1,5 @@
 //--------------------------------------------------------------------
-// Created by Microsemi SmartDesign Sat Jul 30 00:48:57 2022
+// Created by Microsemi SmartDesign Sat Aug 13 17:25:57 2022
 // Parameters for COREABC
 //--------------------------------------------------------------------
 
@@ -120,7 +120,7 @@ $INTERRUPT_DO_NOT_CALL
     JUMP IFNOT INPUT1 $INTERRUPT_UART_RX
     
 $INTERRUPT_TIMER
-        // increment reg15 and send it to UART
+        // WRITE 0X42 TO UART PERIODICALLY
         APBWRT DAT UART UART_TX_REG 0x42
         // reset timer interrupt
         APBWRT DAT TIMER INT_RESET_REG 0x0000
@@ -154,6 +154,8 @@ $INTERRUPT_UART_RX
                 JUMP $INT_RX_CMP_END
         $INT_RX_DEFAULT
                 // received sth. that's not a command
+                LOAD DAT 16
+                RAMWRT COMMAND_REG ACC
         $INT_RX_CMP_END
             JUMP $INTERRUPT_END    
 $INTERRUPT_END
@@ -192,26 +194,36 @@ $INIT
         APBWRT DAT TIMER PRESCALER PRESCALER256
         //Enable the timer and its interrupt
         APBWRT DAT TIMER TIMER_CONTROL 3
+
+    // ONLY TO START SYM
+        JUMP IFNOT INPUT3 $NO_DEBUG_START
+            APBWRT DAT UART UART_TX_REG 0x01
+        $NO_DEBUG_START
     
 // --------------- 
 // MAIN Program 
 // ---------------
 $MAIN
     $MAIN_LOOP
+        call $DELAY_5
         RAMREAD COMMAND_REG
+        //IOWRT ACC
         CMP DAT 0x00
         JUMP IF ZERO $MAIN_LOOP
             // the following code is exectued if there's a command to be run
             CMP DAT COMMAND_1_BIT
-            CALL IF ZERO $COMMAND_1
+                CALL IF ZERO $COMMAND_1
+                RAMWRT COMMAND_REG DAT 0x00
             CMP DAT COMMAND_2_BIT
-            CALL IF ZERO $COMMAND_2
+                CALL IF ZERO $COMMAND_2
+                RAMWRT COMMAND_REG DAT 0x00
             CMP DAT COMMAND_3_BIT
-            CALL IF ZERO $COMMAND_3
+                CALL IF ZERO $COMMAND_3
+                RAMWRT COMMAND_REG DAT 0x00
             CMP DAT COMMAND_4_BIT
-            CALL IF ZERO $COMMAND_4
-            RAMWRT COMMAND_REG 0x00
-            JUMP $MAIN_LOOP 
+                CALL IF ZERO $COMMAND_4
+                RAMWRT COMMAND_REG DAT 0x00
+        JUMP $MAIN_LOOP 
     JUMP $INFINIT_LOOP
     
 
@@ -239,6 +251,71 @@ $COMMAND_4
    APBWRT DAT UART UART_TX_REG 0x44
    RETURN
 
+
+
+// -------------------
+// Delay Functions 
+// -------------------
+
+// 4 ticks
+$DELAY_1
+    nop
+    nop
+    nop
+    nop
+    RETURN
+
+// 16 ticks
+$DELAY_2
+    call $DELAY_1
+    call $DELAY_1
+    call $DELAY_1
+    call $DELAY_1
+    RETURN
+
+// 64 ticks
+$DELAY_3
+    call $DELAY_2
+    call $DELAY_2
+    call $DELAY_2
+    call $DELAY_2
+    RETURN
+
+//256 ticks
+$DELAY_4
+    call $DELAY_3
+    call $DELAY_3
+    call $DELAY_3
+    call $DELAY_3
+    RETURN
+
+//1024 ticks
+$DELAY_5
+    call $DELAY_4
+    call $DELAY_4
+    call $DELAY_4
+    call $DELAY_4
+    RETURN
+
+//4096 ticks
+$DELAY_6
+    call $DELAY_5
+    call $DELAY_5
+    call $DELAY_5
+    call $DELAY_5
+    RETURN
+
+$DELAY_7
+    call $DELAY_6
+    call $DELAY_6
+    call $DELAY_6
+    call $DELAY_6
+    RETURN
+
+$DELAY_2MS
+    call $DELAY_7
+    call $DELAY_7
+    RETURN
 
 // -------------------
 // Useful Functions 
