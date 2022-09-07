@@ -5,7 +5,7 @@ The file contains the job information from mapper to be displayed as part of the
 *******************************************************************************************-->
 <job_run_status name="Mapper">
 <report_link name="Detailed report">
-<data>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\synthesis\synlog\Minimal_SoC_fpga_mapper.srr</data>
+<data>C:\Users\micha\Documents\Clyde\synthesis\synlog\Minimal_SoC_fpga_mapper.srr</data>
 <title>Synopsys Microsemi Technology Mapper</title>
 </report_link>
 <job_status>
@@ -15,32 +15,32 @@ The file contains the job information from mapper to be displayed as part of the
 <info name="Notes">
 <data>49</data>
 <report_link name="more">
-<data>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\synthesis\synlog\report\Minimal_SoC_fpga_mapper_notes.txt</data>
+<data>C:\Users\micha\Documents\Clyde\synthesis\synlog\report\Minimal_SoC_fpga_mapper_notes.txt</data>
 </report_link>
 </info>
 <info name="Warnings">
 <data>35</data>
 <report_link name="more">
-<data>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\synthesis\synlog\report\Minimal_SoC_fpga_mapper_warnings.txt</data>
+<data>C:\Users\micha\Documents\Clyde\synthesis\synlog\report\Minimal_SoC_fpga_mapper_warnings.txt</data>
 </report_link>
 </info>
 <info name="Errors">
 <data>0</data>
 <report_link name="more">
-<data>C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\synthesis\synlog\report\Minimal_SoC_fpga_mapper_errors.txt</data>
+<data>C:\Users\micha\Documents\Clyde\synthesis\synlog\report\Minimal_SoC_fpga_mapper_errors.txt</data>
 </report_link>
 </info>
 <info name="CPU Time">
-<data>0h:00m:10s</data>
+<data>0h:00m:08s</data>
 </info>
 <info name="Real Time">
-<data>0h:00m:11s</data>
+<data>0h:00m:08s</data>
 </info>
 <info name="Peak Memory">
-<data>173MB</data>
+<data>167MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1660487873</data>
+<data type="timestamp">1662570051</data>
 </info>
 </job_info>
 </job_run_status>

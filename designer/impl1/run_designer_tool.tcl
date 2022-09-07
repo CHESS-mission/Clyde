@@ -1,4 +1,8 @@
-set_defvar "IDE_DESIGNERVIEW_ROOTDIR" {C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\designer}
-open_design Minimal_SoC.adb
-open_tool mvn_ioedit
+# (OPEN DESIGN)
+
+open_design "C:/Users/micha/Documents/Clyde/designer/impl1/Minimal_SoC.adb"
+export -format "PDB" \
+    -feature "prog_fpga"  \
+    {C:/Users/micha/Documents/Clyde/designer/impl1/Minimal_SoC.pdb}
+save_design "C:/Users/micha/Documents/Clyde/designer/impl1/Minimal_SoC.adb"
 

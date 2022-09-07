@@ -1,4 +1,4 @@
-KEY IDE_DES_TOOL "Designer"
+KEY IDE_DES_TOOL "Ide"
 KEY IDE_DES_FAMILY "ProASIC3"
 KEY IDE_DES_DIE "IS4X2M1"
 KEY IDE_DES_PACKAGE "tq144"
@@ -20,9 +20,9 @@ KEY IDE_DES_BLOCK_PUBLISH "FALSE"
 KEY IDE_DES_BA_EXPORTED "FALSE"
 KEY IDE_DES_INTERACTIVE "TRUE"
 KEY IDE_DES_ERROR_FOUND "FALSE"
-KEY IDE_DES_ADB_PATH "C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\designer\impl1\Minimal_SoC.adb"
+KEY IDE_DES_ADB_PATH "C:\Users\micha\Documents\Clyde\designer\impl1\Minimal_SoC.adb"
 LIST SOURCE_FILES
-VALUE "C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\synthesis\Minimal_SoC.edn;edn"
+VALUE "C:\Users\micha\Documents\Clyde\synthesis\Minimal_SoC.edn;edn"
 ENDLIST
 LIST OPTIONAL_FILES
 ENDLIST

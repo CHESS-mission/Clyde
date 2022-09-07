@@ -1,5 +1,5 @@
 //--------------------------------------------------------------------
-// Created by Microsemi SmartDesign Sat Aug 13 17:25:57 2022
+// Created by Microsemi SmartDesign Wed Sep 07 19:00:12 2022
 // Parameters for COREABC
 //--------------------------------------------------------------------
 
@@ -191,7 +191,7 @@ $INIT
         // load value to timer
         APBWRT DAT TIMER LOAD_REG 0x00FF
         // set prescaler to 32
-        APBWRT DAT TIMER PRESCALER PRESCALER256
+        APBWRT DAT TIMER PRESCALER PRESCALER32728
         //Enable the timer and its interrupt
         APBWRT DAT TIMER TIMER_CONTROL 3
 

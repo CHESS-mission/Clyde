@@ -5,22 +5,21 @@ Report for cell Minimal_SoC.verilog
                           AND3_core         1       1.0        1.0
                                 AO1         1       1.0        1.0
                               BIBUF         2       0.0        0.0
-                               BUFF         2       1.0        2.0
+                               BUFF         1       1.0        1.0
                              CLKINT         1       0.0        0.0
-                         CORESPI_Z6         1     745.0      745.0
-                        CoreAPB3_Z3         1      61.0       61.0
-            CoreTimer_32s_0s_15s_0s         1     302.0      302.0
+                         CORESPI_Z6         1     756.0      756.0
+                        CoreAPB3_Z3         1      49.0       49.0
+            CoreTimer_32s_0s_15s_0s         1     298.0      298.0
                                 GND         1       0.0        0.0
                               INBUF         6       0.0        0.0
                                 INV         2       1.0        2.0
-                               MX2C         1       1.0        1.0
-          Minimal_SoC_COREABC_0_COREABC_Z1         1    1201.0     1201.0
-          Minimal_SoC_CoreUARTapb_0_CoreUARTapb_Z7         1     464.0      464.0
+          Minimal_SoC_COREABC_0_COREABC_Z1         1    1259.0     1259.0
+          Minimal_SoC_CoreUARTapb_0_CoreUARTapb_Z7         1     461.0      461.0
                Minimal_SoC_with_PLL         1       0.0        0.0
                              OUTBUF         5       0.0        0.0
                                 VCC         1       0.0        0.0
                             
-                         TOTAL             29               2780.0
+                         TOTAL             27               2828.0
 ----------------------------------------------------------------------
 Report for cell Minimal_SoC_with_PLL.netlist
      Instance path:  Minimal_SoC_with_PLL_0
@@ -37,27 +36,26 @@ Report for cell Minimal_SoC_CoreUARTapb_0_CoreUARTapb_Z7.netlist
      Instance path:  CoreUARTapb_0
                                           Cell usage:
                                cell       count     area    count*area
-                               AND2         2       1.0        2.0
                            DFN1E1C0        27       1.0       27.0
                                 GND         1       0.0        0.0
                                 MX2         2       1.0        2.0
                                MX2A         3       1.0        3.0
                                MX2B         5       1.0        5.0
                                MX2C        22       1.0       22.0
-          Minimal_SoC_CoreUARTapb_0_COREUART_1s_1s_0s_15s_1s_0s         1     385.0      385.0
-                              NOR2A         3       1.0        3.0
-                              NOR2B        12       1.0       12.0
-                              NOR3B         2       1.0        2.0
-                              NOR3C         1       1.0        1.0
+          Minimal_SoC_CoreUARTapb_0_COREUART_1s_1s_0s_15s_1s_0s         1     383.0      383.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B        10       1.0       10.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         2       1.0        2.0
                                 VCC         1       0.0        0.0
                             
-                         TOTAL             82                464.0
+                         TOTAL             81                461.0
 ----------------------------------------------------------------------
 Report for cell Minimal_SoC_CoreUARTapb_0_COREUART_1s_1s_0s_15s_1s_0s.netlist
      Instance path:  CoreUARTapb_0.CUARTlOlI
                                           Cell usage:
                                cell       count     area    count*area
-                               AND2         1       1.0        1.0
                              DFN1C0         5       1.0        5.0
                            DFN1E0C0         8       1.0        8.0
                            DFN1E0P0         1       1.0        1.0
@@ -67,13 +65,13 @@ Report for cell Minimal_SoC_CoreUARTapb_0_COREUART_1s_1s_0s_15s_1s_0s.netlist
                                 INV         3       1.0        3.0
                                 MX2         8       1.0        8.0
           Minimal_SoC_CoreUARTapb_0_Clock_gen_1s_0s         1     119.0      119.0
-          Minimal_SoC_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s         1     130.0      130.0
-          Minimal_SoC_CoreUARTapb_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s         1      64.0       64.0
+          Minimal_SoC_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s         1     127.0      127.0
+          Minimal_SoC_CoreUARTapb_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s         1      66.0       66.0
           Minimal_SoC_CoreUARTapb_0_fifo_256x8_0s_4294967295s         1       9.0        9.0
           Minimal_SoC_CoreUARTapb_0_fifo_256x8_0s_4294967295s_0         1      19.0       19.0
                               NOR2A         1       1.0        1.0
-                              NOR3A         1       1.0        1.0
                               NOR3B         1       1.0        1.0
+                              NOR3C         1       1.0        1.0
                                OA1A         1       1.0        1.0
                                OA1B         1       1.0        1.0
                                 OR2         1       1.0        1.0
@@ -81,7 +79,7 @@ Report for cell Minimal_SoC_CoreUARTapb_0_COREUART_1s_1s_0s_15s_1s_0s.netlist
                                 VCC         1       0.0        0.0
                                XOR2         1       1.0        1.0
                             
-                         TOTAL             51                385.0
+                         TOTAL             50                383.0
 ----------------------------------------------------------------------
 Report for cell Minimal_SoC_CoreUARTapb_0_fifo_256x8_0s_4294967295s_0.netlist
   Original Cell name Minimal_SoC_CoreUARTapb_0_fifo_256x8_0s_4294967295s
@@ -151,31 +149,32 @@ Report for cell Minimal_SoC_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s.netlist
                                MX2A         2       1.0        2.0
                                MX2C         4       1.0        4.0
                                NOR2         6       1.0        6.0
-                              NOR2A        18       1.0       18.0
-                              NOR2B        15       1.0       15.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B        10       1.0       10.0
                                NOR3         1       1.0        1.0
                               NOR3A         1       1.0        1.0
-                              NOR3B         7       1.0        7.0
-                              NOR3C         2       1.0        2.0
+                              NOR3B         9       1.0        9.0
+                              NOR3C         4       1.0        4.0
                                OA1B         1       1.0        1.0
                                OA1C         2       1.0        2.0
                                OAI1         1       1.0        1.0
-                                OR2         2       1.0        2.0
+                                OR2         1       1.0        1.0
                                OR2A         1       1.0        1.0
                                 VCC         1       0.0        0.0
                                XA1B         7       1.0        7.0
                               XNOR2         1       1.0        1.0
-                                XO1         1       1.0        1.0
-                               XOR2         4       1.0        4.0
+                                XO1         2       1.0        2.0
+                               XOR2         3       1.0        3.0
                             
-                         TOTAL            132                130.0
+                         TOTAL            129                127.0
 ----------------------------------------------------------------------
 Report for cell Minimal_SoC_CoreUARTapb_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s.netlist
      Instance path:  CoreUARTapb_0.CUARTlOlI.CUARTIO1
                                           Cell usage:
                                cell       count     area    count*area
                                 AO1         3       1.0        3.0
-                               AO1A         2       1.0        2.0
+                               AO1A         1       1.0        1.0
+                               AOI1         1       1.0        1.0
                               AXOI5         1       1.0        1.0
                            DFI1E0P0         1       1.0        1.0
                              DFN1C0        10       1.0       10.0
@@ -187,22 +186,23 @@ Report for cell Minimal_SoC_CoreUARTapb_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s.ne
                                 INV         1       1.0        1.0
                                 MX2         8       1.0        8.0
                                NOR2         1       1.0        1.0
-                              NOR2A         5       1.0        5.0
-                              NOR2B         2       1.0        2.0
+                              NOR2A         8       1.0        8.0
+                              NOR2B         3       1.0        3.0
                                NOR3         1       1.0        1.0
-                              NOR3A         1       1.0        1.0
-                              NOR3B         2       1.0        2.0
-                              NOR3C         1       1.0        1.0
+                              NOR3A         2       1.0        2.0
+                              NOR3B         1       1.0        1.0
                                OA1C         1       1.0        1.0
-                               OR2A         3       1.0        3.0
+                                OR2         1       1.0        1.0
+                               OR2A         1       1.0        1.0
                                OR2B         2       1.0        2.0
                                 OR3         1       1.0        1.0
+                               OR3B         1       1.0        1.0
                                 VCC         1       0.0        0.0
                                 XA1         1       1.0        1.0
-                               XA1C         4       1.0        4.0
+                               XA1C         3       1.0        3.0
                                XOR2         1       1.0        1.0
                             
-                         TOTAL             66                 64.0
+                         TOTAL             68                 66.0
 ----------------------------------------------------------------------
 Report for cell Minimal_SoC_CoreUARTapb_0_Clock_gen_1s_0s.netlist
      Instance path:  CoreUARTapb_0.CUARTlOlI.CUARTOO1
@@ -237,12 +237,12 @@ Report for cell CoreTimer_32s_0s_15s_0s.netlist
                                           Cell usage:
                                cell       count     area    count*area
                                 AO1        12       1.0       12.0
-                               AO1A         5       1.0        5.0
+                               AO1A         2       1.0        2.0
                                AO1C         1       1.0        1.0
                                AOI1         6       1.0        6.0
-                                AX1        13       1.0       13.0
+                                AX1        14       1.0       14.0
                                AX1B         2       1.0        2.0
-                               AX1C         1       1.0        1.0
+                               AX1C         2       1.0        2.0
                              DFN1C0        21       1.0       21.0
                            DFN1E1C0        23       1.0       23.0
                            DFN1E1P0        32       1.0       32.0
@@ -250,25 +250,26 @@ Report for cell CoreTimer_32s_0s_15s_0s.netlist
                                 GND         1       0.0        0.0
                                 MX2        16       1.0       16.0
                                MX2A         1       1.0        1.0
-                               NOR2        14       1.0       14.0
-                              NOR2A        36       1.0       36.0
-                              NOR2B        21       1.0       21.0
+                               NOR2        13       1.0       13.0
+                              NOR2A        33       1.0       33.0
+                              NOR2B        19       1.0       19.0
                                NOR3         4       1.0        4.0
-                              NOR3A        12       1.0       12.0
-                              NOR3B         2       1.0        2.0
+                              NOR3A        11       1.0       11.0
+                              NOR3B         5       1.0        5.0
                               NOR3C        33       1.0       33.0
                                 OA1         2       1.0        2.0
                                OA1A         1       1.0        1.0
+                                OR2         3       1.0        3.0
                                OR2A         2       1.0        2.0
-                               OR2B         1       1.0        1.0
+                               OR2B         2       1.0        2.0
                                 OR3         5       1.0        5.0
-                               OR3C         2       1.0        2.0
+                               OR3C         1       1.0        1.0
                                 VCC         1       0.0        0.0
-                               XA1B        21       1.0       21.0
+                               XA1B        20       1.0       20.0
                                XA1C         1       1.0        1.0
-                               XOR2         2       1.0        2.0
+                               XOR2         1       1.0        1.0
                             
-                         TOTAL            304                302.0
+                         TOTAL            300                298.0
 ----------------------------------------------------------------------
 Report for cell CORESPI_Z6.netlist
      Instance path:  CORESPI_0
@@ -276,38 +277,39 @@ Report for cell CORESPI_Z6.netlist
                                cell       count     area    count*area
                                 GND         1       0.0        0.0
                                 VCC         1       0.0        0.0
-          spi_16s_4s_4s_7s_1_1_0_0s         1     745.0      745.0
+          spi_16s_4s_4s_7s_1_1_0_0s         1     756.0      756.0
                             
-                         TOTAL              3                745.0
+                         TOTAL              3                756.0
 ----------------------------------------------------------------------
 Report for cell spi_16s_4s_4s_7s_1_1_0_0s.netlist
      Instance path:  CORESPI_0.USPI
                                           Cell usage:
                                cell       count     area    count*area
                                 GND         1       0.0        0.0
-                               NOR3         1       1.0        1.0
+                               NOR2         1       1.0        1.0
                                 VCC         1       0.0        0.0
-                    spi_chanctrl_Z5         1     312.0      312.0
-                     spi_control_4s         1       9.0        9.0
-                 spi_fifo_4s_4s_2_0         1     128.0      128.0
-                 spi_fifo_4s_4s_2_1         1     129.0      129.0
-                    spi_rf_16s_7s_0         1     166.0      166.0
+                    spi_chanctrl_Z5         1     318.0      318.0
+                     spi_control_4s         1      10.0       10.0
+                 spi_fifo_4s_4s_2_0         1     127.0      127.0
+                 spi_fifo_4s_4s_2_1         1     131.0      131.0
+                    spi_rf_16s_7s_0         1     169.0      169.0
                             
-                         TOTAL              8                745.0
+                         TOTAL              8                756.0
 ----------------------------------------------------------------------
 Report for cell spi_chanctrl_Z5.netlist
      Instance path:  CORESPI_0.USPI.UCC
                                           Cell usage:
                                cell       count     area    count*area
-                               AND2         1       1.0        1.0
-                                AO1        10       1.0       10.0
-                               AO1A         4       1.0        4.0
+                               AND2         2       1.0        2.0
+                                AO1         8       1.0        8.0
+                               AO1A         7       1.0        7.0
                                AO1B         2       1.0        2.0
                                AO1C         2       1.0        2.0
                                AO1D         1       1.0        1.0
                                AOI1         2       1.0        2.0
-                              AOI1B         4       1.0        4.0
+                              AOI1B         3       1.0        3.0
                                AX1B         1       1.0        1.0
+                               AX1C         3       1.0        3.0
                              DFN1C0        46       1.0       46.0
                              DFN1C1         4       1.0        4.0
                            DFN1E0C0         5       1.0        5.0
@@ -320,32 +322,31 @@ Report for cell spi_chanctrl_Z5.netlist
                                 GND         1       0.0        0.0
                                 INV         7       1.0        7.0
                                 MX2        12       1.0       12.0
-                               NOR2         7       1.0        7.0
-                              NOR2A        37       1.0       37.0
-                              NOR2B        25       1.0       25.0
-                               NOR3         3       1.0        3.0
-                              NOR3A         7       1.0        7.0
-                              NOR3B         8       1.0        8.0
-                              NOR3C         6       1.0        6.0
+                               NOR2         9       1.0        9.0
+                              NOR2A        36       1.0       36.0
+                              NOR2B        29       1.0       29.0
+                               NOR3         2       1.0        2.0
+                              NOR3A         8       1.0        8.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         5       1.0        5.0
                                 OA1         1       1.0        1.0
+                               OA1A         1       1.0        1.0
                                OA1B         1       1.0        1.0
-                               OA1C         1       1.0        1.0
-                                OR2         7       1.0        7.0
+                               OA1C         2       1.0        2.0
+                                OR2        11       1.0       11.0
                                OR2A         6       1.0        6.0
-                                OR3         7       1.0        7.0
+                                OR3         6       1.0        6.0
                                OR3A         2       1.0        2.0
                                OR3B         1       1.0        1.0
                                 VCC         1       0.0        0.0
-                                XA1        14       1.0       14.0
-                               XA1B         2       1.0        2.0
-                               XA1C         1       1.0        1.0
+                                XA1        11       1.0       11.0
+                              XNOR2         2       1.0        2.0
                                 XO1         2       1.0        2.0
-                               XO1A         1       1.0        1.0
-                               XOR2         9       1.0        9.0
+                               XOR2        10       1.0       10.0
                                XOR3         2       1.0        2.0
                        spi_clockmux         1       1.0        1.0
                             
-                         TOTAL            314                312.0
+                         TOTAL            320                318.0
 ----------------------------------------------------------------------
 Report for cell spi_clockmux.netlist
      Instance path:  CORESPI_0.USPI.UCC.UCLKMUX1
@@ -374,15 +375,15 @@ Report for cell spi_fifo_4s_4s_2_0.netlist
                                MX2C         6       1.0        6.0
                                NOR2         8       1.0        8.0
                               NOR2A         1       1.0        1.0
-                              NOR2B        10       1.0       10.0
+                              NOR2B         7       1.0        7.0
                               NOR3A         5       1.0        5.0
                               NOR3B         4       1.0        4.0
-                              NOR3C         2       1.0        2.0
+                              NOR3C         4       1.0        4.0
                                OR3C         1       1.0        1.0
                                 VCC         1       0.0        0.0
                                XOR2        25       1.0       25.0
                             
-                         TOTAL            130                128.0
+                         TOTAL            129                127.0
 ----------------------------------------------------------------------
 Report for cell spi_fifo_4s_4s_2_1.netlist
   Original Cell name spi_fifo_4s_4s_2
@@ -391,24 +392,23 @@ Report for cell spi_fifo_4s_4s_2_1.netlist
                                cell       count     area    count*area
                                AND2        10       1.0       10.0
                                 AO1         6       1.0        6.0
-                             DFN1C0        11       1.0       11.0
+                             DFN1C0        10       1.0       10.0
                              DFN1E1        20       1.0       20.0
-                             DFN1P0         1       1.0        1.0
+                             DFN1P0         2       1.0        2.0
                                 GND         1       0.0        0.0
                                 INV         1       1.0        1.0
                                 MX2        15       1.0       15.0
                                MX2C         6       1.0        6.0
-                               NOR2         7       1.0        7.0
-                              NOR2A         3       1.0        3.0
-                              NOR2B        13       1.0       13.0
-                               NOR3         1       1.0        1.0
-                              NOR3A         6       1.0        6.0
-                              NOR3B         2       1.0        2.0
-                              NOR3C         2       1.0        2.0
+                               NOR2         9       1.0        9.0
+                              NOR2A         4       1.0        4.0
+                              NOR2B        10       1.0       10.0
+                              NOR3A         5       1.0        5.0
+                              NOR3C         7       1.0        7.0
+                               OR3C         1       1.0        1.0
                                 VCC         1       0.0        0.0
                                XOR2        25       1.0       25.0
                             
-                         TOTAL            131                129.0
+                         TOTAL            133                131.0
 ----------------------------------------------------------------------
 Report for cell spi_control_4s.netlist
      Instance path:  CORESPI_0.USPI.UCON
@@ -416,86 +416,86 @@ Report for cell spi_control_4s.netlist
                                cell       count     area    count*area
                                 GND         1       0.0        0.0
                                NOR2         1       1.0        1.0
-                              NOR2B         1       1.0        1.0
+                              NOR2B         5       1.0        5.0
                                NOR3         2       1.0        2.0
                               NOR3B         1       1.0        1.0
-                              NOR3C         3       1.0        3.0
                                 VCC         1       0.0        0.0
                                 XA1         1       1.0        1.0
                             
-                         TOTAL             11                  9.0
+                         TOTAL             12                 10.0
 ----------------------------------------------------------------------
 Report for cell spi_rf_16s_7s_0.netlist
      Instance path:  CORESPI_0.USPI.URF
                                           Cell usage:
                                cell       count     area    count*area
-                               AND2         2       1.0        2.0
-                                AO1         8       1.0        8.0
-                               AO1A         2       1.0        2.0
+                               AND2         1       1.0        1.0
+                                AO1        15       1.0       15.0
+                               AO1A         3       1.0        3.0
                                AO1B         3       1.0        3.0
-                               AO1C         3       1.0        3.0
+                               AO1C         2       1.0        2.0
                                AOI1         2       1.0        2.0
+                              AOI1B         1       1.0        1.0
                              DFN1C0        18       1.0       18.0
                            DFN1E1C0        21       1.0       21.0
                            DFN1E1P0         3       1.0        3.0
                              DFN1P0         1       1.0        1.0
                                 GND         1       0.0        0.0
-                                MX2         7       1.0        7.0
-                               MX2A         1       1.0        1.0
-                              NOR2A         3       1.0        3.0
-                              NOR2B        31       1.0       31.0
-                               NOR3         4       1.0        4.0
-                              NOR3A         8       1.0        8.0
-                              NOR3B        12       1.0       12.0
-                              NOR3C        13       1.0       13.0
+                                MX2         8       1.0        8.0
+                               MX2A         2       1.0        2.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         9       1.0        9.0
+                              NOR2B        21       1.0       21.0
+                               NOR3         2       1.0        2.0
+                              NOR3A         6       1.0        6.0
+                              NOR3B         9       1.0        9.0
+                              NOR3C        17       1.0       17.0
                                OA1A         1       1.0        1.0
-                               OA1B         3       1.0        3.0
-                               OA1C         1       1.0        1.0
+                               OA1B         6       1.0        6.0
                                 OR2         2       1.0        2.0
                                OR2A         2       1.0        2.0
-                               OR2B         2       1.0        2.0
-                                OR3        11       1.0       11.0
-                               OR3A         2       1.0        2.0
+                               OR2B         1       1.0        1.0
+                                OR3        10       1.0       10.0
+                               OR3A         1       1.0        1.0
+                               OR3C         1       1.0        1.0
                                 VCC         1       0.0        0.0
                             
-                         TOTAL            168                166.0
+                         TOTAL            171                169.0
 ----------------------------------------------------------------------
 Report for cell CoreAPB3_Z3.netlist
      Instance path:  CoreAPB3_0
                                           Cell usage:
                                cell       count     area    count*area
-                  COREAPB3_MUXPTOB3         1      58.0       58.0
+                  COREAPB3_MUXPTOB3         1      46.0       46.0
                                 GND         1       0.0        0.0
                               NOR2B         1       1.0        1.0
                               NOR3A         1       1.0        1.0
                               NOR3B         1       1.0        1.0
                                 VCC         1       0.0        0.0
                             
-                         TOTAL              6                 61.0
+                         TOTAL              6                 49.0
 ----------------------------------------------------------------------
 Report for cell COREAPB3_MUXPTOB3.netlist
      Instance path:  CoreAPB3_0.u_mux_p_to_b3
                                           Cell usage:
                                cell       count     area    count*area
-                                AO1         8       1.0        8.0
+                                AO1        13       1.0       13.0
                                AO1B         1       1.0        1.0
                                AOI1         2       1.0        2.0
                                 GND         1       0.0        0.0
-                               MX2C         1       1.0        1.0
-                               NOR2         2       1.0        2.0
-                              NOR2A         5       1.0        5.0
-                              NOR2B        17       1.0       17.0
-                               NOR3         5       1.0        5.0
-                              NOR3A         5       1.0        5.0
+                               MX2A         1       1.0        1.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B        12       1.0       12.0
+                               NOR3         3       1.0        3.0
+                              NOR3A         3       1.0        3.0
                               NOR3B         1       1.0        1.0
-                               OA1A         3       1.0        3.0
-                               OA1C         2       1.0        2.0
-                                OR2         2       1.0        2.0
-                                OR3         3       1.0        3.0
+                               OA1A         1       1.0        1.0
+                               OA1C         5       1.0        5.0
+                                OR3         1       1.0        1.0
                                OR3A         1       1.0        1.0
                                 VCC         1       0.0        0.0
                             
-                         TOTAL             60                 58.0
+                         TOTAL             48                 46.0
 ----------------------------------------------------------------------
 Report for cell AND3_core.netlist
      Instance path:  AND3_core_0
@@ -511,92 +511,114 @@ Report for cell Minimal_SoC_COREABC_0_COREABC_Z1.verilog
      Instance path:  COREABC_0
                                           Cell usage:
                                cell       count     area    count*area
-                               AND2        10       1.0       10.0
+                               AND2        39       1.0       39.0
                                AND3        18       1.0       18.0
-                                AO1       104       1.0      104.0
-                               AO1A         9       1.0        9.0
-                               AO1B         1       1.0        1.0
+                                AO1        87       1.0       87.0
+                               AO12         3       1.0        3.0
+                               AO15         3       1.0        3.0
+                               AO16         4       1.0        4.0
+                               AO18         2       1.0        2.0
+                               AO1A         8       1.0        8.0
+                               AO1C         2       1.0        2.0
                                AO1D         1       1.0        1.0
                                AOI1         2       1.0        2.0
-                              AOI1B         3       1.0        3.0
-                                AX1         2       1.0        2.0
-                               AX1A         1       1.0        1.0
-                               AX1B         4       1.0        4.0
-                               AX1C         6       1.0        6.0
-                               AX1D        15       1.0       15.0
-                               AX1E         1       1.0        1.0
-                               DFN1        28       1.0       28.0
+                              AOI1B         1       1.0        1.0
+                                AX1         7       1.0        7.0
+                               AX1A         3       1.0        3.0
+                               AX1C         2       1.0        2.0
+                               AX1D        20       1.0       20.0
+                               AXO7         2       1.0        2.0
+                              AXOI1         1       1.0        1.0
+                              AXOI4         5       1.0        5.0
+                              AXOI5         2       1.0        2.0
+                               DFN1        26       1.0       26.0
                              DFN1C0        10       1.0       10.0
-                           DFN1E0C0        19       1.0       19.0
-                           DFN1E0P0        22       1.0       22.0
-                           DFN1E1C0        22       1.0       22.0
-                           DFN1E1P0         8       1.0        8.0
+                           DFN1E0C0         1       1.0        1.0
+                           DFN1E1C0        40       1.0       40.0
+                           DFN1E1P0        33       1.0       33.0
                              DFN1P0         2       1.0        2.0
                                 GND         1       0.0        0.0
-                                INV         6       1.0        6.0
-                               MAJ3         6       1.0        6.0
-                             MAJ3XI         1       1.0        1.0
-                                MX2       252       1.0      252.0
-                               MX2A         4       1.0        4.0
-                               MX2B         3       1.0        3.0
-                               MX2C         8       1.0        8.0
-          Minimal_SoC_COREABC_0_RAMBLOCKS_0s_16s_15s         1      68.0       68.0
-                               NOR2        17       1.0       17.0
-                              NOR2A        61       1.0       61.0
-                              NOR2B       174       1.0      174.0
-                               NOR3        11       1.0       11.0
-                              NOR3A        20       1.0       20.0
-                              NOR3B        19       1.0       19.0
-                              NOR3C        29       1.0       29.0
-                                OA1        27       1.0       27.0
-                               OA1A        15       1.0       15.0
-                               OA1B         2       1.0        2.0
-                               OA1C         3       1.0        3.0
+                                INV         9       1.0        9.0
+                               MAJ3         7       1.0        7.0
+                              MAJ3X         1       1.0        1.0
+                               MIN3         1       1.0        1.0
+                              MIN3X         1       1.0        1.0
+                                MX2       138       1.0      138.0
+                               MX2A        62       1.0       62.0
+                               MX2B         5       1.0        5.0
+                               MX2C         3       1.0        3.0
+          Minimal_SoC_COREABC_0_INSTRUCTIONS_Z2         1       2.0        2.0
+          Minimal_SoC_COREABC_0_RAMBLOCKS_0s_16s_15s         1      57.0       57.0
+                               NOR2        22       1.0       22.0
+                              NOR2A       113       1.0      113.0
+                              NOR2B       146       1.0      146.0
+                               NOR3         9       1.0        9.0
+                              NOR3A        49       1.0       49.0
+                              NOR3B        24       1.0       24.0
+                              NOR3C        34       1.0       34.0
+                                OA1        20       1.0       20.0
+                               OA1A        12       1.0       12.0
+                               OA1B         4       1.0        4.0
+                               OA1C         5       1.0        5.0
                                OAI1         1       1.0        1.0
-                                OR2        38       1.0       38.0
-                               OR2A         7       1.0        7.0
-                               OR2B         6       1.0        6.0
-                                OR3        43       1.0       43.0
-                               OR3A         5       1.0        5.0
+                                OR2        67       1.0       67.0
+                               OR2A         6       1.0        6.0
+                               OR2B         4       1.0        4.0
+                                OR3        47       1.0       47.0
+                               OR3A         2       1.0        2.0
                                OR3B         1       1.0        1.0
                                 VCC         1       0.0        0.0
-                                XA1        20       1.0       20.0
-                               XA1A         4       1.0        4.0
-                              XNOR2         6       1.0        6.0
-                               XOR2        51       1.0       51.0
-                               XOR3         5       1.0        5.0
+                                XA1         3       1.0        3.0
+                               XA1A         1       1.0        1.0
+                               XA1B         4       1.0        4.0
+                               XA1C         1       1.0        1.0
+                              XAI1A         3       1.0        3.0
+                              XNOR2         3       1.0        3.0
+                                XO1         1       1.0        1.0
+                               XOR2        58       1.0       58.0
+                               XOR3         9       1.0        9.0
                             
-                         TOTAL           1136               1201.0
+                         TOTAL           1204               1259.0
+----------------------------------------------------------------------
+Report for cell Minimal_SoC_COREABC_0_INSTRUCTIONS_Z2.netlist
+     Instance path:  COREABC_0.UROM.UROM
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                OR3         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                  2.0
 ----------------------------------------------------------------------
 Report for cell Minimal_SoC_COREABC_0_RAMBLOCKS_0s_16s_15s.netlist
      Instance path:  COREABC_0.URAM.UR
                                           Cell usage:
                                cell       count     area    count*area
                                 GND         1       0.0        0.0
-          Minimal_SoC_COREABC_0_RAM256X16         1      68.0       68.0
+          Minimal_SoC_COREABC_0_RAM256X16         1      57.0       57.0
                                 VCC         1       0.0        0.0
                             
-                         TOTAL              3                 68.0
+                         TOTAL              3                 57.0
 ----------------------------------------------------------------------
 Report for cell Minimal_SoC_COREABC_0_RAM256X16.netlist
      Instance path:  COREABC_0.URAM.UR.UG3.UR_xhdl12
                                           Cell usage:
                                cell       count     area    count*area
-                                AO1         2       1.0        2.0
-                               AO1A         1       1.0        1.0
+                                AX1         1       1.0        1.0
+                               AXO5         1       1.0        1.0
                                 GND         1       0.0        0.0
                                 INV         1       1.0        1.0
-                                MX2        12       1.0       12.0
-                               MX2A        10       1.0       10.0
-                               MX2B         1       1.0        1.0
-                               MX2C        13       1.0       13.0
-                              NOR2A         3       1.0        3.0
-                              NOR2B        13       1.0       13.0
-                              NOR3A         5       1.0        5.0
-                                OR3         2       1.0        2.0
+                                MX2        28       1.0       28.0
+                               MX2A         3       1.0        3.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         5       1.0        5.0
+                              NOR2B         9       1.0        9.0
+                              NOR3A         2       1.0        2.0
+                              NOR3B         1       1.0        1.0
+                               OA1B         1       1.0        1.0
+                               OA1C         3       1.0        3.0
                           RAM512X18         1       0.0        0.0
                                 VCC         1       0.0        0.0
-                               XA1B         2       1.0        2.0
-                               XOR2         3       1.0        3.0
+                              XNOR2         1       1.0        1.0
                             
-                         TOTAL             71                 68.0
+                         TOTAL             60                 57.0

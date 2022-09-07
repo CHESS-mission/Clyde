@@ -11,83 +11,62 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
 @I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
 @I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\smartgen\AND3_core\AND3_core.v" (library work)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v" (library work)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v" (library work)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v" (library work)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v" (library work)
-@I:"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v":"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\support.v" (library work)
-@N: CG334 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v":68:17:68:29|Read directive translate_off.
-@N: CG333 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v":745:17:745:28|Read directive translate_on.
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructions.v" (library work)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructnvm_bb.v" (library work)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\iram512x9_pa3.v" (library work)
-@N: CG334 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\iram512x9_pa3.v":55:17:55:29|Read directive translate_off.
-@N: CG333 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\iram512x9_pa3.v":56:17:56:28|Read directive translate_on.
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructram.v" (library work)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram128x8_rtl.v" (library work)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x16_pa3.v" (library work)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x8_rtl.v" (library work)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v" (library work)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v" (library work)
-@N: CG334 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":992:21:992:33|Read directive translate_off.
-@N: CG333 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":994:21:994:32|Read directive translate_on.
-@N: CG334 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":1389:17:1389:29|Read directive translate_off.
-@N: CG333 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":1433:17:1433:28|Read directive translate_on.
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v" (library work)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v" (library work)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v" (library work)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v" (library work)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v" (library work)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v" (library work)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\smartgen\Minimal_SoC_with_PLL\Minimal_SoC_with_PLL.v" (library work)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v" (library COREAPB3_LIB)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v" (library COREAPB3_LIB)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v" (library COREAPB3_LIB)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_clockmux.v" (library CORESPI_LIB)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v" (library CORESPI_LIB)
-@W:"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":805:7:805:17|Net resetn_rx_s is not declared.
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v" (library CORESPI_LIB)
-@N: CG347 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":69:31:69:43|Read a parallel_case directive.
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v" (library CORESPI_LIB)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v" (library CORESPI_LIB)
-@N: CG347 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":160:38:160:50|Read a parallel_case directive.
-@N: CG347 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":223:34:223:46|Read a parallel_case directive.
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v" (library CORESPI_LIB)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v" (library CORESPI_LIB)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v" (library CORETIMER_LIB)
-@I::"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\Minimal_SoC.v" (library work)
+@I::"C:\Users\micha\Documents\Clyde\smartgen\AND3_core\AND3_core.v" (library work)
+@I::"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v" (library work)
+@I::"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v" (library work)
+@I::"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v" (library work)
+@I::"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v" (library work)
+@I:"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v":"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\support.v" (library work)
+@N: CG334 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v":68:17:68:29|Read directive translate_off.
+@N: CG333 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v":745:17:745:28|Read directive translate_on.
+@I::"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructions.v" (library work)
+@I::"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructnvm_bb.v" (library work)
+@I::"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\iram512x9_pa3.v" (library work)
+@N: CG334 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\iram512x9_pa3.v":55:17:55:29|Read directive translate_off.
+@N: CG333 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\iram512x9_pa3.v":56:17:56:28|Read directive translate_on.
+@I::"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructram.v" (library work)
+@I::"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram128x8_rtl.v" (library work)
+@I::"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x16_pa3.v" (library work)
+@I::"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x8_rtl.v" (library work)
+@I::"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v" (library work)
+@I::"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v" (library work)
+@N: CG334 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":992:21:992:33|Read directive translate_off.
+@N: CG333 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":994:21:994:32|Read directive translate_on.
+@N: CG334 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":1389:17:1389:29|Read directive translate_off.
+@N: CG333 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":1433:17:1433:28|Read directive translate_on.
+@I::"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v" (library work)
+@I::"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v" (library work)
+@I::"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v" (library work)
+@I::"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v" (library work)
+@I::"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v" (library work)
+@I::"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v" (library work)
+@I::"C:\Users\micha\Documents\Clyde\smartgen\Minimal_SoC_with_PLL\Minimal_SoC_with_PLL.v" (library work)
+@I::"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v" (library COREAPB3_LIB)
+@I::"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v" (library COREAPB3_LIB)
+@I::"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v" (library COREAPB3_LIB)
+@I::"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_clockmux.v" (library CORESPI_LIB)
+@I::"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v" (library CORESPI_LIB)
+@W:"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":805:7:805:17|Net resetn_rx_s is not declared.
+@I::"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v" (library CORESPI_LIB)
+@N: CG347 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":69:31:69:43|Read a parallel_case directive.
+@I::"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v" (library CORESPI_LIB)
+@I::"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v" (library CORESPI_LIB)
+@N: CG347 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":160:38:160:50|Read a parallel_case directive.
+@N: CG347 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":223:34:223:46|Read a parallel_case directive.
+@I::"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v" (library CORESPI_LIB)
+@I::"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v" (library CORESPI_LIB)
+@I::"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v" (library CORETIMER_LIB)
+@I::"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\Minimal_SoC.v" (library work)
 Verilog syntax check successful!
-File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v changed - recompiling
-File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v changed - recompiling
-File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\support.v changed - recompiling
-File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructions.v changed - recompiling
-File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\support.v changed - recompiling
-File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructnvm_bb.v changed - recompiling
-File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\support.v changed - recompiling
-File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\iram512x9_pa3.v changed - recompiling
-File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructram.v changed - recompiling
-File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram128x8_rtl.v changed - recompiling
-File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x16_pa3.v changed - recompiling
-File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x8_rtl.v changed - recompiling
-File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v changed - recompiling
-File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v changed - recompiling
-File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\support.v changed - recompiling
-File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v changed - recompiling
-File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v changed - recompiling
-File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v changed - recompiling
-File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v changed - recompiling
-File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v changed - recompiling
-File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v changed - recompiling
-File C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\Minimal_SoC.v changed - recompiling
+Options changed - recompiling
 Selecting top level module Minimal_SoC
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":20:7:20:10|Synthesizing module AND3 in library work.
 
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\smartgen\AND3_core\AND3_core.v":5:7:5:15|Synthesizing module AND3_core in library work.
+@N: CG364 :"C:\Users\micha\Documents\Clyde\smartgen\AND3_core\AND3_core.v":5:7:5:15|Synthesizing module AND3_core in library work.
 
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":281:7:281:11|Synthesizing module BIBUF in library work.
 
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":46:7:46:35|Synthesizing module Minimal_SoC_COREABC_0_COREABC in library work.
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":46:7:46:35|Synthesizing module Minimal_SoC_COREABC_0_COREABC in library work.
 
 	FAMILY=32'b00000000000000000000000000001111
 	APB_AWIDTH=32'b00000000000000000000000000001100
@@ -281,7 +260,7 @@ Selecting top level module Minimal_SoC
 	CYCLE3=2'b11
    Generated name = Minimal_SoC_COREABC_0_COREABC_Z1
 
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v":25:7:25:37|Synthesizing module Minimal_SoC_COREABC_0_RAMBLOCKS in library work.
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v":25:7:25:37|Synthesizing module Minimal_SoC_COREABC_0_RAMBLOCKS in library work.
 
 	EN_RAM_ECC=32'b00000000000000000000000000000000
 	DWIDTH=32'b00000000000000000000000000010000
@@ -296,19 +275,19 @@ Selecting top level module Minimal_SoC
 
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1283:7:1283:9|Synthesizing module INV in library work.
 
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x16_pa3.v":24:7:24:37|Synthesizing module Minimal_SoC_COREABC_0_RAM256X16 in library work.
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x16_pa3.v":24:7:24:37|Synthesizing module Minimal_SoC_COREABC_0_RAM256X16 in library work.
 
-@W: CG360 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v":43:23:43:25|Removing wire RDW, as there is no assignment to it.
-@W: CG360 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v":47:15:47:17|Removing wire WDY, as there is no assignment to it.
-@W: CG360 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v":48:15:48:17|Removing wire RDY, as there is no assignment to it.
-@W: CG360 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v":49:15:49:18|Removing wire RDYY, as there is no assignment to it.
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v":24:7:24:36|Synthesizing module Minimal_SoC_COREABC_0_ACMTABLE in library work.
+@W: CG360 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v":43:23:43:25|Removing wire RDW, as there is no assignment to it.
+@W: CG360 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v":47:15:47:17|Removing wire WDY, as there is no assignment to it.
+@W: CG360 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v":48:15:48:17|Removing wire RDY, as there is no assignment to it.
+@W: CG360 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v":49:15:49:18|Removing wire RDYY, as there is no assignment to it.
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v":24:7:24:36|Synthesizing module Minimal_SoC_COREABC_0_ACMTABLE in library work.
 
 	TESTMODE=32'b00000000000000000000000000000000
    Generated name = Minimal_SoC_COREABC_0_ACMTABLE_0s
 
-@W: CG133 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v":27:13:27:19|Object ACMDATA is declared but not assigned. Either assign a value or remove the declaration.
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructions.v":26:7:26:40|Synthesizing module Minimal_SoC_COREABC_0_INSTRUCTIONS in library work.
+@W: CG133 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v":27:13:27:19|Object ACMDATA is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructions.v":26:7:26:40|Synthesizing module Minimal_SoC_COREABC_0_INSTRUCTIONS in library work.
 
 	AWIDTH=32'b00000000000000000000000000001100
 	DWIDTH=32'b00000000000000000000000000010000
@@ -565,27 +544,27 @@ Selecting top level module Minimal_SoC
 	Label_WAIT_AND_PRINT_ACC_TO_UART=32'b00000000000000000000000001101110
    Generated name = Minimal_SoC_COREABC_0_INSTRUCTIONS_Z2
 
-@W: CG133 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":696:34:696:37|Object MULT is declared but not assigned. Either assign a value or remove the declaration.
-@W: CG133 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":697:34:697:34|Object A is declared but not assigned. Either assign a value or remove the declaration.
-@W: CG133 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":698:34:698:34|Object B is declared but not assigned. Either assign a value or remove the declaration.
-@W: CG360 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":234:9:234:14|Removing wire DEBUG1, as there is no assignment to it.
-@W: CG360 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":235:9:235:14|Removing wire DEBUG2, as there is no assignment to it.
-@W: CG360 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":236:9:236:23|Removing wire DEBUGBLK_RESETN, as there is no assignment to it.
-@W: CG133 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":262:12:262:14|Object iii is declared but not assigned. Either assign a value or remove the declaration.
-@W: CG133 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":263:25:263:33|Object RAMDOUTXX is declared but not assigned. Either assign a value or remove the declaration.
-@W: CG134 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":267:14:267:21|No assignment to bit 12 of ins_addr
-@W: CG134 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":267:14:267:21|No assignment to bit 13 of ins_addr
-@W: CG134 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":267:14:267:21|No assignment to bit 14 of ins_addr
-@W: CG134 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":267:14:267:21|No assignment to bit 15 of ins_addr
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":1041:4:1041:9|Pruning unused register GETINST. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":511:12:511:17|Pruning unused register UROM.upper_addr[7:0]. Make sure that there are no unused intermediate registers.
-@W: CL208 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":1041:4:1041:9|All reachable assignments to bit 16 of ZREGISTER[16:0] assign 0, register removed by optimization.
-@N: CL189 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":494:12:494:17|Register bit UROM.INSTR_SLOT[3] is always 0.
-@W: CL260 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":494:12:494:17|Pruning register bit 3 of UROM.INSTR_SLOT[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CG775 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Found Component CoreAPB3 in library COREAPB3_LIB
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v":30:7:30:23|Synthesizing module COREAPB3_MUXPTOB3 in library COREAPB3_LIB.
+@W: CG133 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":696:34:696:37|Object MULT is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":697:34:697:34|Object A is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":698:34:698:34|Object B is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":234:9:234:14|Removing wire DEBUG1, as there is no assignment to it.
+@W: CG360 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":235:9:235:14|Removing wire DEBUG2, as there is no assignment to it.
+@W: CG360 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":236:9:236:23|Removing wire DEBUGBLK_RESETN, as there is no assignment to it.
+@W: CG133 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":262:12:262:14|Object iii is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":263:25:263:33|Object RAMDOUTXX is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG134 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":267:14:267:21|No assignment to bit 12 of ins_addr
+@W: CG134 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":267:14:267:21|No assignment to bit 13 of ins_addr
+@W: CG134 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":267:14:267:21|No assignment to bit 14 of ins_addr
+@W: CG134 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":267:14:267:21|No assignment to bit 15 of ins_addr
+@W: CL169 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":1041:4:1041:9|Pruning unused register GETINST. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":511:12:511:17|Pruning unused register UROM.upper_addr[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL208 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":1041:4:1041:9|All reachable assignments to bit 16 of ZREGISTER[16:0] assign 0, register removed by optimization.
+@N: CL189 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":494:12:494:17|Register bit UROM.INSTR_SLOT[3] is always 0.
+@W: CL260 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":494:12:494:17|Pruning register bit 3 of UROM.INSTR_SLOT[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CG775 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Found Component CoreAPB3 in library COREAPB3_LIB
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v":30:7:30:23|Synthesizing module COREAPB3_MUXPTOB3 in library COREAPB3_LIB.
 
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
 
 	APB_DWIDTH=6'b010000
 	IADDR_OPTION=32'b00000000000000000000000000000000
@@ -663,8 +642,8 @@ Selecting top level module Minimal_SoC
 	SC_qual=16'b0000000000000000
    Generated name = CoreAPB3_Z3
 
-@W: CG360 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":244:12:244:20|Removing wire IA_PRDATA, as there is no assignment to it.
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v":16:0:16:10|Synthesizing module COREAPBSRAM in library work.
+@W: CG360 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":244:12:244:20|Removing wire IA_PRDATA, as there is no assignment to it.
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v":16:0:16:10|Synthesizing module COREAPBSRAM in library work.
 
 	FAMILY=32'b00000000000000000000000000001111
 	APB_DWIDTH=32'b00000000000000000000000000010000
@@ -689,55 +668,55 @@ Selecting top level module Minimal_SoC
 
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1996:7:1996:12|Synthesizing module RAM4K9 in library work.
 
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":16:0:16:14|Synthesizing module CoreApbSram_l1I in library work.
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":16:0:16:14|Synthesizing module CoreApbSram_l1I in library work.
 
 	CoreApbSram_OOl=32'b00000000000000000000001000000000
 	CoreApbSram_O1l=32'b00000000000000000000000000000001
    Generated name = CoreApbSram_l1I_512_1s
 
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":75280:0:75280:15|Removing instance CoreApbSram_IIIl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":74779:0:74779:15|Removing instance CoreApbSram_OIIl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":74278:0:74278:15|Removing instance CoreApbSram_lOIl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":73777:0:73777:15|Removing instance CoreApbSram_IOIl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":73276:0:73276:15|Removing instance CoreApbSram_OOIl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":72775:0:72775:15|Removing instance CoreApbSram_l1Ol because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":72274:0:72274:15|Removing instance CoreApbSram_I1Ol because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":71773:0:71773:15|Removing instance CoreApbSram_O1Ol because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":71272:0:71272:15|Removing instance CoreApbSram_l0Ol because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":70771:0:70771:15|Removing instance CoreApbSram_I0Ol because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":70270:0:70270:15|Removing instance CoreApbSram_O0Ol because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":69769:0:69769:15|Removing instance CoreApbSram_llOl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":69268:0:69268:15|Removing instance CoreApbSram_IlOl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":68767:0:68767:15|Removing instance CoreApbSram_OlOl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":68266:0:68266:15|Removing instance CoreApbSram_lIOl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":879:0:879:5|Pruning unused register CoreApbSram_I1l[12:9]. Make sure that there are no unused intermediate registers.
-@W: CG360 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v":304:0:304:14|Removing wire CoreApbSram_l0I, as there is no assignment to it.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v":1676:0:1676:14|Removing instance genblk1.CoreApbSram_O0l because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CL168 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v":1617:0:1617:14|Removing instance genblk1.CoreApbSram_IOl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
-@W: CG775 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v":27:0:27:6|Found Component CORESPI in library CORESPI_LIB
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":31:7:31:12|Synthesizing module spi_rf in library CORESPI_LIB.
+@W: CL168 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":75280:0:75280:15|Removing instance CoreApbSram_IIIl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":74779:0:74779:15|Removing instance CoreApbSram_OIIl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":74278:0:74278:15|Removing instance CoreApbSram_lOIl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":73777:0:73777:15|Removing instance CoreApbSram_IOIl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":73276:0:73276:15|Removing instance CoreApbSram_OOIl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":72775:0:72775:15|Removing instance CoreApbSram_l1Ol because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":72274:0:72274:15|Removing instance CoreApbSram_I1Ol because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":71773:0:71773:15|Removing instance CoreApbSram_O1Ol because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":71272:0:71272:15|Removing instance CoreApbSram_l0Ol because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":70771:0:70771:15|Removing instance CoreApbSram_I0Ol because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":70270:0:70270:15|Removing instance CoreApbSram_O0Ol because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":69769:0:69769:15|Removing instance CoreApbSram_llOl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":69268:0:69268:15|Removing instance CoreApbSram_IlOl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":68767:0:68767:15|Removing instance CoreApbSram_OlOl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":68266:0:68266:15|Removing instance CoreApbSram_lIOl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL169 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":879:0:879:5|Pruning unused register CoreApbSram_I1l[12:9]. Make sure that there are no unused intermediate registers.
+@W: CG360 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v":304:0:304:14|Removing wire CoreApbSram_l0I, as there is no assignment to it.
+@W: CL168 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v":1676:0:1676:14|Removing instance genblk1.CoreApbSram_O0l because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v":1617:0:1617:14|Removing instance genblk1.CoreApbSram_IOl because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CG775 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v":27:0:27:6|Found Component CORESPI in library CORESPI_LIB
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":31:7:31:12|Synthesizing module spi_rf in library CORESPI_LIB.
 
 	APB_DWIDTH=32'b00000000000000000000000000010000
 	CFG_CLK=32'b00000000000000000000000000000111
 	ZEROS=16'b0000000000000000
    Generated name = spi_rf_16s_7s_0
 
-@W: CL208 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|All reachable assignments to bit 3 of control2[7:0] assign 0, register removed by optimization.
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":24:7:24:17|Synthesizing module spi_control in library CORESPI_LIB.
+@W: CL208 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":134:0:134:5|All reachable assignments to bit 3 of control2[7:0] assign 0, register removed by optimization.
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":24:7:24:17|Synthesizing module spi_control in library CORESPI_LIB.
 
 	CFG_FRAME_SIZE=32'b00000000000000000000000000000100
    Generated name = spi_control_4s
 
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":25:7:25:14|Synthesizing module spi_fifo in library CORESPI_LIB.
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":25:7:25:14|Synthesizing module spi_fifo in library CORESPI_LIB.
 
 	CFG_FRAME_SIZE=32'b00000000000000000000000000000100
 	CFG_FIFO_DEPTH=32'b00000000000000000000000000000100
 	PTR_WIDTH=32'b00000000000000000000000000000010
    Generated name = spi_fifo_4s_4s_2
 
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_clockmux.v":24:7:24:18|Synthesizing module spi_clockmux in library CORESPI_LIB.
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_clockmux.v":24:7:24:18|Synthesizing module spi_clockmux in library CORESPI_LIB.
 
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":29:7:29:18|Synthesizing module spi_chanctrl in library CORESPI_LIB.
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":29:7:29:18|Synthesizing module spi_chanctrl in library CORESPI_LIB.
 
 	SPH=1'b1
 	SPO=1'b1
@@ -766,23 +745,23 @@ Selecting top level module Minimal_SoC
 	cfg_framesizeM1=32'b00000000000000000000000000000011
    Generated name = spi_chanctrl_Z5
 
-@W:"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":132:12:132:21|Index into variable txfifo_dhold could be out of range - a simulation mismatch is possible
-@W: CG133 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":195:12:195:22|Object resetn_rx_d is declared but not assigned. Either assign a value or remove the declaration.
-@W: CG360 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":196:12:196:22|Removing wire resetn_rx_p, as there is no assignment to it.
-@W: CG360 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":200:12:200:22|Removing wire resetn_rx_r, as there is no assignment to it.
-@W: CG133 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":222:12:222:36|Object stxs_txready_at_ssel_temp is declared but not assigned. Either assign a value or remove the declaration.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":1130:0:1130:5|Pruning unused register msrxs_ssel. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":1053:0:1053:5|Pruning unused register msrx_async_reset_ok. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Pruning unused register stxs_oen. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":807:0:807:5|Pruning unused register stxs_txready_at_ssel. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":791:0:791:5|Pruning unused register resetn_rx_d1. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":791:0:791:5|Pruning unused register resetn_rx_d2. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":719:0:719:5|Pruning unused register spi_ssel_neg. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Pruning unused register mtx_bitcnt[4:0]. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Pruning unused register mtx_ssel. Make sure that there are no unused intermediate registers.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Optimizing register bit mtx_holdsel to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Pruning unused register mtx_holdsel. Make sure that there are no unused intermediate registers.
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v":29:7:29:9|Synthesizing module spi in library CORESPI_LIB.
+@W:"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":132:12:132:21|Index into variable txfifo_dhold could be out of range - a simulation mismatch is possible
+@W: CG133 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":195:12:195:22|Object resetn_rx_d is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":196:12:196:22|Removing wire resetn_rx_p, as there is no assignment to it.
+@W: CG360 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":200:12:200:22|Removing wire resetn_rx_r, as there is no assignment to it.
+@W: CG133 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":222:12:222:36|Object stxs_txready_at_ssel_temp is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":1130:0:1130:5|Pruning unused register msrxs_ssel. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":1053:0:1053:5|Pruning unused register msrx_async_reset_ok. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Pruning unused register stxs_oen. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":807:0:807:5|Pruning unused register stxs_txready_at_ssel. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":791:0:791:5|Pruning unused register resetn_rx_d1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":791:0:791:5|Pruning unused register resetn_rx_d2. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":719:0:719:5|Pruning unused register spi_ssel_neg. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Pruning unused register mtx_bitcnt[4:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Pruning unused register mtx_ssel. Make sure that there are no unused intermediate registers.
+@W: CL190 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Optimizing register bit mtx_holdsel to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Pruning unused register mtx_holdsel. Make sure that there are no unused intermediate registers.
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v":29:7:29:9|Synthesizing module spi in library CORESPI_LIB.
 
 	APB_DWIDTH=32'b00000000000000000000000000010000
 	CFG_FRAME_SIZE=32'b00000000000000000000000000000100
@@ -794,7 +773,7 @@ Selecting top level module Minimal_SoC
 	CFG_MODE=32'b00000000000000000000000000000000
    Generated name = spi_16s_4s_4s_7s_1_1_0_0s
 
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v":27:0:27:6|Synthesizing module CORESPI in library CORESPI_LIB.
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v":27:0:27:6|Synthesizing module CORESPI in library CORESPI_LIB.
 
 	APB_DWIDTH=32'b00000000000000000000000000010000
 	CFG_FRAME_SIZE=32'b00000000000000000000000000000100
@@ -812,8 +791,8 @@ Selecting top level module Minimal_SoC
 	SPH=1'b1
    Generated name = CORESPI_Z6
 
-@W: CG775 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":24:7:24:15|Found Component CoreTimer in library CORETIMER_LIB
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":24:7:24:15|Synthesizing module CoreTimer in library CORETIMER_LIB.
+@W: CG775 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":24:7:24:15|Found Component CoreTimer in library CORETIMER_LIB
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":24:7:24:15|Synthesizing module CoreTimer in library CORETIMER_LIB.
 
 	WIDTH=32'b00000000000000000000000000100000
 	INTACTIVEH=32'b00000000000000000000000000000000
@@ -821,26 +800,26 @@ Selecting top level module Minimal_SoC
 	SYNC_RESET=32'b00000000000000000000000000000000
    Generated name = CoreTimer_32s_0s_15s_0s
 
-@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":273:37:273:41|Removing redundant assignment.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":146:4:146:9|Optimizing register bit CtrlReg[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":146:4:146:9|Optimizing register bit CtrlReg[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":146:4:146:9|Optimizing register bit CtrlReg[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":146:4:146:9|Optimizing register bit CtrlReg[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL279 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":146:4:146:9|Pruning register bits 6 to 3 of CtrlReg[6:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v":30:0:30:34|Synthesizing module Minimal_SoC_CoreUARTapb_0_Clock_gen in library work.
+@N: CG179 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":273:37:273:41|Removing redundant assignment.
+@W: CL190 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":146:4:146:9|Optimizing register bit CtrlReg[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":146:4:146:9|Optimizing register bit CtrlReg[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":146:4:146:9|Optimizing register bit CtrlReg[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":146:4:146:9|Optimizing register bit CtrlReg[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v":146:4:146:9|Pruning register bits 6 to 3 of CtrlReg[6:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v":30:0:30:34|Synthesizing module Minimal_SoC_CoreUARTapb_0_Clock_gen in library work.
 
 	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000001
 	SYNC_RESET=32'b00000000000000000000000000000000
    Generated name = Minimal_SoC_CoreUARTapb_0_Clock_gen_1s_0s
 
-@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v":346:0:346:6|Removing redundant assignment.
-@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v":427:0:427:6|Removing redundant assignment.
-@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v":532:0:532:6|Removing redundant assignment.
-@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v":611:0:611:6|Removing redundant assignment.
-@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v":716:0:716:6|Removing redundant assignment.
-@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v":808:0:808:6|Removing redundant assignment.
-@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v":915:0:915:6|Removing redundant assignment.
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":14:0:14:33|Synthesizing module Minimal_SoC_CoreUARTapb_0_Tx_async in library work.
+@N: CG179 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v":346:0:346:6|Removing redundant assignment.
+@N: CG179 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v":427:0:427:6|Removing redundant assignment.
+@N: CG179 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v":532:0:532:6|Removing redundant assignment.
+@N: CG179 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v":611:0:611:6|Removing redundant assignment.
+@N: CG179 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v":716:0:716:6|Removing redundant assignment.
+@N: CG179 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v":808:0:808:6|Removing redundant assignment.
+@N: CG179 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v":915:0:915:6|Removing redundant assignment.
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":14:0:14:33|Synthesizing module Minimal_SoC_CoreUARTapb_0_Tx_async in library work.
 
 	SYNC_RESET=32'b00000000000000000000000000000000
 	TX_FIFO=32'b00000000000000000000000000000001
@@ -853,10 +832,10 @@ Selecting top level module Minimal_SoC
 	CUARTII0l=32'b00000000000000000000000000000110
    Generated name = Minimal_SoC_CoreUARTapb_0_Tx_async_0s_1s_0s_1s_2s_3s_4s_5s_6s
 
-@W:"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":168:0:168:8|Index into variable CUARTIl0l could be out of range - a simulation mismatch is possible
-@W:"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":168:0:168:8|Index into variable CUARTIl0l could be out of range - a simulation mismatch is possible
-@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":870:0:870:8|Removing redundant assignment.
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":14:0:14:33|Synthesizing module Minimal_SoC_CoreUARTapb_0_Rx_async in library work.
+@W:"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":168:0:168:8|Index into variable CUARTIl0l could be out of range - a simulation mismatch is possible
+@W:"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":168:0:168:8|Index into variable CUARTIl0l could be out of range - a simulation mismatch is possible
+@N: CG179 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":870:0:870:8|Removing redundant assignment.
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":14:0:14:33|Synthesizing module Minimal_SoC_CoreUARTapb_0_Rx_async in library work.
 
 	SYNC_RESET=32'b00000000000000000000000000000000
 	RX_FIFO=32'b00000000000000000000000000000001
@@ -866,12 +845,12 @@ Selecting top level module Minimal_SoC
 	CUARTOlIl=32'b00000000000000000000000000000011
    Generated name = Minimal_SoC_CoreUARTapb_0_Rx_async_0s_1s_0s_1s_2s_3s
 
-@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":750:0:750:7|Removing redundant assignment.
-@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":857:0:857:8|Removing redundant assignment.
-@W: CL177 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":1613:0:1613:5|Sharing sequential element CUARTI1l. Add a syn_preserve attribute to the element to prevent sharing.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":1613:0:1613:5|Optimizing register bit CUARTO1Il to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":1613:0:1613:5|Pruning unused register CUARTO1Il. Make sure that there are no unused intermediate registers.
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":14:0:14:33|Synthesizing module Minimal_SoC_CoreUARTapb_0_COREUART in library work.
+@N: CG179 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":750:0:750:7|Removing redundant assignment.
+@N: CG179 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":857:0:857:8|Removing redundant assignment.
+@W: CL177 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":1613:0:1613:5|Sharing sequential element CUARTI1l. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":1613:0:1613:5|Optimizing register bit CUARTO1Il to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":1613:0:1613:5|Pruning unused register CUARTO1Il. Make sure that there are no unused intermediate registers.
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":14:0:14:33|Synthesizing module Minimal_SoC_CoreUARTapb_0_COREUART in library work.
 
 	TX_FIFO=32'b00000000000000000000000000000001
 	RX_FIFO=32'b00000000000000000000000000000001
@@ -881,21 +860,21 @@ Selecting top level module Minimal_SoC
 	SYNC_RESET=32'b00000000000000000000000000000000
    Generated name = Minimal_SoC_CoreUARTapb_0_COREUART_1s_1s_0s_15s_1s_0s
 
-@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":1338:0:1338:7|Removing redundant assignment.
+@N: CG179 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":1338:0:1338:7|Removing redundant assignment.
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":1976:7:1976:14|Synthesizing module FIFO4K18 in library work.
 
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v":190:0:190:39|Synthesizing module Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3 in library work.
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v":190:0:190:39|Synthesizing module Minimal_SoC_CoreUARTapb_0_fifo_256x8_pa3 in library work.
 
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v":14:0:14:35|Synthesizing module Minimal_SoC_CoreUARTapb_0_fifo_256x8 in library work.
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v":14:0:14:35|Synthesizing module Minimal_SoC_CoreUARTapb_0_fifo_256x8 in library work.
 
 	SYNC_RESET=32'b00000000000000000000000000000000
 	CUARTOIlI=8'b11111111
    Generated name = Minimal_SoC_CoreUARTapb_0_fifo_256x8_0s_4294967295s
 
-@W: CG360 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v":90:0:90:4|Removing wire AFULL, as there is no assignment to it.
-@W: CG133 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":333:0:333:7|Object CUARTlI0 is declared but not assigned. Either assign a value or remove the declaration.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":1159:0:1159:5|Pruning unused register CUARTIl0. Make sure that there are no unused intermediate registers.
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":14:0:14:36|Synthesizing module Minimal_SoC_CoreUARTapb_0_CoreUARTapb in library work.
+@W: CG360 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v":90:0:90:4|Removing wire AFULL, as there is no assignment to it.
+@W: CG133 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":333:0:333:7|Object CUARTlI0 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":1159:0:1159:5|Pruning unused register CUARTIl0. Make sure that there are no unused intermediate registers.
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":14:0:14:36|Synthesizing module Minimal_SoC_CoreUARTapb_0_CoreUARTapb in library work.
 
 	FAMILY=32'b00000000000000000000000000001111
 	TX_FIFO=32'b00000000000000000000000000000001
@@ -910,39 +889,39 @@ Selecting top level module Minimal_SoC
 	SYNC_RESET=32'b00000000000000000000000000000000
    Generated name = Minimal_SoC_CoreUARTapb_0_CoreUARTapb_Z7
 
-@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":785:0:785:8|Removing redundant assignment.
-@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":868:0:868:8|Removing redundant assignment.
-@N: CG179 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":941:0:941:8|Removing redundant assignment.
+@N: CG179 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":785:0:785:8|Removing redundant assignment.
+@N: CG179 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":868:0:868:8|Removing redundant assignment.
+@N: CG179 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":941:0:941:8|Removing redundant assignment.
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":2447:7:2447:9|Synthesizing module PLL in library work.
 
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v":276:7:276:12|Synthesizing module PLLINT in library work.
 
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\smartgen\Minimal_SoC_with_PLL\Minimal_SoC_with_PLL.v":5:7:5:26|Synthesizing module Minimal_SoC_with_PLL in library work.
+@N: CG364 :"C:\Users\micha\Documents\Clyde\smartgen\Minimal_SoC_with_PLL\Minimal_SoC_with_PLL.v":5:7:5:26|Synthesizing module Minimal_SoC_with_PLL in library work.
 
-@N: CG364 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\Minimal_SoC.v":9:7:9:17|Synthesizing module Minimal_SoC in library work.
+@N: CG364 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\Minimal_SoC.v":9:7:9:17|Synthesizing module Minimal_SoC in library work.
 
-@W: CL246 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":126:0:126:4|Input port bits 1 to 0 of PADDR[4:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL157 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v":253:0:253:4|*Output AFULL has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@N: CL201 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":984:0:984:5|Trying to extract state machine for register CUARTll0.
+@W: CL246 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v":126:0:126:4|Input port bits 1 to 0 of PADDR[4:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL157 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v":253:0:253:4|*Output AFULL has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL201 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v":984:0:984:5|Trying to extract state machine for register CUARTll0.
 Extracted state machine for register CUARTll0
 State machine has 4 reachable states with original encodings of:
    00
    01
    10
    11
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":871:0:871:5|Optimizing register bit CUARTl1Il to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":871:0:871:5|Pruning unused register CUARTl1Il. Make sure that there are no unused intermediate registers.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":575:0:575:5|Optimizing register bit CUARTO11 to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL169 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":575:0:575:5|Pruning unused register CUARTO11. Make sure that there are no unused intermediate registers.
-@N: CL201 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":871:0:871:5|Trying to extract state machine for register CUARTll0.
+@W: CL190 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":871:0:871:5|Optimizing register bit CUARTl1Il to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":871:0:871:5|Pruning unused register CUARTl1Il. Make sure that there are no unused intermediate registers.
+@W: CL190 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":575:0:575:5|Optimizing register bit CUARTO11 to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":575:0:575:5|Pruning unused register CUARTO11. Make sure that there are no unused intermediate registers.
+@N: CL201 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":871:0:871:5|Trying to extract state machine for register CUARTll0.
 Extracted state machine for register CUARTll0
 State machine has 4 reachable states with original encodings of:
    00
    01
    10
    11
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":106:0:106:7|Input CUARTOOl is unused.
-@N: CL201 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":301:0:301:5|Trying to extract state machine for register CUARTlI0l.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v":106:0:106:7|Input CUARTOOl is unused.
+@N: CL201 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":301:0:301:5|Trying to extract state machine for register CUARTlI0l.
 Extracted state machine for register CUARTlI0l
 State machine has 7 reachable states with original encodings of:
    00000000000000000000000000000000
@@ -952,16 +931,16 @@ State machine has 7 reachable states with original encodings of:
    00000000000000000000000000000100
    00000000000000000000000000000101
    00000000000000000000000000000110
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":65:0:65:7|Input CUARTl0I is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":73:0:73:7|Input CUARTO1I is unused.
-@W: CL246 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v":70:12:70:16|Input port bits 1 to 0 of PADDR[6:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Optimizing register bit stxs_bitsel[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL260 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Pruning register bit 4 of stxs_bitsel[4:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Optimizing register bit stxs_bitsel[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL260 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Pruning register bit 3 of stxs_bitsel[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL190 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Optimizing register bit stxs_bitsel[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL260 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Pruning register bit 2 of stxs_bitsel[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@N: CL201 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Trying to extract state machine for register mtx_state.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":65:0:65:7|Input CUARTl0I is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v":73:0:73:7|Input CUARTO1I is unused.
+@W: CL246 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v":70:12:70:16|Input port bits 1 to 0 of PADDR[6:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL190 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Optimizing register bit stxs_bitsel[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Pruning register bit 4 of stxs_bitsel[4:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Optimizing register bit stxs_bitsel[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Pruning register bit 3 of stxs_bitsel[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Optimizing register bit stxs_bitsel[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":823:0:823:5|Pruning register bit 2 of stxs_bitsel[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":416:0:416:5|Trying to extract state machine for register mtx_state.
 Extracted state machine for register mtx_state
 State machine has 6 reachable states with original encodings of:
    0000
@@ -970,94 +949,94 @@ State machine has 6 reachable states with original encodings of:
    0111
    1000
    1001
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":54:37:54:48|Input txfifo_count is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":59:37:59:48|Input rxfifo_count is unused.
-@N: CL134 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Found RAM fifo_mem_q, depth=4, width=1
-@N: CL134 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Found RAM fifo_mem_q, depth=4, width=4
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":27:35:27:41|Input aresetn is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":28:35:28:41|Input sresetn is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":34:35:34:44|Input cfg_master is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":35:35:35:47|Input rx_fifo_empty is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":36:35:36:47|Input tx_fifo_empty is unused.
-@W: CL246 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":42:45:42:50|Input port bits 15 to 8 of wrdata[15:0] are unused. Assign logic for all port bits or change the input port size.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":52:35:52:46|Input tx_fifo_read is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":55:35:55:46|Input rx_fifo_full is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":56:35:56:51|Input rx_fifo_full_next is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":58:35:58:52|Input rx_fifo_empty_next is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":61:35:61:51|Input tx_fifo_full_next is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":62:35:62:47|Input tx_fifo_empty is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":63:35:63:52|Input tx_fifo_empty_next is unused.
-@W: CL246 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":65:0:65:14|Input port bits 12 to 9 of CoreApbSram_lIl[12:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":73:0:73:14|Input port bits 12 to 9 of CoreApbSram_Oll[12:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v":205:0:205:4|Input port bits 16 to 14 of PADDR[16:0] are unused. Assign logic for all port bits or change the input port size.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":72:36:72:40|Input IADDR is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":73:13:73:19|Input PRESETN is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":74:13:74:16|Input PCLK is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":108:18:108:25|Input PRDATAS4 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":109:18:109:25|Input PRDATAS5 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":110:18:110:25|Input PRDATAS6 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":111:18:111:25|Input PRDATAS7 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":112:18:112:25|Input PRDATAS8 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":113:18:113:25|Input PRDATAS9 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":114:18:114:26|Input PRDATAS10 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":115:18:115:26|Input PRDATAS11 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":116:18:116:26|Input PRDATAS12 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":117:18:117:26|Input PRDATAS13 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":118:18:118:26|Input PRDATAS14 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":119:18:119:26|Input PRDATAS15 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":125:13:125:20|Input PREADYS4 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":126:13:126:20|Input PREADYS5 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":127:13:127:20|Input PREADYS6 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":128:13:128:20|Input PREADYS7 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":129:13:129:20|Input PREADYS8 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":130:13:130:20|Input PREADYS9 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":131:13:131:21|Input PREADYS10 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":132:13:132:21|Input PREADYS11 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":133:13:133:21|Input PREADYS12 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":134:13:134:21|Input PREADYS13 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":135:13:135:21|Input PREADYS14 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":136:13:136:21|Input PREADYS15 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":142:13:142:21|Input PSLVERRS4 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":143:13:143:21|Input PSLVERRS5 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":144:13:144:21|Input PSLVERRS6 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":145:13:145:21|Input PSLVERRS7 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":146:13:146:21|Input PSLVERRS8 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":147:13:147:21|Input PSLVERRS9 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":148:13:148:22|Input PSLVERRS10 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":149:13:149:22|Input PSLVERRS11 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":150:13:150:22|Input PSLVERRS12 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":151:13:151:22|Input PSLVERRS13 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":152:13:152:22|Input PSLVERRS14 is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":153:13:153:22|Input PSLVERRS15 is unused.
-@A: CL153 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v":27:13:27:19|*Unassigned bits of ACMDATA[7:0] are referenced and tied to 0 -- simulation mismatch possible.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v":25:15:25:21|Input ACMADDR is unused.
-@W: CL157 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v":40:11:40:20|*Output SB_CORRECT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL157 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v":41:11:41:19|*Output DB_DETECT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL177 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sharing sequential element UROM.INSTR_MUXC. Add a syn_preserve attribute to the element to prevent sharing.
-@N: CL201 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":1041:4:1041:9|Trying to extract state machine for register ICYCLE.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":54:37:54:48|Input txfifo_count is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v":59:37:59:48|Input rxfifo_count is unused.
+@N: CL134 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Found RAM fifo_mem_q, depth=4, width=1
+@N: CL134 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v":101:0:101:5|Found RAM fifo_mem_q, depth=4, width=4
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":27:35:27:41|Input aresetn is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":28:35:28:41|Input sresetn is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":34:35:34:44|Input cfg_master is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":35:35:35:47|Input rx_fifo_empty is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v":36:35:36:47|Input tx_fifo_empty is unused.
+@W: CL246 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":42:45:42:50|Input port bits 15 to 8 of wrdata[15:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":52:35:52:46|Input tx_fifo_read is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":55:35:55:46|Input rx_fifo_full is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":56:35:56:51|Input rx_fifo_full_next is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":58:35:58:52|Input rx_fifo_empty_next is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":61:35:61:51|Input tx_fifo_full_next is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":62:35:62:47|Input tx_fifo_empty is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v":63:35:63:52|Input tx_fifo_empty_next is unused.
+@W: CL246 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":65:0:65:14|Input port bits 12 to 9 of CoreApbSram_lIl[12:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v":73:0:73:14|Input port bits 12 to 9 of CoreApbSram_Oll[12:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v":205:0:205:4|Input port bits 16 to 14 of PADDR[16:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":72:36:72:40|Input IADDR is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":73:13:73:19|Input PRESETN is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":74:13:74:16|Input PCLK is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":108:18:108:25|Input PRDATAS4 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":109:18:109:25|Input PRDATAS5 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":110:18:110:25|Input PRDATAS6 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":111:18:111:25|Input PRDATAS7 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":112:18:112:25|Input PRDATAS8 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":113:18:113:25|Input PRDATAS9 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":114:18:114:26|Input PRDATAS10 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":115:18:115:26|Input PRDATAS11 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":116:18:116:26|Input PRDATAS12 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":117:18:117:26|Input PRDATAS13 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":118:18:118:26|Input PRDATAS14 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":119:18:119:26|Input PRDATAS15 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":125:13:125:20|Input PREADYS4 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":126:13:126:20|Input PREADYS5 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":127:13:127:20|Input PREADYS6 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":128:13:128:20|Input PREADYS7 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":129:13:129:20|Input PREADYS8 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":130:13:130:20|Input PREADYS9 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":131:13:131:21|Input PREADYS10 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":132:13:132:21|Input PREADYS11 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":133:13:133:21|Input PREADYS12 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":134:13:134:21|Input PREADYS13 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":135:13:135:21|Input PREADYS14 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":136:13:136:21|Input PREADYS15 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":142:13:142:21|Input PSLVERRS4 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":143:13:143:21|Input PSLVERRS5 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":144:13:144:21|Input PSLVERRS6 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":145:13:145:21|Input PSLVERRS7 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":146:13:146:21|Input PSLVERRS8 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":147:13:147:21|Input PSLVERRS9 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":148:13:148:22|Input PSLVERRS10 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":149:13:149:22|Input PSLVERRS11 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":150:13:150:22|Input PSLVERRS12 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":151:13:151:22|Input PSLVERRS13 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":152:13:152:22|Input PSLVERRS14 is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":153:13:153:22|Input PSLVERRS15 is unused.
+@A: CL153 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v":27:13:27:19|*Unassigned bits of ACMDATA[7:0] are referenced and tied to 0 -- simulation mismatch possible.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v":25:15:25:21|Input ACMADDR is unused.
+@W: CL157 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v":40:11:40:20|*Output SB_CORRECT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v":41:11:41:19|*Output DB_DETECT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL177 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":494:12:494:17|Sharing sequential element UROM.INSTR_MUXC. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CL201 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":1041:4:1041:9|Trying to extract state machine for register ICYCLE.
 Extracted state machine for register ICYCLE
 State machine has 4 reachable states with original encodings of:
    00
    01
    10
    11
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":135:10:135:18|Input PSLVERR_M is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":142:10:142:19|Input INITDATVAL is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":143:10:143:17|Input INITDONE is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":144:27:144:34|Input INITADDR is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":145:15:145:22|Input INITDATA is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":153:11:153:16|Input PSEL_S is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":154:11:154:19|Input PENABLE_S is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":155:11:155:18|Input PWRITE_S is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":156:28:156:34|Input PADDR_S is unused.
-@N: CL159 :"C:\Users\micha\SynologyDrive\Engineering\Projects\CHESS OBC\SoC\LiberoProjects\Clyde\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":157:28:157:35|Input PWDATA_S is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":135:10:135:18|Input PSLVERR_M is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":142:10:142:19|Input INITDATVAL is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":143:10:143:17|Input INITDONE is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":144:27:144:34|Input INITADDR is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":145:15:145:22|Input INITDATA is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":153:11:153:16|Input PSEL_S is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":154:11:154:19|Input PENABLE_S is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":155:11:155:18|Input PWRITE_S is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":156:28:156:34|Input PADDR_S is unused.
+@N: CL159 :"C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v":157:28:157:35|Input PWDATA_S is unused.
 
-At c_ver Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 96MB peak: 105MB)
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 96MB peak: 105MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Aug 14 16:37:39 2022
+# Wed Sep 07 19:00:40 2022
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
@@ -1068,16 +1047,16 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Aug 14 16:37:39 2022
+# Wed Sep 07 19:00:40 2022
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
 
-Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Aug 14 16:37:39 2022
+# Wed Sep 07 19:00:40 2022
 
 ###########################################################]

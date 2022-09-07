@@ -2,7 +2,7 @@
 #define Minimal_SoC_HW_PLATFORM_H_
 /*****************************************************************************
 *
-*Created by Microsemi SmartDesign  Sat Aug 13 17:26:18 2022
+*Created by Microsemi SmartDesign  Wed Sep 07 19:00:23 2022
 *
 *Memory map specification for peripherals in Minimal_SoC
 */

@@ -1,34 +1,35 @@
-@P:  Worst Slack : -13.645
-@P:  Minimal_SoC_with_PLL|GLA_inferred_clock - Estimated Frequency : 42.3 MHz
+@P:  Worst Slack : -16.694
+@P:  Minimal_SoC_with_PLL|GLA_inferred_clock - Estimated Frequency : 37.5 MHz
 @P:  Minimal_SoC_with_PLL|GLA_inferred_clock - Requested Frequency : 100.0 MHz
-@P:  Minimal_SoC_with_PLL|GLA_inferred_clock - Estimated Period : 23.645
+@P:  Minimal_SoC_with_PLL|GLA_inferred_clock - Estimated Period : 26.694
 @P:  Minimal_SoC_with_PLL|GLA_inferred_clock - Requested Period : 10.000
-@P:  Minimal_SoC_with_PLL|GLA_inferred_clock - Slack : -13.645
-@P:  Total Area : 2780.0
+@P:  Minimal_SoC_with_PLL|GLA_inferred_clock - Slack : -16.694
+@P:  Total Area : 2828.0
 @P:  Total Area : 0.0
-@P:  Total Area : 464.0
-@P:  Total Area : 385.0
+@P:  Total Area : 461.0
+@P:  Total Area : 383.0
 @P:  Total Area : 19.0
 @P:  Total Area : 11.0
 @P:  Total Area : 9.0
 @P:  Total Area : 1.0
-@P:  Total Area : 130.0
-@P:  Total Area : 64.0
+@P:  Total Area : 127.0
+@P:  Total Area : 66.0
 @P:  Total Area : 119.0
-@P:  Total Area : 302.0
-@P:  Total Area : 745.0
-@P:  Total Area : 745.0
-@P:  Total Area : 312.0
+@P:  Total Area : 298.0
+@P:  Total Area : 756.0
+@P:  Total Area : 756.0
+@P:  Total Area : 318.0
 @P:  Total Area : 1.0
-@P:  Total Area : 128.0
-@P:  Total Area : 129.0
-@P:  Total Area : 9.0
-@P:  Total Area : 166.0
-@P:  Total Area : 61.0
-@P:  Total Area : 58.0
+@P:  Total Area : 127.0
+@P:  Total Area : 131.0
+@P:  Total Area : 10.0
+@P:  Total Area : 169.0
+@P:  Total Area : 49.0
+@P:  Total Area : 46.0
 @P:  Total Area : 1.0
-@P:  Total Area : 1201.0
-@P:  Total Area : 68.0
-@P:  Total Area : 68.0
-@P:  Total Area : 2780.0
-@P:  CPU Time : 0h:00m:10s
+@P:  Total Area : 1259.0
+@P:  Total Area : 2.0
+@P:  Total Area : 57.0
+@P:  Total Area : 57.0
+@P:  Total Area : 2828.0
+@P:  CPU Time : 0h:00m:07s

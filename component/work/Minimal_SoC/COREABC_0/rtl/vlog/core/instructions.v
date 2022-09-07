@@ -270,7 +270,7 @@ parameter Label_WAIT_AND_PRINT_ACC_TO_UART = 110;
       //   load value to timer
       39 : INS <= doins5( iAPBWRT, iDAT, Sym_TIMER, Sym_LOAD_REG, 32'h000000FF);
       //   set prescaler to 32
-      40 : INS <= doins5( iAPBWRT, iDAT, Sym_TIMER, Sym_PRESCALER, Sym_PRESCALER256);
+      40 : INS <= doins5( iAPBWRT, iDAT, Sym_TIMER, Sym_PRESCALER, Sym_PRESCALER32728);
       //  Enable the timer and its interrupt
       41 : INS <= doins5( iAPBWRT, iDAT, Sym_TIMER, Sym_TIMER_CONTROL, 3);
       //   ONLY TO START SYM
