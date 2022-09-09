@@ -1,66 +1,66 @@
 Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)
 
-Date      :  Wed Sep 07 19:00:24 2022
-Project   :  C:\Users\micha\Documents\Clyde
+Date      :  Fri Sep 09 20:45:04 2022
+Project   :  C:\Users\osour\Desktop\SpaceCraft\Clyde
 Component :  Minimal_SoC
 Family    :  ProASIC3
 
 
 HDL source files for all Synthesis and Simulation tools:
-    C:/Users/micha/Documents/Clyde/component/Actel/DirectCore/COREAPBSRAM/2.0.102/rtl/vlog/core_obfuscated/coreapbsram.v
-    C:/Users/micha/Documents/Clyde/component/Actel/DirectCore/COREAPBSRAM/2.0.102/rtl/vlog/core_obfuscated/sram_512to8192x8.v
-    C:/Users/micha/Documents/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/corespi.v
-    C:/Users/micha/Documents/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi.v
-    C:/Users/micha/Documents/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_chanctrl.v
-    C:/Users/micha/Documents/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_clockmux.v
-    C:/Users/micha/Documents/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_control.v
-    C:/Users/micha/Documents/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_fifo.v
-    C:/Users/micha/Documents/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_rf.v
-    C:/Users/micha/Documents/Clyde/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v
-    C:/Users/micha/Documents/Clyde/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_iaddr_reg.v
-    C:/Users/micha/Documents/Clyde/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v
-    C:/Users/micha/Documents/Clyde/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/core/coretimer.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/COREABC_0/coreparameters_tgi.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/acmtable.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/coreabc.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/debugblk.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructions.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructnvm_bb.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructram.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/iram512x9_pa3.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram128x8_rtl.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram256x16_pa3.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram256x8_rtl.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ramblocks.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/support.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Clock_gen.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUART.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUARTapb.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Rx_async.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Tx_async.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/fifo_256x8_pa3.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/Minimal_SoC.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/Actel/DirectCore/COREAPBSRAM/2.0.102/rtl/vlog/core_obfuscated/coreapbsram.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/Actel/DirectCore/COREAPBSRAM/2.0.102/rtl/vlog/core_obfuscated/sram_512to8192x8.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/corespi.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_chanctrl.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_clockmux.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_control.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_fifo.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/Actel/DirectCore/CORESPI/5.2.104/rtl/vlog/core/spi_rf.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_iaddr_reg.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vlog/core/coreapb3_muxptob3.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/Actel/DirectCore/CoreTimer/2.0.103/rtl/vlog/core/coretimer.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/COREABC_0/coreparameters_tgi.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/acmtable.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/coreabc.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/debugblk.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructions.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructnvm_bb.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/instructram.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/iram512x9_pa3.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram128x8_rtl.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram256x16_pa3.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ram256x8_rtl.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/ramblocks.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/core/support.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Clock_gen.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUART.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/CoreUARTapb.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Rx_async.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/Tx_async.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/core_obfuscated/fifo_256x8_pa3.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/Minimal_SoC.v
 
 Stimulus files for all Simulation tools:
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/mti/scripts/bfmtovec_compile.do
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/mti/scripts/coreuart_usertb_apb_master.bfm
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/mti/scripts/coreuart_usertb_include.bfm
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/mti/scripts/wave_vlog_amba.do
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/subsystem.bfm
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/mti/scripts/bfmtovec_compile.do
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/mti/scripts/coreuart_usertb_apb_master.bfm
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/mti/scripts/coreuart_usertb_include.bfm
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/mti/scripts/wave_vlog_amba.do
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/subsystem.bfm
 
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test/apbmodel.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test/testbench.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test/testsupport.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/coreparameters.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_ahbl.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_ahblapb.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_ahbslave.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_ahbslaveext.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_apb.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_apbslave.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_apbslaveext.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_apbtoapb.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_main.v
-    C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/test/user/testbench.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test/apbmodel.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test/testbench.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/COREABC_0/rtl/vlog/test/testsupport.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/coreparameters.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_ahbl.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_ahblapb.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_ahbslave.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_ahbslaveext.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_apb.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_apbslave.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_apbslaveext.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_apbtoapb.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/amba_bfm/bfm_main.v
+    C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC/CoreUARTapb_0/rtl/vlog/test/user/testbench.v
 

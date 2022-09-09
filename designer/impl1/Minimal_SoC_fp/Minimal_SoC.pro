@@ -1,6 +1,6 @@
 <project name="Minimal_SoC" version="1.1">
     <ProjectDirectory>
-        C:\Users\micha\Documents\Clyde\designer\impl1\Minimal_SoC_fp
+        C:\Users\osour\Desktop\SpaceCraft\Clyde\designer\impl1\Minimal_SoC_fp
     </ProjectDirectory>
     <View>
         SingleSTAPLView
@@ -9,7 +9,7 @@
         
     </LiberoTargetDevice>
     <LogFile>
-        C:\Users\micha\Documents\Clyde\designer\impl1\Minimal_SoC_fp\Minimal_SoC.log
+        C:\Users\osour\Desktop\SpaceCraft\Clyde\designer\impl1\Minimal_SoC_fp\Minimal_SoC.log
     </LogFile>
     <SerializationOption>
         Skip
@@ -74,7 +74,7 @@
         </Hardware>
         <Algo type="PDB">
             <filename>
-                C:\Users\micha\Documents\Clyde\designer\impl1\Minimal_SoC.pdb
+                C:\Users\osour\Desktop\SpaceCraft\Clyde\designer\impl1\Minimal_SoC.pdb
             </filename>
             <local>
                 projectData\Minimal_SoC.pdb

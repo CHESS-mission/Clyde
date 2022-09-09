@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Wed Sep 07 19:00:13 2022
+// Created by SmartDesign Fri Sep 09 20:44:52 2022
 // Version: v11.9 11.9.0.4
 //////////////////////////////////////////////////////////////////////
 
@@ -137,33 +137,33 @@ wire   [1:1]  IO_IN_IN_POST_INV3_0;
 //--------------------------------------------------------------------
 // Bus Interface Nets Declarations - Unequal Pin Widths
 //--------------------------------------------------------------------
+wire   [19:0] COREABC_0_APB3master_PADDR;
 wire   [31:20]COREABC_0_APB3master_PADDR_0_31to20;
 wire   [19:0] COREABC_0_APB3master_PADDR_0_19to0;
 wire   [31:0] COREABC_0_APB3master_PADDR_0;
-wire   [19:0] COREABC_0_APB3master_PADDR;
 wire   [31:0] COREABC_0_APB3master_PRDATA;
 wire   [15:0] COREABC_0_APB3master_PRDATA_0_15to0;
 wire   [15:0] COREABC_0_APB3master_PRDATA_0;
+wire   [15:0] COREABC_0_APB3master_PWDATA;
 wire   [31:16]COREABC_0_APB3master_PWDATA_0_31to16;
 wire   [15:0] COREABC_0_APB3master_PWDATA_0_15to0;
 wire   [31:0] COREABC_0_APB3master_PWDATA_0;
-wire   [15:0] COREABC_0_APB3master_PWDATA;
 wire   [31:0] CoreAPB3_0_APBmslave0_PADDR;
-wire   [4:0]  CoreAPB3_0_APBmslave0_PADDR_1_4to0;
-wire   [4:0]  CoreAPB3_0_APBmslave0_PADDR_1;
 wire   [16:0] CoreAPB3_0_APBmslave0_PADDR_3_16to0;
 wire   [16:0] CoreAPB3_0_APBmslave0_PADDR_3;
 wire   [6:0]  CoreAPB3_0_APBmslave0_PADDR_2_6to0;
 wire   [6:0]  CoreAPB3_0_APBmslave0_PADDR_2;
 wire   [4:2]  CoreAPB3_0_APBmslave0_PADDR_0_4to2;
 wire   [4:2]  CoreAPB3_0_APBmslave0_PADDR_0;
+wire   [4:0]  CoreAPB3_0_APBmslave0_PADDR_1_4to0;
+wire   [4:0]  CoreAPB3_0_APBmslave0_PADDR_1;
 wire   [31:0] CoreAPB3_0_APBmslave0_PWDATA;
-wire   [7:0]  CoreAPB3_0_APBmslave0_PWDATA_0_7to0;
-wire   [7:0]  CoreAPB3_0_APBmslave0_PWDATA_0;
 wire   [15:0] CoreAPB3_0_APBmslave0_PWDATA_2_15to0;
 wire   [15:0] CoreAPB3_0_APBmslave0_PWDATA_2;
 wire   [15:0] CoreAPB3_0_APBmslave0_PWDATA_1_15to0;
 wire   [15:0] CoreAPB3_0_APBmslave0_PWDATA_1;
+wire   [7:0]  CoreAPB3_0_APBmslave0_PWDATA_0_7to0;
+wire   [7:0]  CoreAPB3_0_APBmslave0_PWDATA_0;
 wire   [31:8] CoreAPB3_0_APBmslave1_PRDATA_0_31to8;
 wire   [7:0]  CoreAPB3_0_APBmslave1_PRDATA_0_7to0;
 wire   [31:0] CoreAPB3_0_APBmslave1_PRDATA_0;
@@ -249,21 +249,21 @@ assign COREABC_0_APB3master_PWDATA_0_31to16 = 16'h0;
 assign COREABC_0_APB3master_PWDATA_0_15to0 = COREABC_0_APB3master_PWDATA[15:0];
 assign COREABC_0_APB3master_PWDATA_0 = { COREABC_0_APB3master_PWDATA_0_31to16, COREABC_0_APB3master_PWDATA_0_15to0 };
 
-assign CoreAPB3_0_APBmslave0_PADDR_1_4to0 = CoreAPB3_0_APBmslave0_PADDR[4:0];
-assign CoreAPB3_0_APBmslave0_PADDR_1 = { CoreAPB3_0_APBmslave0_PADDR_1_4to0 };
 assign CoreAPB3_0_APBmslave0_PADDR_3_16to0 = CoreAPB3_0_APBmslave0_PADDR[16:0];
 assign CoreAPB3_0_APBmslave0_PADDR_3 = { CoreAPB3_0_APBmslave0_PADDR_3_16to0 };
 assign CoreAPB3_0_APBmslave0_PADDR_2_6to0 = CoreAPB3_0_APBmslave0_PADDR[6:0];
 assign CoreAPB3_0_APBmslave0_PADDR_2 = { CoreAPB3_0_APBmslave0_PADDR_2_6to0 };
 assign CoreAPB3_0_APBmslave0_PADDR_0_4to2 = CoreAPB3_0_APBmslave0_PADDR[4:2];
 assign CoreAPB3_0_APBmslave0_PADDR_0 = { CoreAPB3_0_APBmslave0_PADDR_0_4to2 };
+assign CoreAPB3_0_APBmslave0_PADDR_1_4to0 = CoreAPB3_0_APBmslave0_PADDR[4:0];
+assign CoreAPB3_0_APBmslave0_PADDR_1 = { CoreAPB3_0_APBmslave0_PADDR_1_4to0 };
 
-assign CoreAPB3_0_APBmslave0_PWDATA_0_7to0 = CoreAPB3_0_APBmslave0_PWDATA[7:0];
-assign CoreAPB3_0_APBmslave0_PWDATA_0 = { CoreAPB3_0_APBmslave0_PWDATA_0_7to0 };
 assign CoreAPB3_0_APBmslave0_PWDATA_2_15to0 = CoreAPB3_0_APBmslave0_PWDATA[15:0];
 assign CoreAPB3_0_APBmslave0_PWDATA_2 = { CoreAPB3_0_APBmslave0_PWDATA_2_15to0 };
 assign CoreAPB3_0_APBmslave0_PWDATA_1_15to0 = CoreAPB3_0_APBmslave0_PWDATA[15:0];
 assign CoreAPB3_0_APBmslave0_PWDATA_1 = { CoreAPB3_0_APBmslave0_PWDATA_1_15to0 };
+assign CoreAPB3_0_APBmslave0_PWDATA_0_7to0 = CoreAPB3_0_APBmslave0_PWDATA[7:0];
+assign CoreAPB3_0_APBmslave0_PWDATA_0 = { CoreAPB3_0_APBmslave0_PWDATA_0_7to0 };
 
 assign CoreAPB3_0_APBmslave1_PRDATA_0_31to8 = 24'h0;
 assign CoreAPB3_0_APBmslave1_PRDATA_0_7to0 = CoreAPB3_0_APBmslave1_PRDATA[7:0];

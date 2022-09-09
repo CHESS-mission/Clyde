@@ -10,55 +10,55 @@
     <voltage>1.5</voltage>
     <hdl-type>Verilog</hdl-type>
     <project-description>A minimal SoC to show basic operation.</project-description>
-    <location>C:/Users/micha/Documents/Clyde/component/work/Minimal_SoC</location>
-    <state>GENERATED ( Wed Sep 07 19:00:23 2022 )</state>
+    <location>C:/Users/osour/Desktop/SpaceCraft/Clyde/component/work/Minimal_SoC</location>
+    <state>GENERATED ( Fri Sep 09 20:45:04 2022 )</state>
     <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
   </project-settings>
   <site-map>
   </site-map>
   <fileset>
     <name>HDL File(s)</name>
-    <file>C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_clockmux.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\coreparameters_tgi.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructions.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructnvm_bb.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructram.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\iram512x9_pa3.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram128x8_rtl.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x16_pa3.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x8_rtl.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\support.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v</file>
-    <file>C:\Users\micha\Documents\Clyde\component\work\Minimal_SoC\Minimal_SoC.v</file>
-    <file>C:\Users\micha\Documents\Clyde\smartgen\acc_20bit\acc_20bit.v</file>
-    <file>C:\Users\micha\Documents\Clyde\smartgen\AND3_core\AND3_core.v</file>
-    <file>C:\Users\micha\Documents\Clyde\smartgen\INTERRUPT_DISABLE_OR\INTERRUPT_DISABLE_OR.v</file>
-    <file>C:\Users\micha\Documents\Clyde\smartgen\Minimal_SoC_with_PLL\Minimal_SoC_with_PLL.v</file>
-    <file>C:\Users\micha\Documents\Clyde\smartgen\OR_15bit\OR_15bit.v</file>
-    <file>C:\Users\micha\Documents\Clyde\smartgen\SRAM_ADDRESS_IO\SRAM_ADDRESS_IO.v</file>
-    <file>C:\Users\micha\Documents\Clyde\smartgen\SRAM_Control_IO\SRAM_Control_IO.v</file>
-    <file>C:\Users\micha\Documents\Clyde\smartgen\SRAM_DATA_IO\SRAM_DATA_IO.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\coreapbsram.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\Actel\DirectCore\COREAPBSRAM\2.0.102\rtl\vlog\core_obfuscated\sram_512to8192x8.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\corespi.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_chanctrl.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_clockmux.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_control.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_fifo.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\Actel\DirectCore\CORESPI\5.2.104\rtl\vlog\core\spi_rf.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\Actel\DirectCore\CoreTimer\2.0.103\rtl\vlog\core\coretimer.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\work\Minimal_SoC\COREABC_0\coreparameters_tgi.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\acmtable.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\coreabc.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\debugblk.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructions.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructnvm_bb.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\instructram.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\iram512x9_pa3.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram128x8_rtl.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x16_pa3.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ram256x8_rtl.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\ramblocks.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\work\Minimal_SoC\COREABC_0\rtl\vlog\core\support.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Clock_gen.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUART.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\CoreUARTapb.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\fifo_256x8_pa3.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Rx_async.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\work\Minimal_SoC\CoreUARTapb_0\rtl\vlog\core_obfuscated\Tx_async.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\component\work\Minimal_SoC\Minimal_SoC.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\smartgen\acc_20bit\acc_20bit.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\smartgen\AND3_core\AND3_core.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\smartgen\INTERRUPT_DISABLE_OR\INTERRUPT_DISABLE_OR.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\smartgen\Minimal_SoC_with_PLL\Minimal_SoC_with_PLL.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\smartgen\OR_15bit\OR_15bit.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\smartgen\SRAM_ADDRESS_IO\SRAM_ADDRESS_IO.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\smartgen\SRAM_Control_IO\SRAM_Control_IO.v</file>
+    <file>C:\Users\osour\Desktop\SpaceCraft\Clyde\smartgen\SRAM_DATA_IO\SRAM_DATA_IO.v</file>
   </fileset>
   <io>
     <port-name>SPISDO</port-name>
@@ -141,7 +141,7 @@
   <core type="ComponentModule">
     <core-type>ComponentModule</core-type>
     <core-exttype>SmartGen</core-exttype>
-    <core-location>C:/Users/micha/Documents/Clyde/smartgen/AND3_core</core-location>
+    <core-location>C:/Users/osour/Desktop/SpaceCraft/Clyde/smartgen/AND3_core</core-location>
     <core-name>AND3_core_0</core-name>
   </core>
   <core type="AdlibModule">
@@ -989,40 +989,9 @@ Continuous mode and One-shot timer mode.
   <core type="ComponentModule">
     <core-type>ComponentModule</core-type>
     <core-exttype>SmartGen</core-exttype>
-    <core-location>C:/Users/micha/Documents/Clyde/smartgen/Minimal_SoC_with_PLL</core-location>
+    <core-location>C:/Users/osour/Desktop/SpaceCraft/Clyde/smartgen/Minimal_SoC_with_PLL</core-location>
     <core-name>Minimal_SoC_with_PLL_0</core-name>
   </core>
-  <firmware_core type="FirmWareModule">
-    <core-exttype>IP</core-exttype>
-    <core-type>FirmWareModule</core-type>
-    <core-vendor>Actel</core-vendor>
-    <core-lib>Firmware</core-lib>
-    <core-intname>CoreSPI_Driver</core-intname>
-    <core-ver>3.3.100</core-ver>
-    <core-desc>Bare metal software driver for CoreSPI.</core-desc>
-    <core-name>CoreSPI_Driver_0</core-name>
-  </firmware_core>
-  <firmware_core type="FirmWareModule">
-    <core-exttype>IP</core-exttype>
-    <core-type>FirmWareModule</core-type>
-    <core-vendor>Actel</core-vendor>
-    <core-lib>Firmware</core-lib>
-    <core-intname>CoreTimer_Driver</core-intname>
-    <core-ver>2.4.100</core-ver>
-    <core-desc>Bare metal software driver for CoreTimer.</core-desc>
-    <core-name>CoreTimer_Driver_0</core-name>
-  </firmware_core>
-  <firmware_core type="FirmWareModule">
-    <core-exttype>IP</core-exttype>
-    <core-type>FirmWareModule</core-type>
-    <core-vendor>Actel</core-vendor>
-    <core-lib>Firmware</core-lib>
-    <core-intname>CoreUARTapb_Driver</core-intname>
-    <core-ver>3.3.101</core-ver>
-    <core-desc>Bare metal software driver for CoreUARTapb IP.
-</core-desc>
-    <core-name>CoreUARTapb_Driver_0</core-name>
-  </firmware_core>
   <memorysystem>
     <title>Memory Map for Minimal_SoC</title>
     <description>The project contains the following subsystems:</description>
